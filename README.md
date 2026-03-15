@@ -27,16 +27,4 @@ Our framework enforces a strict logic flow by embedding physical and mathematica
 ├── Results/                # Human-annotated results and comparative analysis
 │   └── Detailed_Results.xlsx
 └── README.md
-```
----
-## Citation
-If you find this research or dataset helpful, please cite our work as follows:
 
-```bibtex
-@inproceedings{nguyen2026physics,
-  title={A Pre-feasibility Study of Applying Large Language Models to High School Physics: Evaluating Limitations and the Effectiveness of Constrained Prompting},
-  author={Nguyen, Huu Khanh Duy and Nguyen, Trong Chinh},
-  booktitle={2026 IEEE International Conference (UIT-VNU)},
-  year={2026},
-  organization={IEEE}
-}
