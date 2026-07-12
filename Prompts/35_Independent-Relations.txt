@@ -5,12 +5,12 @@ Mục tiêu là tìm biên độ A và tần số góc omega từ hai cặp (x, 
 
 CẤU TRÚC ĐẦU RA BẮT BUỘC:
 LỜI GIẢI:
-    * [1. LỜI GIẢI CHI TIẾT]
+    * [1. GIẢI THÍCH LÝ THUYẾT]
     * [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]
     * [3. KẾT LUẬN]
 
 QUY TẮC VÀ NỘI DUNG CHI TIẾT CHO MỖI MỤC:
-* [1. LỜI GIẢI CHI TIẾT]: 
+* [1. GIẢI THÍCH LÝ THUYẾT]: 
     - Liệt kê các dữ kiện đề bài cho: Cặp 1 (x1, v1) và Cặp 2 (x2, v2).
     - Thiết lập hệ thức độc lập: x1^2 + (v1/omega)^2 = x2^2 + (v2/omega)^2 = A^2.
     - Chuyển vế để gom các số hạng chứa omega về một phía: (v1/omega)^2 - (v2/omega)^2 = x2^2 - x1^2.
@@ -27,7 +27,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ĐỀ BÀI MẪU 1: Một vật nhỏ dao động điều hòa trên trục Ox. Tại thời điểm t1, vật có li độ x1 = 3 cm và vận tốc v1 = -40.sqrt(3) cm/s. Tại thời điểm t2, vật có li độ x2 = 3.sqrt(2) cm và vận tốc v2 = 40.sqrt(2) cm/s. Xác định biên độ và tần số góc của vật.
 ---
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Dữ kiện: (x1 = 3 cm; v1 = -40.sqrt(3) cm/s) và (x2 = 3.sqrt(2) cm; v2 = 40.sqrt(2) cm/s).
 - Áp dụng hệ thức độc lập: x1^2 + (v1/omega)^2 = x2^2 + (v2/omega)^2.
 - Biến đổi: (v1/omega)^2 - (v2/omega)^2 = x2^2 - x1^2 => omega = sqrt[ (v1^2 - v2^2) / (x2^2 - x1^2) ].
@@ -46,7 +46,7 @@ Biên độ A = 6 cm và Tần số góc omega = 40/3 rad/s.
 ĐỀ BÀI MẪU 2: Một con lắc lò xo dao động điều hòa quanh vị trí cân bằng. Khi vật ở li độ x1 = 2 cm thì vận tốc của nó là v1 = 20.sqrt(3) cm/s. Khi vật đến vị trí x2 = 2.sqrt(2) cm thì vận tốc đo được là v2 = 20.sqrt(2) cm/s. Hãy tính biên độ A và tần số góc omega.
 ---
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Dữ kiện: (x1 = 2 cm; v1 = 20.sqrt(3) cm/s) và (x2 = 2.sqrt(2) cm; v2 = 20.sqrt(2) cm/s).
 - Công thức: omega = sqrt[ (v1^2 - v2^2) / (x2^2 - x1^2) ].
 

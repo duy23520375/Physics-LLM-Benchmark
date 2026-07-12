@@ -21,7 +21,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ---
 ĐỀ BÀI MẪU 1: Một vật có khối lượng 200 g, dao động điều hòa với biên độ 5 cm và tần số góc 10 rad/s. Động năng cực đại của vật là.
 LỜI GIẢI:
-[1. GIẢ THÍCH LÝ THUYẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
 
 [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
@@ -37,7 +37,7 @@ LỜI GIẢI:
 ---
 ĐỀ BÀI MẪU 2: Quả cầu nặng 250 g dao động điều hòa với biên độ 10 cm và tần số góc 6 rad/s. Động năng đạt giá trị lớn nhất là.
 LỜI GIẢI:
-[1. GIẢ THÍCH LÝ THUYẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
 
 [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:

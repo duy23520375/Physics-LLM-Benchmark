@@ -38,7 +38,7 @@ LỜI GIẢI:
 ---
 ĐỀ BÀI MẪU 2: Một con lắc lò xo gồm lò xo có độ cứng 50 N/m gắn với quả cầu khối lượng m. Cho quả cầu dao động với biên độ 6 cm. Hãy tính động năng của quả cầu khi nó ở vị trí có li độ 4 cm.
 LỜI GIẢI:
-[1. GIẢ THÍCH LÝ THUYẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
 
 [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:

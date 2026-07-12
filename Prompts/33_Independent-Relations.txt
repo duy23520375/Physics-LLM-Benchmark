@@ -5,12 +5,12 @@ Mục tiêu là cung cấp lời giải súc tích, sử dụng hệ thức đ�
 
 CẤU TRÚC ĐẦU RA BẮT BUỘC:
 LỜI GIẢI:
-    * [1. LỜI GIẢI CHI TIẾT]
+    * [1. GIẢI THÍCH LÝ THUYẾT]
     * [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]
     * [3. KẾT LUẬN]
 
 QUY TẮC VÀ NỘI DUNG CHI TIẾT CHO MỖI MỤC: 
-* [1. LỜI GIẢI CHI TIẾT]: 
+* [1. GIẢI THÍCH LÝ THUYẾT]: 
     - Liệt kê các thông số từ đề bài: Biên độ A, tần số góc omega, vận tốc v.
     - Đưa ra hệ thức độc lập v-a: (v / vmax)^2 + (a / amax)^2 = 1.
     - Công thức thành phần: vmax = omega . A và amax = omega^2 . A.
@@ -25,7 +25,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ---
 ĐỀ BÀI MẪU 1: Một vật dao động điều hòa với biên độ A = 2 cm và tần số góc omega = 5.pi rad/s. Khi vật có vận tốc v = 5.pi.sqrt(3) cm/s thì gia tốc của nó có độ lớn xấp xỉ bao nhiêu?
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số: A = 2 cm, omega = 5.pi rad/s, v = 5.pi.sqrt(3) cm/s.
 - Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
 - Công thức: vmax = omega . A; amax = omega^2 . A.
@@ -44,7 +44,7 @@ LỜI GIẢI:
 ---
 ĐỀ BÀI MẪU 2: Một vật dao động điều hòa biên độ A = 10 cm, tần số góc omega = pi rad/s. Khi vật đạt vận tốc v = 5.pi cm/s thì độ lớn gia tốc xấp xỉ bao nhiêu?
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số: A = 10 cm, omega = pi rad/s, v = 5.pi cm/s.
 - Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
 
@@ -62,7 +62,7 @@ LỜI GIẢI:
 ---
 ĐỀ BÀI MẪU 3: Một vật dao động điều hòa với biên độ A = 6 cm, tần số góc omega = 5.pi rad/s. Khi vật có vận tốc v = 15.pi.sqrt(2) cm/s thì gia tốc của nó có độ lớn xấp xỉ bao nhiêu?
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số: A = 6 cm, omega = 5.pi rad/s, v = 15.pi.sqrt(2) cm/s.
 - Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
 

@@ -5,12 +5,12 @@ Mục tiêu là lập phương trình dao động từ hệ thức elip (x, v) c
 
 CẤU TRÚC ĐẦU RA BẮT BUỘC:
 LỜI GIẢI:
-    * [1. LỜI GIẢI CHI TIẾT]
+    * [1. GIẢI THÍCH LÝ THUYẾT]
     * [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]
     * [3. KẾT LUẬN]
 
 QUY TẮC VÀ NỘI DUNG CHI TIẾT CHO MỖI MỤC:
-* [1. LỜI GIẢI CHI TIẾT]: 
+* [1. GIẢI THÍCH LÝ THUYẾT]: 
     - Xác định A và omega: So sánh hệ thức đề bài với dạng chuẩn x^2/A^2 + v^2/(omega.A)^2 = 1.
     - Phân tích trạng thái tại t: 
         + Tính cos(phi_t) = x/A.
@@ -27,7 +27,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ĐỀ BÀI MẪU 1: Một vật dao động điều hòa thỏa mãn x^2/16 + v^2/160 = 1. Tại t = 1/3 (s) vật có li độ x = 2 cm và đang di chuyển nhanh dần. Lấy pi^2 = 10. Lập phương trình dao động.
 ---
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số: A^2 = 16 => A = 4 cm. (omega.A)^2 = 160 => omega^2 = 160 / 16 = 10 => omega = pi (rad/s).
 - Tại t = 1/3 s: cos(phi_t) = x/A = 2 / 4 = 1/2.
 - Logic: Vật ở x = 2 (dương) và nhanh dần nên đang tiến về VTCB (theo chiều âm, v < 0).
@@ -44,7 +44,7 @@ Phương trình dao động: x = 4.cos(pi.t) cm.
 ĐỀ BÀI MẪU 2: Một chất điểm dao động thỏa mãn x^2/100 + v^2/4000 = 1. Tại thời điểm t = 0,5 (s), vật có li độ x = 5.sqrt(2) cm và đang di chuyển nhanh dần. Lấy pi^2 = 10. Hãy viết phương trình dao động.
 ---
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số: A^2 = 100 => A = 10 cm. (omega.A)^2 = 4000 => omega^2 = 4000 / 100 = 40 => omega = 2.pi (rad/s).
 - Tại t = 0,5 s: cos(phi_t) = x/A = 5.sqrt(2) / 10 = sqrt(2)/2.
 - Logic: Vật ở x > 0 và nhanh dần nên đang hướng về VTCB (v < 0).

@@ -6,12 +6,12 @@ Mục tiêu là cung cấp lời giải cực kỳ ngắn gọn, tập trung và
 CẤU TRÚC ĐẦU RA BẮT BUỘC:
 Lời giải phải được trình bày theo đúng 3 tiêu đề sau:
 LỜI GIẢI:
-    * [1. LỜI GIẢI CHI TIẾT]
+    * [1. GIẢI THÍCH LÝ THUYẾT]
     * [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]
     * [3. KẾT LUẬN]
 
 QUY TẮC VÀ NỘI DUNG CHI TIẾT CHO MỖI MỤC:
-* [1. LỜI GIẢI CHI TIẾT]: 
+* [1. GIẢI THÍCH LÝ THUYẾT]: 
     - Khẳng định hình chiếu của chất điểm lên trục Ox dao động điều hòa.
     - Đồng nhất biên độ A với bán kính R (A = R).
     - Đồng nhất tần số góc omega của dao động với tốc độ góc của chuyển động tròn đều.
@@ -25,7 +25,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ĐỀ BÀI MẪU 1: Một chất điểm chuyển động tròn đều trên đường tròn bán kính 10 cm với tốc độ góc 15 rad/s. Hình chiếu của chất điểm lên trục Ox nằm trong mặt phẳng quỹ đạo có tốc độ cực đại là bao nhiêu?
 ---
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 10 cm và tần số góc bằng tốc độ góc omega = 15 rad/s.
 
 [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
@@ -39,7 +39,7 @@ Tốc độ cực đại là v_max = 150 cm/s.
 ĐỀ BÀI MẪU 2: Một vật chuyển động tròn đều với vận tốc góc 4 rad/s trên đường tròn đường kính 20 cm. Tìm tốc độ cực đại của hình chiếu vật lên một đường kính của quỹ đạo.
 ---
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 Hình chiếu của vật lên đường kính dao động điều hòa với tần số góc omega = 4 rad/s và biên độ A = R = 20 / 2 = 10 cm.
 
 [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:

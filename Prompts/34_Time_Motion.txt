@@ -5,12 +5,12 @@ Mục tiêu là cung cấp lời giải chính xác về mặt logic thời gian
 
 CẤU TRÚC ĐẦU RA BẮT BUỘC:
 LỜI GIẢI:
-    * [1. LỜI GIẢI CHI TIẾT]
+    * [1. GIẢI THÍCH LÝ THUYẾT]
     * [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]
     * [3. KẾT LUẬN]
 
 QUY TẮC VÀ NỘI DUNG CHI TIẾT CHO MỖI MỤC:
-* [1. LỜI GIẢI CHI TIẾT]: 
+* [1. GIẢI THÍCH LÝ THUYẾT]: 
     - Phân tích miền vận tốc: Điều kiện |v| <= vx tương ứng với vật đang ở vùng gần biên. Điều kiện |v| > vx tương ứng với vật ở vùng gần VTCB.
     - Xác định khoảng thời gian delta_t': Tính thời gian vật có |v| > vx (gần VTCB) bằng cách lấy T trừ đi thời gian đề bài cho (|v| <= vx).
     - Phân chia thời gian: delta_t' tương ứng với 4 lần khoảng thời gian t1 đi từ VTCB (vmax) đến vị trí có tốc độ vx. Suy ra t1 = delta_t' / 4.
@@ -25,7 +25,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ---
 ĐỀ BÀI MẪU 1: Một chất điểm dao động điều hòa với biên độ 4 cm. Biết trong một chu kì, khoảng thời gian để chất điểm có vận tốc không vượt quá 4.pi.sqrt(3) cm/s là 2T/3. Tìm chu kì dao động.
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Khoảng thời gian |v| <= vx = 4.pi.sqrt(3) là 2T/3 (vùng gần biên).
 - Khoảng thời gian |v| > vx là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
 - Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/3) / 4 = T/12.
@@ -43,7 +43,7 @@ Chu kì dao động của chất điểm là T = 1 s.
 ---
 ĐỀ BÀI MẪU 2: Một vật dao động điều hòa với biên độ A = 5 cm. Trong một chu kì, thời gian vật có tốc độ không vượt quá 5.pi cm/s là T/3. Tìm chu kì dao động.
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Khoảng thời gian |v| <= vx = 5.pi là T/3 (vùng gần biên).
 - Khoảng thời gian |v| > vx là delta_t' = T - T/3 = 2T/3 (vùng gần VTCB).
 - Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (2T/3) / 4 = T/6.
@@ -61,7 +61,7 @@ Chu kì dao động của vật là T = 1 s.
 ---
 ĐỀ BÀI MẪU 3: Một vật dao động điều hòa biên độ 8 cm. Biết trong một chu kì, thời gian để vật có tốc độ không quá 4.pi.sqrt(2) cm/s là T/2. Tính chu kì T.
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Khoảng thời gian |v| <= vx = 4.pi.sqrt(2) là T/2.
 - Khoảng thời gian |v| > vx là delta_t' = T - T/2 = T/2.
 - Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/2) / 4 = T/8.

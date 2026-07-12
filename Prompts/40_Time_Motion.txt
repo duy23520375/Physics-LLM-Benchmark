@@ -28,7 +28,7 @@ CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
 ---
 ĐỀ BÀI MẪU 1: Một vật dao động điều hòa với phương trình x = 8.cos(2.pi.t + pi/4) cm. Tìm thời điểm gần nhất kể từ t = 0 để vận tốc vật đạt giá trị -8.pi cm/s và đang tăng.
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số ban đầu: Biên độ A = 8 cm; Tần số góc omega = 2.pi (rad/s).
 - Công thức vận tốc: v = x' = -omega.A.sin(omega.t + phi) = omega.A.cos(omega.t + phi + pi/2).
 - Thiết lập phương trình: v = 16.pi.cos(2.pi.t + pi/4 + pi/2) = 16.pi.cos(2.pi.t + 3.pi/4).
@@ -47,7 +47,7 @@ Thời điểm gần nhất là t = 7/24 s.
 ---
 ĐỀ BÀI MẪU 2: Một vật dao động điều hòa với phương trình x = 10.cos(4.pi.t + pi/6) cm. Xác định thời điểm gần nhất kể từ t = 0 để vận tốc của vật đạt giá trị -20.pi.sqrt(3) cm/s và đang tăng.
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số ban đầu: Biên độ A = 10 cm; Tần số góc omega = 4.pi (rad/s).
 - Công thức vận tốc: v = x' = -omega.A.sin(omega.t + phi) = omega.A.cos(omega.t + phi + pi/2).
 - Thiết lập phương trình: v = 40.pi.cos(4.pi.t + pi/6 + pi/2) = 40.pi.cos(4.pi.t + 2.pi/3).
@@ -66,7 +66,7 @@ Thời điểm gần nhất là t = 0,125 s.
 ---
 ĐỀ BÀI MẪU 3: Một vật dao động điều hòa với phương trình x = 5.cos(4.pi.t - pi/6) cm. Xác định thời điểm gần nhất kể từ t = 0 để vận tốc của vật đạt giá trị 10.pi.sqrt(2) cm/s và đang tăng.
 LỜI GIẢI:
-[1. LỜI GIẢI CHI TIẾT]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
 - Thông số ban đầu: Biên độ A = 5 cm; Tần số góc omega = 4.pi (rad/s).
 - Công thức vận tốc: v = x' = -omega.A.sin(omega.t + phi) = omega.A.cos(omega.t + phi + pi/2).
 - Thiết lập phương trình: v = 20.pi.cos(4.pi.t - pi/6 + pi/2) = 20.pi.cos(4.pi.t + pi/3).
