@@ -1,0 +1,3210 @@
+﻿question,qwen1_5b_response,qualitative_analysis_qwen1_5b,qwen3b_response,qualitative_analysis_qwen3b,qwen7b_response,qualitative_analysis_qwen7b
+Cánh ong đập 11400 lần trong 1 phút. Tính tần số (Hz).,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Tần số dao động ($f$) là số dao động toàn phần mà vật thực hiện được trong một đơn vị thời gian (1 giây).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Công thức tính tần số: $f = N/t$
+Trong đó:
+- $N$ là số dao động toàn phần ($N = 11400$)
+- $t$ là thời gian thực hiện ($t = 60  ext{ s}$ vì 1 phút = 60 giây)
+Thay số vào công thức: $f = 11400/60 = 190  ext{ (Hz)}$
+
+[3. KẾT LUẬN]:
+Tần số dao động của cánh ong là $f = 190  ext{ (Hz)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tần số dao động là số lần đập cánh của cánh ong trong một đơn vị thời gian (1 giây).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Công thức tính tần số: $f = N/t$
+Trong đó:
+- $N$ là số lần đập cánh ($N = 11400$)
+- $t$ là thời gian thực hiện (1 phút = 60 секунда, nên $t = 60  ext{ s}$)
+Thay số vào công thức: $f = 11400/60 = 190  ext{ (Hz)}$
+
+[3. KẾT LUẬN]:
+Tần số dao động của cánh ong là $f = 190  ext{ (Hz)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng. 
+Ưu điểm so với 1.5B: Dùng thuật ngữ sát đề bài.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tần số dao động ($f$) là số lần dao động toàn phần mà vật thực hiện được trong một đơn vị thời gian (1 giây).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Công thức tính tần số: $f = N/t$
+Trong đó:
+- $N$ là số lần dao động toàn phần ($N = 11400$)
+- $t$ là thời gian thực hiện ($t = 60 \text{ s}$, vì 1 phút = 60 giây)
+Thay số vào công thức: $f = 11400 / 60 = 190 \text{ (Hz)}$
+
+[3. KẾT LUẬN]:
+Tần số dao động của cánh ong là $f = 190 \text{ (Hz)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Con lắc đồng hồ thực hiện 0,5 dao động toàn phần trong 1 s. Tính tần số dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tần số dao động ($f$) là số dao động toàn phần mà vật thực hiện được trong một đơn vị thời gian (1 giây).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Công thức tính tần số: $f = N/t$
+Trong đó:
+- $N$ là số dao động toàn phần ($N = 0,5$)
+- $t$ là thời gian thực hiện ($t = 1  ext{ s}$)
+Thay số vào công thức: $f = 0,5/1 = 0,5  ext{ (Hz)}$
+
+[3. KẾT LUẬN]:
+Tần số dao động của con lắc đồng hồ là $f = 0,5  ext{ (Hz)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tần số dao động ($f$) là số dao động toàn phần mà con lắc thực hiện được trong một đơn vị thời gian (1 секунда).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Công thức tính tần số: $f = N/t$
+Trong đó:
+- $N$ là số dao động toàn phần ($N = 0.5$)
+- $t$ là thời gian thực hiện ($t = 1  ext{ секунда}$)
+Thay số vào công thức: $f = 0.5/1 = 0.5  ext{ (cyc/sec)}$
+
+[3. KẾT LUẬN]:
+Tần số dao động của con lắc là $f = 0.5  ext{ (cyc/sec)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.
+Ưu điểm so với 1.5B: Dùng thuật ngữ sát đề bài.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tần số dao động ($f$) là số dao động toàn phần mà con lắc thực hiện được trong một đơn vị thời gian (1 giây).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Công thức tính tần số: $f = N/t$
+Trong đó:
+- $N$ là số dao động toàn phần ($N = 0.5$)
+- $t$ là thời gian thực hiện ($t = 1 \, \text{s}$)
+Thay số vào công thức: $f = 0.5 / 1 = 0.5 \, \text{(Hz)}$
+
+[3. KẾT LUẬN]:
+Tần số dao động của con lắc đồng hồ là $f = 0.5 \, \text{(Hz)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa với phương trình x = -3cos(6πt) (cm). Biên độ và pha ban đầu của dao động lần lượt là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Để xác định biên độ và pha ban đầu, ta cần đưa phương trình về dạng chuẩn $x = A\cos(\omega t + \phi)$ với $A > 0$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Sử dụng công thức lượng giác $-\coslpha = \cos(lpha + \pi)$, ta biến đổi phương trình đề bài:
+$x = -3\cos(6\pi t) = 3\cos(6\pi t + \pi)  ext{ (cm)}$
+So sánh với dạng chuẩn, ta có:
+- Biên độ: $A = 3  ext{ cm}$
+- Pha ban đầu: $\phi = \pi  ext{ rad}$
+
+[3. KẾT LUẬN]:
+Biên độ $A = 3  ext{ cm}$ và pha ban đầu $\phi = \pi  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Để xác định biên độ và pha ban đầu, ta cần đưa phương trình về dạng chuẩn $x = A\cos(\omega t + \phi)$ với $A > 0$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Sử dụng công thức lượng giác $-\coslpha = \cos(lpha + \pi)$, ta biến đổi phương trình đề bài:
+$x = -3\cos(6\pi t) = 3\cos(6\pi t + \pi)  ext{ (cm)}$
+So sánh với dạng chuẩn, ta có:
+- Biên độ: $A = 3  ext{ cm}$
+- Pha ban đầu: $\phi = \pi  ext{ rad}$
+
+[3. KẾT LUẬN]:
+Biên độ $A = 3  ext{ cm}$ và pha ban đầu $\phi = \pi  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Để xác định biên độ và pha ban đầu, ta cần đưa phương trình về dạng chuẩn \(x = A\cos(\omega t + \phi)\) với \(A > 0\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Sử dụng công thức lượng giác \(-\cos\alpha = \cos(\alpha + \pi)\), ta biến đổi phương trình đề bài:
+\[x = -3\cos(6\pi t) = 3\cos(6\pi t + \pi) \, (\text{cm})\]
+So sánh với dạng chuẩn, ta có:
+- Biên độ: \(A = 3 \, \text{cm}\)
+- Pha ban đầu: \(\phi = \pi \, \text{rad}\)
+
+[3. KẾT LUẬN]:
+Biên độ \(A = 3 \, \text{cm}\) và pha ban đầu \(\phi = \pi \, \text{rad}\).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa với phương trình x = -7cos(2πt + π/4) (cm). Biên độ và pha ban đầu của dao động lần lượt là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Để xác định biên độ và pha ban đầu, ta cần đưa phương trình về dạng chuẩn $x = A\cos(\omega t + \phi)$ với $A > 0$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Sử dụng công thức lượng giác $-\coslpha = \cos(lpha + \pi)$, ta biến đổi phương trình đề bài:
+$x = -7\cos(2\pi t + \frac{\pi}{4}) = 7\cos(2\pi t + \frac{\pi}{4} + \pi)  ext{ (cm)}$
+So sánh với dạng chuẩn, ta có:
+- Biên độ: $A = 7  ext{ cm}$
+- Pha ban đầu: $\phi = \frac{\pi}{4} + \pi = \frac{5\pi}{4}  ext{ rad}$
+
+[3. KẾT LUẬN]:
+Biên độ $A = 7  ext{ cm}$ và pha ban đầu $\phi = \frac{5\pi}{4}  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Để xác định biên độ và pha ban đầu, ta cần đưa phương trình về dạng chuẩn $x = A\cos(\omega t + \phi)$ với $A > 0$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Sử dụng công thức lượng giác $-\coslpha = \cos(lpha + \pi)$, ta biến đổi phương trình đề bài:
+$x = -7\cos(2\pi t + \pi/4) = 7\cos(2\pi t + \pi/4 + \pi)  ext{ (cm)}$
+So sánh với dạng chuẩn, ta có:
+- Biên độ: $A = 7  ext{ cm}$
+- Pha ban đầu: $\phi = \pi/4 + \pi = 5\pi/4  ext{ rad}$
+
+[3. KẾT LUẬN]:
+Biên độ $A = 7  ext{ cm}$ và pha ban đầu $\phi = 5\pi/4  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Để xác định biên độ và pha ban đầu, ta cần đưa phương trình về dạng chuẩn \(x = A\cos(\omega t + \phi)\) với \(A > 0\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Phương trình đã cho là:
+\[x = -7\cos(2\pi t + \frac{\pi}{4}) \, (\text{cm})\]
+Đây đã là dạng chuẩn, nên không cần biến đổi thêm. So sánh với dạng chuẩn, ta có:
+- Biên độ: \(A = 7 \, \text{cm}\)
+- Pha ban đầu: \(\phi = \frac{\pi}{4} \, \text{rad}\)
+
+[3. KẾT LUẬN]:
+Biên độ \(A = 7 \, \text{cm}\) và pha ban đầu \(\phi = \frac{\pi}{4} \, \text{rad}\).","Lời giải sai, sai ở bước tính pha ban đầu."
+"Một vật dao động điều hòa với phương trình x = 0,2cos(5πt) (t tính bằng s). Tại thời điểm t = 2s, pha dao động có giá trị bằng","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng tổng quát $x = A\cos(\omega t + \phi)$, trong đó pha của dao động tại thời điểm $t$ là biểu thức $(\omega t + \phi)$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+So sánh phương trình $x = 0,2\cos(5\pi t)$ với dạng tổng quát, ta có:
+- Tần số góc: $\omega = 5\pi  ext{ rad/s}$
+- Pha ban đầu: $\phi = 0  ext{ rad}$
+Pha của dao động tại thời điểm $t = 2  ext{ s}$ là:
+$\Phi = \omega t + \phi = 5\pi \times 2 + 0 = 10\pi  ext{ rad}$
+
+[3. KẾT LUẬN]:
+Pha của dao động tại thời điểm $t = 2  ext{ s}$ là $\Phi = 10\pi  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng tổng quát $x = A\cos(\omega t + \phi)$, trong đó pha của dao động tại thời điểm $t$ là biểu thức $(\omega t + \phi)$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+So sánh phương trình $x = 0,2\cos(5\pi t)$ với dạng tổng quát, ta có:
+- Tần số góc: $\omega = 5\pi  ext{ rad/s}$
+- Pha ban đầu: $\phi = 0  ext{ rad}$
+Pha của dao động tại thời điểm $t = 2  ext{ s}$ là:
+$\Phi = \omega t + \phi = 5\pi  imes 2 + 0 = 10\pi  ext{ (rad)}$
+
+[3. KẾT LUẬN]:
+Pha của dao động tại thời điểm $t = 2  ext{ s}$ là $\Phi = 10\pi  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng tổng quát \(x = A\cos(\omega t + \phi)\), trong đó pha của dao động tại thời điểm \(t\) là biểu thức \((\omega t + \phi)\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+So sánh phương trình \(x = 0,2\cos(5\pi t)\) với dạng tổng quát, ta có:
+- Tần số góc: \(\omega = 5\pi \, \text{rad/s}\)
+- Pha ban đầu: \(\phi = 0 \, \text{rad}\)
+Pha của dao động tại thời điểm \(t = 2 \, \text{s}\) là:
+\(\Phi = \omega t + \phi = 5\pi \times 2 + 0 = 10\pi \, \text{(rad)}\)
+
+[3. KẾT LUẬN]:
+Pha của dao động tại thời điểm \(t = 2 \, \text{s}\) là \(\Phi = 10\pi \, \text{rad}\).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Chất điểm dao động điều hòa theo phương trình li độ x = 6cos(2t) (t tính bằng s). Pha của dao động tại thời điểm t = 3s là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng tổng quát $x = A\cos(\omega t + \phi)$, trong đó pha của dao động tại thời điểm $t$ là biểu thức $(\omega t + \phi)$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+So sánh phương trình $x = 6\cos(2t)$ với dạng tổng quát, ta có:
+- Tần số góc: $\omega = 2  ext{ rad/s}$
+- Pha ban đầu: $\phi = 0  ext{ rad}$
+Pha của dao động tại thời điểm $t = 3  ext{ s}$ là:
+$\Phi = \omega t + \phi = 2  imes 3 + 0 = 6  ext{ (rad)}$
+
+[3. KẾT LUẬN]:
+Pha của dao động tại thời điểm $t = 3  ext{ s}$ là $\Phi = 6  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng tổng quát $x = A\cos(\omega t + \phi)$, trong đó pha của dao động tại thời điểm $t$ là biểu thức $(\omega t + \phi)$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+So sánh phương trình $x = 6\cos(2t)$ với dạng tổng quát, ta có:
+- Tần số góc: $\omega = 2  ext{ rad/s}$
+- Pha ban đầu: $\phi = 0  ext{ rad}$
+Pha của dao động tại thời điểm $t = 3  ext{ s}$ là:
+$\Phi = \omega t + \phi = 2  imes 3 + 0 = 6  ext{ (rad)}$
+
+[3. KẾT LUẬN]:
+Pha của dao động tại thời điểm $t = 3  ext{ s}$ là $\Phi = 6  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng tổng quát $x = A\cos(\omega t + \phi)$, trong đó pha của dao động tại thời điểm $t$ là biểu thức $(\omega t + \phi)$.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình $x = 6\cos(2t)$, ta có:
+- Tần số góc: $\omega = 2  ext{ rad/s}$
+- Pha ban đầu: $\phi = 0  ext{ rad}$
+Pha của dao động tại thời điểm $t = 3  ext{ s}$ là:
+$\Phi = \omega t + \phi = 2  imes 3 + 0 = 6  ext{ (rad)}$
+
+[3. KẾT LUẬN]:
+Pha của dao động tại thời điểm $t = 3  ext{ s}$ là $\Phi = 6  ext{ rad}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa theo phương trình x = 2cos(2πt) (cm). Thời gian ngắn nhất giữa hai lần vật đi qua vị trí cân bằng bằng bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình dao động, ta có tần số góc $\omega = 2\pi  ext{ rad/s}$.
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là:
+$\Delta t = rac{T}{2} = rac{2\pi}{\omega \cdot 2} = rac{\pi}{2\pi} = 0,5  ext{ (s)}$
+
+[3. KẾT LUẬN]:
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là $\Delta t = 0,5  ext{ s}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình dao động, ta có tần số góc $\omega = 2\pi  ext{ rad/s}$.
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là:
+$\Delta t = rac{T}{2} = rac{2\pi}{\omega \cdot 2} = rac{2\pi}{2\pi \cdot 2} = rac{1}{2}  ext{ (s)}$
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất giữa hai lần vật đi qua vị trí cân bằng là $\Delta t = 0,5  ext{ s}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình dao động, ta có tần số góc $\omega = 2\pi  ext{ rad/s}$.
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là:
+$\Delta t = rac{T}{2} = rac{2\pi}{\omega \cdot 2} = rac{2\pi}{2\pi \cdot 2} = rac{\pi}{2\pi} = 0,5  ext{ (s)}$
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất giữa hai lần vật đi qua vị trí cân bằng là $\Delta t = 0,5  ext{ s}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một chất điểm dao động điều hòa với phương trình x = 0,1cos(8πt + π/3) (m). Hãy tính thời gian ngắn nhất để vật đi từ vị trí cân bằng đến vị trí cân bằng lần tiếp theo.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình dao động, ta có tần số góc $\omega = 8\pi  ext{ rad/s}$.
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là:
+$\Delta t = rac{T}{2} = rac{2\pi}{\omega \cdot 2} = rac{\pi}{4\pi} = 0,0785  ext{ (s)}$
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất để vật đi từ vị trí cân bằng đến vị trí cân bằng lần tiếp theo là $\Delta t = 0,0785  ext{ s}$.","Lời giải sai, sai ở bước tính delta t.","[LỜI GIẢI]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình dao động, ta có tần số góc $\omega = 8\pi  ext{ rad/s}$.
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là:
+$\Delta t = rac{T}{2} = rac{2\pi}{\omega \cdot 2} = rac{2\pi}{8\pi \cdot 2} = rac{1}{8}  ext{ (s)}$
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất để vật đi từ vị trí cân bằng đến vị trí cân bằng lần tiếp theo là $\Delta t = 0,125  ext{ s}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Từ phương trình dao động, ta có tần số góc $\omega = 8\pi  ext{ rad/s}$.
+Khoảng thời gian giữa hai lần liên tiếp vật qua vị trí cân bằng là:
+$\Delta t = rac{T}{2} = rac{2\pi}{\omega \cdot 2} = rac{2\pi}{8\pi \cdot 2} = rac{\pi}{8\pi} = rac{1}{8}  ext{ (s)}$
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất để vật đi từ vị trí cân bằng đến vị trí cân bằng lần tiếp theo là $\Delta t = rac{1}{8}  ext{ s}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa với phương trình: x = 4cos(πt + π/3) (cm)
+a) Xác định biên độ, chu kì, tần số và pha ban đầu của dao động.
+b) Xác định chiều dài quỹ đạo.
+c) Tính li độ của vật khi t = 2 s","1. GIẢI THÍCH LÝ THUYẾT:
+- Biên độ: A = 4 cm
+- Chu kỳ: T = 2π/ω = 2 s
+- Tần số: f = 1/T = 0,5 Hz
+- Pha ban đầu: φ = π/3 rad
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Chiều dài quỹ đạo: L = 2A = 2.4 = 8 (cm)
+3. KẾT LUẬN
+a, A = 4 cm; T = 2 s; f = 0,5 Hz;φ = π/3 rad
+b, L = 8 cm
+c, x = 4cos(π.2 + π/3) = 4cos(π + π/3) = 4.-1/2 = -2 cm","Kết quả sai, mô hình bị nhầm lẫn thứ tự các bước và không có bước giải thích lý thuyết","1. GIẢI THÍCH LÝ THUYẾT:
+Xác định các thông số bằng cách so sánh phương trình đề bài với dạng chuẩn x = Acos(ωt + φ) и используя формулу для длины кривой (L = 2A)
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+a, So sánh với phương trình chuẩn, мы имеем:
+- Biên độ: A = 4 cm
+- Tần số góc:  ω = π rad/s
+- Chu kỳ: T = 2π/ω = 2 s
+- Tần số: f = 1/T = 0,5 Hz
+- Pha ban đầu: φ = π/3 rad
+b, Chiều dài quỹ đạo:
+L = 2A = 2.4 = 8 (cm)
+c, Li độ tại t = 2 s:
+x = 4cos(π.2 + π/3) = 4cos(2π + π/3) = 4cos(π/3) = 4.1/2 = 2 (cm)
+3. KẾT LUẬN
+a, A = 4 cm; T = 2 s; f = 0,5 Hz;φ = π/3 rad
+b, L = 8 cm
+c, x = 2 cm","Lời giải đúng, trình bày hợp lý, rõ ràng. Tuy nhiên bị lỗi ngôn ngữ","[1. GIẢI THÍCH LÝ THUYẾT]:
+Xác định các thông số bằng cách so sánh phương trình đề bài với dạng chuẩn x = Acos(ωt + φ) và sử dụng công thức chiều dài quỹ đạo L = 2A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+a) So sánh với phương trình chuẩn, ta có:
+- Biên độ: A = 4 cm
+- Tần số góc: ω = π rad/s
+- Chu kỳ: T = 2π/ω = 2π/π = 2 s
+- Tần số: f = 1/T = 1/2 Hz
+- Pha ban đầu: φ = π/3 rad
+
+b) Chiều dài quỹ đạo:
+L = 2A = 2 * 4 = 8 (cm)
+
+c) Li độ tại t = 2 s:
+x = 4cos(π * 2 + π/3) = 4cos(2π + π/3) = 4cos(π/3) = 4 * 0.5 = 2 (cm)
+
+[3. KẾT LUẬN]:
+a) A = 4 cm; T = 2 s; f = 0.5 Hz; φ = π/3 rad.
+b) L = 8 cm.
+c) x = 2 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa với phương trình: x = 6cos(4πt - π/2) (cm)
+a) Xác định biên độ, chu kì, tần số và pha ban đầu của dao động.
+b) Tính chiều dài quỹ đạo chuyển động
+c) Khi t = 0,5 s thì li độ của vật bằng bao nhiêu?","1. GIẢI THÍCH LÝ THUYẾT:
+- Biên độ: A = 6 cm
+- Chu kỳ: T = 2π/ω = 2π/4π = 0,5 s
+- Tần số: f = 1/T = 2 Hz
+- Pha ban đầu: φ = -π/2 rad
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Chiều dài quỹ đạo: L = 2A = 2.6 = 12 (cm)
+3. KẾT LUẬN
+a, A = 6 cm; T = 0,5 s; f = 2 Hz;φ = -π/2 rad
+b, L = 12 cm
+c, x = 6cos(4π.0,5 - π/2) = 6cos(2π - π/2) = 6cos(π/2) = 0 cm",Kết quả đúng. Tuy nhiên mô hình bị nhầm lẫn thứ tự các bước và không có bước giải thích lý thuyết,"1. GIẢI THÍCH LÝ THUYẾT:
+Xác định các thông số bằng cách so sánh phương trình đề bài với dạng chuẩn x = Acos(ωt + φ) и используя формулу для длины кривой (L = 2A)
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+a, So sánh với phương trình chuẩn, мы имеем:
+- Biên độ: A = 6 cm
+- Tần số góc:  ω = 4π rad/s
+- Chu kỳ: T = 2π/ω = 2π/4π = 0,5 s
+- Tần số: f = 1/T = 2 Hz
+- Pha ban đầu: φ = -π/2 rad
+b, Chiều dài quỹ đạo:
+L = 2A = 2.6 = 12 (cm)
+c, Li độ tại t = 0,5 s:
+x = 6cos(4π.2 - π/2) = 6cos(2π - π/2) = 6cos(π/2) = 0 (cm)
+3. KẾT LUẬN
+a, A = 6 cm; T = 0,5 s; f = 2 Hz;φ = -π/2 rad
+b, L = 12 cm
+c, x = 0 cm","Lời giải đúng, trình bày hợp lý, rõ ràng. Tuy nhiên bị lỗi ngôn ngữ, khá rườm rà bước tính toán câu c","[1. GIẢI THÍCH LÝ THUYẾT]:
+Xác định các thông số bằng cách so sánh phương trình đề bài với dạng chuẩn x = Acos(ωt + φ) và sử dụng công thức chiều dài quỹ đạo L = 2A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+a) So sánh với phương trình chuẩn, ta có:
+- Biên độ: A = 6 cm
+- Tần số góc: ω = 4π rad/s
+- Chu kỳ: T = 2π/ω = 2π/(4π) = 0,5 s
+- Tần số: f = 1/T = 1/0,5 = 2 Hz
+- Pha ban đầu: φ = -π/2 rad
+
+b) Chiều dài quỹ đạo:
+L = 2A = 2 * 6 = 12 (cm)
+
+c) Li độ tại t = 0,5 s:
+x = 6cos(4π * 0,5 - π/2) = 6cos(2π - π/2) = 6cos(3π/2) = 0 (cm)
+
+[3. KẾT LUẬN]:
+a) A = 6 cm; T = 0,5 s; f = 2 Hz; φ = -π/2 rad.
+b) L = 12 cm.
+c) x = 0 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa dọc theo một trục Ox, quanh điểm gốc O, với biên độ A = 12 cm và chu kì T = 2 s. Tại thời điểm t = 0 vật có li độ là –A. Xác định phương trình dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa tổng quát có dạng \(x = Acos(\omega t + \phi)\), ta cần xác định các tham số A, ω, và φ.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ: A = 12 (cm)
+- Tần số góc: ω = 2π/T = 2π/2 = π (rad/s)
+- Pha ban đầu: Tại t=0, x=-A. Thay vào công thức: x(0) = Acos(φ) = -A.
+    cos(φ) = -1 => φ = π (rad)
+
+[3. KẾT LUẬN]:
+Phương trình dao động của vật là: \(x = 12cos(\pi t + \pi)\) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa tổng quát có dạng x = Acos(omega*t + phi), ta cần xác định các tham số A, omega, và phi.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ: A = 12 (cm)
+- Tần số góc: omega = 2*pi/T = 2*pi/2 = pi (rad/s)
+- Pha ban đầu: Tại t=0, x=-A. Thay vào công thức: x(0) = Acos(phi) = -A.
+    cos(phi) = -1 => phi = pi (rad)
+
+[3. KẾT LUẬN]:
+Phương trình dao động của vật là: x = 12cos(pi*t + pi) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa tổng quát có dạng \(x = A\cos(\omega t + \phi)\), ta cần xác định các tham số A, \(\omega\), và \(\phi\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ: \(A = 12\) (cm)
+- Tần số góc: \(\omega = \frac{2\pi}{T} = \frac{2\pi}{2} = \pi\) (rad/s)
+- Pha ban đầu: Tại \(t = 0\), \(x = -A\). Thay vào công thức: \(x(0) = A\cos(\phi) = -A\).
+    \(\cos(\phi) = -1 \Rightarrow \phi = \pi\) (rad)
+
+[3. KẾ LUẬN]:
+Phương trình dao động của vật là: \(x = 12\cos(\pi t + \pi)\) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa dọc theo trục Ox, quanh điểm gốc O, với biên độ A = 24 cm và chu kì T = 4 s. Tại thời điểm t = 0 vật có li độ là +A. Viết phương trình dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa tổng quát có dạng x = Acos(omega*t + phi), ta cần xác định các tham số A, omega, và phi.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ: A = 24 (cm)
+- Tần số góc: omega = 2*pi/T = 2*pi/4 = pi/2 (rad/s)
+- Pha ban đầu: Tại t=0, x=A. Thay vào công thức: x(0) = Acos(phi) = A.
+    cos(phi) = 1 => phi = 0 (rad)
+
+[3. KẾT LUẬN]:
+Phương trình dao động của vật là: x = 24cos(pi/2*t) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa tổng quát có dạng x = Acos(omega*t + phi), ta cần xác định các tham số A, omega, và phi.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ: A = 24 (cm)
+- Tần số góc: omega = 2*pi/T = 2*pi/4 = pi/2 (rad/s)
+- Pha ban đầu: Tại t=0, x=A. Thay vào công thức: x(0) = Acos(phi) = A.
+    cos(phi) = 1 => phi = 0 (rad)
+
+[3. KẾT LUẬN]:
+Phương trình dao động của vật là: x = 24cos(pi/2*t) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa tổng quát có dạng \(x = A\cos(\omega t + \phi)\), ta cần xác định các tham số A, \(\omega\), và \(\phi\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ: \(A = 24\) (cm)
+- Tần số góc: \(\omega = \frac{2\pi}{T} = \frac{2\pi}{4} = \frac{\pi}{2}\) (rad/s)
+- Pha ban đầu: Tại \(t = 0\), \(x = +A\). Thay vào công thức: \(x(0) = A\cos(\phi) = +A\).
+    \(\cos(\phi) = 1 \Rightarrow \phi = 0\) (rad)
+
+[3. KẾT LUẬN]:
+Phương trình dao động của vật là: \(x = 24\cos\left(\frac{\pi}{2}t\right)\) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Dao động điều hoà có vận tốc cực đại là vmax = 10π cm/s và gia tốc cực đại amax = 20π^2 cm/s^2 thì biên độ của dao động là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động \( A \) được tính thông qua mối quan hệ giữa vận tốc cực đại \( v_{max} \) và gia tốc cực đại \( a_{max} \). Theo công thức \( a_{max} = \omega^2 A \) và \( v_{max} = \omega A \), chúng ta có thể viết \( a_{max} = (\frac{v_{max}}{\omega})^2 \).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Từ \( a_{max} = 20\pi^2 \) cm/s², ta có thể giải \( \omega^2 = \frac{a_{max}}{v_{max}} = \frac{20\pi^2}{10\pi} = 2\pi^2 \).
+- Từ đó, \( \omega = \sqrt{2\pi^2} = \pi \) rad/s.
+- Sử dụng \( v_{max} = \omega A \), ta có \( 10\pi = \pi A \), do đó \( A = 10 \) cm.
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là \( A = 10 \) cm.","Lời giải sai, sai ở bước tính omega.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) được tính thông qua mối quan hệ giữa vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$), sử dụng tần số góc ($\omega$) là trung gian.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = a_{max}/v_{max} = 20\pi^2 / 10\pi = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = v_{max}/\omega = 10\pi / 2\pi = 5  ext{ (cm)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 5  ext{ (cm)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) có thể tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua tần số góc ($\omega$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = a_{max}/v_{max} = 20\pi^2 / 10\pi = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = v_{max}/\omega = 10\pi / 2\pi = 5  ext{ (cm)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 5  ext{ (cm)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Dao động điều hoà có vận tốc cực đại là vmax = 0,08π m/s và gia tốc cực đại amax= 0,16π^2 m/s^2 thì biên độ của dao động là","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động \( A \) được tính thông qua mối quan hệ giữa vận tốc cực đại \( v_{max} \) và gia tốc cực đại \( a_{max} \). 
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc \( \omega \) được tính từ gia tốc cực đại: 
+\[ \omega = \sqrt{\frac{a_{max}}{v_{max}}} = \sqrt{\frac{0.16\pi^2}{0.08\pi}} = \sqrt{2}\pi \text{ rad/s}
+\]
+- Biên độ: 
+\[ A = \frac{v_{max}}{\omega} = \frac{0.08\pi}{\sqrt{2}\pi} = 0.04\sqrt{2} \text{ m} \approx 0.0566 \text{ m} \]
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: \( A \approx 0.0566 \text{ m} \).","Lời giải sai, sai ở bước tính omega.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) được tính thông qua mối quan hệ giữa vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$), sử dụng tần số góc ($\omega$) là trung gian.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = a_{max}/v_{max} = 0,16\pi^2 / 0,08\pi = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = v_{max}/\omega = 0,08\pi / 2\pi = 0,04  ext{ (m)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 0,04  ext{ (m)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) có thể tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua tần số góc ($\omega$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = \sqrt{\frac{a_{max}}{A}} = \frac{a_{max}}{v_{max}} = \frac{0.16\pi^2}{0.08\pi} = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = \frac{v_{max}}{\omega} = \frac{0.08\pi}{2\pi} = 0.04  ext{ (m)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 0.04  ext{ (m)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Vật dao động điều hòa trên Ox có hệ thức 250x + a = 0 giữa li độ và gia tốc. Biết π² = 10. Tần số góc dao động bằng bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ với nhau qua phương trình đặc trưng $a = -\omega^2 x$, trong đó $\omega$ là tần số góc cần tìm và $\omega$ luôn dương.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi phương trình đề bài: $250x + a = 0 \implies a = -250x$
+- So sánh với công thức $a = -\omega^2 x$, ta suy ra: $-\omega^2 = -250 \implies \omega^2 = 250$
+- Tần số góc: $\omega = \sqrt{250} = 5\sqrt{10} = 5\pi  ext{ (rad/s)}$
+
+[3. KẾT LUẬN]:
+Tần số góc của dao động là $\omega = 5\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ với nhau qua phương trình đặc trưng $a = -\omega^2 x$, trong đó $\omega$ là tần số góc cần tìm và $\omega$ luôn dương.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi phương trình đề bài: $250x + a = 0 \implies a = -250x$
+- So sánh với công thức $a = -\omega^2 x$, ta suy ra: $-\omega^2 = -250 \implies \omega^2 = 250$
+- Tần số góc: $\omega = \sqrt{250} = 5\sqrt{10} = 5\pi  ext{ (rad/s)}$
+
+[3. KẾT LUẬN]:
+Tần số góc của dao động là $\omega = 5\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, mối quan hệ giữa gia tốc ($a$) và li độ ($x$) được biểu diễn bởi công thức $a = -\omega^2 x$, trong đó $\omega$ là tần số góc.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi phương trình đề bài: $250x + a = 0 \implies a = -250x$
+- So sánh với công thức $a = -\omega^2 x$, ta suy ra: $-\omega^2 = -250 \implies \omega^2 = 250$
+- Tính tần số góc: $\omega = \sqrt{250} = \sqrt{25 \times 10} = 5\sqrt{10} = 5\pi  ext{ (rad/s)}$
+
+[3. KẾT LUẬN]:
+Tần số góc của dao động là $\omega = 5\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một chất điểm dao động trên Ox thỏa mãn phương trình 90x + a = 0 (x là li độ, a là gia tốc). Lấy π² = 10. Xác định tần số góc dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ với nhau qua phương trình đặc trưng $a = -\omega^2 x$, trong đó $\omega$ là tần số góc cần tìm và $\omega$ luôn dương.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi phương trình đề bài: $90x + a = 0 \implies a = -90x$
+- So sánh với công thức $a = -\omega^2 x$, ta suy ra: $-\omega^2 = -90 \implies \omega^2 = 90$
+- Tần số góc: $\omega = \sqrt{90} = 3\sqrt{10} = 3\pi  ext{ (rad/s)}$
+
+[3. KẾT LUẬN]:
+Tần số góc của dao động là $\omega = 3\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ với nhau qua phương trình đặc trưng $a = -\omega^2 x$, trong đó $\omega$ là tần số góc cần tìm và $\omega$ luôn dương.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi phương trình đề bài: $90x + a = 0 \implies a = -90x$
+- So sánh với công thức $a = -\omega^2 x$, ta suy ra: $-\omega^2 = -90 \implies \omega^2 = 90$
+- Tần số góc: $\omega = \sqrt{90} = 3\sqrt{10} = 3\pi  ext{ (rad/s)}$
+
+[3. KẾT LUẬN]:
+Tần số góc của dao động là $\omega = 3\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ với nhau qua phương trình $a = -\omega^2 x$, trong đó $\omega$ là tần số góc cần tìm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi phương trình đề bài: $90x + a = 0 \implies a = -90x$
+- So sánh với công thức $a = -\omega^2 x$, ta suy ra: $-\omega^2 = -90 \implies \omega^2 = 90$
+- Tần số góc: $\omega = \sqrt{90} = 3\sqrt{10} = 3\pi  ext{ (rad/s)}$
+
+[3. KẾT LUẬN]:
+Tần số góc của dao động là $\omega = 3\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa phải mất 0,5 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 50 cm. Biên độ và tần số của dao động này là.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), và khoảng cách giữa chúng là hai lần biên độ (2A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ (T): T/2 = 0,5 => T = 2 * 0,5 = 1 (s)
+- Biên độ (A): 2A = 50 => A = 50/2 = 25 (cm)
+- Tần số (f): f = 1/T = 1/1 = 1 (Hz)
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là A = 25 (cm) và tần số là f = 1 (Hz).
+","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢ解 THÍCH LÝ THUYẾT]:
+Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), и котоpый иктоc пеpедвaт иктоc нeпepедвaт иктоc.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ (T): T/2 = 0,5 => T = 2 * 0,5 = 1 (s)
+- Biên độ (A): 2A = 50 => A = 50/2 = 25 (cm)
+- Tần số (f): f = 1/T = 1/1 = 1 (Hz)
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là A = 25 (cm) и котоpый иктоc пеpедвaт иктоc нeпepедвaт иктоc, và tần số là f = 1 (Hz).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
+Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết (thiếu phần giải thích khoảng cách lúc này là 2A), tính toán biến số (f) ở bước 2, kết quả trả về bị tình trạng ""Nhiễu nhiều ngôn ngữ"".","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), và khoảng cách giữa chúng là hai lần biên độ (2A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ (T): T/2 = 0,5 => T = 2 * 0,5 = 1 (s)
+- Biên độ (A): 2A = 50 => A = 50/2 = 25 (cm)
+- Tần số (f): f = 1/T = 1/1 = 1 (Hz)
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là A = 25 (cm) và tần số là f = 1 (Hz).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa phải mất 0,2 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 30 cm. Biên độ và tần số của dao động này là.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), và khoảng cách giữa chúng là hai lần biên độ (2A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ (T): T/2 = 0,2 => T = 2 * 0,2 = 0,4 (s)
+- Biên độ (A): 2A = 30 => A = 30/2 = 15 (cm)
+- Tần số (f): f = 1/T = 1/0,4 = 2,5 (Hz)
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là A = 15 (cm) và tần số là f = 2,5 (Hz).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), и котоpрeйнa кooпca (2A) пepopoc.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ (T): T/2 = 0,2 => T = 2 * 0,2 = 0,4 (s)
+- Biên độ (A): 2A = 30 => A = 30/2 = 15 (cm)
+- Tần số (f): f = 1/T = 1/0,4 = 2,5 (Hz)
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là A = 15 (cm) и котopricnoe нapocca (2,5) (Hz).","Lời giải đúng, trình bày hợp lý, rõ ràng, kết quả trả về bị tình trạng ""Nhiễu nhiều ngôn ngữ"".","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), và khoảng cách giữa chúng là hai lần biên độ (2A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ (T): T/2 = 0,2 => T = 2 * 0,2 = 0,4 (s)
+- Biên độ (A): 2A = 30 => A = 30/2 = 15 (cm)
+- Tần số (f): f = 1/T = 1/0,4 = 2,5 (Hz)
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là A = 15 (cm) và tần số là f = 2,5 (Hz).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là:
+x1 = 5sin(4t - π/4) cm, x2 = 12cos(4t + π/12) cm
+Tốc độ cực đại của vật là bao nhiêu?","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình x1 ở dạng sin nên cần chuẩn hóa về dạng cos để xác định các thông số và tính biên độ tổng hợp A, từ đó tìm v_max.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuẩn hóa x1: x1 = 5cos(4t - π/4 - π/2) = 5cos(4t - 3π/4) cm.
+- Chuẩn hóa x2: x2 = 12sin(4t + π/12).
+- Thông số: A1 = 5 cm, phi1 = -3π/4 rad; A2 = 12 cm, phi2 = π/12 rad; omega = 4 rad/s.
+- Độ lệch pha: delta_phi = φ2 - φ1 = π/12 - (-3π/4) = 7π/12 rad.
+- Biên độ tổng hợp: A = √(5^2 + 12^2 + 2.5.12.cos(7π/12)) ≈ 13.1 cm.
+- Tốc độ cực đại: v_max = ω.A = 4 × 13.1 ≈ 52.4 cm/s.
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của vật là v_max ≈ 52.4 cm/s.","Lời giải sai, tính toán sai độ lệch pha ở bước 2 dẫn đến kết quả cuối cùng bị sai lệch.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình x1 ở dạng sin nên cần chuẩn hóa về dạng cos để xác định các thông số và tính biên độ tổng hợp A, từ đó tìm v_max.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuẩn hóa x1: x1 = 5cos(4t - π/4 - π/2) = 5cos(4t - 3π/4) cm.
+- Chuẩn hóa x2: x2 = 12cos(4t + π/12) cm.
+- Thông số: A1 = 5 cm, phi1 = -3π/4 rad; A2 = 12 cm, phi2 = π/12 rad; omega = 4 rad/s.
+- Độ lệch pha: delta_phi = phi2 - phi1 = π/12 - (-3π/4) = π/12 + 3π/4 = 11π/12 rad.
+- Biên độ tổng hợp: A = sqrt(5^2 + 12^2 + 2.5.12.cos(11π/12)) = sqrt(25 + 144 + 2.5.12.cos(11π/12)).
+  - cos(11π/12) ≈ -0.9659.
+- Biên độ tổng hợp: A = sqrt(25 + 144 - 113.19) = sqrt(75.81) ≈ 8.71 cm.
+- Tốc độ cực đại: v_max = omega.A = 4 . 8.71 ≈ 34.84 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của vật là v_max ≈ 34.84 cm/s.","Lời giải sai, tính toán sai độ lệch pha ở bước 2 dẫn đến kết quả cuối cùng bị sai lệch.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình x1 ở dạng sin nên cần chuẩn hóa về dạng cos để xác định các thông số và tính biên độ tổng hợp A, từ đó tìm v_max.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuẩn hóa x1: x1 = 5cos(4t - π/4 - π/2) = 5cos(4t - 3π/4) cm.
+- Thông số: A1 = 5 cm, phi1 = -3π/4 rad; A2 = 12 cm, phi2 = π/12 rad; omega = 4 rad/s.
+- Độ lệch pha: delta_phi = phi2 - phi1 = π/12 - (-3π/4) = π/12 + 3π/4 = 10π/12 = 5π/6 rad.
+- Biên độ tổng hợp: A = sqrt(5^2 + 12^2 + 2.5.12.cos(5π/6)) = sqrt(25 + 144 - 60(-√3/2)) = sqrt(169 + 30√3) ≈ 17.32 cm.
+- Tốc độ cực đại: v_max = omega.A = 4 . 17.32 ≈ 69.28 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của vật là v_max ≈ 69.28 cm/s.","Lời giải sai, sai ở bước tính biên độ tổng hợp A"
+"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là:
+x1 = 3cos(2πt) cm, x2 = 4cos(2πt + π/2) cm
+Tìm tốc độ lớn nhất mà chất điểm đạt được.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình x1 = 3cos(2πt) cm đã ở dạng chuẩn, còn x2 = 4cos(2πt + π/2) cm cần chuẩn hóa về dạng cos.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuẩn hóa x2: x2 = 4cos(2πt + π/2) cm = 4cos(2πt + π/2 - π) = 4cos(2πt - π/2) cm.
+- Thông số: A1 = 3 cm, phi1 = 0 rad; A2 = 4 cm, phi2 = -π/2 rad; omega = 2π rad/s.
+- Độ lệch pha: delta_phi = phi2 - phi1 = -π/2 - 0 = -π/2 rad.
+- Biên độ tổng hợp: A = sqrt(3^2 + 4^2 + 2.3.4.cos(-π/2)) = sqrt(9 + 16 + 0) = 5 cm.
+- Tốc độ cực đại: v_max = ω.A = 2π . 5 = 10π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của chất điểm là v_max = 10π cm/s.","Lời giải sai, sai ở bước xác định x2 không ở dạng chuẩn","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các phương trình dao động thành phần đều ở dạng chuẩn cos. Chúng ta sẽ sử dụng công thức tính biên độ tổng hợp A để tìm tốc độ cực đại v_max = omega.A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuẩn hóa: Phương trình x2 đã ở dạng chuẩn.
+- Thông số: A1 = 3 cm, phi1 = 0 rad; A2 = 4 cm, phi2 = pi/2 rad; omega = 2π rad/s.
+- Độ lệch pha: delta_phi = phi2 - phi1 = pi/2 - 0 = pi/2 rad.
+- Biên độ tổng hợp: A = sqrt(A1^2 + A2^2 + 2.A1.A2.cos(delta_phi)) = sqrt(3^2 + 4^2 + 2.3.4.cos(pi/2)) = sqrt(9 + 16 + 0) = 5 cm.
+- Tốc độ cực đại: v_max = omega.A = 2π . 5 = 10π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ lớn nhất mà chất điểm đạt được là v_max = 10π cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Các phương trình dao động thành phần đều đã ở dạng chuẩn cos. Sử dụng công thức tính biên độ tổng hợp A để tìm tốc độ cực đại v_max = ωA.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A1 = 3 cm, φ1 = 0 rad; A2 = 4 cm, φ2 = π/2 rad; ω = 2π rad/s.
+- Độ lệch pha: δφ = φ2 - φ1 = π/2 - 0 = π/2 rad.
+- Biên độ tổng hợp: A = √(A1² + A2² + 2A1A2cos(δφ)) = √(3² + 4² + 2.3.4.cos(π/2)) = √(9 + 16 + 0) = 5 cm.
+- Tốc độ cực đại: v_max = ωA = 2π . 5 = 10π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của vật là v_max = 10π cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa với phương trình x = 6cos(2πt) (cm). Tốc độ trung bình trong 1/4 chu kì đầu tiên (tính từ t =  0) là bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) và khoảng thời gian (delta_t). Tại t = 0, vật ở biên dương, sau T/4 vật đi đến vị trí cân bằng nên quãng đường S = A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A = 6 cm; omega = 2.pi rad/s => T = 2.pi/omega = 1 s.
+- Khoảng thời gian: delta_t = T/4 = 1/4 = 0,25 s.
+- Quãng đường: S = A = 6 cm.
+- Tốc độ trung bình: v_tb = S/delta_t = 6/0,25 = 24 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình của vật là v_tb = 24 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) và khoảng thời gian (delta_t). Tại t = 0, vật ở biên dương, sau T/4 vật đi đến vị trí cân bằng nên quãng đường S = A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A = 6 cm; omega = 2.pi rad/s => T = 2.pi/omega = 1 s.
+- Khoảng thời gian: delta_t = T/4 = 1/4 = 0,25 s.
+- Quãng đường: S = A = 6 cm (tại t = 0, vật đi từ biên dương đến vị trí cân bằng).
+- Tốc độ trung bình: v_tb = S/delta_t = 6/0,25 = 24 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình của vật là v_tb = 24 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) và khoảng thời gian (delta_t). Trong 1/4 chu kì đầu tiên, vật di chuyển từ vị trí cân bằng về biên dương.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A = 6 cm; omega = 2π rad/s => T = 2π/ω = 1 s.
+- Khoảng thời gian: delta_t = T/4 = 1/4 = 0,25 s.
+- Quãng đường: S = A = 6 cm.
+- Tốc độ trung bình: v_tb = S/delta_t = 6/0,25 = 24 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình của vật là v_tb = 24 cm/s.",Lời giải đúng. Tuy nhiên bước giải thích lý thuyết sai
+Một chất điểm dao động điều hòa với phương trình x = 4cos(πt) (cm). Tốc độ trung bình trong một phần tư chu kì tính từ thời điểm ban đầu t = 0 bằng bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) và khoảng thời gian (delta_t). Tại t = 0, vật ở biên dương, sau một nửa chu kì vật đi đến vị trí cân bằng nên quãng đường S = A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A = 4 cm; omega = π rad/s => T = 2π/ω = 2s.
+- Khoảng thời gian: delta_t = T/4 = 2/4 = 0,5 s.
+- Quãng đường: S = A = 4 cm.
+- Tốc độ trung bình: v_tb = S/delta_t = 4/0,5 = 8 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình của vật là v_tb = 8 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) và khoảng thời gian (delta_t). Tại t = 0, vật ở biên dương, sau T/4 vật đi đến vị trí cân bằng nên quãng đường S = A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A = 4 cm; omega = π rad/s => T = 2.pi/omega = 2 s.
+- Khoảng thời gian: delta_t = T/4 = 2/4 = 0,5 s.
+- Quãng đường: S = A = 4 cm.
+- Tốc độ trung bình: v_tb = S/delta_t = 4/0,5 = 8 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình của vật là v_tb = 8 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) mà vật đi được và khoảng thời gian (delta_t) vật di chuyển. Trong trường hợp dao động điều hòa, khi vật đi từ biên về vị trí cân bằng trong một phần tư chu kì, quãng đường S luôn bằng biên độ A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: A = 4 cm; omega = π rad/s => T = 2π/ω = 2π/π = 2 s.
+- Khoảng thời gian: delta_t = T/4 = 2/4 = 0,5 s.
+- Quãng đường: S = A = 4 cm.
+- Tốc độ trung bình: v_tb = S/delta_t = 4/0,5 = 8 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình của chất điểm là v_tb = 8 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật thực hiện đồng thời 2 dao động điều hoà cùng phương, cùng tần số có phương trình x1 = cos(10πt + π/4) cm; x2 = cos(10πt + 3π/4) cm. Một vật thực hiện đồng thời hai dao động trên. Tính vận tốc trung bình của vật trong một chu kì dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) của vật trong một chu kỳ dao động cùng phương, cùng tần số là 0. Điều này xảy ra vì trong mỗi chu kỳ, vật luôn quay về vị trí ban đầu, nên độ dời (delta_x) trong chu kỳ là 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
+Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Cho hai dao động điều hoà cùng phương, cùng tần số: x₁ = sin(10πt + π/2) cm và x₂ = sin(10πt + π) cm. Một vật thực hiện đồng thời hai dao động này. Tính vận tốc trung bình của vật trong một chu kì.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) của vật trong một chu kỳ dao động cùng phương, cùng tần số là 0. Điều này xảy ra vì trong mỗi chu kỳ, vật luôn quay về vị trí ban đầu, nên độ dời (delta_x) trong chu kỳ là 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
+Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa có phương trình x = 8cos(2πt – π/6) cm. Vận tốc của vật khi có li độ x = 4 cm là.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại một li độ (x) bất kỳ được xác định bằng công thức độc lập với thời gian: A^2 = x^2 + v^2/ω^2, từ đó rút ra v = ±ω * √A^2 - x^2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tham số: A = 8 cm, ω = 2π rad/s, x = 4 cm.
+- Công thức: v = ±ω * √A^2 - x^2
+  v = ±2π * √8^2 - 4^2 = ±2π * √64 - 16 = ±2π * 8 - 16 = ±16π - 16 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc của vật khi có li độ x = 4 cm là v = ±(16π - 16) (cm/s).",Lời giải sai.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại một li độ (x) bất kỳ được xác định bằng công thức độc lập với thời gian: A^2 = x^2 + v^2/omega^2, từ đó rút ra v = +/- omega * sqrt(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tham số: A = 8 cm, omega = 2.pi rad/s, x = 4 cm.
+- Công thức: v = +/- omega * sqrt(A^2 - x^2)
+  v = +/- 2.pi * sqrt(8^2 - 4^2) = +/- 2.pi * sqrt(64 - 16) = +/- 2.pi * sqrt(48) = +/- 2.pi * 4.sqrt(3) = +/- 8.pi.sqrt(3) (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc của vật khi có li độ x = 4 cm là v = +/- 8.pi.sqrt(3) (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại một li độ (x) bất kỳ được xác định bằng công thức độc lập với thời gian: A^2 = x^2 + v^2/ω^2, từ đó rút ra v = ±ω * √(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tham số: A = 8 cm, ω = 2π rad/s, x = 4 cm.
+- Công thức: v = ±ω * √(A^2 - x^2)
+  v = ±2π * √(8^2 - 4^2) = ±2π * √(64 - 16) = ±2π * √48 = ±2π * 4√3 = ±8π√3 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc của vật khi có li độ x = 4 cm là v = ±8π√3 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động với phương trình x = 10cos(5πt + π/2) cm. Khi x = 6 cm thì vận tốc của vật bằng bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật dao động điều hòa được xác định bởi công thức: v = ±ω√(A² - x²). Trong trường hợp này, ω = 5π rad/s và A = 10 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tham số: ω = 5π rad/s, A = 10 cm, x = 6 cm.
+- Công thức: v = ±ω√(A² - x²)
+  v = ±5π√(10² - 6²) = ±5π√(100 - 36) = ±5π√64 = ±5π × 8 = ±40π (cm/s)
+
+[3. KẾT LUẬN]:
+Vận tốc của vật dao động khi có li độ x = 6 cm là v = ±40π (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại một li độ (x) bất kỳ được xác định bằng công thức độc lập với thời gian: A^2 = x^2 + v^2/omega^2, từ đó rút ra v = +/- omega * sqrt(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tham số: A = 10 cm, omega = 5.pi rad/s, x = 6 cm.
+- Công thức: v = +/- omega * sqrt(A^2 - x^2)
+  v = +/- 5.pi * sqrt(10^2 - 6^2) = +/- 5.pi * sqrt(100 - 36) = +/- 5.pi * sqrt(64) = +/- 5.pi * 8 = +/- 40.pi (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc của vật khi có li độ x = 6 cm là v = +/- 40.pi (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại một li độ (x) bất kỳ trong dao động điều hòa được xác định bởi công thức: v = -omega * A * sin(ωt + φ), từ đó rút ra v = ± omega * sqrt(A^2 - x^2) khi biết li độ x.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tham số: A = 10 cm, ω = 5π rad/s, x = 6 cm.
+- Công thức: v = ± ω * sqrt(A^2 - x^2)
+  v = ± 5π * sqrt(10^2 - 6^2) = ± 5π * sqrt(100 - 36) = ± 5π * sqrt(64) = ± 5π * 8 = ± 40π (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc của vật khi có li độ x = 6 cm là v = ± 40π (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật tham gia đồng thời hai dao động điều hòa cùng phương, cùng tần số:
+x1 = 3cos(5t + π/3) cm, x2 = acos(5t - π/4) cm. Biết gia tốc cực đại của vật là 200cm/s^2. Tính giá trị a","[1. GIẢI THÍCH LÝ THUYẾT]:
+Sử dụng mối liên hệ A = a_max/ω^2 để tìm biên độ tổng hợp A, sau đó dùng công thức tổng quát để giải phương trình bậc hai tìm biên độ thành phần a.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ tổng hợp: A = 200 / (5^2) = 8 (cm).
+- Độ lệch pha: delta_phi = -π/4 - π/3 = -7π/12 rad.
+- Giá trị lượng giác: cos(-7π/12) = √3/2.
+- Thay số vào phương trình: 8^2 = a^2 + 3^2 + 2.3.a.√3/2
+  => 64 = a^2 + 9 + 3a√3
+  => a^2 + 3a√3 - 55 = 0.
+- Giải phương trình bậc hai:
+  Delta = (3√3)^2 - 4.1.(-55) = 27 + 220 = 247.
+  Tính căn Delta: sqrt(247) pprox 15,71.
+  Nghiệm a1 = (-3√3 + 15.71) / 2 pprox 10,71 (cm).
+  Nghiệm a2 = (-3√3 - 15.71) / 2 pprox -25.71 (cm).
+- Vì a > 0, chọn a pprox 10,71 (cm).
+
+[3. KẾT LUẬN]:
+Giá trị a pprox 10,71 cm.","Lời giải sai, sai ở bước tính giá trị lượng giác","[1. GIẢI THÍCH LÝ THUYẾT]:
+Sử dụng mối liên hệ A = a_max/ω^2 để tìm biên độ tổng hợp A, sau đó dùng công thức tổng quát để giải phương trình bậc hai tìm biên độ thành phần a.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ tổng hợp: A = 200 / 5^2 = 8 (cm).
+- Độ lệch pha: delta_phi = -π/4 - π/3 = -7π/12 rad.
+- Giá trị lượng giác: cos(-7π/12) ≈ -0,2588.
+- Thay số vào phương trình: 8^2 = 3^2 + a^2 + 2.3.a.(-0,2588)
+  => 64 = 9 + a^2 - 0,7764.a => a^2 - 0,7764.a - 55 ≈ 0.
+- Giải phương trình bậc hai:
+  Delta = (-0,7764)^2 - 4.1.(-55) = 0,6034 + 220 = 220,6034.
+  Tính căn Delta: sqrt(220,6034) pprox 14,85.
+  Nghiệm a1 = (0,7764 + 14,85) / 2 pprox 7,81 (cm).
+  Nghiệm a2 = (0,7764 - 14,85) / 2 pprox -6,54 (cm).
+- Vì a > 0, chọn a pprox 7,81 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ a pprox 7,81 cm.","Lời giải sai, sai ở bước tính toán khi thay số phương trình","[1. GIẢI THÍCH LÝ THUYẾT]:
+Sử dụng mối liên hệ A = a_max/ω^2 để tìm biên độ tổng hợp A, sau đó dùng công thức tổng quát để giải phương trình bậc hai tìm biên độ thành phần a.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ tổng hợp: A = 200 / 5^2 = 200 / 25 = 8 (cm).
+- Độ lệch pha: delta_phi = -π/4 - π/3 = -7π/12 rad.
+- Giá trị lượng giác: cos(-7π/12) ≈ -0,2588.
+- Thay số vào phương trình: 8^2 = 3^2 + a^2 + 2.3.a.(-0,2588)
+  => 64 = 9 + a^2 - 1,5528.a => a^2 - 1,5528.a - 55 = 0.
+- Giải phương trình bậc hai:
+  Delta = (-1,5528)^2 - 4.1.(-55) = 2,4101 + 220 = 222,4101.
+  Tính căn Delta: sqrt(222,4101) ≈ 14,9135.
+  Nghiệm a1 = (1,5528 + 14,9135) / 2 ≈ 8,23315 (cm).
+  Nghiệm a2 = (1,5528 - 14,9135) / 2 ≈ -6,68035 (cm).
+- Vì a > 0, chọn a ≈ 8,23 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ a ≈ 8,23 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng."
+"Một vật tham gia đồng thời hai dao động điều hòa cùng phương, cùng tần số:
+x1 = 2cos(4t + π) cm, x2 = acos(4t + π/3) cm. Gia tốc cực đại của vật dao động tổng hợp là 320 cm/s^2. Tính a","[1. GIẢI THÍCH LÝ THUYẾT]:
+Sử dụng mối liên hệ A = a_max/ω^2 để tìm biên độ tổng hợp A, sau đó dùng công thức tổng quát để giải phương trình bậc hai tìm biên độ thành phần a.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ tổng hợp: A = 320 / (4^2) = 20 (cm).
+- Độ lệch pha: delta_phi = π/3 - π = -2π/3 rad.
+- Giá trị lượng giác: cos(-2π/3) = -0,5.
+- Thay số vào phương trình: 20^2 = a^2 + 2acos(-2π/3)
+  => 400 = a^2 + 2a*(-0.5)
+  => 400 = a^2 - a
+  => a^2 - a - 400 = 0.
+- Giải phương trình bậc hai:
+  Delta = (-1)^2 - 4.1.(-400) = 1 + 1600 = 1601.
+  Tính căn Delta: sqrt(1601) pprox 40,005.
+  Nghiệm a1 = (1 + 40,005) / 2 pprox 20.5 (cm).
+  Nghiệm a2 = (1 - 40,005) / 2 pprox -20.5 (cm).
+- Vì a > 0, chọn a pprox 20.5 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ a pprox 20.5 cm.","Lời giải sai, sai ở bước tính toán khi thay số phương trình","[1. GIẢI THÍCH LÝ THUYẾT]:
+Sử dụng mối liên hệ A = a_max/ω^2 để tìm biên độ tổng hợp A, sau đó dùng công thức tổng quát để giải phương trình bậc hai tìm biên độ thành phần a.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ tổng hợp: A = 320 / 4^2 = 20 (cm).
+- Độ lệch pha: delta_phi = π/3 - π = -2π/3 rad.
+- Giá trị lượng giác: cos(-2π/3) = -0,5.
+- Thay số vào phương trình: 20^2 = 2^2 + a^2 + 2.2.a.(-0,5)
+  => 400 = 4 + a^2 - 2.a => a^2 - 2.a - 396 = 0.
+- Giải phương trình bậc hai:
+  Delta = (-2)^2 - 4.1.(-396) = 4 + 1584 = 1588.
+  Tính căn Delta: sqrt(1588) pprox 39,85.
+  Nghiệm a1 = (2 + 39,85) / 2 pprox 20,93 (cm).
+  Nghiệm a2 = (2 - 39,85) / 2 pprox -18,93 (cm).
+- Vì a > 0, chọn a pprox 20,93 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ a pprox 20,93 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Sử dụng mối liên hệ A = a_max/ω^2 để tìm biên độ tổng hợp A, sau đó dùng công thức tổng quát để giải phương trình bậc hai tìm biên độ thành phần a.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Biên độ tổng hợp: A = 320 / 4^2 = 320 / 16 = 20 (cm).
+- Độ lệch pha: delta_phi = π/3 - π = -2π/3 rad.
+- Giá trị lượng giác: cos(-2π/3) = -0,5.
+- Thay số vào phương trình: 20^2 = 2^2 + a^2 + 2.2.a.(-0,5)
+  => 400 = 4 + a^2 - 2.a => a^2 - 2.a - 396 = 0.
+- Giải phương trình bậc hai:
+  Delta = (-2)^2 - 4.1.(-396) = 4 + 1584 = 1588.
+  Tính căn Delta: sqrt(1588) ≈ 39,85.
+  Nghiệm a1 = (2 + 39,85) / 2 ≈ 20,925 (cm).
+  Nghiệm a2 = (2 - 39,85) / 2 ≈ -18,925 (cm).
+- Vì a > 0, chọn a ≈ 20,925 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ a ≈ 20,925 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng."
+Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Dao động thứ nhất có phương trình li độ x₁ = A₁cos(ωt+ φ₁) (cm); dao động thứ hai có phương trình li độ x₂ = A₂cos(ωt+ φ₂) (cm). Biết x₁² + 4x₂² = 40. Khi dao động thứ nhất có li độ 2 cm và tốc độ 12 cm/s thì dao động thứ hai có tốc độ bằng.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Ta sử dụng phương pháp đạo hàm theo thời gian cho phương trình liên hệ x₁² + 4x₂² = 40 để thiết lập mối quan hệ giữa li độ (x) và vận tốc (v), dựa trên nguyên tắc đạo hàm của x theo t chính là v (dx/dt = v).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ràng buộc Li độ: x₁² + 4x₂² = 40 (*)
+- Đạo hàm (*) theo thời gian t: 2x₁.v₁ + 8x₂.v₂ = 0 => x₁.v₁ + 4x₂.v₂ = 0 (**)
+- Tính x₂: Thay x₁ = 2 vào (*).
+  2² + 4x₂² = 40 => 4 + 4x₂² = 40 => 4x₂² = 36 => x₂ = ±3 (cm).
+- Tính |v₂|: Thay x₁ = 2, v₁ = 12, x₂ = ±3 vào (**).
+  2.12 + 4.(±3).v₂ = 0 => 24 ± 12.v₂ = 0.
+  |v₂| = 24 / 12 = 2 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của dao động thứ hai là |v₂| = 2 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Ta sử dụng phương pháp đạo hàm theo thời gian cho phương trình liên hệ x₁² + 4x₂² = 40 để thiết lập mối quan hệ giữa li độ (x) và vận tốc (v), dựa trên nguyên tắc đạo hàm của x theo t chính là v (dx/dt = v).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ràng buộc Li độ: x₁² + 4x₂² = 40 (*)
+- Đạo hàm (*) theo thời gian t: 2.x₁.v₁ + 8.x₂.v₂ = 0 => x₁.v₁ + 4.x₂.v₂ = 0 (**)
+- Tính x₂: Thay x₁ = 2 vào (*).
+  2^2 + 4.x₂^2 = 40 => 4 + 4.x₂^2 = 40 => 4.x₂^2 = 36 => x₂^2 = 9 => x₂ = ±3 (cm).
+- Tính |v₂|: Thay x₁ = 2, v₁ = 12, x₂ = ±3 vào (**).
+  2.12 + 4.(±3).v₂ = 0 => 24 ± 12.v₂ = 0.
+  |v₂| = 24 / 12 = 2 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của dao động thứ hai là |v₂| = 2 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Ta sử dụng phương pháp đạo hàm theo thời gian cho phương trình liên hệ x₁² + 4x₂² = 40 để thiết lập mối quan hệ giữa li độ (x) và vận tốc (v), dựa trên nguyên tắc đạo hàm của x theo t chính là v (dx/dt = v).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ràng buộc Li độ: x₁² + 4x₂² = 40 (*)
+- Đạo hàm (*) theo thời gian t: 2x₁v₁ + 8x₂v₂ = 0 => x₁v₁ + 4x₂v₂ = 0 (**)
+- Tính x₂: Thay x₁ = 2 vào (*).
+  2² + 4x₂² = 40 => 4 + 4x₂² = 40 => 4x₂² = 36 => x₂ = ±3 (cm).
+- Tính |v₂|: Thay x₁ = 2, v₁ = 12, x₂ = ±3 vào (**).
+  2.12 + 4.(±3).v₂ = 0 => 24 ± 12v₂ = 0.
+  |v₂| = 24 / 12 = 2 (cm/s).
+
+[3. KẾLuẬN]:
+Tốc độ của dao động thứ hai là |v₂| = 2 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Chất điểm dao động tổng hợp từ hai dao động điều hòa cùng phương cùng tần số. Dao động 1: x₁ = A₁cos(ωt+ φ₁) cm; dao động 2: x₂ = A₂cos(ωt+ φ₂) cm. Biết 4x₁² + x₂² = 20. Khi dao động thứ nhất có li độ 2 cm và tốc độ 8 cm/s thì dao động thứ hai có tốc độ bằng.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Ta sử dụng phương pháp đạo hàm theo thời gian cho phương trình liên hệ 4x₁² + x₂² = 20 để thiết lập mối quan hệ giữa li độ (x) và vận tốc (v), dựa trên nguyên tắc đạo hàm của x theo t chính là v (dx/dt = v).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ràng buộc Li độ: 4x₁² + x₂² = 20 (*)
+- Đạo hàm (*) theo thời gian t: 8x₁.v₁ + 2x₂.v₂ = 0 => 4x₁.v₁ + x₂.v₂ = 0 (**)
+- Tính x₂: Thay x₁ = 2 vào (*).
+  4.2² + x₂² = 20 => 16 + x₂² = 20 => x₂² = 4 => x₂ = ±2 (cm).
+- Tính |v₂|: Thay x₁ = 2, v₁ = 8, x₂ = ±2 vào (**).
+  4.8 + (+/- 2).v₂ = 0 => 32 +/- 2.v₂ = 0.
+  |v₂| = 32 / 2 = 16 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của dao động thứ hai là |v₂| = 16 (cm/s).","Lời giải sai, sai ở bước tính |v2|.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Ta sử dụng phương pháp đạo hàm theo thời gian cho phương trình liên hệ 4x₁² + x₂² = 20 để thiết lập mối quan hệ giữa li độ (x) và vận tốc (v), dựa trên nguyên tắc đạo hàm của x theo t chính là v (dx/dt = v).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ràng buộc Li độ: 4x₁² + x₂² = 20 (*)
+- Đạo hàm (*) theo thời gian t: 8x₁.v₁ + 2x₂.v₂ = 0 => 4x₁.v₁ + x₂.v₂ = 0 (**)
+- Tính x₂: Thay x₁ = 2 vào (*).
+  4.2^2 + x₂^2 = 20 => 16 + x₂^2 = 20 => x₂^2 = 4 => x₂ = +/- 2 (cm).
+- Tính |v₂|: Thay x₁ = 2, v₁ = 8, x₂ = +/- 2 vào (**).
+  4.2.8 + (+/- 2).v₂ = 0 => 64 +/- 2.v₂ = 0.
+  |v₂| = 64 / 2 = 32 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của dao động thứ hai là |v₂| = 32 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Ta sử dụng phương pháp đạo hàm theo thời gian cho phương trình liên hệ 4x₁² + x₂² = 20 để thiết lập mối quan hệ giữa li độ (x) và vận tốc (v), dựa trên nguyên tắc đạo hàm của x theo t chính là v (dx/dt = v).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ràng buộc Li độ: 4x₁² + x₂² = 20 (*)
+- Đạo hàm (*) theo thời gian t: 8x₁v₁ + 2x₂v₂ = 0 => 4x₁v₁ + x₂v₂ = 0 (**)
+- Tính x₂: Thay x₁ = 2 vào (*).
+  4.2² + x₂² = 20 => 16 + x₂² = 20 => x₂² = 4 => x₂ = ±2 (cm).
+- Tính |v₂|: Thay x₁ = 2, v₁ = 8, x₂ = ±2 vào (**).
+  4.2.8 + (±2)v₂ = 0 => 64 ± 2v₂ = 0.
+  |v₂| = 64 / 2 = 32 (cm/s).
+
+[3. KẾLuẬN]:
+Tốc độ của dao động thứ hai là |v₂| = 32 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa với phương trình x = 6cos(4πt) cm. Tính tỉ số giữa tốc độ trung bình và vận tốc trung bình trong khoảng thời gian T/4 đầu tiên.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) tính theo quãng đường S, vận tốc trung bình (v_vt) tính theo độ dời delta_x. Tại t = 0, pha ban đầu bằng 0 nên vật ở biên dương x1 = 6 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phân tích thời gian: delta_t = T/4 = 2T/8.
+- Độ dời: Sau 1/2 chu kỳ T vật đi đến biên âm (-6 cm). Sau thêm 1/4 chu kỳ T vật đi đến biên dương (6 cm). Vậy x2 = VTCB = 0.
+  => delta_x = x2 - x1 = 0 - 6 = -6 cm.
+- Quãng đường:
+  + Trong 1/2 chu kỳ T (như 2T/8): S1 = 2A = 12 cm.
+  + Trong 1/4 chu kỳ T (như 2T/8): S2 = A = 6 cm.
+  => Tổng quãng đường S = 12 + 6 = 18 cm.
+- Lập tỉ số: v_tb / |v_vt| = S / |delta_x| = 18 / |-6| = 3.
+
+[3. KẾT LUẬN]:
+Tỉ số giữa tốc độ trung bình và vận tốc trung bình là 3.",Lời giải sai.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) tính theo quãng đường S, vận tốc trung bình (v_vt) tính theo độ dời delta_x. Tại t = 0, pha ban đầu là 0 nên vật ở biên dương x1 = A = 6 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phân tích thời gian: delta_t = T/4.
+- Độ dời: Trong khoảng thời gian T/4, vật đi được một nửa chu kỳ (quãng đường 2A).
+  => delta_x = x2 - x1 = 0 - 6 = -6 cm.
+- Quãng đường: 
+  + Trong T/4 (1/4 vòng): S1 = A = 6 cm.
+  => Tổng quãng đường S = 6 cm.
+- Lập tỉ số: v_tb / |v_vt| = S / |delta_x| = 6 / |-6| = 1.
+
+[3. KẾT LUẬN]:
+Tỉ số giữa tốc độ trung bình và vận tốc trung bình là 1.","Lời giải sai, sai ở bước xác định vị trí x2","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) tính theo quãng đường S, vận tốc trung bình (v_vt) tính theo độ dời delta_x. Tại t = 0, pha ban đầu là 0 nên vật ở biên dương x1 = A = 6 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phân tích thời gian: delta_t = T/4.
+- Độ dời: Trong khoảng thời gian T/4, vật đi được một nửa chu kỳ (quãng đường 2A).
+  => delta_x = x2 - x1 = 0 - 6 = -6 cm.
+- Quãng đường: 
+  + Trong T/4 (1/4 vòng): S1 = A = 6 cm.
+  => Tổng quãng đường S = 6 cm.
+- Lập tỉ số: v_tb / |v_vt| = S / |delta_x| = 6 / |-6| = 1.
+
+[3. KẾT LUẬN]:
+Tỉ số giữa tốc độ trung bình và vận tốc trung bình là 1.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa với phương trình x = 6cos(4πt + π) cm. Tính tỉ số giữa tốc độ trung bình và vận tốc trung bình trong khoảng thời gian 3T/4 đầu tiên.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) tính theo quãng đường S, vận tốc trung bình (v_vt) tính theo độ dời delta_x. Tại t = 0, pha ban đầu là π nên vật ở biên âm x1 = -A = -6 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phân tích thời gian: delta_t = 3T/4 = T/2 + T/4.
+- Độ dời: Sau T/2 (nửa vòng) vật đến biên dương (A = 6 cm). Sau thêm T/4 (1/4 vòng) vật về vị trí cân bằng (0). Vậy x2 = VTCB = 0.
+  => delta_x = x2 - x1 = 0 - (-6) = 6 cm.
+- Quãng đường:
+  + Trong T/2 (nửa vòng): S1 = 2A = 12 cm.
+  + Trong T/4 (1/4 vòng): S2 = A = 6 cm.
+  => Tổng quãng đường S = 12 + 6 = 18 cm.
+- Lập tỉ số: v_tb / |v_vt| = S / |delta_x| = 18 / |6| = 3.
+
+[3. KẾT LUẬN]:
+Tỉ số giữa tốc độ trung bình và vận tốc trung bình là 3.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) tính theo quãng đường S, vận tốc trung bình (v_vt) tính theo độ dời delta_x. Tại t = 0, pha ban đầu là π, nên vật ở biên âm x1 = -A = -6 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phân tích thời gian: delta_t = 3T/4 = T/2 + T/4.
+- Phương trình dao động: x = 6cos(4πt + π) cm.
+  - Tại t = 0, x1 = -6 cm.
+  - Sau T/2 (nửa chu kỳ): x2 = 6cos(4π(T/2) + π) = 6cos(2π + π) = 6cos(3π) = -6 cm.
+  - Sau T/4 (1/4 chu kỳ): x3 = 6cos(4π(T/4) + π) = 6cos(π + π) = 6cos(2π) = 6 cm.
+  => delta_x = x3 - x1 = 6 - (-6) = 12 cm.
+- Quãng đường:
+  + Trong T/2 (nửa chu kỳ): S1 = 2A = 12 cm.
+  + Trong T/4 (1/4 chu kỳ): S2 = A = 6 cm.
+  => Tổng quãng đường S = 12 + 6 = 18 cm.
+- Lập tỉ số: v_tb / |v_vt| = S / |delta_x| = 18 / |12| = 1.5.
+
+[3. KẾT LUẬN]:
+Tỉ số giữa tốc độ trung bình và vận tốc trung bình là 1.5.","Lời giải sai, sai ở bước xác định vị trí sau T/2","[1. GIẢI THÍCH LÝ THUYẾT]:
+Tốc độ trung bình (v_tb) được tính từ quãng đường S chia cho thời gian delta_t, còn vận tốc trung bình (v_vt) được tính từ độ dời delta_x chia cho thời gian delta_t. Tại t = 0, pha ban đầu là π nên vật ở biên âm x1 = -A = -6 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phân tích thời gian: delta_t = 3T/4 = T/2 + T/4.
+- Độ dời: Sau T/2 (nửa vòng) vật đến biên dương (A = 6 cm). Sau thêm T/4 (1/4 vòng) vật về vị trí cân bằng (0). Vậy x2 = VTCB = 0.
+  => delta_x = x2 - x1 = 0 - (-6) = 6 cm.
+- Quãng đường:
+  + Trong T/2 (nửa vòng): S1 = 2A = 12 cm.
+  + Trong T/4 (1/4 vòng): S2 = A = 6 cm.
+  => Tổng quãng đường S = 12 + 6 = 18 cm.
+- Lập tỉ số: v_tb / |v_vt| = S / |delta_x| = 18 / |6| = 3.
+
+[3. KẾT LUẬN]:
+Tỉ số giữa tốc độ trung bình và vận tốc trung bình là 3.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa trên trục Ox. Tốc độ trung bình của chất điểm tương ứng với khoảng thời gian thế năng không vượt quá 3 lần động năng trong 1 nửa chu kì là 600√3 (cm/s). Tốc độ cực đại của dao động là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt <= 3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W <= 3/4.
+- Theo công thức thế năng: Wt/W = x^2/A^2 => x^2/A^2 <= 3/4 => |x| <= A.sqrt(3)/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A.sqrt(3)/2, A.sqrt(3)/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian đi từ VTCB (x = 0) đến x = A.sqrt(3)/2 là T/6.
+- Trong nửa chu kỳ (T/2), thời gian vật ở vùng |x| <= A.sqrt(3)/2 là: delta_t = 2.(T/6) = T/3.
+- Quãng đường tương ứng đi từ -A.sqrt(3)/2 đến A.sqrt(3)/2 là: S = A.sqrt(3).
+- Tốc độ trung bình: v_tb = S/delta_t = A.sqrt(3) / (T/3) = 9.A/T.
+- Thay số: 600.sqrt(3) = 9.A/T => A/T = 66.67.
+- Tốc độ cực đại: v_max = 2.pi.(A/T) = 2.pi.66.67 = 418.86(pi) (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại là v_max = 418.86(pi) (cm/s).","Lời giải sai, sai ở bước tính v_tb.","[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt <= 3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W <= 3/4.
+- Theo công thức thế năng: Wt/W = x^2/A^2 => x^2/A^2 <= 3/4 => |x| <= A.sqrt(3)/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A.sqrt(3)/2, A.sqrt(3)/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian đi từ VTCB (x = 0) đến x = A.sqrt(3)/2 là T/6.
+- Trong nửa chu kỳ (T/2), thời gian vật ở vùng |x| <= A.sqrt(3)/2 là: delta_t = 2.(T/6) = T/3.
+- Quãng đường tương ứng đi từ -A.sqrt(3)/2 đến A.sqrt(3)/2 là: S = A.sqrt(3).
+- Tốc độ trung bình: v_tb = S/delta_t = A.sqrt(3) / (T/3) = 3.sqrt(3).A/T.
+- Thay số: 600.sqrt(3) = 3.sqrt(3).A/T => A/T = 200.
+- Tốc độ cực đại: v_max = 2.pi.(A/T) = 2.pi.200 = 400.pi (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại là v_max = 400.pi (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt ≤ 3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W ≤ 3/4.
+- Theo công thức thế năng: Wt/W = x²/A² => x²/A² ≤ 3/4 => |x| ≤ A√3/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A√3/2, A√3/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian đi từ VTCB (x = 0) đến x = A√3/2 là T/6.
+- Trong nửa chu kỳ (T/2), thời gian vật ở vùng |x| ≤ A√3/2 là: delta_t = 2.(T/6) = T/3.
+- Quãng đường tương ứng đi từ -A√3/2 đến A√3/2 là: S = A√3.
+- Tốc độ trung bình: v_tb = S/delta_t = A√3 / (T/3) = 3√3.A/T.
+- Thay số: 600√3 = 3√3.A/T => A/T = 200.
+- Tốc độ cực đại: v_max = 2π.(A/T) = 2π.200 = 400π (cm/s).
+
+[3. KẾ LUẬN]:
+Tốc độ cực đại là v_max = 400π (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa trên trục Ox. Tốc độ trung bình của chất điểm tương ứng với khoảng thời gian thế năng không vượt quá 1/3 lần động năng trong 1 nửa chu kì là 600 (cm/s). Tốc độ cực đại của dao động là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt <= 1/3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W <= 1/4.
+- Theo công thức thế năng: Wt/W = x^2/A^2 => x^2/A^2 <= 1/4 => |x| <= A/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A/2, A/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian đi từ VTCB (x = 0) đến x = A/2 là T/12.
+- Trong nửa chu kỳ, thời gian vật ở vùng |x| <= A/2 là: delta_t = 2.(T/12) = T/6.
+- Quãng đường tương ứng đi từ -A/2 đến A/2 là: S = A.
+- Tốc độ trung bình: v_tb = S/delta_t = A / (T/6) = 6.A/T.
+- Thay số: 600 = 6.A/T => A/T = 100.
+- Tốc độ cực đại: v_max = 2.pi.(A/T) = 2.pi.100 = 200.pi (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại là v_max = 200.pi (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt <= 1/3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W <= 1/4.
+- Theo công thức thế năng: Wt/W = x^2/A^2 => x^2/A^2 <= 1/4 => |x| <= A/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A/2, A/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian đi từ VTCB (x = 0) đến x = A/2 là T/12.
+- Trong nửa chu kỳ, thời gian vật ở vùng |x| <= A/2 là: delta_t = 2.(T/12) = T/6.
+- Quãng đường tương ứng đi từ -A/2 đến A/2 là: S = A.
+- Tốc độ trung bình: v_tb = S/delta_t = A / (T/6) = 6.A/T.
+- Thay số: 600 = 6.A/T => A/T = 100.
+- Tốc độ cực đại: v_max = 2.pi.(A/T) = 2.pi.100 = 200.pi (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại là v_max = 200.pi (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt <= 1/3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W <= 1/4.
+- Theo công thức thế năng: Wt/W = x^2/A^2 => x^2/A^2 <= 1/4 => |x| <= A/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A/2, A/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian đi từ VTCB (x = 0) đến x = A/2 là T/12.
+- Trong nửa chu kỳ (T/2), thời gian vật ở vùng |x| <= A/2 là: delta_t = 2.(T/12) = T/6.
+- Quãng đường tương ứng đi từ -A/2 đến A/2 là: S = A.
+- Tốc độ trung bình: v_tb = S/delta_t = A / (T/6) = 6.A/T.
+- Thay số: 600 = 6.A/T => A/T = 100.
+- Tốc độ cực đại: v_max = 2.pi.(A/T) = 2.pi.100 = 200.pi (cm/s).
+
+[3. KẾ LUẬN]:
+Tốc độ cực đại là v_max = 200.pi (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa với phương trình x = 6cos(2πt - π)cm. Tại thời điểm pha của dao động bằng 1/4 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật dao động điều hòa được xác định bởi công thức v = -A.ω.sin(φ), nơi A là amplitude, ω là góc dịch động và φ là pha tức thời. 
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Pha tức thời: φ = 1/4 . (2π) = π/4 (rad).
+- Tốc độ (|v|): Áp dụng v = -A.ω.sin(φ) với A = 6 cm, ω = 2π rad/s.
+  v = -6 . 2π . sin(π/4) = -12π . √2 / 2 = -6√2π (cm/s).
+  => |v| = 6√2π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của vật dao động điều hòa là |v| = 6√2π (cm/s).","Lời giải sai, sai ở bước tính φ.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại thời điểm bất kỳ được xác định trực tiếp bằng công thức v = -A.omega.sin(phi) khi đã biết pha tức thời (phi).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Pha tức thời: phi = 1/4 . (2.pi) = pi/2 (rad).
+- Tốc độ (|v|): Áp dụng v = -A.omega.sin(phi) với A = 6 cm, omega = 2.pi rad/s.
+  v = -6 . (2.pi) . sin(pi/2) = -12.pi . 1 = -12.pi (cm/s).
+  => |v| = 12.pi (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của vật là |v| = 12.pi (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại thời điểm bất kỳ được xác định trực tiếp bằng công thức v = -A.ω.sin(φ), khi đã biết pha tức thời φ.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Pha tức thời: φ = 1/4 . (2π) = π/2 (rad).
+- Tốc độ (|v|): Áp dụng v = -A.ω.sin(φ) với A = 6 cm, ω = 2π rad/s.
+  v = -6 . (2π) . sin(π/2) = -12π . 1 = -12π (cm/s).
+  => |v| = 12π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của vật là |v| = 12π (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa với phương trình x = 8cos(2πt - π)cm. Tại thời điểm pha của dao động bằng 1/3 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật dao động điều hòa được xác định bởi công thức v = -A.ω.sin(φ), nơi A là amplitude, ω là góc dịch động và φ là pha tức thời. 
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Pha tức thời: φ = 1/3 . (2π) = 2π/3 (rad).
+- Tốc độ (|v|): Áp dụng v = -A.ω.sin(φ) với A = 8 cm, ω = 2π rad/s.
+  v = -8 . 2π . sin(2π/3) = -16π . √3/2 = -8√3π (cm/s).
+  => |v| = 8√3π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của vật dao động điều hòa là |v| = 8√3π (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại thời điểm bất kỳ được xác định trực tiếp bằng công thức v = -A.omega.sin(phi) khi đã biết pha tức thời (phi).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Pha tức thời: phi = 1/3 . (2.pi) = 2.pi/3 (rad).
+- Tốc độ (|v|): Áp dụng v = -A.omega.sin(phi) với A = 8 cm, omega = 2.pi rad/s.
+  v = -8 . (2.pi) . sin(2.pi/3) = -16.pi . sin(2.pi/3).
+  Sin(2.pi/3) = sqrt(3)/2.
+  v = -16.pi . (sqrt(3)/2) = -8.pi.sqrt(3) (cm/s).
+  => |v| = 8.pi.sqrt(3) (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của vật là |v| = 8.pi.sqrt(3) (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc (v) của vật tại thời điểm bất kỳ được xác định trực tiếp bằng công thức v = -A.ω.sin(φ), khi đã biết pha tức thời φ.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Pha tức thời: φ = 1/3 × (2π) = 2π/3 (rad).
+- Tốc độ (|v|): Áp dụng v = -A.ω.sin(φ) với A = 8 cm, ω = 2π rad/s.
+  v = -8 × 2π × sin(2π/3) = -16π × (√3/2) = -8√3π (cm/s).
+  => |v| = 8√3π (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ của vật là |v| = 8√3π (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Con lắc lò xo: m = 0.2 kg, k = 50 N/m. Kéo vật lệch 0.04 m rồi truyền vận tốc 0.1π m/s. π² = 10. Tính cơ năng.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x0^2 + 1/2.m.v0^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: x0 = 0.04 m; v0 = 0.1π m/s = 0.1√10 m/s.
+- Công thức: W = 1/2.k.x0^2 + 1/2.m.v0^2.
+- Thay số: W = 1/2.(50).(0.04)^2 + 1/2.(0.2).(0.1√10)^2
+  W = 10.(0.0016) + 0.1.(0.01 * 10)
+  W = 0.016 + 0.01 = 0.026 (J).
+
+[3. KẾT LUẬN]:
+Năng lượng dao động của vật là W = 0.026 (J).",Lời giải sai,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x0^2 + 1/2.m.v0^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức: W = 1/2.k.x0^2 + 1/2.m.v0^2.
+- Thay số: W = 1/2.(50).(0,04)^2 + 1/2.(0,2).(0,1.pi)^2
+  W = 25.(0,0016) + 0,1.(0,01 * 10)
+  W = 0,004 + 0,01 = 0,014 (J).
+
+[3. KẾT LUẬN]:
+Cơ năng của vật là W = 0,014 (J).","Lời giải sai
+Ưu điểm so với 1.5B: Không ghi thừa bước chuyển đổi đơn vị vì đơn vị đã ở dạng chuẩn.","1. GIẢI THÍCH LÝ THUYẾT:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x_0^2 + 1/2.m.v_0^2)
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Chuyển dổi đơn vị: x_0 = 0,04 m; v_0 = 0,1π m/s
+- Công thức: W = 1/2.k.x_0^2 + 1/2.m.v_0^2
+- Thay số:
+W = 1/2.(50).(0,04)^2 +1/2.(0,2).(0,1π)^2
+W = 25.(0,0016) + 0,1(0,01.π^2)
+W = 0,04 + 0,1(0,01.10)
+W = 0,04 + 0,1(0,1)
+W = 0,04 + 0,01 = 0,05 (J)
+3. KẾT LUẬN:
+Năng lượng dao động của vật là W = 0,05 (J)","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà. Tuy nhiên, bước đổi đơn vị không cần thiết (đơn vị đã ở dạng chuẩn)"
+Vật nặng 0.2kg gắn vào lò xo nhẹ có độ cứng 80 N/m. Đẩy vật ra khỏi vị trí cân bằng một đoạn 3 cm rồi cung cấp cho nó vận tốc ban đầu 20π cm/s. Biết π² = 10. Tính cơ năng dao động của hệ.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x0^2 + 1/2.m.v0^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: x0 = 3 cm = 0,03 m; v0 = 20π cm/s = 0,2π m/s.
+- Công thức: W = 1/2.k.x0^2 + 1/2.m.v0^2.
+- Thay số: W = 1/2.(80).(0,03)^2 + 1/2.(0,2).(0,2π)^2
+  W = 16.(0,0009) + 0,01.(0,04π^2)
+  W = 0,0144 + 0,01.(0,04 * 10)
+  W = 0,0144 + 0,004 = 0,0184 (J).
+
+[3. KẾT LUẬN]:
+Năng lượng dao động của hệ là W = 0,0184 (J).",Lời giải sai,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x0^2 + 1/2.m.v0^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: x0 = 3 cm = 0,03 m; v0 = 20.pi cm/s = 0,2.pi m/s.
+- Công thức: W = 1/2.k.x0^2 + 1/2.m.v0^2.
+- Thay số: W = 1/2.(80).(0,03)^2 + 1/2.(0,2).(0,2.pi)^2
+  W = 40.(0,0009) + 0,1.(0,04 * 10)
+  W = 0,0036 + 0,04 = 0,0436 (J).
+
+[3. KẾT LUẬN]:
+Năng lượng dao động của hệ là W = 0,0436 (J).",Lời giải sai,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x0^2 + 1/2.m.v0^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: x0 = 3 cm = 0,03 m; v0 = 20π cm/s = 0,2π m/s.
+- Công thức: W = 1/2.k.x0^2 + 1/2.m.v0^2.
+- Thay số: W = 1/2.(80).(0,03)^2 + 1/2.(0,2).(0,2π)^2
+  W = 40.(0,0009) + 0,1.(0,04π^2)
+  W = 0,036 + 0,1.(0,04 * 10)
+  W = 0,036 + 0,1 * 0,4
+  W = 0,036 + 0,04 = 0,076 (J).
+
+[3. KẾ LUẬN]:
+Cơ năng dao động của hệ là W = 0,076 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà. "
+Vật thể có khối lượng 500g dao động với biên độ 0.04m và tần số góc 10rad/s. Xác định giá trị lớn nhất của động năng.,"[1. GIẢ THÍCH LÝ THUYẾT]:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: m = 500 g = 0,5 kg; A = 0.04 m.
+- Công thức: Wđmax = 1/2.m.omega^2.A^2.
+- Thay số: Wđmax = 1/2.(0,5).(10)^2.(0,04)^2
+  Wđmax = 0,25 * 100 * 0,0016
+  Wđmax = 2.5 * 0,0016 = 0,004 (J).
+
+[3. KẾT LUẬN]:
+Động năng cực đại của vật là Wđmax = 0,004 (J).","Lời giải sai, sai ở bước tính cuối cùng.","1. GIẢI THÍCH LÝ THUYẾT:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = ωA
+2.  TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Chuyển đổi đơn vị: m = 500 g = 0,5 kg; A = 0,04 m, ω = 10 rad/s
+- Công thức: Wđmax = 1/2.m.ω^2.A^2
+- Thay số: Wđmax = 1/2.(0,5).(10)^2.(0,04)^2
+Wđmax = 1/2.0,5.100.0,0016
+Wđmax = 0,04 (J)
+3. KẾT LUẬN:
+Động năng cực đại của vật là Wđmax = 0,04 J ","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà, chuyển đổi đơn vị cho biến A,ω bị thừa vị đã ở dạng chuẩn","[1. GIẢ THÍCH LÝ THUYẾT]:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: m = 500 g = 0,5 kg; A = 0,04 m.
+- Công thức: Wđmax = 1/2.m.omega^2.A^2.
+- Thay số: Wđmax = 1/2.(0,5).(10)^2.(0,04)^2
+  Wđmax = 0,25 * 100 * 0,0016
+  Wđmax = 25 * 0,0016 = 0,04 (J).
+
+[3. KẾT LUẬN]:
+Động năng cực đại của vật là Wđmax = 0,04 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà, chuyển đổi đơn vị cho biến A bị thừa vị đã ở dạng chuẩn"
+Vật nặng 100g dao động điều hòa với biên độ 5cm và tần số góc 4rad/s. Năng lượng động học cực đại của vật là.,"[1. GIẢ THÍCH LÝ THUYẾT]:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: m = 100 g = 0,1 kg; A = 5 cm = 0,05 m.
+- Công thức: Wđmax = 1/2.m.omega^2.A^2.
+- Thay số: Wđmax = 1/2.(0,1).(4)^2.(0,05)^2
+  Wđmax = 0,05 * 16 * 0,0025
+  Wđmax = 8 * 0,0025 = 0,02 (J).
+
+[3. KẾT LUẬN]:
+Động năng cực đại của vật là Wđmax = 0,02 (J).","Lời giải sai, sai ở bước tính cuối cùng.","1. GIẢI THÍCH LÝ THUYẾT:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.v_max^2, với v_max = ωA
+2.  TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Chuyển đổi đơn vị: m = 100 g = 0,1 kg; A = 5 cm = 0,05 m
+- Công thức: Wđmax = 1/2.m.ω^2.A^2
+- Thay số: Wđmax = 1/2.(0,1).(4)^2.(0,05)^2
+Wđmax = 0,05.16.0,0025
+Wđmax = 0,002 (J)
+3. KẾT LUẬN:
+Động năng cực đại của vật là Wđmax = 0,002 J ","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢ THÍCH LÝ THUYẾT]:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: m = 100 g = 0,1 kg; A = 5 cm = 0,05 m.
+- Công thức: Wđmax = 1/2.m.omega^2.A^2.
+- Thay số: Wđmax = 1/2.(0,1).(4)^2.(0,05)^2
+  Wđmax = 0,05 * 16 * 0,0025
+  Wđmax = 0,05 * 0,04 = 0,002 (J).
+
+[3. KẾT LUẬN]:
+Động năng cực đại của vật là Wđmax = 0,002 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Hệ thống lò xo - vật nặng có lò xo độ cứng 60 N/m và quả cầu khối lượng m. Quả cầu dao động điều hòa với biên độ 8 cm. Xác định động năng của quả cầu tại vị trí ứng với li độ 5 cm.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: A = 8 cm = 0,08 m; x = 5 cm = 0,05 m.
+- Công thức: Wđ = 1/2.k.(A^2 - x^2).
+- Thay số: Wđ = 1/2.(60).((0,08)^2 - (0,05)^2)
+  Wđ = 30.(0,0064 - 0,0025)
+  Wđ = 30.(0,0039)
+  Wđ = 0,117 (J).
+
+[3. KẾT LUẬN]:
+Động năng của quả cầu tại li độ 5 cm là Wđ = 0,117 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: A = 8 cm = 0,08 m; x = 5 cm = 0,05 m.
+- Công thức: Wđ = 1/2.k.(A^2 - x^2).
+- Thay số: Wđ = 1/2.(60).((0,08)^2 - (0,05)^2)
+  Wđ = 30.(0,0064 - 0,0025)
+  Wđ = 30.(0,0039)
+  Wđ = 0,117 (J).
+
+[3. KẾT LUẬN]:
+Động năng của quả cầu tại li độ 5 cm là Wđ = 0,117 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: A = 8 cm = 0,08 m; x = 5 cm = 0,05 m.
+- Công thức: Wđ = 1/2.k.(A^2 - x^2).
+- Thay số: Wđ = 1/2.(60).((0,08)^2 - (0,05)^2)
+  Wđ = 30.(0,0064 - 0,0025)
+  Wđ = 30.(0,0039)
+  Wđ = 0,117 (J).
+
+[3. KẾT LUẬN]:
+Động năng của quả cầu tại vị trí có li độ 5 cm là Wđ = 0,117 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Con lắc lò xo gồm lò xo nhẹ có hệ số đàn hồi 80 N/m mắc với viên bi khối lượng m. Viên bi dao động với biên độ 10 cm. Tính động năng của viên bi khi nó có li độ 6 cm.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: A = 10 cm = 0,1 m; x = 6 cm = 0,06 m.
+- Công thức: Wđ = 1/2.k.(A^2 - x^2).
+- Thay số: Wđ = 1/2.(80).((0,1)^2 - (0,06)^2)
+  Wđ = 40.(0,01 - 0,0036)
+  Wđ = 40.(0,0064)
+  Wđ = 0,256 (J).
+
+[3. KẾT LUẬN]:
+Động năng của viên bi khi nó có li độ 6 cm là Wđ = 0,256 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: A = 10 cm = 0,1 m; x = 6 cm = 0,06 m.
+- Công thức: Wđ = 1/2.k.(A^2 - x^2).
+- Thay số: Wđ = 1/2.(80).((0,1)^2 - (0,06)^2)
+  Wđ = 40.(0,01 - 0,0036)
+  Wđ = 40.(0,0064)
+  Wđ = 0,256 (J).
+
+[3. KẾT LUẬN]:
+Động năng của viên bi khi nó có li độ 6 cm là Wđ = 0,256 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà. ","[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng (Wđ) tại li độ x được tính bằng hiệu giữa Cơ năng và Thế năng theo định luật bảo toàn cơ năng, dẫn đến công thức rút gọn Wđ = 1/2.k.(A^2 - x^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chuyển đổi đơn vị: A = 10 cm = 0,1 m; x = 6 cm = 0,06 m.
+- Công thức: Wđ = 1/2.k.(A^2 - x^2).
+- Thay số: Wđ = 1/2.(80).((0,1)^2 - (0,06)^2)
+  Wđ = 40.(0,01 - 0,0036)
+  Wđ = 40.(0,0064)
+  Wđ = 0,256 (J).
+
+[3. KẾT LUẬN]:
+Động năng của viên bi khi nó có li độ 6 cm là Wđ = 0,256 (J).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà. "
+"Một con lắc đơn có chiều dài 2 m, vật nặng khối lượng 1 kg dao động nhỏ. Ở nơi có g=10m/s^2, biết động năng cực đại của con lắc là 0,04 J. Tìm biên độ góc α0 (rađian).","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với dao động nhỏ, động năng của con lắc đơn dao động điều hòa được xác định bởi công thức: W = 1/2 . m . g . l . alpha0^2, với alpha0 là biên độ góc (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Dữ kiện: m = 1 kg; l = 2 m; g = 10 m/s^2.
+- Theo công thức, alpha0^2 = 2W / (m.g.l).
+- Thay số: alpha0^2 = (2 . 0,04) / (1 . 10 . 2) = 0,08 / 20.
+- Kết quả trung gian: alpha0^2 = 0,004.
+- Tính biên độ góc: alpha0 = sqrt(0,004) ≈ 0,0632 (rad).
+
+[3. KẾT LUẬN]:
+Biên độ góc của con lắc là alpha0 ≈ 0,0632 rad.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với dao động nhỏ, cơ năng của con lắc đơn được xác định bởi công thức: W = 1/2 . m . g . l . alpha0^2, với alpha0 là biên độ góc (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Dữ kiện: m = 1 kg; l = 2 m; g = 10 m/s^2; W = 0,04 J.
+- Rút ra công thức: alpha0^2 = 2W / (m.g.l).
+- Thay số: alpha0^2 = (2 . 0,04) / (1 . 10 . 2) = 0,08 / 20.
+- Kết quả trung gian: alpha0^2 = 0,004.
+- Tính biên độ góc: alpha0 = sqrt(0,004) = 0,0632 (rad).
+
+[3. KẾT LUẬN]:
+Biên độ góc của con lắc là alpha0 = 0,0632 rad.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với dao động nhỏ, cơ năng của con lắc đơn dao động điều hòa được xác định bởi công thức: \( W = \frac{1}{2} m g l \alpha_0^2 \), trong đó \( \alpha_0 \) là biên độ góc tính bằng đơn vị radian (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Dữ kiện: \( m = 1 \, \text{kg} \); \( l = 2 \, \text{m} \); \( g = 10 \, \text{m/s}^2 \); Động năng cực đại \( W = 0,04 \, \text{J} \).
+- Rút ra công thức: \( \alpha_0^2 = \frac{2W}{m g l} \).
+- Thay số: \( \alpha_0^2 = \frac{2 \times 0,04}{1 \times 10 \times 2} = \frac{0,08}{20} = 0,004 \).
+- Kết quả trung gian: \( \alpha_0^2 = 0,004 \).
+- Tính biên độ góc: \( \alpha_0 = \sqrt{0,004} \approx 0,0632 \, \text{rad} \).
+
+[3. KẾT LUẬN]:
+Biên độ góc của con lắc là \( \alpha_0 \approx 0,0632 \, \text{rad} \).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Con lắc đơn dài 0,8 m, khối lượng 100 g, dao động điều hòa với năng lượng 4,9.10-3 J, tại nơi có g=9,8m/s^2. Tính biên độ góc α0(rad).","[1. GIẢI THÍCH LÝ THUYẾT]:
+Công thức cơ năng của con lắc đơn dao động điều hòa là: W = 1/2 . m . g . l . α0^2, trong đó α0 là biên độ góc (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Dữ kiện đã biết: m = 100g = 0,1kg; l = 0,8m; g = 9,8m/s^2; W = 4,910^-3J.
+
+Rút ra công thức: α0^2 = 2W / (m.g.l).
+Thay số: α0^2 = (2 × 4,910^-3) / (0,1 × 9,8 × 0,8) = 0,00098 / 0,784.
+Kết quả trung gian: α0^2 = 0,00125.
+
+Tính biên độ góc: α0 = √α0^2 = √0,00125 ≈ 0,0354 (rad).
+
+[3. KẾT LUẬN]:
+Biên độ góc của con lắc là α0 ≈ 0,0354 rad.","Lời giải sai, sai ở bước ""kết quả trung gian""","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với dao động nhỏ, cơ năng của con lắc đơn được xác định bởi công thức: W = 1/2 . m . g . l . alpha0^2, với alpha0 là biên độ góc (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Dữ kiện: m = 0,1 kg; l = 0,8 m; g = 9,8 m/s^2; W = 4,9 . 10^-3 J.
+- Rút ra công thức: alpha0^2 = 2W / (m.g.l).
+- Thay số: alpha0^2 = (2 . 4,9 . 10^-3) / (0,1 . 9,8 . 0,8) = 9,8 . 10^-3 / 0,784.
+- Kết quả trung gian: alpha0^2 = 0,0124.
+- Tính biên độ góc: alpha0 = sqrt(0,0124) pprox 0,111 (rad).
+
+[3. KẾT LUẬN]:
+Biên độ góc của con lắc là alpha0 pprox 0,111 rad.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với dao động nhỏ, cơ năng của con lắc đơn được xác định bởi công thức: \( W = \frac{1}{2} \cdot m \cdot g \cdot l \cdot \alpha_0^2 \), trong đó \( \alpha_0 \) là biên độ góc tính bằng đơn vị radian (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Dữ kiện: \( m = 0,1 \) kg; \( l = 0,8 \) m; \( g = 9,8 \) m/s²; \( W = 4,9 \times 10^{-3} \) J.
+- Rút ra công thức: \( \alpha_0^2 = \frac{2W}{m \cdot g \cdot l} \).
+- Thay số: \( \alpha_0^2 = \frac{2 \cdot 4,9 \times 10^{-3}}{0,1 \cdot 9,8 \cdot 0,8} = \frac{9,8 \times 10^{-3}}{0,784} \).
+- Kết quả trung gian: \( \alpha_0^2 = 0,0125 \).
+- Tính biên độ góc: \( \alpha_0 = \sqrt{0,0125} \approx 0,1118 \) rad.
+
+[3. KẾT LUẬN]:
+Biên độ góc của con lắc là \( \alpha_0 \approx 0,1118 \) rad.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa với biên độ 8 cm. Mốc thế năng ở vị trí cân bằng. Khi vật có động năng bằng 1/3 lần cơ năng thì vật cách vị trí cân bằng một đoạn bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Theo đề bài: Wd = 1/3 . W.
+- Chuyển đổi về tỉ lệ thế năng: Wt = W - Wd = W - 1/3 . W = 2/3 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có hệ thức: x^2/A^2 = Wt/W = 2/3.
+- Suy ra phương trình li độ: x^2 = A^2/3 => x = \pm sqrt(A^2/3) = \pm A/\sqrt{3}.
+- Thay số với A = 8 cm: x = \pm 8/\sqrt{3} ≈ ±5.17 (cm).
+- Khoảng cách đến vị trí cân bằng: |x| = 5.17 (cm).
+
+[3. KẾT LUẬN]:
+Vật cách vị trí cân bằng một đoạn khoảng 5.17 cm.",Lời giải sai,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Theo đề bài: Wd = 1/3 . W.
+- Chuyển đổi về tỉ lệ thế năng: Wt = W - Wd = W - 1/3 . W = 2/3 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có hệ thức: x^2/A^2 = Wt/W = 2/3.
+- Suy ra phương trình li độ: x^2 = A^2/3 => x = \pm sqrt(A^2/3) = \pm A/sqrt(3).
+- Thay số với A = 8 cm: x = \pm 8/sqrt(3) = \pm (8/sqrt(3)) * (sqrt(3)/sqrt(3)) = \pm (8*sqrt(3))/3 ≈ \pm 4.62 (cm).
+
+[3. KẾT LUẬN]:
+Vật cách vị trí cân bằng một đoạn khoảng 4.62 cm.",Lời giải sai,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Theo đề bài: Wd = 1/3 . W.
+- Chuyển đổi về tỉ lệ thế năng: Wt = W - Wd = W - 1/3 . W = 2/3 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có hệ thức: x^2/A^2 = Wt/W = 2/3.
+- Suy ra phương trình li độ: x^2 = (2/3) . A^2 => x = \pm sqrt((2/3) . A^2) = \pm A . sqrt(2/3).
+- Thay số với A = 8 cm: x = \pm 8 . sqrt(2/3) = \pm 8 . sqrt(0.6667) ≈ \pm 6.35 (cm).
+
+[3. KẾT LUẬN]:
+Vật cách vị trí cân bằng một đoạn khoảng 6.35 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng. "
+Một vật dao động điều hòa với biên độ 12 cm. Mốc thế năng ở vị trí cân bằng. Khi vật có động năng bằng 1/2 lần cơ năng thì vật cách vị trí cân bằng một đoạn bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Theo đề bài: Wd = 1/2 . W.
+- Chuyển đổi về tỉ lệ thế năng: Wt = W - Wd = W - 1/2 . W = 1/2 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có hệ thức: x^2/A^2 = Wt/W = 1/2.
+- Suy ra phương trình li độ: x^2 = A^2/2 => x = \pm sqrt(A^2/2) = \pm A/\sqrt{2}.
+- Thay số với A = 12 cm: x = \pm 12/\sqrt{2} = \pm 6\sqrt{2} (cm).
+- Khoảng cách đến vị trí cân bằng: |x| = 6\sqrt{2} (cm).
+
+[3. KẾT LUẬN]:
+Vật cách vị trí cân bằng một đoạn 6\sqrt{2} cm.",Lời giải sai,"[1. GIẢI THÍCH LÝ THUYẾT]:
+- Theo đề bài: Wd = 1/2 . W.
+- Chuyển đổi về tỉ lệ thế năng: Wt = W - Wd = W - 1/2 . W = 1/2 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có hệ thức: x^2/A^2 = Wt/W = 1/2.
+- Suy ra phương trình li độ: x^2 = A^2/2 => x = \pm sqrt(A^2/2) = \pm A/sqrt(2).
+- Thay số với A = 12 cm: x = \pm 12/sqrt(2) = \pm 12 * sqrt(2)/2 = \pm 6 * sqrt(2) (cm).
+- Khoảng cách đến vị trí cân bằng: |x| = 6 * sqrt(2) (cm).
+
+[3. KẾT LUẬN]:
+Vật cách vị trí cân bằng một đoạn 6 * sqrt(2) cm.","Lời giải đúng, trình bày hợp lý, rõ ràng.  ","[1. GIẢI THÍCH LÝ THUYẾT]:
+- Theo đề bài: Wd = 1/2 . W.
+- Chuyển đổi về tỉ lệ thế năng: Wt = W - Wd = W - 1/2 . W = 1/2 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có hệ thức: x^2/A^2 = Wt/W = 1/2.
+- Suy ra phương trình li độ: x^2 = A^2/2 => x = \pm sqrt(A^2/2) = \pm A/sqrt(2).
+- Thay số với A = 12 cm: x = \pm 12/sqrt(2) = \pm 12/sqrt(2) * sqrt(2)/sqrt(2) = \pm (12 * sqrt(2))/2 = \pm 6 * sqrt(2) cm ≈ \pm 8.49 cm.
+
+[3. KẾT LUẬN]:
+Vật cách vị trí cân bằng một đoạn khoảng 8.49 cm.","Lời giải đúng, trình bày hợp lý, rõ ràng. "
+Con lắc dao động tắt dần với mức giảm biên độ 2% sau mỗi chu kỳ. Xác định phần trăm năng lượng bị tiêu hao trong một dao động trọn vẹn.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng (W) của con lắc tỉ lệ với bình phương biên độ (W tỉ lệ với A^2). Biên độ sau một chu kì (A') bằng 98% biên độ ban đầu (A' = 0,98A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ lệ năng lượng còn lại: W'/W = (A'/A)^2 = (0,98)^2 = 0,9604
+- Phần năng lượng bị mất đi (delta_W/W):
+  delta_W/W = 1 - W'/W = 1 - 0,9604 = 0,0396 = 3,96%
+
+[3. KẾT LUẬN]:
+Phần năng lượng bị tiêu hao trong một dao động trọn vẹn là 3,96%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng (W) của con lắc tỉ lệ với bình phương biên độ (W tỉ lệ với A^2). Biên độ sau một chu kì (A') bằng 98% biên độ ban đầu (A' = 0,98A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ lệ năng lượng còn lại: W'/W = (A'/A)^2 = (0,98)^2 = 0,9604
+- Phần năng lượng bị mất đi (delta_W/W): 
+  delta_W/W = 1 - W'/W = 1 - 0,9604 = 0,0396 = 3,96%
+
+[3. KẾT LUẬN]:
+Phần năng lượng bị mất đi trong một dao động toàn phần là 3,96%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng (W) của con lắc tỉ lệ với bình phương biên độ (W tỉ lệ với A^2). Biên độ sau một chu kì (A') bằng 98% biên độ ban đầu (A' = 0,98A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ lệ năng lượng còn lại: W'/W = (A'/A)^2 = (0,98)^2 = 0,9604
+- Phần năng lượng bị mất đi (delta_W/W): 
+  delta_W/W = 1 - W'/W = 1 - 0,9604 = 0,0396 = 3,96%
+
+[3. KẾT LUẬN]:
+Phần năng lượng bị tiêu hao trong một dao động trọn vẹn là 3,96%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Con lắc dao động tắt dần với mức giảm biên độ 10% sau mỗi chu kỳ. Xác định phần trăm năng lượng bị tiêu hao trong một dao động trọn vẹn.,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng (W) của con lắc tỉ lệ với bình phương biên độ (W tỉ lệ với A^2). Biên độ sau một chu kì (A') bằng 90% biên độ ban đầu (A' = 0,9A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ lệ năng lượng còn lại: W'/W = (A'/A)^2 = (0,9)^2 = 0,81
+- Phần năng lượng bị mất đi (delta_W/W): 
+  delta_W/W = 1 - W'/W = 1 - 0,81 = 0,19 = 19%
+
+[3. KẾT LUẬN]:
+Phần năng lượng bị tiêu hao trong một dao động trọn vẹn là 19%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng (W) của con lắc tỉ lệ với bình phương biên độ (W tỉ lệ với A^2). Biên độ sau một chu kì (A') bằng 90% biên độ ban đầu (A' = 0,9A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ lệ năng lượng còn lại: W'/W = (A'/A)^2 = (0,9)^2 = 0,81
+- Phần năng lượng bị mất đi (delta_W/W): 
+  delta_W/W = 1 - W'/W = 1 - 0,81 = 0,19 = 19%
+
+[3. KẾT LUẬN]:
+Phần năng lượng bị mất đi trong một dao động toàn phần là 19%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng (W) của con lắc tỉ lệ với bình phương biên độ (W tỉ lệ với A^2). Biên độ sau một chu kì (A') bằng 90% biên độ ban đầu (A' = 0,9A).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ lệ năng lượng còn lại: W'/W = (A'/A)^2 = (0,9)^2 = 0,81
+- Phần năng lượng bị mất đi (delta_W/W): 
+  delta_W/W = 1 - W'/W = 1 - 0,81 = 0,19 = 19%
+
+[3. KẾT LUẬN]:
+Phần năng lượng bị tiêu hao trong một dao động trọn vẹn là 19%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 15%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc là W = 1/2 . k . A^2. Khi năng lượng mất đi 15%, phần năng lượng còn lại là W' = 85% . W = 0,85 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ số biên độ còn lại: A'/A = sqrt(W'/W) = sqrt(0,85) ≈ 0,922.
+- Phần trăm biên độ giảm: %delta_A = (1 - 0,922) . 100% ≈ 7,8%.
+
+[3. KẾT LUẬN]:
+Biên độ giảm đi khoảng 7,8%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc tỉ lệ với bình phương biên độ (W = 1/2 . k . A^2). Khi năng lượng mất đi 15%, phần năng lượng còn lại là W' = 85% . W = 0,85 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ số biên độ còn lại: A'/A = sqrt(W'/W) = sqrt(0,85).
+- Tính giá trị tỉ số A'/A: A'/A = sqrt(0,85) ≈ 0,9224.
+- Phần trăm biên độ giảm: %delta_A = (1 - 0,9224) . 100% ≈ 7,76%.
+
+[3. KẾT LUẬN]:
+Biên độ giảm đi 7,76%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc tỉ lệ với bình phương biên độ (W = 1/2 . k . A^2). Khi năng lượng mất đi 15%, phần năng lượng còn lại là W' = 85% . W = 0,85 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ số biên độ còn lại: A'/A = sqrt(W'/W) = sqrt(0,85) ≈ 0,9219.
+- Phần trăm biên độ giảm: %delta_A = (1 - 0,9219) . 100% ≈ 7,81%.
+
+[3. KẾT LUẬN]:
+Biên độ giảm đi khoảng 7,81%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một con lắc dao động tắt dần trong môi trường có lực ma sát nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 6%. Hỏi sau mỗi chu kì, biên độ của con lắc giảm đi bao nhiêu phần trăm?","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc là W = 1/2 . k . A^2. Khi năng lượng mất đi 6%, phần năng lượng còn lại là W' = 94% . W = 0,94 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ số biên độ còn lại: A'/A = sqrt(W'/W) = sqrt(0,94) ≈ 0,97.
+- Phần trăm biên độ giảm: %delta_A = (1 - 0,97) . 100% = 3%.
+
+[3. KẾT LUẬN]:
+Biên độ của con lắc giảm đi 3% sau mỗi chu kì.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc tỉ lệ với bình phương biên độ (W = 1/2 . k . A^2). Khi năng lượng mất đi 6%, phần năng lượng còn lại là W' = 94% . W = 0,94 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ số biên độ còn lại: A'/A = sqrt(W'/W) = sqrt(0,94).
+- Tính giá trị tỉ số A'/A: A'/A ≈ sqrt(0,94) ≈ 0,97.
+- Phần trăm biên độ giảm: %delta_A = (1 - 0,97) . 100% = 3%.
+
+[3. KẾT LUẬN]:
+Biên độ giảm đi 3%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc tỉ lệ với bình phương biên độ (W = 1/2 . k . A^2). Khi năng lượng mất đi 6%, phần năng lượng còn lại là W' = 94% . W = 0,94 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tỉ số biên độ còn lại: A'/A = sqrt(W'/W) = sqrt(0,94) ≈ 0,9695.
+- Phần trăm biên độ giảm: %delta_A = (1 - 0,9695) . 100% ≈ 3,05%.
+
+[3. KẾT LUẬN]:
+Biên độ giảm đi khoảng 3,05%.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa trên quỹ đạo thẳng dài 10 cm với chu kì 2 s. Tính từ thời điểm vật qua vị trí có li độ 2,5 cm theo chiều dương đến khi gia tốc của vật đạt giá trị cực tiểu lần thứ hai, vật có tốc độ trung bình bằng bao nhiêu?","1. LỜI GIẢI CHI TIẾT:
+- Biên độ: A = L/2 = 10/2 = 5 cm.
+- Vị trí đầu: x = 2,5 cm = A/2. Vật đang đi theo chiều dương.
+- Vị trí đích: Gia tốc cực tiểu (amin) khi vật ở biên dương x = +A = 5 cm.
+- Hành trình lần đầu: Từ vị trí x = A/2 theo chiều dương, vật đi trực tiếp ra biên dương (+A) để đạt đích lần thứ nhất.
+- Thời gian t1: Thời gian vật đi từ A/2 đến A tương ứng với t1 = T/6.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Quãng đường lẻ lần đầu: S1 = A - A/2 = 5 - 2,5 = 2,5 cm.
+- Để đạt gia tốc cực tiểu lần thứ hai, vật đi thêm 1 chu kỳ T:
+  + delta_t = t1 + T = T/6 + T = 7T/6 = (7 . 2) / 6 = 2,33 (s).
+  + S = S1 + 4A = 2,5 + 4 . 5 = 22,5 cm.
+- Tốc độ trung bình: v_tb = S / delta_t = 22,5 / 2,33  ≈ 9,68 (cm/s).
+3. KẾT LUẬN:
+Tốc độ trung bình là v_tb  ≈ 9,68 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Biên độ: A = L/2 = 10/2 = 5 cm.
+- Vị trí đầu: x = 2,5 cm = A/2. Vật đang đi theo chiều dương.
+- Vị trí đích: Gia tốc cực tiểu (amin) khi vật ở biên dương x = +A = 5 cm.
+- Hành trình lần đầu: Từ vị trí x = A/2 theo chiều dương, vật đi trực tiếp ra biên dương (+A) để đạt đích lần thứ nhất.
+- Thời gian t1: Thời gian vật đi từ A/2 đến A tương ứng với t1 = T/6.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Quãng đường lẻ lần đầu: S1 = A - A/2 = 5 - 2,5 = 2,5 cm.
+- Để đạt gia tốc cực tiểu lần thứ hai, vật đi thêm 1 chu kỳ T:
+  + delta_t = t1 + T = T/6 + T = 7T/6 = (7 . 2) / 6 = 2,33 (s).
+  + S = S1 + 4A = 2,5 + 4 . 5 = 25 cm.
+- Tốc độ trung bình: v_tb = S / delta_t = 25 / 2,33 pprox 10,74 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình là v_tb pprox 10,74 cm/s.","Lời giải sai, sai ở bước tính S","[1. LỜI GIẢI CHI TIẾT]:
+- Biên độ: A = L/2 = 10/2 = 5 cm.
+- Vị trí đầu: x = 2,5 cm = A/2. Vật đang đi theo chiều dương.
+- Vị trí đích: Gia tốc cực tiểu (amin) khi vật ở biên dương x = +A = 5 cm.
+- Hành trình lần đầu: Từ vị trí x = A/2 theo chiều dương, vật đi trực tiếp ra biên dương (+A) để đạt đích lần thứ nhất.
+- Thời gian t1: Thời gian vật đi từ A/2 đến A tương ứng với t1 = T/6.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Quãng đường lẻ lần đầu: S1 = A - A/2 = 5 - 2,5 = 2,5 cm.
+- Để đạt gia tốc cực tiểu lần thứ hai, vật đi thêm 1 chu kỳ T:
+  + delta_t = t1 + T = T/6 + T = 7T/6 = (7 . 2) / 6 = 2,33 (s).
+  + S = S1 + 4A = 2,5 + 4 . 5 = 22,5 cm.
+- Tốc độ trung bình: v_tb = S / delta_t = 22,5 / 2,33 pprox 9,65 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình là v_tb pprox 9,65 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật nhỏ dao động điều hòa theo một quỹ đạo thẳng dài 20 cm với chu kì 1 s. Từ thời điểm vật qua vị trí có li độ 5 cm theo chiều dương đến khi gia tốc của vật đạt giá trị cực tiểu lần thứ hai, vật có tốc độ trung bình là","#### [1. LỜI GIẢI CHI TIẾT]:
+
+- **Biên độ**: \( A = \frac{L}{2} = \frac{20\text{ cm}}{2} = 10\text{ cm} \)
+- **Vị trí đầu**: \( x = 5\text{ cm} = \frac{A}{2} \). Vật đang đi theo chiều dương.
+- **Vị trí đích**: Gia tốc cực tiểu (amin) khi vật ở biên dương \( x = +A = 10\text{ cm} \).
+- **Hành trình lần đầu**: Từ \( x = \frac{A}{2} \), vật đi theo chiều dương nên tiến thẳng đến biên dương \( (+A) \) là chạm đích lần 1.
+- **Thời gian \( t_1 \)**: Khoảng thời gian vật đi thẳng từ \( \frac{A}{2} \) đến \( A \) là \( t_1 = \frac{T}{6} \).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+- **Quãng đường lẻ lần đầu**: \( S_1 = A - \frac{A}{2} = 10\text{ cm} - 5\text{ cm} = 5\text{ cm} \).
+- **Lần thứ hai nên vật thực hiện thêm 1 chu kỳ \( T \) sau khi đạt đích lần 1**:
+  + \( \Delta t = t_1 + T = \frac{T}{6} + T = \frac{7T}{6} = \left(\frac{7 \times 1}{6}\right) \text{s} = \frac{7}{6} \text{s} \a≈ 1.167 \text{s} \).
+  + \( S = S_1 + 4A = 5\text{ cm} + 4 \times 10\text{ cm} = 5\text{ cm} + 40\text{ cm} = 45\text{ cm} \).
+- **Tốc độ trung bình**: \( v_{tb} = \frac{S}{\Delta t} = \frac{45\text{ cm}}{\frac{7}{6} \text{s}} \a≈ 39.29 \text{ cm/s} \).
+
+#### [3. KẾT LUẬN]:
+Tốc độ trung bình là \( v_{tb} \a≈ 39.29 \text{ cm/s} \).","Lời giải sai, sai ở bước tính toán kết quả cuối cùng và bị lỗi định dạng","[1. LỜI GIẢI CHI TIẾT]:
+- Biên độ: A = L/2 = 20/2 = 10 cm.
+- Vị trí đầu: x = 5 cm = A/2. Vật đang đi theo chiều dương.
+- Vị trí đích: Gia tốc cực tiểu (amin) khi vật ở biên dương x = +A = 10 cm.
+- Hành trình lần đầu: Từ x = A/2, vật đi theo chiều dương nên tiến thẳng đến biên dương (+A) là chạm đích lần 1.
+- Thời gian t1: Khoảng thời gian vật đi thẳng từ A/2 đến A là t1 = T/6.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Quãng đường lẻ lần đầu: S1 = A - A/2 = 10 - 5 = 5 cm.
+- Để đạt gia tốc cực tiểu lần thứ hai, vật đi thêm 1 chu kỳ T:
+  + delta_t = t1 + T = T/6 + T = 7T/6 = (7 . 1) / 6 = 7/6 (s).
+  + S = S1 + 4A = 5 + 4 . 10 = 45 cm.
+- Tốc độ trung bình: v_tb = S / delta_t = 45 / (7/6) pprox 38,57 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ trung bình là v_tb pprox 38,57 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. LỜI GIẢI CHI TIẾT:
+- Biên độ: A = L/2 = 20/2 = 10 cm.
+- Vị trí đầu: x = 5 cm = A/2. Vật đang đi theo chiều dương.
+- Vị trí đích: Gia tốc cực tiểu (amin) khi vật ở biên dương x = +A = 10 cm.
+- Hành trình lần đầu: Từ x = A/2, vật đi theo chiều dương nên tiến thẳng đến biên dương (+A) là chạm đích lần 1.
+- Thời gian t1: Khoảng thời gian vật đi thẳng từ A/2 đến A là t1 = T/6.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Quãng đường lẻ lần đầu: S1 = A - A/2 = 10 - 5 = 5 cm.
+- Lần thứ hai nên vật thực hiện thêm 1 chu kỳ T sau khi đạt đích lần 1:
+  + delta_t = t1 + T = T/6 + T = 7T/6 = (7 . 1) / 6 = 1,1667 (s).
+  + S = S1 + 4A = 5 + 4 . 10 = 45 cm.
+- Tốc độ trung bình: v_tb = S / delta_t = 45 / 1,1667  ≈ 38,57 (cm/s).
+3. KẾT LUẬN:
+Tốc độ trung bình là v_tb pprox  38,57 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm chuyển động tròn đều trên đường tròn tâm O bán kính 10 cm với tốc độ góc 4 rad/s. Hình chiếu của chất điểm lên trục Ox nằm trong mặt phẳng quỹ đạo có tốc độ cực đại là,"1. LỜI GIẢI CHI TIẾT:
+Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 10 cm và tần số góc bằng tốc độ góc omega = 4 rad/s.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+Tốc độ cực đại của hình chiếu là:
+v_max = omega . A = 4 . 10 = 40 (cm/s).
+3. KẾT LUẬN:
+Tốc độ cực đại là v_max = 40 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. LỜI GIẢI CHI TIẾT:
+Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 10 cm và tần số góc bằng tốc độ góc omega = 4 rad/s.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+Tốc độ cực đại của hình chiếu là:
+v_max = omega . A = 4 . 10 = 40 (cm/s).
+3. KẾT LUẬN:
+Tốc độ cực đại là v_max = 40 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. LỜI GIẢI CHI TIẾT:
+Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 10 cm và tần số góc bằng tốc độ góc omega = 4 rad/s.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+Tốc độ cực đại của hình chiếu là:
+v_max = omega . A = 4 . 10 = 40 (cm/s).
+3. KẾT LUẬN:
+Tốc độ cực đại là v_max = 40 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm chuyển động tròn đều trên đường tròn tâm O bán kính 15 cm với tốc độ góc 4 rad/s. Hình chiếu của chất điểm lên trục Ox nằm trong mặt phẳng quỹ đạo có tốc độ cực đại là bao nhiêu?,"1. LỜI GIẢI CHI TIẾT:
+Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 15 cm và tần số góc bằng tốc độ góc omega = 4 rad/s.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+Tốc độ cực đại của hình chiếu là:
+v_max = omega . A = 4 . 15 = 60 (cm/s).
+3. KẾT LUẬN:
+Tốc độ cực đại là v_max = 60 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. LỜI GIẢI CHI TIẾT:
+Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 15 cm và tần số góc bằng tốc độ góc omega = 4 rad/s.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+Tốc độ cực đại của hình chiếu là:
+v_max = omega . A = 4 . 15 = 60 (cm/s).
+3. KẾT LUẬN:
+Tốc độ cực đại là v_max = 60 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. LỜI GIẢI CHI TIẾT:
+Hình chiếu của chất điểm lên trục Ox dao động điều hòa với biên độ A = R = 15 cm và tần số góc bằng tốc độ góc omega = 4 rad/s.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+Tốc độ cực đại của hình chiếu là:
+v_max = omega . A = 4 . 15 = 60 (cm/s).
+3. KẾT LUẬN:
+Tốc độ cực đại là v_max = 60 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một chất điểm dao động điều hòa có vận tốc cực đại 80 cm/s và gia tốc cực đại là 3π(m/s^2) . Chọn mốc thế năng tại vị trí cân bằng. Thời điểm ban đầu (t = 0), chất điểm có vận tốc 40 cm/s và thế năng đang tăng. Chất điểm có gia tốc bằng 1,5π(m/s^2) lần đầu tiên ở thời điểm nào?","1. LỜI GIẢI CHI TIẾT:
+- Tần số góc: ω = a_max / v_max = 300π / 80 = 15π/4 rad/s. Chu kỳ T = 2π / ω = 0,26 (s).
+- Vị trí đích: a = 1,5π = a_max / 2, tương ứng với li độ x = -A/2.
+- Trạng thái đầu (t = 0): v = 40 = v_max / 2. Vì v > 0 và thế năng đang tăng (vật rời xa VTCB), nên vật ở li độ x = +A.sqrt(3)/2 và đang đi về biên dương (+A).
+- Hành trình: Từ +A.sqrt(3)/2 ra biên dương (+A), quay về VTCB (0), rồi đến vị trí đích x = -A/2.
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Thời gian di chuyển:
+  + Đoạn từ +A.sqrt(3)/2 ra biên dương (+A): t1 = T/12.
+  + Đoạn từ biên dương (+A) về VTCB (0): t2 = T/4.
+  + Đoạn từ VTCB (0) đến -A/2: t3 = T/12.
+- Tổng thời gian: t = t1 + t2 + t3 = T/12 + T/4 + T/12 = 5T/12.
+- Thay số: t = (5 . 0,26) / 12 = 13/120 ≈ 0,108 (s).
+3. KẾT LUẬN:
+Thời điểm đầu tiên là t ≈ 0,108 s.",Lời giải sai,"[1. LỜI GIẢI CHI TIẾT]:
+- Tần số góc: omega = a_max / v_max = 30.pi / 80 = 3.pi / 8 (rad/s). Chu kỳ T = 2.pi / omega = 16/3 (s).
+- Vị trí đích: a = 1,5.pi = a_max / 2, tương ứng với li độ x = -A/2.
+- Trạng thái đầu (t = 0): v = 40 = v_max / 2. Vì v > 0 và thế năng đang tăng (vật rời xa VTCB), nên vật ở li độ x = +A.sqrt(3)/2 và đang đi về biên dương (+A).
+- Hành trình: Từ +A.sqrt(3)/2 ra biên dương (+A), quay về VTCB (0), rồi đến vị trí đích x = -A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian di chuyển:
+  + Đoạn từ +A.sqrt(3)/2 ra biên dương (+A): t1 = T/12.
+  + Đoạn từ biên dương (+A) về VTCB (0): t2 = T/4.
+  + Đoạn từ VTCB (0) đến -A/2: t3 = T/12.
+- Tổng thời gian: t = t1 + t2 + t3 = T/12 + T/4 + T/12 = 5T/12.
+- Thay số: t = (5 . 16/3) / 12 = 80 / 36 = 20 / 9 ≈ 2,222 (s).
+
+[3. KẾT LUẬN]:
+Thời điểm đầu tiên là t  pprox 2,222 s.",Lời giải sai,"[1. LỜI GIẢI CHI TIẾT]:
+- Tần số góc: \(\omega = \frac{a_{\text{max}}}{v_{\text{max}}} = \frac{3\pi}{0,8} = \frac{15\pi}{4} \, \text{(rad/s)}\). Chu kỳ \(T = \frac{2\pi}{\omega} = \frac{2\pi}{\frac{15\pi}{4}} = \frac{8}{15} \, \text{s}\).
+- Vị trí đích: Gia tốc \(a = 1,5\pi = \frac{a_{\text{max}}}{2}\), tương ứng với li độ \(x = -\frac{A}{2}\).
+- Trạng thái ban đầu (t = 0): Vận tốc \(v = 40 = \frac{v_{\text{max}}}{2}\). Vì \(v > 0\) và thế năng đang tăng (vật rời xa VTCB), nên vật ở li độ \(x = +\frac{A\sqrt{3}}{2}\) và đang đi về biên dương (+A).
+- Hành trình: Từ \(+\frac{A\sqrt{3}}{2}\) ra biên dương (+A), quay về VTCB (0), rồi đến vị trí đích \(x = -\frac{A}{2}\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian di chuyển:
+  + Đoạn từ \(+\frac{A\sqrt{3}}{2}\) ra biên dương (+A): \(t_1 = \frac{T}{12}\).
+  + Đoạn từ biên dương (+A) về VTCB (0): \(t_2 = \frac{T}{4}\).
+  + Đoạn từ VTCB (0) đến \(-\frac{A}{2}\): \(t_3 = \frac{T}{12}\).
+- Tổng thời gian: \(t = t_1 + t_2 + t_3 = \frac{T}{12} + \frac{T}{4} + \frac{T}{12} = \frac{5T}{12}\).
+- Thay số: \(t = \frac{5 \times \frac{8}{15}}{12} = \frac{40}{180} = \frac{2}{9} \approx 0,222 \, \text{s}\).
+
+[3. KẾ LUẬN]:
+Thời điểm đầu tiên là \(t \approx 0,222 \, \text{s}\).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà, lỗi hiển thị."
+"Một chất điểm dao động điều hòa có vận tốc cực đại 100 cm/s và gia tốc cực đại là 5π(m/s^2) . Chọn mốc thế năng tại vị trí cân bằng. Thời điểm ban đầu (t = 0), chất điểm có vận tốc 50 cm/s và thế năng đang tăng. Thời điểm đầu tiên vật có gia tốc bằng 2,5π(m/s^2)là bao nhiêu?","[1. LỜI GIẢI CHI TIẾT]:
+- Tần số góc: ω = a_max / v_max = 5π = 500π / 100 = π rad/s. Chu kỳ T = 2π / ω = 2,0 (s).
+- Vị trí đích: a = 2.5π = a_max / 2, tương ứng với li độ x = -A/2.
+- Trạng thái đầu (t = 0): v = 50 = v_max / 2. Vì v > 0 và thế năng đang tăng (vật rời xa VTCB), nên vật ở li độ x = +A.sqrt(3)/2 và đang đi về biên dương (+A).
+- Hành trình: Từ +A.sqrt(3)/2 ra biên dương (+A), quay về VTCB (0), rồi đến vị trí đích x = -A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian di chuyển:
+  + Đoạn từ +A.sqrt(3)/2 ra biên dương (+A): t1 = T/12.
+  + Đoạn từ biên dương (+A) về VTCB (0): t2 = T/4.
+  + Đoạn từ VTCB (0) đến -A/2: t3 = T/12.
+- Tổng thời gian: t = t1 + t2 + t3 = T/12 + T/4 + T/12 = 5T/12.
+- Thay số: t = (5 . 2,0) / 12 = 10 / 12 = 0,833 (s).
+
+[3. KẾT LUẬN]:
+Thời điểm đầu tiên là t = 0,833 s.",Lời giải sai,"[1. LỜI GIẢI CHI TIẾT]:
+- Tần số góc: omega = a_max / v_max = 500.pi / 100 = 5.pi (rad/s). Chu kỳ T = 2.pi / omega = 0,4 (s).
+- Vị trí đích: a = 2,5.pi = a_max / 2, tương ứng với li độ x = -A/2.
+- Trạng thái đầu (t = 0): v = 50 = v_max / 2. Vì v > 0 và thế năng đang tăng (vật rời xa VTCB), nên vật ở li độ x = +A.sqrt(3)/2 và đang đi về biên dương (+A).
+- Hành trình: Từ +A.sqrt(3)/2 ra biên dương (+A), quay về VTCB (0), rồi đến vị trí đích x = -A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian di chuyển:
+  + Đoạn từ +A.sqrt(3)/2 ra biên dương (+A): t1 = T/12.
+  + Đoạn từ biên dương (+A) về VTCB (0): t2 = T/4.
+  + Đoạn từ VTCB (0) đến -A/2: t3 = T/12.
+- Tổng thời gian: t = t1 + t2 + t3 = T/12 + T/4 + T/12 = 5T/12.
+- Thay số: t = (5 . 0,4) / 12 = 2 / 12 = 1/6  pprox 0,167 (s).
+
+[3. KẾT LUẬN]:
+Thời điểm đầu tiên là t  pprox 0,167 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Tần số góc: \(\omega = \frac{a_{\text{max}}}{v_{\text{max}}} = \frac{5\pi}{1}{\text{m/s}^2} \div 1{\text{m/s}} = 5\pi \text{ rad/s}\). Chu kỳ \(T = \frac{2\pi}{\omega} = \frac{2\pi}{5\pi} = 0.4 \text{ s}\).
+- Vị trí đích: \(a = 2.5\pi = \frac{a_{\text{max}}}{2}\), tương ứng với li độ \(x = -\frac{A}{2}\).
+- Trạng thái đầu (t = 0): \(v = 50 = \frac{v_{\text{max}}}{2}\). Vì \(v > 0\) và thế năng đang tăng (vật rời xa VTCB), nên vật ở li độ \(x = +\frac{A\sqrt{3}}{2}\) và đang đi về biên dương (+A).
+- Hành trình: Từ \(+\frac{A\sqrt{3}}{2}\) ra biên dương (+A), quay về VTCB (0), rồi đến vị trí đích \(x = -\frac{A}{2}\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thời gian di chuyển:
+  + Đoạn từ \(+\frac{A\sqrt{3}}{2}\) ra biên dương (+A): \(t_1 = \frac{T}{12}\).
+  + Đoạn từ biên dương (+A) về VTCB (0): \(t_2 = \frac{T}{4}\).
+  + Đoạn từ VTCB (0) đến \(-\frac{A}{2}\): \(t_3 = \frac{T}{12}\).
+- Tổng thời gian: \(t = t_1 + t_2 + t_3 = \frac{T}{12} + \frac{T}{4} + \frac{T}{12} = \frac{5T}{12}\).
+- Thay số: \(t = \frac{5 \times 0.4}{12} = \frac{2}{12} = \frac{1}{6} \approx 0.167 \text{ s}\).
+
+[3. KẾ LUẬN]:
+Thời điểm đầu tiên là \(t \approx 0.167 \text{ s}\).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà, lỗi hiển thị."
+Một vật dao động với phương trình x = 8cos(2πt - π/4) (cm) (t tính bằng s). Khoảng thời gian ngắn nhất để vật đi từ vị trí có li độ 4 cm theo chiều dương đến vị trí có li độ −4√3 cm là,"#### 1. Lời Giải Chi Tiết:
+
+- **Thông Số:**  
+  - A = 8 cm (biên độ)
+  - ω = 2π rad/s (tần số góc)
+  - Chu Kỳ T = 1 s (do ω = 2π/T)
+
+- **Pha Đầu:**  
+  - X1 = 4 cm = A/2 và đi theo chiều dương (v > 0) nên pha đầu phi1 = -π/4 rad.
+
+- **Pha Dế:**  
+  - X2 = -4√3 cm = -A√3/2. Để thời gian ngắn nhất (quay ngược chiều kim đồng hồ), pha đích là phi2 = 5π/6 rad.
+
+- **Góc Quay:**  
+  - Delta_phi = phi2 - phi1 = 5π/6 - (-π/4) = 5π/6 + π/4 = 19π/12 rad.
+
+#### 2. Tính Toán Công Thức Và Thay Số:
+
+- **Giá Trị Góc Quay:**  
+  - Delta_phi = 19π/12 rad.
+
+- **Khoảng Thời Gian Ngắn Nhất:**  
+  - Delta_t = Delta_phi / ω = (19π/12) / (2π) = 19/24 s.
+
+#### 3. Kết Luận:
+
+- Khoảng thời gian ngắn nhất là Delta_t = 19/24 s.
+
+### Kết Luận:
+
+Khoảng thời gian ngắn nhất để vật đi từ vị trí có li độ 4 cm theo chiều dương đến vị trí có li độ -4√3 cm là **19/24 s**.","Lời giải sai, sai ở bước xác định phi1, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 8 cm, omega = 2.pi rad/s, chu kỳ T = 1 s.
+- Pha đầu: x1 = 4 cm = A/2 và đi theo chiều dương (v > 0) nên pha đầu phi1 = -pi/3 rad.
+- Pha đích: x2 = -4.sqrt(3) cm = -A.sqrt(3)/2. Để thời gian ngắn nhất (quay ngược chiều kim đồng hồ), pha đích là phi2 = 5.pi/6 rad.
+- Góc quay: delta_phi = phi2 - phi1.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Giá trị góc quay: delta_phi = 5.pi/6 - (-pi/3) = 7.pi/6 rad.
+- Khoảng thời gian ngắn nhất là: delta_t = delta_phi / omega = (7.pi/6) / (2.pi) = 7/12 (s).
+- (Tính toán: 7 / (12) s = 0.5833 s).
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là delta_t = 7/12 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 8 cm, omega = 2π rad/s, chu kỳ T = 1 s.
+- Pha đầu: x1 = 4 cm = A/2 và đi theo chiều dương (v > 0) nên pha đầu phi1 = π/4 rad.
+- Pha đích: x2 = -4√3 cm = -A√3/2. Để thời gian ngắn nhất (quay ngược chiều kim đồng hồ), pha đích là phi2 = 5π/6 rad.
+- Góc quay: delta_phi = phi2 - phi1.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Giá trị góc quay: delta_phi = 5π/6 - π/4 = 10π/12 - 3π/12 = 7π/12 rad.
+- Khoảng thời gian ngắn nhất là: delta_t = delta_phi / omega = (7π/12) / (2π) = 7/24 (s).
+- (Tính toán: 7 / (24) = 7/24 s).
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là delta_t = 7/24 s.","Lời giải sai, sai ở bước xác định phi1"
+Một chất điểm dao động với phương trình x = 10cos(5πt + π/3) (cm) (t tính bằng s). Tính thời gian ngắn nhất để chất điểm đi từ vị trí có li độ 5 cm theo chiều dương đến vị trí có li độ  -5√3 cm lần đầu tiên,"#### 1. Lời Giải Chi Tiết:
+
+- **Thông Số:**  
+  - Biên Độ \( A \) = 10 cm
+  - Tần Số Góc \( \omega \) = 5π rad/s
+  - Chu Kỳ \( T \) = 2 s
+
+- **Pha Đầu:**  
+  - Xác Định Pha Đầu:  
+    - X1 = 5 cm = A/2 và đi theo chiều dương (v > 0) nên pha đầu phi1 = -π/3 rad.
+
+- **Pha Dế:**  
+  - Xác Định Pha Dế:  
+    - X2 = -5√3 cm = -A√3/2. Để thời gian ngắn nhất (quay ngược chiều kim đồng hồ), pha đích là phi2 = 5π/6 rad.
+
+- **Góc Quay:**  
+  - Delta Phi = phi2 - phi1 = 5π/6 - (-π/3) = 7π/6 rad.
+
+#### 2. Tính Toán Công Thức Và Thay Số:
+
+- **Giá Trị Góc Quay:**  
+  - Delta Phi = 7π/6 rad.
+
+- **Khoảng Thời Gian Ngắn Nhất:**  
+  - Delta T = Delta Phi / ω = (7π/6) / (5π) = 7/30 s.
+
+#### 3. Kết Luận:
+
+- Khoảng Thời Gian Ngắn Nhất Là Delta T = 7/30 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà, lỗi hiển thị.","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 10 cm, omega = 5.pi rad/s, chu kỳ T = 2.pi / omega = 2.pi / 5.pi = 2/5 s.
+- Pha đầu: x1 = 5 cm = A/2 và đi theo chiều dương (v > 0) nên pha đầu phi1 = -pi/3 rad.
+- Pha đích: x2 = -5.sqrt(3) cm = -A.sqrt(3)/2. Để thời gian ngắn nhất (quay ngược chiều kim đồng hồ), pha đích là phi2 = 5.pi/6 rad.
+- Góc quay: delta_phi = phi2 - phi1 = 5.pi/6 - (-pi/3) = 5.pi/6 + pi/3 = 7.pi/6 rad.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Giá trị góc quay: delta_phi = 7.pi/6 rad.
+- Khoảng thời gian ngắn nhất là: delta_t = delta_phi / omega = (7.pi/6) / (5.pi) = 7/30 s.
+- (Tính toán: 7 / (6 . 5) = 7/30 s).
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là delta_t = 7/30 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 10 cm, omega = 5π rad/s, chu kỳ T = 2π / omega = 2π / (5π) = 2/5 s.
+- Pha đầu: x1 = 5 cm = A/2 và đi theo chiều dương (v > 0) nên pha đầu phi1 = -π/3 rad.
+- Pha đích: x2 = -5√3 cm = -A√3/2. Để thời gian ngắn nhất (quay ngược chiều kim đồng hồ), pha đích là phi2 = 5π/6 rad.
+- Góc quay: delta_phi = phi2 - phi1.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Giá trị góc quay: delta_phi = 5π/6 - (-π/3) = 5π/6 + π/3 = 5π/6 + 2π/6 = 7π/6 rad.
+- Khoảng thời gian ngắn nhất là: delta_t = delta_phi / omega = (7π/6) / (5π) = 7/30 (s).
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là delta_t = 7/30 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động theo phương trình x = 5cos(5πt - π/3) (cm) (t tính bằng s). Kể từ t = 0, thời điểm vật qua vị trí có li độ x = − 2,5 cm lần thứ 2019 là","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với N = 2019 (lẻ), ta tách N = 2018 + 1. Trong 2018 lần, vật thực hiện k = 2018/2 = 1009 chu kỳ. Thời điểm cần tìm là t2019 = 1009.T + t1, với t1 là thời gian vật đạt li độ x = -2,5 cm lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: omega = 5π rad/s => T = 2π/(5π) = 0,4 s.
+- Vị trí ban đầu: phi0 = -π/3 rad.
+- Số chu kỳ: k = 1009.
+- Thời gian lẻ (t1): Từ phi0 = -π/3 đến x = -2,5 (tức x = -A/2 lần 1) tương ứng pha phi1 = 2π/3.
+  + Góc quay: delta_phi = 2π/3 - (-π/3) = π rad.
+  + Thời gian: t1 = delta_phi / ω = π / (5π) = 0,2 s.
+- Kết quả: t2019 = 1009 * 0,4 + 0,2 = 403,6 s.
+
+[3. KẾT LUẬN]:
+Thời điểm vật qua li độ x = -2,5 cm lần thứ 2019 là t = 403,6 s.",Lời giải sai (sai ở bước tính kết quả cuối cùng),"[1. GIẢI THÍCH LÝ THUYẾT]:
+Với N = 2019 (lẻ), ta tách N = 2018 + 1. Trong 2018 lần, vật thực hiện k = 2018/2 = 1009 chu kỳ. Thời điểm cần tìm là t2019 = 1009.T + t1, với t1 là thời gian vật đạt li độ x = -2,5 cm lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: omega = 5π rad/s => T = 2π/(5π) = 0,4 s.
+- Vị trí ban đầu: phi0 = -π/3 rad.
+- Số chu kỳ: k = 1009.
+- Thời gian lẻ (t1): Từ phi0 = -π/3 đến x = -2,5 (tức x = -A/2 lần 1) tương ứng pha phi1 = 2π/3.
+  + Góc quay: delta_phi = 2π/3 - (-π/3) = π rad.
+  + Thời gian: t1 = delta_phi / omega = π / 5π = 0,2 s.
+- Kết quả: t2019 = 1009 * 0,4 + 0,2 = 403,6 + 0,2 = 403,8 s.
+
+[3. KẾT LUẬN]:
+Thời điểm vật qua li độ x = -2,5 cm lần thứ 2019 là t = 403,8 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với N = 2019 (lẻ), ta tách N = 2018 + 1. Trong 2018 lần, vật thực hiện k = 2018/2 = 1009 chu kỳ. Thời điểm cần tìm là t2019 = 1009.T + t1, với t1 là thời gian vật đạt li độ x = -2,5 cm lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: omega = 5π rad/s => T = 2π/(5π) = 0,4 s.
+- Vị trí ban đầu: phi0 = -π/3 rad.
+- Số chu kỳ: k = 1009.
+- Thời gian lẻ (t1): Từ phi0 = -π/3 đến x = -2,5 (tức x = -A/2 lần 1) tương ứng pha phi1 = 2π/3.
+  + Góc quay: delta_phi = 2π/3 - (-π/3) = π rad.
+  + Thời gian: t1 = delta_phi / omega = π / 5π = 0,2 s.
+- Kết quả: t2019 = 1009 * 0,4 + 0,2 = 403,6 + 0,2 = 403,8 s.
+
+[3. KẾT LUẬN]:
+Thời điểm vật qua li độ x = -2,5 cm lần thứ 2019 là t = 403,8 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động theo phương trình x = 10cos(5πt - π/3) (cm) (t tính bằng s). Kể từ t = 0, thời điểm vật qua vị trí có li độ x = −5 cm lần thứ 2021 là","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với N = 2021 (lẻ), ta tách N = 2020 + 1. Số chu kỳ thực hiện là k = 2020/2 = 1010 chu kỳ. Thời điểm cần tìm là t2021 = 1010.T + t1, với t1 là thời gian vật đạt li độ x = -5 cm lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: omega = 5π rad/s => T = 2π/(5π) = 0,4 s.
+- Vị trí ban đầu: phi0 = -π/3 rad.
+- Số chu kỳ: k = 1010.
+- Thời gian lẻ (t1): Từ phi0 = -π/3 đến x = -5 (tức x = -A/2 lần 1) tương ứng pha phi1 = 2π/3.
+  + Góc quay: delta_phi = 2π/3 - (-π/3) = π rad.
+  + Thời gian: t1 = delta_phi / ω = π / 5π = 0,2 s.
+- Kết quả: t2021 = 1010 * 0,4 + 0,2 = 404 + 0,2 = 404,2 s.
+
+[3. KẾT LUẬN]:
+Thời điểm vật qua li độ x = -5 cm lần thứ 2021 là t = 404,2 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Với N = 2021 (lẻ), ta tách N = 2020 + 1. Trong 2020 lần, vật thực hiện k = 2020/2 = 1010 chu kỳ. Thời điểm cần tìm là t2021 = 1010.T + t1, với t1 là thời gian vật đạt li độ x = −5 cm lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: omega = 5π rad/s => T = 2π/(5π) = 0,4 s.
+- Vị trí ban đầu: phi0 = -π/3 rad.
+- Số chu kỳ: k = 1010.
+- Thời gian lẻ (t1): Từ phi0 = -π/3 đến x = -5 (tức x = -A/2 lần 1) tương ứng pha phi1 = 2π/3.
+  + Góc quay: delta_phi = 2π/3 - (-π/3) = 2π/3 + π/3 = 1,047 rad (≈ 60°).
+  + Thời gian: t1 = delta_phi / omega = 1,047 / 5π ≈ 0,066 s.
+- Kết quả: t2021 = 1010 * 0,4 + 0,066 = 404 + 0,066 = 404,066 s.
+
+[3. KẾT LUẬN]:
+Thời điểm vật qua li độ x = −5 cm lần thứ 2021 là t = 404,066 s.",Lời giải sai (sai ở bước tính kết quả cuối cùng),"[1. GIẢI THÍCH LÝ THUYẾT]:
+Với N = 2021 (lẻ), ta tách N = 2020 + 1. Trong 2020 lần, vật thực hiện k = 2020/2 = 1010 chu kỳ. Thời điểm cần tìm là t2021 = 1010.T + t1, với t1 là thời gian vật đạt li độ x = -5 cm lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Thông số: omega = 5π rad/s => T = 2π/(5π) = 0,4 s.
+- Vị trí ban đầu: phi0 = -π/3 rad.
+- Số chu kỳ: k = 1010.
+- Thời gian lẻ (t1): Từ phi0 = -π/3 đến x = -5 (tức x = -A/2 lần 1) tương ứng pha phi1 = 2π/3.
+  + Góc quay: delta_phi = 2π/3 - (-π/3) = π rad.
+  + Thời gian: t1 = delta_phi / omega = π / 5π = 0,2 s.
+- Kết quả: t2021 = 1010 * 0,4 + 0,2 = 404 + 0,2 = 404,2 s.
+
+[3. KẾT LUẬN]:
+Thời điểm vật qua li độ x = -5 cm lần thứ 2021 là t = 404,2 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa quanh vị trí cân bằng O. Tại thời điểm t1, vật đi qua vị trí cân bằng. Trong khoảng thời gian từ thời điểm t1 đến thời điểm t2 = t1 +1/6, vật không đổi chiều chuyển động và tốc độ của vật giảm còn một nửa. Trong khoảng thời gian từ thời điểm t2 đến thời điểm t3 = t2 + 1/6, vật đi được quãng đường 10 cm. Tốc độ cực đại của vật trong quá trình dao động là","#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Tại t1:** Vật qua VTCB nên v1 = vmax.
+- **Tại t2:** v2 = vmax/2. Áp dụng công thức liên hệ x^2 + (v^2 / ω^2) = A^2, suy ra li độ x2 = A.sqrt(3)/2.
+- **Thời gian t2 - t1 = 1/6 s = T/6:** Chu kỳ T = 1 s và ω = 2π rad/s.
+- **Tại t3:** Thời gian t3 - t2 = T/6. Vật đi từ x2 = A.sqrt(3)/2 ra biên (+A) rồi quay lại đúng vị trí đó. Quãng đường S = 2.(A - A.sqrt(3)/2) = A.(2 - sqrt(3)).
+  
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- Chu kỳ T = 6 . (1/6) = 1 s. ω = 2π / 1 = 2π rad/s.
+- Quãng đường S = A.(2 - sqrt(3)) = 10 cm. Suy ra A = 10 / (2 - 1.732) = 22.36 cm.
+- Tốc độ cực đại: vmax = ω . A = 2π . 22.36 = 141.37 (cm/s).
+
+#### 3. KẾT LUẬN:
+
+Tốc độ cực đại là v_max = 141.37 cm/s.","Lời giải sai, sai ở bước tính A","[1. LỜI GIẢI CHI TIẾT]:
+- Tại t1: Vật qua VTCB nên v1 = vmax.
+- Tại t2: v2 = vmax/2. Áp dụng công thức liên hệ x^2 + (v^2 / omega^2) = A^2, suy ra li độ x2 = A.sqrt(3)/2.
+- Thời gian t2 - t1 = 1/6 s = T/6 => Chu kỳ T = 1,5 s và omega = 2.pi / 1,5 = 4.pi / 3 rad/s.
+- Tại t3: Thời gian t3 - t2 = T/6. Vật đi từ A.sqrt(3)/2 ra biên (+A) rồi quay lại đúng vị trí đó nên quãng đường S = 2.(A - A.sqrt(3)/2) = A.(2 - sqrt(3)).
+- Quãng đường S = 10 cm = 0,1 m. Suy ra A = 0,1 / (2 - 1,732) = 0,1 / 0,268 = 3,73 cm.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ T = 1,5 s. Omega = 4.pi / 3 rad/s.
+- Ta có S = A.(2 - sqrt(3)) = 0,1 m. Suy ra A = 0,1 / (2 - 1,732) = 0,1 / 0,268 = 3,73 cm.
+- Tốc độ cực đại: vmax = omega . A = (4.pi / 3) . 0,0373 = 1,52 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại là v_max = 1,52 cm/s.","Lời giải sai, sai ở bước tính T","[1. LỜI GIẢI CHI TIẾT]:
+- Tại t1: Vật đi qua vị trí cân bằng nên v1 = vmax.
+- Tại t2: v2 = vmax/2. Áp dụng công thức liên hệ x^2 + (v^2 / omega^2) = A^2, suy ra li độ x2 = A.sqrt(3)/2.
+- Thời gian t2 - t1 = 1/6 s = T/6 => Chu kỳ T = 1 s và omega = 2.pi rad/s.
+- Tại t3: Thời gian t3 - t2 = T/6. Vật đi từ A.sqrt(3)/2 ra biên rồi quay lại đúng vị trí đó nên S = 2.(A - A.sqrt(3)/2) = A.(2 - sqrt(3)).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ T = 6 . (1/6) = 1 s. Omega = 2.pi / 1 = 2.pi rad/s.
+- Quãng đường S = A.(2 - sqrt(3)) = 10 cm. Suy ra A = 10 / (2 - 1,732) = 37,27 cm.
+- Tốc độ cực đại: vmax = omega . A = 2 . 3,14 . 37,27 = 234,23 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của vật trong quá trình dao động là v_max = 234,23 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật dao động điều hòa quanh vị trí cân bằng O. Tại thời điểm t1, vật đi qua vị trí cân bằng. Trong khoảng thời gian từ thời điểm t1 đến thời điểm t2 = t1 +1/3, vật không đổi chiều chuyển động và tốc độ của vật giảm còn một nửa. Trong khoảng thời gian từ thời điểm t2 đến thời điểm t3 = t2 + 1/3, vật đi được quãng đường 6 cm. Tốc độ cực đại của vật trong quá trình dao động là","#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Tại t1:** Vật qua VTCB nên v1 = vmax.
+- **Tại t2:** v2 = vmax/2. Áp dụng công thức liên hệ x^2 + (v^2 / ω^2) = A^2, suy ra li độ x2 = A.sqrt(3)/2.
+- **Thời gian t2 - t1 = 1/3 s = T/6:** Chu kỳ T = 2 s và ω = 2π rad/s.
+- **Tại t3:** Thời gian t3 - t2 = 1/3 s. Vật đi từ x2 = A.sqrt(3)/2 ra biên (+A) rồi quay lại đúng vị trí đó. Quãng đường S = 2.(A - A.sqrt(3)/2) = A.(2 - sqrt(3)).
+  
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- Chu kỳ T = 6 . (1/3) = 2 s. ω = 2π / 2 = π rad/s.
+- Quãng đường S = A.(2 - sqrt(3)) = 6 cm. Suy ra A = 6 / (2 - 1.732) = 22.39 cm.
+- Tốc độ cực đại: vmax = ω . A = π . 22.39 = 70.03 (cm/s).
+
+#### 3. KẾT LUẬN:
+
+Tốc độ cực đại là v_max = 70.03 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà, lỗi hiển thị.","[1. LỜI GIẢI CHI TIẾT]:
+- Tại t1: Vật qua VTCB nên v1 = vmax.
+- Tại t2: v2 = vmax/2. Áp dụng công thức liên hệ giữa x và v: x^2 + (v^2 / omega^2) = A^2, suy ra li độ x2 = A.sqrt(3)/2.
+- Thời gian t2 - t1 = 1/3 s = T/9 => Chu kỳ T = 3 s và omega = 2.pi / 3 rad/s.
+- Tại t3: Thời gian t3 - t2 = T/9. Vật đi từ x2 = A.sqrt(3)/2 ra biên (+A) rồi quay lại đúng vị trí đó nên quãng đường S = 2.(A - A.sqrt(3)/2) = A.(2 - sqrt(3)).
+  
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ T = 3 . (1/3) = 1 s. Omega = 2.pi / 1 = 2.pi rad/s.
+- Quãng đường S = A.(2 - sqrt(3)) = 6 cm. Suy ra A = 6 / (2 - 1,732) = 18,48 cm.
+- Tốc độ cực đại: vmax = omega . A = 2 . 3,14 . 18,48 = 114,64 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại là v_max = 114,64 cm/s.","Lời giải sai, sai ở bước tính T","[1. LỜI GIẢI CHI TIẾT]:
+- Tại t1: Vật đi qua vị trí cân bằng nên v1 = vmax.
+- Tại t2: v2 = vmax/2. Áp dụng công thức liên hệ x^2 + (v^2 / ω^2) = A^2, suy ra li độ x2 = A.sqrt(3)/2.
+- Thời gian t2 - t1 = 1/3 s = T/6 => Chu kỳ T = 2 s và ω = π rad/s.
+- Tại t3: Thời gian t3 - t2 = 1/3 s = T/6. Vật đi từ A.sqrt(3)/2 ra biên (+A) rồi quay lại đúng vị trí đó. Quãng đường S = 2.(A - A.sqrt(3)/2) = A.(2 - sqrt(3)).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ T = 3 . (1/3) = 2 s. ω = 2π / 2 = π rad/s.
+- Quãng đường S = A.(2 - sqrt(3)) = 6 cm. Suy ra A = 6 / (2 - 1,732) = 21,65 cm.
+- Tốc độ cực đại: vmax = ω . A = π . 21,65 = 67,86 (cm/s).
+
+[3. KẾT LUẬN]:
+Tốc độ cực đại của vật trong quá trình dao động là v_max = 67,86 cm/s.","Lời giải sai, sai ở bước tính A"
+"Một vật dao động điều hòa dọc theo trục Ox với chu kì T, vị trí cân bằng và mốc thế năng ở gốc tọa độ. Tính từ lúc vật có li độ dương lớn nhất, thời điểm đầu tiên mà động năng bằng 1/3 lần thế năng là","### 1. LỜI GIẢI CHI TIẾT
+
+#### a) Xác định trạng thái đầu
+Vị trí của vật khi có li độ dương lớn nhất là biên dương (x = +A). 
+
+#### b) Phân tích tỉ lệ năng lượng
+Dựa vào giả thiết động năng (Wđ) và thế năng (Wt), áp dụng bảo toàn cơ năng (W = Wđ + Wt):
+
+\[ W_{đ} = \frac{1}{2} k x^{2} \]
+\[ W_{t} = \frac{1}{2} k A^{2} \]
+
+Trong trường hợp này, Wđ = Wt, do đó:
+
+\[ \frac{1}{2} k x^{2} = \frac{1}{2} k A^{2} \]
+
+Sử dụng công thức Wt = 1/2.k.x^2, ta có:
+
+\[ \frac{1}{2} k x^{2} = \frac{1}{2} k A^{2} \Rightarrow x = \pm A\sqrt{\frac{2}{k}} \]
+
+#### c) Suy ra li độ
+Khi Wđ = Wt, ta có:
+
+\[ \frac{1}{2} k x^{2} = \frac{1}{2} k A^{2} \Rightarrow x = \pm A\sqrt{\frac{2}{k}} \]
+
+Ta cần tìm x trong trường hợp Wđ = 1/3 Wt:
+
+\[ \frac{1}{2} k x^{2} = \frac{1}{3} \left(\frac{1}{2} k A^{2}\right) \]
+
+Rút gọn:
+
+\[ x^{2} = \frac{1}{3} A^{2} \Rightarrow x = \pm A\sqrt{\frac{1}{3}} \]
+
+#### d) Kết luận
+Vậy, thời điểm đầu tiên mà động năng bằng 1/3 lần thế năng là khi x = ± A√(1/3).
+
+### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ
+
+#### a) Xác định hành trình
+Vật dao động từ biên dương (+A) đến vị trí có li độ x = ± A√(1/3).
+
+#### b) Áp dụng trục thời gian
+Theo trục thời gian dao động điều hòa, thời gian ngắn nhất để vật đi từ biên dương đến vị trí có li độ x = ± A√(1/3) là:
+
+\[ t = \frac{T}{6} \]
+
+### 3. KẾT LUẬN
+Thời điểm đầu tiên động năng bằng 1/3 lần thế năng là t = T/6.",Lời giải sai,"[1. LỜI GIẢI CHI TIẾT]:
+- Vật có li độ dương lớn nhất tương ứng với vị trí biên dương (x = +A).
+- Theo đề bài, động năng bằng 1/3 thế năng: Wđ = 1/3.Wt.
+- Cơ năng tổng của vật: W = Wđ + Wt = 1/3.Wt + Wt = 4/3.Wt.
+- Suy ra: 1/2.k.x^2 = 1/3 . (1/2.k.A^2) => x^2 = 1/3.A^2 => x = A.sqrt(1/3) = A.sqrt(3)/3.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Khoảng thời gian ngắn nhất để vật đi từ vị trí biên dương (x = A) đến vị trí x = A.sqrt(3)/3.
+- Theo phương trình dao động điều hòa, thời gian này tương ứng với t = T/12.
+
+[3. KẾT LUẬN]:
+Thời điểm đầu tiên động năng bằng 1/3 thế năng là t = T/12.","Lời giải sai, sai ở bước xác định li độ x","[1. LỜI GIẢI CHI TIẾT]:
+- Vật có li độ dương lớn nhất tương ứng với vật đang ở vị trí biên dương (x = +A).
+- Theo đề bài, động năng bằng 1/3 thế năng: Wđ = 1/3.Wt.
+- Cơ năng của vật: W = Wđ + Wt = 1/3.Wt + Wt = 4/3.Wt => Wt = 3/4.W.
+- Suy ra: 1/2.k.x^2 = 3/4 . (1/2.k.A^2) => x = +/- A.sqrt(3)/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Khoảng thời gian ngắn nhất để vật đi từ vị trí biên dương (x = A) đến vị trí có li độ x = A.sqrt(3)/2.
+- Theo trục thời gian dao động điều hòa, thời gian này tương ứng với t = T/12.
+
+[3. KẾ LUẬN]:
+Thời điểm đầu tiên động năng bằng 1/3 thế năng là t = T/12.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một chất điểm dao động điều hòa với chu kì T, gốc thế năng tại vị trí cân bằng. Kể từ khi vật ở biên dương, sau khoảng thời gian ngắn nhất bao nhiêu thì động năng lại bằng 3 lần thế năng?","1. Lời giải chi tiết:
+   - Vật dao động điều hòa với chu kì T, nên khi ở biên dương (x = +A), vận tốc của vật là v = ±ω√(A² - ω²t²). Trong trường hợp này, vì chúng ta cần tìm thời điểm khi động năng bằng 3 lần thế năng, nên chúng ta sẽ tính toán cho thời điểm khi vật ở biên dương nhưng ngược chiều (x = -A).
+   - Tại thời điểm động năng bằng 3 lần thế năng, có thể viết: Wđ = 3Wt.
+   - Theo định luật bảo toàn cơ năng, W = Wđ + Wt = 4Wt.
+   - Do đó, 1/2.k.x^2 = 3/4 . (1/2.k.A^2) => x = ±A.sqrt(3)/2.
+   
+2. Tính toán công thức:
+   - Thời gian ngắn nhất để vật đi từ biên dương (-A) đến vị trí có li độ x = -A.sqrt(3)/2 là khoảng thời gian ngắn nhất trong chu kỳ dao động.
+   - Theo trục thời gian, thời gian này tương ứng với t = T/6.
+
+3. Kết luận:
+   - Thời điểm đầu tiên động năng bằng 3 lần thế năng là t = T/6.","Lời giải sai, sai ở bước xác định li độ x","[1. LỜI GIẢI CHI TIẾT]:
+- Vật xuất phát từ vị trí biên dương nên x = +A.
+- Theo đề bài, động năng bằng 3 lần thế năng: Wđ = 3.Wt.
+- Cơ năng của vật: W = Wđ + Wt = 3.Wt + Wt = 4.Wt => Wt = W/4.
+- Suy ra: 1/2.k.x^2 = 1/4 . (1/2.k.A^2) => x = +/- A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Khoảng thời gian ngắn nhất để vật đi từ biên dương (x = A) đến li độ x = A/2.
+- Theo trục thời gian, thời gian đi từ biên về vị trí x = A/2 là t = T/6.
+
+[3. KẾT LUẬN]:
+Thời điểm đầu tiên động năng bằng 3 lần thế năng là t = T/6.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Vật xuất phát từ vị trí biên dương nên li độ ban đầu là x = +A.
+- Theo đề bài, động năng bằng 3 lần thế năng: Wđ = 3.Wt.
+- Cơ năng của vật: W = Wđ + Wt = 3.Wt + Wt = 4.Wt => Wt = W/4.
+- Suy ra: 1/2.k.x^2 = 1/4 . (1/2.k.A^2) => x = +/- A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Khoảng thời gian ngắn nhất để vật đi từ biên dương (x = A) đến li độ x = A/2.
+- Theo trục thời gian, thời gian đi từ biên về vị trí x = A/2 là t = T/6.
+
+[3. KẾT LUẬN]:
+Thời điểm đầu tiên động năng bằng 3 lần thế năng là t = T/6.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một con lắc lò xo dao động điều hòa với tần số góc 12π rad/s và biên độ 2,5 cm. Khi vật đi qua vị trí có vận tốc 15π cm/s, gia tốc của vật có độ lớn là bao nhiêu?","### 1. Lời giải chi tiết:
+
+- **Thông số:** 
+  - Tần số góc ω = 12π rad/s
+  - Biên độ A = 2,5 cm
+  - Vận tốc v = 15π cm/s
+
+- **Hệ thức độc lập:** 
+  \[
+  \left(\frac{v}{v_{\text{max}}}\right)^2 + \left(\frac{a}{a_{\text{max}}}\right)^2 = 1
+  \]
+
+- **Công thức thành phần:** 
+  - Vận tốc cực đại \(v_{\text{max}}\) = ω . A
+  - Gia tốc cực đại \(a_{\text{max}}\) = ω² . A
+
+### 2. Tính toán công thức và thay số:
+
+#### Bước 1: Tính vận tốc cực đại \(v_{\text{max}}\)
+\[
+v_{\text{max}} = \omega \cdot A = 12\pi \cdot 2,5 = 30\pi \text{ cm/s}
+\]
+
+#### Bước 2: Tính gia tốc cực đại \(a_{\text{max}}\)
+\[
+a_{\text{max}} = \omega^2 \cdot A = (12\pi)^2 \cdot 2,5 = 144\pi^2 \cdot 2,5 = 360\pi^2 \text{ cm/s}^2
+\]
+
+#### Bước 3: Thay v, vmax, a max vào hệ thức
+\[
+\left(\frac{15\pi}{30\pi}\right)^2 + \left(\frac{a}{360\pi^2}\right)^2 = 1
+\]
+\[
+\left(\frac{1}{2}\right)^2 + \left(\frac{a}{360\pi^2}\right)^2 = 1
+\]
+\[
+\frac{1}{4} + \left(\frac{a}{360\pi^2}\right)^2 = 1
+\]
+\[
+\left(\frac{a}{360\pi^2}\right)^2 = 1 - \frac{1}{4} = \frac{3}{4}
+\]
+\[
+\frac{a}{360\pi^2} = \sqrt{\frac{3}{4}} = \frac{\sqrt{3}}{2}
+\]
+\[
+a = 360\pi^2 \cdot \frac{\sqrt{3}}{2} = 180\pi^2 \sqrt{3}
+\]
+
+#### Bước 4: Xấp xỉ giá trị
+Với π^2 ≈ 9,86 y π ≈ 3,14, ta có:
+\[
+a \approx 180 \times 9,86 \times 1,73 = 3200 \text{ cm/s}^2
+\]
+
+### 3. Kết luận:
+Độ lớn gia tốc xấp xỉ là 3200 cm/s^2.","Lời giải sai, không giải theo prompt hướng dẫn, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 2.5 cm, omega = 12.pi rad/s, v = 15.pi cm/s.
+- Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
+- Công thức: vmax = omega . A; amax = omega^2 . A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: vmax = 12.pi . 2.5 = 30.pi (cm/s).
+- Bước 2: amax = (12.pi)^2 . 2.5 = 144.pi^2 . 2.5 = 360.pi^2 (cm/s^2).
+- Bước 3: (15.pi / 30.pi)^2 + (a / 360.pi^2)^2 = 1.
+  => 1/4 + (a / 360.pi^2)^2 = 1 => (a / 360.pi^2)^2 = 3/4.
+  => |a| = 360.pi^2.sqrt(3)/2 = 180.pi^2.sqrt(3) (cm/s^2).
+- Bước 4 (Xấp xỉ): Với pi^2 = 10 và sqrt(3) = 1,73, ta có |a| = 180 . 10 . 1,73 = 3114 (cm/s^2).
+
+[3. KẾT LUẬN]:
+Độ lớn gia tốc xấp xỉ là 3114 cm/s^2.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 2,5 cm, omega = 12pi rad/s, v = 15pi cm/s.
+- Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
+- Công thức: vmax = omega . A; amax = omega^2 . A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: vmax = 12pi . 2,5 = 30pi (cm/s).
+- Bước 2: amax = (12pi)^2 . 2,5 = 144pi^2 . 2,5 = 360pi^2 (cm/s^2).
+- Bước 3: (15pi / 30pi)^2 + (a / 360pi^2)^2 = 1.
+  => (1/2)^2 + (a / 360pi^2)^2 = 1 => 1/4 + (a / 360pi^2)^2 = 1 => (a / 360pi^2)^2 = 3/4.
+  => |a| = 360pi^2 . sqrt(3)/2 = 180pi^2.sqrt(3) (cm/s^2).
+- Bước 4 (Xấp xỉ): Với pi^2 = 10 và sqrt(3) = 1,73, ta có |a| = 180 . 10 . 1,73 = 3114 (cm/s^2).
+
+[3. KẾT LUẬN]:
+Độ lớn gia tốc xấp xỉ là 3114 cm/s^2.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa với tần số góc 8π rad/s và biên độ 3 cm. Khi chất điểm có vận tốc 16π cm/s thì gia tốc của nó có độ lớn bằng bao nhiêu?,"[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 3 cm, omega = 8π rad/s, v = 16π cm/s.
+- Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: vmax = omega . A = 8π . 3 = 24π (cm/s).
+- Bước 2: amax = omega^2 . A = (8π)^2 . 3 = 64π^2 . 3 = 192π^2 (cm/s^2).
+- Bước 3: (16π / 24π)^2 + (a / 192π^2)^2 = 1.
+  => 1/9 + (a / 192π^2)^2 = 1 => (a / 192π^2)^2 = 8/9.
+  => |a| = 192π^2.sqrt(8/9) = 192π^2.2sqrt(2)/9 = 384π^2.sqrt(2)/9 (cm/s^2).
+- Bước 4 (Xấp xỉ): Với π^2 = 9, ta có |a| = 384 . 9 . 1,41 = 499,04 (cm/s^2).
+
+[3. KẾT LUẬN]:
+Độ lớn gia tốc xấp xỉ là 499,04 cm/s^2.","Lời giải sai, sai ở bước 3","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 3 cm, omega = 8π rad/s, v = 16π cm/s.
+- Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
+- Công thức: vmax = omega . A; amax = omega^2 . A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: vmax = 8π . 3 = 24π (cm/s).
+- Bước 2: amax = (8π)^2 . 3 = 64π^2 . 3 = 192π^2 (cm/s^2).
+- Bước 3: (16π / 24π)^2 + (a / 192π^2)^2 = 1.
+  => 4/9 + (a / 192π^2)^2 = 1 => (a / 192π^2)^2 = 5/9.
+  => |a| = 192π^2 / sqrt(5/9) = 192π^2 . 3 / sqrt(5) (cm/s^2).
+- Bước 4 (Xấp xỉ): Với π^2 = 10, ta có |a| = 192 . 10 . 3 / sqrt(5) = 5760 / sqrt(5) ≈ 5760 / 2.236 ≈ 2584,8 (cm/s^2).
+
+[3. KẾT LUẬN]:
+Độ lớn gia tốc xấp xỉ là 2584,8 cm/s^2.","Lời giải sai, sai ở bước 3","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A = 3 cm, omega = 8π rad/s, v = 16π cm/s.
+- Hệ thức: (v/vmax)^2 + (a/amax)^2 = 1.
+- Công thức: vmax = omega . A; amax = omega^2 . A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: Tính tốc độ cực đại vmax = 8π . 3 = 24π (cm/s).
+- Bước 2: Tính gia tốc cực đại amax = (8π)^2 . 3 = 64π^2 . 3 = 192π^2 (cm/s^2).
+- Bước 3: Thay v, vmax, amax vào hệ thức để tìm biểu thức của |a|.
+  => (16π / 24π)^2 + (a / 192π^2)^2 = 1.
+  => (2/3)^2 + (a / 192π^2)^2 = 1.
+  => 4/9 + (a / 192π^2)^2 = 1.
+  => (a / 192π^2)^2 = 5/9.
+  => |a| = 192π^2 . sqrt(5/9) = 64π^2 . sqrt(5) (cm/s^2).
+- Bước 4 (Xấp xỉ): Với π^2 = 10 và sqrt(5) ≈ 2,24, ta có |a| = 64 . 10 . 2,24 = 1433,6 (cm/s^2).
+
+[3. KẾ LUẬN]:
+Độ lớn gia tốc xấp xỉ là 1433,6 cm/s^2.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một chất điểm dao động điều hòa với chu kì T và biên độ 8 cm. Biết trong một chu kì, khoảng thời gian để chất điểm có vận tốc không lớn hơn 16π cm/s là 2T/3. Chu kì dao động của chất điểm là","#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Khoảng thời gian |v| <= vx**: Đây là khoảng thời gian mà vận tốc của chất điểm không lớn hơn 16π cm/s. Theo quy luật dao động điều hòa, khoảng thời gian này tương ứng với khoảng thời gian 2T/3. Do đó, chúng ta có:
+  \[
+  \frac{2T}{3} = \text{khoảng thời gian } |v| \leq 16\pi \text{ cm/s}
+  \]
+
+- **Khoảng thời gian |v| > vx**: Đây là khoảng thời gian mà vận tốc của chất điểm lớn hơn 16π cm/s. Theo quy luật dao động điều hòa, khoảng thời gian này tương ứng với khoảng thời gian T - 2T/3 = T/3. Do đó, chúng ta có:
+  \[
+  \frac{T}{3} = \text{khoảng thời gian } |v| > 16\pi \text{ cm/s}
+  \]
+
+- **Tiến hành phân tích**: Từ hai phương trình trên, chúng ta có thể kết luận rằng khoảng thời gian |v| > vx chiếm phần lớn trong chu kì dao động. 
+
+- **Phân chia thời gian**: Khoảng thời gian |v| > vx chiếm 1/3 của chu kì, tức là khoảng thời gian delta_t' = T/3. Khoảng thời gian |v| <= vx chiếm 2/3 của chu kì, tức là khoảng thời gian t1 = T/3.
+
+- **Xác định li độ x**: Từ t1 = T/3, chúng ta có thể tính được li độ x của chất điểm. Nếu t1 = T/3, thì x = A/2, vì A là biên độ dao động.
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- **Sử dụng công thức độc lập**: Công thức độc lập cho dao động điều hòa là:
+  \[
+  A^2 = x^2 + v_x^2/\omega^2
+  \]
+  Trong đó, A là biên độ, x là li độ, v_x là vận tốc, và ω là góc dịch động.
+
+- **Thay x theo A**: Từ công thức độc lập, thay x bằng A/2, ta có:
+  \[
+  A^2 = \left(\frac{A}{2}\right)^2 + v_x^2/\omega^2
+  \]
+  Giải phương trình này cho v_x, ta có:
+  \[
+  v_x^2 = \omega^2(A^2 - \frac{A^2}{4}) = \frac{3\omega^2A^2}{4}
+  \]
+  Từ đó, ta có:
+  \[
+  v_x = \omega\sqrt{\frac{3A^2}{4}} = \frac{\omegaA\sqrt{3}}{2}
+  \]
+
+- **Suy ra ω**: Từ v_x = 16π cm/s, ta có:
+  \[
+  \frac{\omegaA\sqrt{3}}{2} = 16\pi
+  \]
+  Giải phương trình này cho ω, ta có:
+  \[
+  \omega = \frac{32\pi}{A\sqrt{3}}
+  \]
+
+- **Tính chu kì T**: Chu kì T của dao động điều hòa là:
+  \[
+  T = \frac{2\pi}{\omega} = \frac{2\pi}{\frac{32\pi}{A\sqrt{3}}} = \frac{A\sqrt{3}}{16}
+  \]
+
+#### 3. KẾT LUẬN:
+
+Chu kì dao động của chất điểm là \( T = \frac{A\sqrt{3}}{16} \) với A là biên độ dao động.","Lời giải sai, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Khoảng thời gian |v| <= vx = 16π là 2T/3 (vùng gần biên).
+- Khoảng thời gian |v| > vx là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
+- Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/3) / 4 = T/12.
+- Với t1 = T/12 tính từ VTCB, li độ của vật là |x| = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Hệ thức độc lập: A^2 = (A/2)^2 + vx^2 / omega^2 => vx^2 / omega^2 = 3.A^2 / 4.
+- Suy ra vx = (omega.A).sqrt(3) / 2 = vmax.sqrt(3) / 2.
+- Thay số: 16π = (omega . 8).sqrt(3) / 2 => 16π = 4.omega.sqrt(3) => omega = 4π / sqrt(3) (rad/s).
+- Chu kỳ T = 2.pi / omega = 2.pi / (4π / sqrt(3)) = sqrt(3) / 2 (s).
+
+[3. KẾT LUẬN]:
+Chu kì dao động của chất điểm là T = sqrt(3) / 2 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Khoảng thời gian |v| <= vx = 16π là 2T/3 (vùng gần biên).
+- Khoảng thời gian |v| > vx là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
+- Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/3) / 4 = T/12.
+- Với t1 = T/12 tính từ VTCB, li độ của vật tại đó là |x| = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Áp dụng hệ thức độc lập: A^2 = (A/2)^2 + vx^2 / omega^2 => vx^2 / omega^2 = 3.A^2 / 4.
+- Suy ra vx = (omega.A).sqrt(3) / 2 = vmax.sqrt(3) / 2.
+- Thay số: 16π = (omega . 8).sqrt(3) / 2 => 16π = 4ω.sqrt(3) => ω = (16π) / (4.sqrt(3)) = 4π / sqrt(3).
+- Chu kỳ T = 2π / ω = 2π / (4π / sqrt(3)) = sqrt(3) (s).
+
+[3. KẾT LUẬN]:
+Chu kì dao động của chất điểm là T = sqrt(3) s.","Lời giải sai, sai ở bước tính T"
+"Một chất điểm dao động điều hòa với chu kì T và biên độ 12 cm. Biết trong một chu kì, khoảng thời gian để chất điểm có vận tốc không vượt quá 18π√3 cm/s là 2T/3. Chu kì dao động của chất điểm là","[1. LỜI GIẢI CHI TIẾT]:
+- Khoảng thời gian |v| <= vx = 18π√3 là 2T/3 (vùng gần biên).
+- Khoảng thời gian |v| > vx là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
+- Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/3) / 4 = T/12.
+- Với t1 = T/12 tính từ VTCB, li độ của vật tại đó là |x| = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Áp dụng hệ thức độc lập: A^2 = (A/2)^2 + vx^2 / omega^2 => vx^2 / omega^2 = 3.A^2 / 4.
+- Suy ra vx = (omega.A).sqrt(3) / 2 = vmax.sqrt(3) / 2.
+- Thay số: 18π√3 = (omega . 12).sqrt(3) / 2 => 18π = 6.omega => ω = 3π (rad/s).
+- Chu kỳ T = 2.pi / ω = 2.pi / 3π = 2/3 (s).
+
+[3. KẾT LUẬN]:
+Chu kì dao động của chất điểm là T = 2/3 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Khoảng thời gian |v| <= vx = 18π√3 là 2T/3 (vùng gần biên).
+- Khoảng thời gian |v| > vx là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
+- Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/3) / 4 = T/12.
+- Với t1 = T/12 tính từ VTCB, li độ của vật tại đó là |x| = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Áp dụng hệ thức độc lập: A^2 = (A/2)^2 + vx^2 / omega^2 => vx^2 / omega^2 = 3.A^2 / 4.
+- Suy ra vx = (omega.A).sqrt(3) / 2 = vmax.sqrt(3) / 2.
+- Thay số: 18π√3 = (omega . 12).sqrt(3) / 2 => 18π√3 = 6.omega.sqrt(3) => 3π = omega.
+- Chu kỳ T = 2.pi / omega = 2.pi / 3.pi = 2/3 (s).
+
+[3. KẾT LUẬN]:
+Chu kì dao động của chất điểm là T = 2/3 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Khoảng thời gian |v| <= vx = 18π√3 là 2T/3 (vùng gần biên).
+- Khoảng thời gian |v| > vx là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
+- Thời gian vật đi từ VTCB đến vị trí có tốc độ vx là t1 = (T/3) / 4 = T/12.
+- Với t1 = T/12 tính từ VTCB, li độ của vật tại đó là |x| = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Áp dụng hệ thức độc lập: A^2 = (A/2)^2 + vx^2 / omega^2 => vx^2 / omega^2 = 3.A^2 / 4.
+- Suy ra vx = (omega.A).sqrt(3) / 2 = vmax.sqrt(3) / 2.
+- Thay số: 18π√3 = (omega . 12).sqrt(3) / 2 => 18π√3 = 6ω√3 => 18π = 6ω => ω = 3π (rad/s).
+- Chu kỳ T = 2π / ω = 2π / 3π = 2/3 (s).
+
+[3. KẾT LUẬN]:
+Chu kì dao động của chất điểm là T = 2/3 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa. Tại thời điểm t1 chất điểm có li độ x1 = 4 cm và vận tốc bằng v1 = -40 cm/s. Tại thời điểm t2 chất điểm có li độ x2 = -2 cm và vận tốc bằng v2 = 40√3 cm/s. Xác định biên độ và tần số góc của dao động,"#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Dữ kiện:**  
+  - Thời điểm \(t_1\): \(x_1 = 4 \text{ cm}\), \(v_1 = -40 \sqrt{3} \text{ cm/s}\)
+  - Thời điểm \(t_2\): \(x_2 = -2 \text{ cm}\), \(v_2 = 40 \sqrt{3} \text{ cm/s}\)
+
+- **Áp dụng hệ thức độc lập:**  
+  \[
+  x_1^2 + \left(\frac{v_1}{\omega}\right)^2 = x_2^2 + \left(\frac{v_2}{\omega}\right)^2
+  \]
+
+- **Chuyển vế:**  
+  \[
+  \left(\frac{v_1}{\omega}\right)^2 - \left(\frac{v_2}{\omega}\right)^2 = x_2^2 - x_1^2
+  \]
+
+- **Suy ra công thức:**  
+  \[
+  \omega = \sqrt{\frac{x_2^2 - x_1^2}{\left(\frac{v_1}{\omega}\right)^2 - \left(\frac{v_2}{\omega}\right)^2}}
+  \]
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- **Bước 1:** Tính hiệu bình phương vận tốc:
+  \[
+  v_1^2 - v_2^2 = (-40 \sqrt{3})^2 - (40 \sqrt{3})^2 = 1600 - 1600 = 0
+  \]
+
+- **Bước 2:** Tính hiệu bình phương li độ:
+  \[
+  x_2^2 - x_1^2 = (-2)^2 - 4^2 = 4 - 16 = -12
+  \]
+
+- **Bước 3:** Tính omega:
+  \[
+  \omega = \sqrt{\frac{-12}{0}} = \sqrt{\infty}
+  \]
+
+- **Bước 4:** Thay omega vào công thức \(A^2 = x_1^2 + \left(\frac{v_1}{\omega}\right)^2\) để tìm biên độ \(A\):
+  \[
+  A^2 = 4^2 + \left(\frac{-40 \sqrt{3}}{\sqrt{\infty}}\right)^2 = 16 + 0 = 16
+  \]
+  \[
+  A = \sqrt{16} = 4 \text{ cm}
+  \]
+
+#### 3. KẾT LUẬN:
+
+- **Giá trị biên độ \(A\):** \(A = 4 \text{ cm}\)
+- **Giá trị tần số góc \(\omega\):** \(\omega = \sqrt{\infty}\) (không thể xác định vì không thể chia bởi 0)","Lời giải sai, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Dữ kiện: (x1 = 4 cm; v1 = -40 cm/s) và (x2 = -2 cm; v2 = 40.sqrt(3) cm/s).
+- Áp dụng hệ thức độc lập: x1^2 + (v1/omega)^2 = x2^2 + (v2/omega)^2.
+- Biến đổi: (v1/omega)^2 - (v2/omega)^2 = x2^2 - x1^2 => omega = sqrt[ (v1^2 - v2^2) / (x2^2 - x1^2) ].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: v1^2 - v2^2 = (-40)^2 - (40.sqrt(3))^2 = 1600 - 4800 = -3200.
+- Bước 2: x2^2 - x1^2 = (-2)^2 - 4^2 = 4 - 16 = -12.
+- Bước 3: omega = sqrt(-3200 / -12) = sqrt(3200 / 12) = sqrt(266.67) ≈ 16.33 (rad/s).
+- Bước 4: Tính A: A^2 = x1^2 + (v1/omega)^2 = 4^2 + (-40 / 16.33)^2.
+- A^2 = 16 + (2.45)^2 = 16 + 6 = 22 => A ≈ 4.69 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ A ≈ 4.69 cm và Tần số góc omega ≈ 16.33 rad/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Dữ kiện: (x1 = 4 cm; v1 = -40 cm/s) và (x2 = -2 cm; v2 = 40√3 cm/s).
+- Áp dụng hệ thức độc lập: x1^2 + (v1/ω)^2 = x2^2 + (v2/ω)^2.
+- Biến đổi: (v1/ω)^2 - (v2/ω)^2 = x2^2 - x1^2 => ω = sqrt[ (v1^2 - v2^2) / (x2^2 - x1^2) ].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: v1^2 - v2^2 = (-40)^2 - (40√3)^2 = 1600 - 4800 = -3200.
+- Bước 2: x2^2 - x1^2 = (-2)^2 - 4^2 = 4 - 16 = -12.
+- Bước 3: ω = sqrt[ (-3200) / (-12) ] = sqrt(3200 / 12) = sqrt(266.67) ≈ 16.33 (rad/s).
+- Bước 4: Tính A: A^2 = x1^2 + (v1/ω)^2 = 4^2 + (-40 / 16.33)^2.
+- A^2 = 16 + (2.45)^2 = 16 + 6.0025 = 22.0025 => A ≈ 4.69 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ A ≈ 4.69 cm và Tần số góc ω ≈ 16.33 rad/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một chất điểm dao động điều hòa. Tại thời điểm t1 chất điểm có li độ x1 = 5 cm và vận tốc bằng v1 = -50√3 cm/s. Tại thời điểm t2 chất điểm có li độ x2 = -5√3 cm và vận tốc bằng v2 = 50 cm/s. Xác định tần số góc và biên độ của dao động.,"#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Dữ kiện:**  
+  - Thời điểm \(t_1\): \(x_1 = 5 \text{ cm}\), \(v_1 = -50\sqrt{3} \text{ cm/s}\)
+  - Thời điểm \(t_2\): \(x_2 = -5\sqrt{3} \text{ cm}\), \(v_2 = 50 \text{ cm/s}\)
+
+- **Áp dụng hệ thức độc lập:**  
+  \[
+  x_1^2 + \left(\frac{v_1}{\omega}\right)^2 = x_2^2 + \left(\frac{v_2}{\omega}\right)^2
+  \]
+
+- **Chuyển vế:**  
+  \[
+  \left(\frac{v_1}{\omega}\right)^2 - \left(\frac{v_2}{\omega}\right)^2 = x_2^2 - x_1^2
+  \]
+
+- **Suy ra công thức:**  
+  \[
+  \omega = \sqrt{\frac{x_2^2 - x_1^2}{v_1^2 - v_2^2}}
+  \]
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- **Bước 1:** Tính hiệu bình phương vận tốc:
+  \[
+  v_1^2 - v_2^2 = (-50\sqrt{3})^2 - 50^2 = 7500 - 2500 = 5000
+  \]
+
+- **Bước 2:** Tính hiệu bình phương li độ:
+  \[
+  x_2^2 - x_1^2 = (-5\sqrt{3})^2 - 5^2 = 75 - 25 = 50
+  \]
+
+- **Bước 3:** Tính omega:
+  \[
+  \omega = \sqrt{\frac{50}{5000}} = \sqrt{\frac{1}{100}} = \frac{1}{10} \text{ rad/s}
+  \]
+
+- **Bước 4:** Tính A:
+  \[
+  A^2 = x_1^2 + \left(\frac{v_1}{\omega}\right)^2 = 5^2 + \left(\frac{-50\sqrt{3}}{\frac{1}{10}}\right)^2 = 25 + (500\sqrt{3})^2 = 25 + 750000 = 750025
+  \]
+  \[
+  A = \sqrt{750025} = 865 \text{ cm}
+  \]
+
+#### 3. KẾT LUẬN:
+
+- **Giá trị:**  
+  - Tần số góc \(\omega = \frac{1}{10} \text{ rad/s}\)
+  - Biên độ \(A = 865 \text{ cm}\)
+
+**Kết luận:**  
+- Tần số góc của dao động là \(\boxed{\frac{1}{10} \text{ rad/s}}\).
+- Biên độ của dao động là \(\boxed{865 \text{ cm}}\).","Lời giải sai, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Dữ kiện: (x1 = 5 cm; v1 = -50.sqrt(3) cm/s) và (x2 = -5.sqrt(3) cm; v2 = 50 cm/s).
+- Áp dụng hệ thức độc lập: x1^2 + (v1/omega)^2 = x2^2 + (v2/omega)^2.
+- Biến đổi: (v1/omega)^2 - (v2/omega)^2 = x2^2 - x1^2 => omega = sqrt[ (v1^2 - v2^2) / (x2^2 - x1^2) ].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: v1^2 - v2^2 = (-50.sqrt(3))^2 - 50^2 = 7500 - 2500 = 5000.
+- Bước 2: x2^2 - x1^2 = (-5.sqrt(3))^2 - 5^2 = 75 - 25 = 50.
+- Bước 3: omega = sqrt(5000 / 50) = sqrt(100) = 10 (rad/s).
+- Bước 4: Tính A: A^2 = x1^2 + (v1/omega)^2 = 5^2 + (-50.sqrt(3) / 10)^2.
+- Bước 4.1: (v1/omega)^2 = (-50.sqrt(3) / 10)^2 = (5.sqrt(3))^2 = 75.
+- Bước 4.2: A^2 = 25 + 75 = 100 => A = 10 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ A = 10 cm và Tần số góc omega = 10 rad/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, khá rườm rà ở bước 4.","[1. LỜI GIẢI CHI TIẾT]:
+- Dữ kiện: (x1 = 5 cm; v1 = -50√3 cm/s) và (x2 = -5√3 cm; v2 = 50 cm/s).
+- Áp dụng hệ thức độc lập: x1^2 + (v1/ω)^2 = x2^2 + (v2/ω)^2.
+- Biến đổi: (v1/ω)^2 - (v2/ω)^2 = x2^2 - x1^2 => ω = √[(v1^2 - v2^2) / (x2^2 - x1^2)].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Bước 1: v1^2 - v2^2 = (-50√3)^2 - (50)^2 = 7500 - 2500 = 5000.
+- Bước 2: x2^2 - x1^2 = (-5√3)^2 - 5^2 = 75 - 25 = 50.
+- Bước 3: ω = √(5000 / 50) = √100 = 10 (rad/s).
+- Bước 4: Tính A: A^2 = x1^2 + (v1/ω)^2 = 5^2 + (-50√3 / 10)^2.
+- A^2 = 25 + (5√3)^2 = 25 + 75 = 100 => A = 10 (cm).
+
+[3. KẾT LUẬN]:
+Biên độ A = 10 cm và Tần số góc ω = 10 rad/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một chất điểm dao động điều hòa theo phương trình x = Acos8πt cm (t tính bằng s). Tính từ t = 0, khoảng thời gian ngắn nhất để gia tốc của chất điểm có độ lớn bằng một nửa độ lớn gia tốc cực đại là","1. **Phương trình dao động điều hòa**: \( x(t) = A\cos(\omega t + \phi) \)
+   - Trong trường hợp này, \( A = 10 \) cm, \( \omega = 8\pi \) rad/s, và \( \phi = 0 \) vì pha ban đầu bằng 0.
+
+2. **Gia tốc**: \( a(t) = -\omega^2 x(t) \)
+
+3. **Độ lớn gia tốc cực đại**: \( a_{max} = -\omega^2A \)
+
+4. **Độ lớn gia tốc mong muốn**: \( a' = \frac{a_{max}}{2} = -\frac{\omega^2A}{2} \)
+
+Dựa vào phương trình gia tốc, chúng ta có:
+\[ a'(t) = -\omega^2 x(t) = -\omega^2 A\cos(\omega t) \]
+
+Thay vào các giá trị đã cho:
+\[ a'(t) = -(8\pi)^2 \cdot 10\cos(8\pi t) \]
+
+Chúng ta cần tìm thời gian \( t \) sao cho \( a'(t) = \frac{-\omega^2A}{2} \):
+\[ -(8\pi)^2 \cdot 10\cos(8\pi t) = -\frac{(8\pi)^2 \cdot 10}{2} \]
+
+Giải phương trình này cho \( t \):
+\[ \cos(8\pi t) = \frac{1}{2} \]
+
+Vì \( \cos(\theta) = \frac{1}{2} \) tại \( \theta = \pm \frac{\pi}{3} \), ta có:
+\[ 8\pi t = \pm \frac{\pi}{3} \]
+
+Solving for \( t \):
+\[ t = \frac{\pi}{24} \text{ hoặc } t = -\frac{\pi}{24} \]
+
+Trong trường hợp này, chỉ lấy phần dương vì thời gian không thể âm:
+\[ t = \frac{\pi}{24} \text{ s} \]
+
+Vậy khoảng thời gian ngắn nhất để gia tốc của chất điểm đạt được độ lớn bằng một nửa độ lớn gia tốc cực đại từ t = 0 là \( \frac{\pi}{24} \) giây.","Lời giải sai, tính toán sai kết quả cuối cùng (thừa ký tự pi trên tử số).","[1. LỜI GIẢI CHI TIẾT]:
+- Vị trí ban đầu (t = 0): Vì pha ban đầu bằng 0 nên vật đang ở biên dương x0 = A.
+- Điều kiện gia tốc: Vì x và a ngược pha (a = -omega^2.x) nên khi |a| = amax/2 thì li độ tương ứng là |x| = A/2.
+- Hành trình ngắn nhất: Vật thực hiện hành trình đi từ biên dương x = A về vị trí x = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ dao động: T = 2.pi / omega = 2.pi / 8.pi = 1/4 (s).
+- Theo trục thời gian, khoảng thời gian ngắn nhất từ biên dương về vị trí A/2 là t = T/6.
+- Thay số: t = 1/4 / 6 = 1/24 (s).
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là t = 1/24 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Vị trí ban đầu (t = 0): Vì pha ban đầu bằng 0 nên vật đang ở biên dương x0 = A.
+- Điều kiện gia tốc: Vì x và a ngược pha (a = -ω²x) nên khi |a| = amax/2 thì li độ tương ứng là |x| = A/2.
+- Hành trình ngắn nhất: Vật thực hiện hành trình đi từ biên dương x = A về vị trí x = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phương trình dao động: x = Acos(8πt).
+- Tần số góc ω = 8π rad/s.
+- Độ lớn gia tốc cực đại: a_max = ω²A = (8π)²A = 64π²A.
+- Khi |a| = a_max/2, ta có: |a| = 64π²A/2 = 32π²A.
+- Gia tốc a = -ω²x, do đó |a| = ω²|x|.
+- Khi |a| = 32π²A, ta có: 32π²A = 64π²A/2, suy ra |x| = A/2.
+- Thời gian t để vật di chuyển từ x = A đến x = A/2: t = T/6, trong đó T là chu kỳ dao động.
+- Chu kỳ dao động: T = 2π/ω = 2π/(8π) = 1/4 s.
+- Khoảng thời gian ngắn nhất: t = T/6 = (1/4)/6 = 1/24 s.
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là t = 1/24 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, rườm rà ở bước 2"
+"Một chất điểm dao động điều hòa theo phương trình x = Acos2πt cm (t tính bằng s). Kể từ thời điểm t = 0, khoảng thời gian ngắn nhất để gia tốc của chất điểm có độ lớn bằng một nửa độ lớn gia tốc cực đại là","#### 1. LỜI GIẢI CHI TIẾT:
+- **Vị trí ban đầu (t = 0)**: Vật đang ở biên dương \( x_0 = A \).
+- **Điều kiện gia tốc**: Do \( x \) và \( a \) ngược pha (\( a = -\omega^2 x \)), khi \( |a| = a_{max}/2 \), thì \( |x| = A/2 \).
+- **Hành trình ngắn nhất**: Vật thực hiện hành trình đi từ biên dương \( x = A \) về vị trí \( x = A/2 \).
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- **Chu kỳ dao động**: \( T = \frac{2\pi}{\omega} = \frac{2\pi}{2\pi} = 1 \) s.
+- **Thời gian ngắn nhất từ biên dương về vị trí \( A/2 \)**: \( t = \frac{T}{6} = \frac{1}{6} \) s.
+- **Thay số**: \( t = \frac{1}{6} \) s.
+
+#### 3. KẾT LUẬN:
+Khoảng thời gian ngắn nhất là \( t = \frac{1}{6} \) s.","Lời giải đúng. Tuy nhiên, không tuân theo thứ tự giải prompt và bị lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Vị trí ban đầu (t = 0): Vì pha ban đầu bằng 0 nên vật đang ở biên dương x0 = A.
+- Điều kiện gia tốc: Vì x và a ngược pha (a = -ω².x) nên khi |a| = amax/2 thì li độ tương ứng là |x| = A/2.
+- Hành trình ngắn nhất: Vật thực hiện hành trình đi từ biên dương x = A về vị trí x = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Chu kỳ dao động: T = 2π / ω = 2π / 2π = 1 (s).
+- Theo trục thời gian, khoảng thời gian ngắn nhất từ biên dương về vị trí A/2 là t = T/6.
+- Thay số: t = 1 / 6 (s).
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là t = 1/6 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Vị trí ban đầu (t = 0): Vì pha ban đầu bằng 0 nên vật đang ở biên dương x0 = A.
+- Điều kiện gia tốc: Vì x và a ngược pha (a = -ω²x) nên khi |a| = amax/2 thì li độ tương ứng là |x| = A/2.
+- Hành trình ngắn nhất: Vật thực hiện hành trình đi từ biên dương x = A về vị trí x = A/2.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Phương trình dao động: x = Acos(2πt).
+- Tần số góc ω = 2π rad/s.
+- Độ lớn gia tốc cực đại: a_max = ω²A = (2π)²A = 4π²A.
+- Khi |a| = a_max/2, ta có: |a| = -ω²x = -4π²A/2 = -2π²A.
+- Li độ tương ứng: x = A/2.
+- Chu kỳ dao động: T = 2π/ω = 2π/(2π) = 1 s.
+- Khoảng thời gian ngắn nhất từ biên dương về vị trí A/2: t = T/6 = 1/6 s.
+
+[3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất là t = 1/6 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, rườm rà ở bước 2"
+"Con lắc lò xo gồm lò xo không khối lượng và vật nhỏ dao động điều hòa trên mặt phẳng ngang với tần số góc 20 rad/s. Tại thời điểm động năng bằng thế năng (chọn gốc thế năng tại vị trí cân bằng), độ lớn vận tốc của vật là 1.0 m/s. Tính biên độ dao động.","1. GIẢI THÍCH LÝ THUYẾT:
+Khi động năng bằng thế năng (W_đ = W_t), li độ x thỏa mãn x^2 = A^2/2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2/ω^2), ra rút ra công thức tính biên độ trực tiếp từ tốc độ: A = (v√2)/ω
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Tham số: ω = 20 rad/s; v = 1.0  m/s
+- Công thức: A = (v√2)/ω
+- Thay số: A = (1√2)/20
+A = 0.1√2 m
+3. KẾT LUẬN:
+Biên độ dao động của con lắc là A = 0.1√2 m",Lời giải sai,"1. GIẢI THÍCH LÝ THUYẾT:
+Khi động năng bằng thế năng (W_đ = W_t), li độ x thỏa mãn x^2 = A^2/2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2/ω^2), ra rút ra công thức tính biên độ trực tiếp từ tốc độ: A = (v√2)/ω
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Tham số: ω = 20 rad/s; v = 1  m/s
+- Công thức: A = (v√2)/ω
+- Thay số: A = (1√2)/20
+A = √2/20 m
+3. KẾT LUẬN:
+Biên độ dao động của con lắc là A = √2/20 m","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. GIẢI THÍCH LÝ THUYẾT:
+Khi động năng bằng thế năng (W_đ = W_t), li độ x thỏa mãn x^2 = A^2/2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2/ω^2), ra rút ra công thức tính biên độ trực tiếp từ tốc độ: A = (v√2)/ω
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Tham số: ω = 20 rad/s; v = 1  m/s
+- Công thức: A = (v√2)/ω
+- Thay số: A = (1√2)/20
+A = √2/20 m
+3. KẾT LUẬN:
+Biên độ dao động của con lắc là A = √2/20 m","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Hệ thống lò xo - vật nặng thực hiện dao động điều hòa theo phương nằm ngang với tần số góc 5 rad/s. Khi năng lượng động bằng năng lượng thế (mốc thế năng tại vị trí cân bằng), tốc độ của vật đạt giá trị 0.4 m/s. Tìm biên độ dao động.","1. GIẢI THÍCH LÝ THUYẾT:
+Khi năng lượng động năng bằng  năng lượng thế  (W_đ = W_t), li độ x thỏa mãn x^2 = A^2/2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2/ω^2), ra rút ra công thức tính biên độ trực tiếp từ tốc độ: A = (v√2)/ω
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Tham số: ω = 5 rad/s; v = 0,4  m/s
+- Công thức: A = (v√2)/ω
+- Thay số: A = (0,4√2)/5
+A = (0,4√2)/5 m
+3. KẾT LUẬN:
+Biên độ dao động của hệ thống là A = (0,4√2)/5 m","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. GIẢI THÍCH LÝ THUYẾT:
+Khi động năng bằng thế năng (W_đ = W_t), li độ x thỏa mãn x^2 = A^2/2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2/ω^2), ra rút ra công thức tính biên độ trực tiếp từ tốc độ: A = (v√2)/ω
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Tham số: ω = 5 rad/s; v = 0,4  m/s
+- Công thức: A = (v√2)/ω
+- Thay số: A = (0,4√2)/5
+A = (0,4√2)/5 m
+3. KẾT LUẬN:
+Biên độ dao động của con lắc là A = (0,4√2)/5 m","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","1. GIẢI THÍCH LÝ THUYẾT:
+Khi động năng bằng thế năng (W_đ = W_t), li độ x thỏa mãn x^2 = A^2/2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2/ω^2), ra rút ra công thức tính biên độ trực tiếp từ tốc độ: A = (v√2)/ω
+2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- Tham số: ω = 5 rad/s; v = 0,4  m/s
+- Công thức: A = (v√2)/ω
+- Thay số: A = (0,4√2)/5
+A = (0,08√2 m
+3. KẾT LUẬN:
+Biên độ dao động của con lắc là A = 0,08√2 m","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một con lắc lò xo dao động điều hòa với chu kì T và biên độ 10 cm. Biết trong một chu kì, khoảng thời gian để vật nhỏ của con lắc có độ lớn gia tốc không vượt quá 50 cm/s² là T/3. Lấy π² = 10. Tần số dao động của vật là bao nhiều?","#### 1. LỜI GIẢI CHI TIẾT:
+- **Miền Li Độ:** Điều kiện |a| ≤ 50 cm/s² tương ứng với vùng vật ở gần vị trí cân bằng (li độ nhỏ). Đây là phần của chu kỳ khi vật nhỏ đang di chuyển từ vị trí cân bằng đến điểm có độ lớn gia tốc lớn nhất.
+- **Thời Gian t1:** Thời gian vật nhỏ đi từ vị trí cân bằng đến điểm có độ lớn gia tốc lớn nhất trong một chu kỳ là \( \frac{T}{3} \). Do đó, thời gian vật nhỏ đi từ vị trí cân bằng đến điểm có độ lớn gia tốc lớn nhất là \( \frac{T}{12} \).
+- **Xác Định Li Độ Xa:** Với \( t1 = \frac{T}{12} \), ta có thể xác định được li độ xa (nơi có độ lớn gia tốc lớn nhất) như sau:
+  \[
+  x_a = \frac{A}{2}
+  \]
+  Trong đó, \( A = 10 \) cm là biên độ của con lắc lò xo.
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+- **Công Thức Liên Hệ:** Công thức liên hệ giữa độ lớn gia tốc \( a \) và góc lệch \( \theta \) trong dao động điều hòa là:
+  \[
+  a = -\omega^2 x
+  \]
+  Trong đó, \( \omega \) là góc lệch/tần số dao động.
+  
+- **Suy Ra Tần Số ω:** Từ công thức \( a = -\omega^2 x \), ta có:
+  \[
+  \omega^2 = \frac{g}{x_a}
+  \]
+  Trong đó, \( g \) là trọng lực trên bề mặt trái đất (gọi là 980 cm/s² hoặc 9.8 m/s²).
+  
+  Với \( x_a = \frac{A}{2} = 5 \) cm, ta có:
+  \[
+  \omega^2 = \frac{980}{5} = 196
+  \]
+  Suy ra:
+  \[
+  \omega = \sqrt{196} = 14 \text{ rad/s}
+  \]
+
+- **Tần Số f:** Tần số dao động \( f \) được tính bằng:
+  \[
+  f = \frac{\omega}{2\pi} = \frac{14}{2\pi} = \frac{7}{\pi} \approx 2.2 \text{ Hz}
+  \]
+
+#### 3. KẾT LUẬN:
+Tần số dao động của vật là approximately 2.2 Hz.","Lời giải sai, không giải theo prompt hướng dẫn, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Miền li độ: Điều kiện |a| <= 50 cm/s² tương ứng với vùng vật ở gần VTCB.
+- Thời gian t1: Thời gian vật đi từ VTCB đến li độ xa (nơi |a| = 50) là t1 = (T/3) / 4 = T/12.
+- Xác định li độ: Với t1 = T/12 tính từ VTCB, ta có xa = A/2 = 10 / 2 = 5 (cm).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức: ax = ω² . xa => 50 = ω² . 5 => ω² = 10.
+- Suy ra ω = √10 = π (rad/s).
+- Tần số dao động: f = ω / (2π) = π / (2π) = 0,5 (Hz).
+
+[3. KẾT LUẬN]:
+Tần số dao động của vật là f = 0,5 Hz.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Miền li độ: Điều kiện |a| <= 50 cm/s² tương ứng với vùng vật ở gần VTCB.
+- Thời gian t1: Thời gian vật đi từ VTCB đến li độ xa (nơi |a| = 50) là t1 = (T/3) / 4 = T/12.
+- Xác định li độ: Với t1 = T/12 tính từ VTCB, ta có xa = A/2 = 10 / 2 = 5 (cm).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức: ax = ω² . xa => 50 = ω² . 5 => ω² = 10.
+- Suy ra ω = √10 = π (rad/s).
+- Tần số dao động: f = ω / (2π) = π / (2π) = 0,5 (Hz).
+
+[3. KẾT LUẬN]:
+Tần số dao động của vật là f = 0,5 Hz.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một con lắc lò xo dao động điều hòa với chu kì T và biên độ 20 cm. Biết trong một chu kì, khoảng thời gian để vật nhỏ của con lắc có độ lớn gia tốc không lớn hơn 400 cm/s² là T/3. Lấy π² = 10. Tần số dao động của con lắc là bao nhiều?","Để giải quyết bài toán này, chúng ta sẽ sử dụng các thông tin đã cung cấp:
+
+1. Chu kì T của con lắc lò xo.
+2. Biên độ A của con lắc lò xo là 20 cm.
+3. Thời gian T/3 để độ lớn gia tốc không lớn hơn 400 cm/s².
+
+Dựa vào thông tin được cung cấp, chúng ta có thể thực hiện các bước sau:
+
+**Bước 1: Tính thời gian T/3**
+
+Trong một chu kì, nếu độ lớn gia tốc không lớn hơn 400 cm/s² thì đó là khoảng thời gian T/3. Do đó, ta có:
+
+\[ \frac{T}{3} = \sqrt{\frac{400}{A}} \]
+
+Với A = 20 cm, ta có:
+
+\[ \frac{T}{3} = \sqrt{\frac{400}{20}} = \sqrt{20} \approx 4.47 \text{ s} \]
+
+**Bước 2: Tính tần số f**
+
+Tần số f của dao động điều hòa được tính bằng cách chia chu kì T cho khoảng thời gian T/3:
+
+\[ f = \frac{T}{\frac{T}{3}} = 3 \]
+
+Do đó, tần số dao động của con lắc lò xo là 3 Hz.
+
+**Kết luận:** Tần số dao động của con lắc lò xo là 3 Hz.","Lời giải sai, không giải theo prompt hướng dẫn","[1. LỜI GIẢI CHI TIẾT]:
+- Miền li độ: Điều kiện |a| <= 400 cm/s² tương ứng với vùng vật ở gần VTCB.
+- Thời gian t1: Thời gian vật đi từ VTCB đến li độ xa (nơi |a| = 400) là t1 = (T/3) / 4 = T/12.
+- Xác định li độ: Với t1 = T/12 tính từ VTCB, ta có xa = A/2 = 20 / 2 = 10 (cm).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức: ax = ω² . xa => 400 = ω² . 10 => ω² = 40.
+- Suy ra ω = √40 = 2√10 (rad/s).
+- Tần số dao động: f = ω / (2π) = 2√10 / (2π) = √10 / π (Hz).
+- Sử dụng giả thiết π² = 10 để tính tần số f: f = √10 / √10 = 1 (Hz).
+
+[3. KẾT LUẬN]:
+Tần số dao động của con lắc là f = 1 Hz.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Miền li độ: Điều kiện |a| <= 400 cm/s² tương ứng với vùng vật ở gần VTCB.
+- Thời gian t1: Thời gian vật đi từ VTCB đến li độ xa (nơi |a| = 400) là t1 = (T/3) / 4 = T/12.
+- Xác định li độ: Với t1 = T/12 tính từ VTCB, ta có xa = A/2 = 20 / 2 = 10 (cm).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức: ax = ω² . xa => 400 = ω² . 10 => ω² = 40.
+- Suy ra ω = √40 = 2√10 = π (rad/s), vì π² = 10.
+- Tần số dao động: f = ω / (2π) = π / (2π) = 0,5 (Hz).
+
+[3. KẾT LUẬN]:
+Tần số dao động của con lắc là f = 0,5 Hz.","Lời giải sai, sai ở bước tính omega"
+"Một chất điểm dao động điều hòa trên trục Ox. Tại mọi thời điểm t li độ và vận tốc của vật luôn thỏa mãn hệ thức 
+x^2/16 + v^2/64π^2 = 1. Tại thời điểm t = 1/2 (s) vật đang ở li độ x = 2 cm và di chuyển nhanh dần. Lấy π^2 = 10. Viết phương trình dao động","### 1. Lời giải chi tiết:
+
+#### a) Xác định thông số A và ω:
+- Hệ thức dao động được cho là \( \frac{x^2}{16} + \frac{v^2}{64\pi^2} = 1 \).
+- Trong đó, \(A\) là bán kính dao động và \(ω\) là góc dao động.
+- Từ hệ thức này, ta có:
+  - \(A^2 = 16\)
+  - \(ω^2 = \frac{64\pi^2}{16}\)
+
+  Do đó,
+  - \(A = 4\) cm
+  - \(ω = 4\pi\) rad/s
+
+#### b) Phân tích trạng thái tại t = 1/2 s:
+- Tại thời điểm \(t = \frac{1}{2}\) s, ta có:
+  - \(x = 2\) cm
+  - \(v = \frac{dx}{dt}\) (điều kiện vật di chuyển nhanh dần)
+
+  Để tính \(v\), sử dụng định luật vận tốc:
+  \[
+  v = \frac{dx}{dt}
+  \]
+
+  Nhưng vì \(v\) không được cung cấp trực tiếp, ta sẽ dựa vào điều kiện vật di chuyển nhanh dần. Theo quy tắc, khi vật di chuyển nhanh dần, vận tốc tăng lên. Do đó, \(v\) sẽ lớn hơn \(x\) tại thời điểm \(t = \frac{1}{2}\) s.
+
+  Tuy nhiên, để giải quyết vấn đề này, chúng ta cần thêm thông tin về vận tốc tại thời điểm khác hoặc cách tính \(v\) khác. Tuy nhiên, trong bài toán hiện tại, chúng ta chỉ có thể dựa vào điều kiện vật ở li độ dương và di chuyển nhanh dần để xác định pha.
+
+#### c) Phản ánh trạng thái tại t = 1/2 s:
+- Vật ở li độ dương (x > 0) và di chuyển nhanh dần, tức là \(v < 0\).
+- Do đó, vật đang tiến về vị trí cân bằng (VTCB) từ phía dương.
+
+#### d) Tính phi tại thời điểm t = 1/2 s:
+- Sử dụng công thức \(cos(\phi) = \frac{x}{A}\):
+  \[
+  cos(\phi) = \frac{2}{4} = \frac{1}{2}
+  \]
+- Do đó, \(φ = \arccos\left(\frac{1}{2}\right)\) = \(\frac{\pi}{3}\) (do \(cos(\frac{\pi}{3}) = \frac{1}{2}\))
+
+#### e) Tính phi_t tại thời điểm t = 1/2 s:
+- Phi_t là pha ban đầu của vật, do đó:
+  \[
+  φ_t = \frac{\pi}{3}
+  \]
+
+#### f) Tính phương trình dao động:
+- Phương trình dao động dạng \(x = A\cos(ωt + φ)\) trở thành:
+  \[
+  x = 4\cos(4\pi t + \frac{\pi}{3})
+  \]
+
+### Kết luận:
+Phương trình dao động của chất điểm là:
+\[
+x = 4\cos(4\pi t + \frac{\pi}{3}) \text{ cm}
+\]","Lời giải sai, không giải theo prompt hướng dẫn, lỗi hiển thị","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A^2 = 16 => A = 4 cm. (omega.A)^2 = 64π^2 => omega^2 = 64π^2 / 16 = 4π^2 => omega = 2π (rad/s).
+- Tại t = 1/2 s: cos(phi_t) = x/A = 2 / 4 = 1/2.
+- Logic: Vật ở x = 2 (dương) và nhanh dần nên đang tiến về VTCB (theo chiều âm, v < 0).
+- Suy ra pha tại thời điểm t là phi_t = π/3 (vì cos = 1/2 và sin > 0).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có: omega.t + phi = phi_t => 2π.(1/2) + phi = π/3.
+- 2π + phi = π/3 => phi = π/3 - 2π = -5π/3 (rad).
+
+[3. KẾT LUẬN]:
+Phương trình dao động: x = 4.cos(2πt - 5π/3) cm.","Lời giải sai, sai ở bước tính φ cuối","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A^2 = 16 => A = 4 cm. (ω.A)^2 = 64π^2 => ω^2 = 64π^2 / 16 = 4π^2 => ω = 2π (rad/s).
+- Tại t = 1/2 s: cos(φ_t) = x/A = 2 / 4 = 1/2.
+- Logic: Vật ở x = 2 (dương) và di chuyển nhanh dần nên đang hướng về Vị trí Cân Bằng (VTCB) (theo chiều âm, v < 0).
+- Suy ra pha tại thời điểm t là φ_t = π/3 (vì cos = 1/2 và sin > 0).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có: ωt + φ = φ_t => 2π(1/2) + φ = π/3.
+- 2π + φ = π/3 => φ = π/3 - 2π = -5π/3 (rad).
+
+[3. KẾT LUẬN]:
+Phương trình dao động: x = 4.cos(2πt - 5π/3) cm.","Lời giải sai, sai ở bước tính φ cuối"
+"Một chất điểm dao động điều hòa thỏa mãn hệ thức: x^2/9 + v^2/36π^2 = 1. Tại thời điểm t = 1/3 (s) vật có li độ x = 1,5 cm và di chuyển nhanh dần. Lấy π^2 = 10. Phương trình dao động của vật là?","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A^2 = 9 => A = 3 cm. (ωA)^2 = 36π^2 => ω^2 = 36π^2 / 9 = 4π^2 => ω = 2π (rad/s).
+- Tại t = 1/3 s: cos(φ_t) = x/A = 1,5 / 3 = 0.5.
+- Logic: Vật ở x = 1,5 (dương) và nhanh dần nên đang tiến về VTCB (theo chiều âm, v < 0).
+- Suy ra pha tại thời điểm t là φ_t = π/3 (vì cos = 0.5 và sin > 0).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có: ωt + φ = φ_t => 2π.(1/3) + φ = π/3.
+- Suy ra: φ = π/3 - π/3 = 0 (rad).
+
+[3. KẾT LUẬN]:
+Phương trình dao động: x = 3.cos(2π.t) cm.","Lời giải sai, sai ở bước tính φ cuối","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A^2 = 9 => A = 3 cm. (omega.A)^2 = 36π^2 => omega^2 = 36π^2 / 9 = 4π^2 => omega = 2π (rad/s).
+- Tại t = 1/3 s: cos(phi_t) = x/A = 1,5 / 3 = 0,5.
+- Logic: Vật ở x = 1,5 (dương) và nhanh dần nên đang tiến về VTCB (theo chiều âm, v < 0).
+- Suy ra pha tại thời điểm t là phi_t = π/3 (vì cos = 0,5 và sin > 0).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có: omega.t + phi = phi_t => 2π.(1/3) + phi = π/3.
+- 2π/3 + phi = π/3 => phi = π/3 - 2π/3 = -π/3 (rad).
+
+[3. KẾT LUẬN]:
+Phương trình dao động: x = 3.cos(2πt - π/3) cm.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số: A^2 = 9 => A = 3 cm. (ω.A)^2 = 36π^2 => ω^2 = 36π^2 / 9 = 4π^2 => ω = 2π (rad/s).
+- Tại t = 1/3 s: cos(φ_t) = x/A = 1,5 / 3 = 1/2.
+- Logic: Vật ở x = 1,5 (dương) và di chuyển nhanh dần nên đang hướng về VTCB (theo chiều âm, v < 0).
+- Suy ra pha tại thời điểm t là φ_t = π/3 (vì cos = 1/2 và sin > 0).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Ta có: ωt + φ = φ_t => 2π(1/3) + φ = π/3.
+- Suy ra: φ = π/3 - 2π/3 = -π/3 (rad).
+
+[3. KẾT LUẬN]:
+Phương trình dao động: x = 3.cos(2πt - π/3) cm.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa với phương trình x = 5cos(4πt + π/6) cm. Xác định thời điểm gần nhất kể từ t = 0 vận tốc của vật bằng 10π√3 cm/s và đang tăng ,"#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Thông số ban đầu:** Biên độ \(A = 5\) cm; Tần số góc \(\omega = 4\pi\) rad/s.
+- **Công thức vận tốc:** \(v = x' = -\omega A \sin(\omega t + \phi) = -\omega A \cos(\omega t + \phi + \frac{\pi}{2})\).
+- **Thiết lập phương trình:** \(v = 10\pi \cos(4\pi t + \frac{\pi}{6} + \frac{\pi}{2}) = 10\pi \cos(4\pi t + \frac{2\pi}{3})\).
+- **Theo đề bài:** \(v = 10\pi \sqrt{3}\) cm/s. Do đó, \(10\pi \cos(4\pi t + \frac{2\pi}{3}) = 10\pi \sqrt{3}\). Điều này dẫn đến \(\cos(4\pi t + \frac{2\pi}{3}) = \sqrt{3}/2\).
+- **Tính góc:** \(\alpha = \arccos(\sqrt{3}/2) = \frac{\pi}{6}\). Suy ra hai trường hợp pha: \(4\pi t + \frac{2\pi}{3} = \frac{\pi}{6} + 2k\pi\) hoặc \(4\pi t + \frac{2\pi}{3} = -\frac{\pi}{6} + 2k\pi\).
+- **Vì vận tốc đang tăng (a > 0), ta chọn pha âm ở nửa dưới đường tròn lượng giác:** \(4\pi t + \frac{2\pi}{3} = -\frac{\pi}{6} + 2k\pi\).
+- **Giải phương trình:** \(4\pi t = -\frac{\pi}{6} - \frac{2\pi}{3} + 2k\pi = -\frac{5\pi}{6} + 2k\pi\).
+- **Suy ra các nghiệm:** \(t = -\frac{5}{24} + \frac{k}{2}\).
+- **Kết quả nhỏ nhất:** Với \(k = 1\), \(t = -\frac{5}{24} + \frac{1}{2} = \frac{7}{24}\) s.
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- **Giải phương trình:** \(4\pi t = -\frac{5\pi}{6} + 2k\pi\).
+- **Suy ra các nghiệm:** \(t = -\frac{5}{24} + \frac{k}{2}\).
+- **Kết quả nhỏ nhất:** Với \(k = 1\), \(t = -\frac{5}{24} + \frac{1}{2} = \frac{7}{24}\) s.
+
+#### 3. KẾT LUẬN:
+
+Thời điểm gần nhất là \(t = \frac{7}{24}\) s.","Lời giải đúng, không giải theo prompt hướng dẫn.","[1. LỜI GIẢI CHI TIẾT]:
+
+- **Thông số ban đầu**: Biên độ A = 5 cm; Tần số góc omega = 4π (rad/s).
+- **Công thức vận tốc**: v = x' = -omega.A.sin(omega.t + phi) = omega.A.cos(omega.t + phi + pi/2).
+- **Thiết lập phương trình**: v = 4π.5.cos(4πt + π/6 + pi/2) = 20π.cos(4πt + 2π/3).
+- **Theo đề bài v = 10π√3 cm/s**: 20π.cos(4πt + 2π/3) = 10π√3 => cos(4πt + 2π/3) = √3/2.
+- **Tính góc**: alpha = arccos(√3/2) = π/6. Suy ra 2 trường hợp pha: (4πt + 2π/3) = π/6 + 2kπ hoặc (4πt + 2π/3) = -π/6 + 2kπ.
+- **Vì vận tốc đang tăng (a > 0)**, ta chọn pha âm ở nửa dưới đường tròn lượng giác: 4πt + 2π/3 = -π/6 + 2kπ.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+- Giải phương trình: 4πt = -π/6 - 2π/3 + 2kπ = -5π/6 + 2kπ.
+- Suy ra họ nghiệm: t = -5/24 + k/2.
+- Với t > 0 nhỏ nhất, chọn k = 1: t = -5/24 + 1/2 = 7/24 (s).
+
+[3. KẾT LUẬN]:
+
+Thời điểm gần nhất là t = 7/24 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. LỜI GIẢI CHI TIẾT]:
+- Thông số ban đầu: Biên độ A = 5 cm; Tần số góc ω = 4π rad/s.
+- Công thức vận tốc: v = x' = -ωA.sin(ωt + φ) = -4π·5.sin(4πt + π/6) = -20π.sin(4πt + π/6).
+- Chuyển đổi sang hàm cosinus chuẩn: v = 20π.cos(4πt + π/6 + π/2) = 20π.cos(4πt + 2π/3).
+- Theo đề bài v = 10π√3 cm/s: 20π.cos(4πt + 2π/3) = 10π√3 => cos(4πt + 2π/3) = √3/2.
+- Tính góc: α = arccos(√3/2) = π/6. Suy ra 2 trường hợp pha: (4πt + 2π/3) = π/6 + 2kπ hoặc (4πt + 2π/3) = -π/6 + 2kπ.
+- Vì vận tốc đang tăng (a > 0), ta chọn pha âm ở nửa dưới đường tròn lượng giác: 4πt + 2π/3 = -π/6 + 2kπ.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Giải phương trình: 4πt = -π/6 - 2π/3 + 2kπ = -5π/6 + 2kπ.
+- Suy ra họ nghiệm: t = -5/(24) + k/2.
+- Với t > 0 nhỏ nhất, chọn k = 1: t = -5/24 + 1/2 = 7/24 (s).
+
+[3. KẾT LUẬN]:
+Thời điểm gần nhất là t = 7/24 s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Một vật dao động điều hòa với phương trình x = 6cos(5πt - π/2) cm. Xác định thời điểm sớm nhất vận tốc của vật đạt giá trị 15π cm/s và đang tăng ,"#### 1. LỜI GIẢI CHI TIẾT:
+
+- **Thông số ban đầu:** Biên độ \(A = 6\) cm; Tần số góc \(\omega = 5\pi\) rad/s.
+- **Công thức vận tốc:** \(v = x' = -\omega A \sin(\omega t + \phi)\)
+- **Thiết lập phương trình:** \(v = 15\pi \cos(5\pi t - \frac{\pi}{2} + \frac{\pi}{2}) = 15\pi \cos(5\pi t)\)
+
+**Theo đề bài, \(v = 15\pi\) cm/s:**
+\[15\pi \cos(5\pi t) = 15\pi\]
+\[ \cos(5\pi t) = 1\]
+
+**Tính góc:**
+\[\alpha = \arccos(1) = 0\] (trường hợp pha âm)
+
+**Suy ra:**
+\[5\pi t = 2k\pi\]
+\[t = \frac{2k\pi}{5\pi}\]
+\[t = \frac{2k}{5}\]
+
+**Giải phương trình:**
+- Với \(t > 0\) nhỏ nhất, chọn \(k = 1\): 
+  \[t = \frac{2}{5}\]
+
+#### 2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ:
+
+- **Giải phương trình:**
+  \[t = \frac{2}{5}\]
+
+- **Kết luận:**
+  Thời điểm gần nhất là \(t = \frac{2}{5}\) s.
+
+### Kết Luận:
+
+Thời điểm gần nhất mà vận tốc của vật đạt giá trị 15π cm/s và đang tăng là \(t = \frac{2}{5}\) s.","Lời giải sai, không giải theo prompt hướng dẫn.","**[1. LỜI GIẢI CHI TIẾT]:**
+
+- **Thông số ban đầu:** Biên độ A = 6 cm; Tần số góc omega = 5π (rad/s).
+- **Công thức vận tốc:** v = x' = -omega.A.sin(omega.t + phi) = omega.A.cos(omega.t + phi + pi/2).
+- **Phương trình vận tốc:** v = 15π.cos(5πt - π/2 + pi/2) = 15π.cos(5πt).
+- **Theo đề bài:** v = 15π cm/s => 15π.cos(5πt) = 15π.
+- **Tính góc:** cos(5πt) = 1. Suy ra 5πt = 0 + 2kπ (k là nguyên).
+- **Tìm thời điểm:** 5πt = 0 => t = 0 (s). 
+
+**[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:**
+- Giải phương trình: 5πt = 0 + 2kπ => t = 2k/5.
+- Với t > 0 nhỏ nhất, chọn k = 0: t = 0 (s).
+
+**[3. KẾT LUẬN]:**
+Thời điểm sớm nhất mà vận tốc của vật đạt giá trị 15π cm/s là t = 0 s.",Lời giải sai,"[1. LỜI GIẢI CHI TIẾT]:
+- Thông số ban đầu: Biên độ A = 6 cm; Tần số góc ω = 5π rad/s.
+- Phương trình vận tốc: v = x' = -ωA.sin(ωt + φ) = -5π * 6.sin(5πt - π/2) = 30π.cos(5πt - π/2 + π/2) = 30π.cos(5πt).
+- Thiết lập phương trình: v = 30π.cos(5πt) = 15π cm/s.
+- Theo đề bài: 30π.cos(5πt) = 15π => cos(5πt) = 1/2.
+- Tính góc: α = arccos(1/2) = π/3. Suy ra 2 trường hợp pha: 5πt = π/3 + 2kπ hoặc 5πt = -π/3 + 2kπ.
+- Vì vận tốc đang tăng (a > 0), ta chọn pha âm ở nửa dưới đường tròn lượng giác: 5πt = -π/3 + 2kπ.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Giải phương trình: 5πt = -π/3 + 2kπ.
+- Suy ra: t = (-π/3 + 2kπ) / 5π = -1/15 + 2k/5.
+- Với t > 0 nhỏ nhất, chọn k = 1: t = -1/15 + 2/5 = 11/15 (s).
+
+[3. KẾT LUẬN]:
+Thời điểm sớm nhất là t = 11/15 s.","Lời giải sai, sai ở bước tính toán cuối cùng"

@@ -1,0 +1,451 @@
+﻿level,question,ground_truth,qwen7b_response,accuracy
+Easy,Một vật nhỏ dao động điều hòa thực hiện 20 dao động toàn phần trong 2 s. Tần số dao động của vật là,10.0000,10.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 30 dao động toàn phần trong 3 s. Tần số dao động của vật là,10.0000,10.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 15 dao động toàn phần trong 1 s. Tần số dao động của vật là,15.0000,15.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 40 dao động toàn phần trong 8 s. Tần số dao động của vật là,5.0000,5.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 12 dao động toàn phần trong 2 s. Tần số dao động của vật là,6.0000,6.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 50 dao động toàn phần trong 5 s. Tần số dao động của vật là,10.0000,10.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 18 dao động toàn phần trong 6 s. Tần số dao động của vật là,3.0000,3.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 100 dao động toàn phần trong 10 s. Tần số dao động của vật là,10.0000,10.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 25 dao động toàn phần trong 2.5 s. Tần số dao động của vật là,10.0000,10.0000,1
+Easy,Một vật nhỏ dao động điều hòa thực hiện 45 dao động toàn phần trong 9 s. Tần số dao động của vật là,5.0000,5.0000,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 42.5 dao động toàn phần trong 5 s. Tần số dao động của vật là,8.5000,8.5000,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 67.5 dao động toàn phần trong 9 s. Tần số dao động của vật là,7.5000,7.5000,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 18.75 dao động toàn phần trong 3 s. Tần số dao động của vật là,6.2500,6.2500,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 22.5 dao động toàn phần trong 4.5 s. Tần số dao động của vật là,5.0000,5.0000,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 11.25 dao động toàn phần trong 2.5 s. Tần số dao động của vật là,4.5000,4.5000,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 31.5 dao động toàn phần trong 6 s. Tần số dao động của vật là,5.2500,5.2500,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 55.25 dao động toàn phần trong 9.25 s. Tần số dao động của vật là,5.9730,6.0000,0
+Medium,Một vật nhỏ dao động điều hòa thực hiện 27.8 dao động toàn phần trong 4 s. Tần số dao động của vật là,6.9500,6.9500,1
+Medium,Một vật nhỏ dao động điều hòa thực hiện 73.1 dao động toàn phần trong 10.5 s. Tần số dao động của vật là,6.9619,6.9620,0
+Medium,Một vật nhỏ dao động điều hòa thực hiện 42.75 dao động toàn phần trong 7.25 s. Tần số dao động của vật là,5.8966,5.9000,0
+Hard,Một vật nhỏ dao động điều hòa thực hiện √50 dao động toàn phần trong √2 s. Tần số dao động của vật là,5.0000,5.0000,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện π dao động toàn phần trong 1.5 s. Tần số dao động của vật là,2.0944,2.0944,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện √45 dao động toàn phần trong √3 s. Tần số dao động của vật là,3.8730,3.8730,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện √31 dao động toàn phần trong 0.5 s. Tần số dao động của vật là,11.1356,11.0907,0
+Hard,Một vật nhỏ dao động điều hòa thực hiện √72 dao động toàn phần trong √8 s. Tần số dao động của vật là,3.0000,3.0000,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện √98 dao động toàn phần trong 7 s. Tần số dao động của vật là,1.4142,1.4142,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện 5π dao động toàn phần trong π s. Tần số dao động của vật là,5.0000,5.0000,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện 2√3 dao động toàn phần trong √9 s. Tần số dao động của vật là,1.1547,1.1547,1
+Hard,Một vật nhỏ dao động điều hòa thực hiện √2000 dao động toàn phần trong 25 s. Tần số dao động của vật là,1.7889,1.7888,0
+Hard,Một vật nhỏ dao động điều hòa thực hiện 3π dao động toàn phần trong 2.5 s. Tần số dao động của vật là,3.7699,3.7700,0
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 5cos3t (t tính bằng s). Tại t = 4 s, pha của dao động là",12.0000,12.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 7cos2t (t tính bằng s). Tại t = 3 s, pha của dao động là",6.0000,6.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 9cos6t (t tính bằng s). Tại t = 5 s, pha của dao động là",30.0000,30.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 4cos5t (t tính bằng s). Tại t = 2 s, pha của dao động là",10.0000,10.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 3cos4t (t tính bằng s). Tại t = 7 s, pha của dao động là",28.0000,28.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 6cos8t (t tính bằng s). Tại t = 1 s, pha của dao động là",8.0000,8.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 8cos9t (t tính bằng s). Tại t = 3 s, pha của dao động là",27.0000,27.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 2cos7t (t tính bằng s). Tại t = 6 s, pha của dao động là",42.0000,42.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 3cos1t (t tính bằng s). Tại t = 9 s, pha của dao động là",9.0000,9.0000,1
+Easy,"Một vật nhỏ dao động điều hòa theo phương trình x = 10cos4t (t tính bằng s). Tại t = 5 s, pha của dao động là",20.0000,20.0000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 5cos2.5t (t tính bằng s). Tại t = 3 s, pha của dao động là",7.5000,7.5000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 6cos3.3t (t tính bằng s). Tại t = 2 s, pha của dao động là",6.6000,6.6000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 7cos4.1t (t tính bằng s). Tại t = 5 s, pha của dao động là",20.5000,20.5000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 3cos2.7t (t tính bằng s). Tại t = 6 s, pha của dao động là",16.2000,16.2000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 4cos1.9t (t tính bằng s). Tại t = 7 s, pha của dao động là",13.3000,13.3000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 5cos3.5t (t tính bằng s). Tại t = 4 s, pha của dao động là",14.0000,14.0000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 3cos6.2t (t tính bằng s). Tại t = 1 s, pha của dao động là",6.2000,6.2000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 8cos0.8t (t tính bằng s). Tại t = 9 s, pha của dao động là",7.2000,7.2000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 9cos5.5t (t tính bằng s). Tại t = 2 s, pha của dao động là",11.0000,11.0000,1
+Medium,"Một vật nhỏ dao động điều hòa theo phương trình x = 7cos2.2t (t tính bằng s). Tại t = 8 s, pha của dao động là",17.6000,17.6000,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 8cosπt (t tính bằng s). Tại t = 3 s, pha của dao động là",9.4248,9.4248,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 6cos√2t (t tính bằng s). Tại t = 7 s, pha của dao động là",9.8995,9.9000,0
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 9cos2.718t (t tính bằng s). Tại t = 2 s, pha của dao động là",5.4360,5.4360,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 10cos3.149/2 t (t tính bằng s). Tại t = 4 s, pha của dao động là",6.2980,6.2980,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 5cos√3t (t tính bằng s). Tại t = 5 s, pha của dao động là",8.6603,8.6603,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 7cos3.141t (t tính bằng s). Tại t = 3 s, pha của dao động là",9.4230,9.4230,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 6cos1.414t (t tính bằng s). Tại t = 6 s, pha của dao động là",8.4840,8.4840,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 5cos2.236t (t tính bằng s). Tại t = 8 s, pha của dao động là",17.8880,17.8880,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 10cos3.142t (t tính bằng s). Tại t = 2 s, pha của dao động là",6.2840,6.2840,1
+Hard,"Một vật nhỏ dao động điều hòa theo phương trình x = 8cosπ√2t (t tính bằng s). Tại t = 1 s, pha của dao động là",4.4429,4.4429,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 30.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,5.4772,5.4772,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 10.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,3.1623,3.1623,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 50.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,7.0711,7.0711,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 20.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,4.4721,4.4721,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 15.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,3.8730,3.8730,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 25.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,5.0000,5.0000,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 35.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,5.9161,5.9208,0
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 45.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,6.7082,6.7082,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 5.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.2361,2.2361,1
+Easy,Một vật dao động trên trục Ox với phương trình có dạng 60.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,7.7460,7.7460,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 4.5.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.1213,2.1213,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 9.7.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,3.1145,3.1148,0
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 3.5.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.8708,1.8708 ,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 7.8.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.7928,2.7939,0
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 6.3.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.5100,2.5100,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 4.8.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.1909,2.1909,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 8.1.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.8460,2.8460,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 5.6.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.3664,2.3664,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 9.2.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,3.0332,3.0332,1
+Medium,Một vật dao động trên trục Ox với phương trình có dạng 6.7.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.5884,2.5900,0
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √2.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.1892,1.1892,1
+Hard,Một vật dao động trên trục Ox với phương trình có dạng π.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.7783,1.7800,0
+Hard,Một vật dao động trên trục Ox với phương trình có dạng 3π.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,3.0801,3.9792,0
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √3.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.3161,1.3161,1
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √5.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.4953,1.4953,1
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √7.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.6266,1.6266,1
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √815.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,5.3431,4.3480,0
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √10.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.7783,1.7800,0
+Hard,Một vật dao động trên trục Ox với phương trình có dạng √11.x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,1.8212,1.8612,0
+Hard,Một vật dao động trên trục Ox với phương trình có dạng (π+√2).x + a = 0 với x và a lần lượt là li độ và gia tốc của vật. Lấy π^2 = 10. Dao động của vật là dao động có tần số góc là,2.1393,2.1345,0
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 6 cm/s và gia tốc cực đại amax= 24 cm/s^2 thì biên độ của dao động là,1.5000,1.5000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 10 cm/s và gia tốc cực đại amax= 50 cm/s^2 thì biên độ của dao động là,2.0000,2.0000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 4 cm/s và gia tốc cực đại amax= 16 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 2 cm/s và gia tốc cực đại amax= 8 cm/s^2 thì biên độ của dao động là,0.5000,0.5000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 12 cm/s và gia tốc cực đại amax= 144 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 8 cm/s và gia tốc cực đại amax= 128 cm/s^2 thì biên độ của dao động là,0.5000,0.5000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 14 cm/s và gia tốc cực đại amax= 196 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 16 cm/s và gia tốc cực đại amax= 256 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 18 cm/s và gia tốc cực đại amax= 324 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Easy,Dao động điều hoà có vận tốc cực đại là vmax = 20 cm/s và gia tốc cực đại amax= 400 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 7.5 cm/s và gia tốc cực đại amax= 56.25 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 3.6 cm/s và gia tốc cực đại amax= 12.96 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 5.8 cm/s và gia tốc cực đại amax= 33.24 cm/s^2 thì biên độ của dao động là,1.0120,1.0136,0
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 4.25 cm/s và gia tốc cực đại amax= 18.0625 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 9.1 cm/s và gia tốc cực đại amax= 82.81 cm/s^2 thì biên độ của dao động là,1.0000,0.9989,0
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 2.8 cm/s và gia tốc cực đại amax= 7.84 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 11.3 cm/s và gia tốc cực đại amax= 127.69 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 6.9 cm/s và gia tốc cực đại amax= 47.61 cm/s^2 thì biên độ của dao động là,1.0000,0.9986,0
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 4.89 cm/s và gia tốc cực đại amax= 23.252 cm/s^2 thì biên độ của dao động là,1.0284,1.0275,0
+Medium,Dao động điều hoà có vận tốc cực đại là vmax = 4.5 cm/s và gia tốc cực đại amax= 20.25 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 14.56 cm/s và gia tốc cực đại amax= 211.6336 cm/s^2 thì biên độ của dao động là,1.0017,1.0021,0
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 3.14159 cm/s và gia tốc cực đại amax= 31.006276 cm/s^2 thì biên độ của dao động là,0.3183,0.5708,0
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 5.6√2 cm/s và gia tốc cực đại amax= 62.72 cm/s^2 thì biên độ của dao động là,1.0000,1.2800,0
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 10.1 cm/s và gia tốc cực đại amax= 102.01 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 20.0√3 cm/s và gia tốc cực đại amax= 1200 cm/s^2 thì biên độ của dao động là,1.0000,3.0000,0
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = √2 cm/s và gia tốc cực đại amax= 2 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = √5 cm/s và gia tốc cực đại amax= 5 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 12.57 cm/s và gia tốc cực đại amax= 157.6649 cm/s^2 thì biên độ của dao động là,0.9978,0.9961,0
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 25.0 cm/s và gia tốc cực đại amax= 625.0 cm/s^2 thì biên độ của dao động là,1.0000,1.0000,1
+Hard,Dao động điều hoà có vận tốc cực đại là vmax = 6.28π cm/s và gia tốc cực đại amax= 39.4784 cm/s^2 thì biên độ của dao động là,9.8596,38.5000,0
+Easy,"Một vật dao động điều hòa phải mất 0,5 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 20cm. Biên độ và tần số của dao động này là",10.0000;1.0000,10.0000;1.0000,1
+Easy,"Một vật dao động điều hòa phải mất 0,1 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 10cm. Biên độ và tần số của dao động này là",5.0000;5.0000,5.0000;5.0000,1
+Easy,"Một vật dao động điều hòa phải mất 0,25 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 30cm. Biên độ và tần số của dao động này là",15.0000;2.0000,15.0000;2.0000,1
+Easy,"Một vật dao động điều hòa phải mất 0,75 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 50cm. Biên độ và tần số của dao động này là",25.0000;0.6667,25.0000;0.6667,1
+Easy,"Một vật dao động điều hòa phải mất 0,2 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 40cm. Biên độ và tần số của dao động này là",20.0000;2.5000,20.0000;2.5000,1
+Easy,Một vật dao động điều hòa phải mất 1 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 15cm. Biên độ và tần số của dao động này là,7.5000;0.5000,7.5000;0.5000,1
+Easy,"Một vật dao động điều hòa phải mất 0,4 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 25cm. Biên độ và tần số của dao động này là",12.5000;1.2500,12.5000;1.2500,1
+Easy,"Một vật dao động điều hòa phải mất 0,6 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 12cm. Biên độ và tần số của dao động này là",6.0000;0.8333,6.0000;0.8333,1
+Easy,"Một vật dao động điều hòa phải mất 0,3 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 18cm. Biên độ và tần số của dao động này là",9.0000;1.6667,9.0000;1.6667,1
+Easy,"Một vật dao động điều hòa phải mất 0,4 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 8cm. Biên độ và tần số của dao động này là",4.0000;1.2500,4.0000;1.2500,1
+Medium,"Một vật dao động điều hòa phải mất 0,35 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 45cm. Biên độ và tần số của dao động này là",22.5000;1.4286,22.5000;1.4286,1
+Medium,"Một vật dao động điều hòa phải mất 0,2 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 22.5cm. Biên độ và tần số của dao động này là",11.2500;2.5000,11.2500;2.5000,1
+Medium,"Một vật dao động điều hòa phải mất 0,45 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 33cm. Biên độ và tần số của dao động này là",16.5000;1.1111,16.5000;1.1111,1
+Medium,"Một vật dao động điều hòa phải mất 0,55 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 60cm. Biên độ và tần số của dao động này là",30.0000;0.9091,30.0000;0.9091,1
+Medium,"Một vật dao động điều hòa phải mất 0,3 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 35cm. Biên độ và tần số của dao động này là",17.5000;1.6667,17.5000;1.6667,1
+Medium,"Một vật dao động điều hòa phải mất 0,4 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 48cm. Biên độ và tần số của dao động này là",24.0000;1.2500,24.0000;1.2500,1
+Medium,"Một vật dao động điều hòa phải mất 0,5 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 10.5cm. Biên độ và tần số của dao động này là",5.2500;1.0000,5.2500;1.0000,1
+Medium,"Một vật dao động điều hòa phải mất 0,7 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 70cm. Biên độ và tần số của dao động này là",35.0000;0.7143,35.0000;0.7143,1
+Medium,"Một vật dao động điều hòa phải mất 0,6 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 18.75cm. Biên độ và tần số của dao động này là",9.3750;0.8333,9.3750;0.8333,1
+Medium,"Một vật dao động điều hòa phải mất 0,65 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 18.55cm. Biên độ và tần số của dao động này là",9.2750;0.7692,9.2750;0.7692,1
+Hard,"Một vật dao động điều hòa phải mất 0,25 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 36√2 cm. Biên độ và tần số của dao động này là",25.4558;2.0000,25.4558;2.0000,1
+Hard,"Một vật dao động điều hòa phải mất 0,3 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là π cm. Biên độ và tần số của dao động này là",1.5708;1.6667,1.5708;1.6667,1
+Hard,"Một vật dao động điều hòa phải mất 0,4 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (15√3) cm. Biên độ và tần số của dao động này là",12.9904;1.2500,13.0384;1.2500,0
+Hard,"Một vật dao động điều hòa phải mất 0,5 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (10√5) cm. Biên độ và tần số của dao động này là",11.1803;1.0000,11.1803;1.0000,1
+Hard,"Một vật dao động điều hòa phải mất 0,6 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (20√2) cm. Biên độ và tần số của dao động này là",14.1421;0.8333,14.1421;0.8333,1
+Hard,"Một vật dao động điều hòa phải mất 0,7 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (18√3) cm. Biên độ và tần số của dao động này là",15.5885;0.7143,15.5885;0.7143,1
+Hard,"Một vật dao động điều hòa phải mất 0,25 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (9√2) cm. Biên độ và tần số của dao động này là",6.3640;2.0000,6.3639;2.0000,0
+Hard,"Một vật dao động điều hòa phải mất 0,3 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (12√5) cm. Biên độ và tần số của dao động này là",13.4164;1.6667,13.4164;1.6667,1
+Hard,"Một vật dao động điều hòa phải mất 0,4 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (5√2) cm. Biên độ và tần số của dao động này là",3.5355;1.2500,3.5355;1.2500,1
+Hard,"Một vật dao động điều hòa phải mất 0,5 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là (30√2) cm. Biên độ và tần số của dao động này là",21.2132;1.0000,21.2132;1.0000,1
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 2sin(5t – π/4) cm và x2 = 5cos(5t + π/3) cm. Tốc độ cực đại của vật là",15.5575,24.0500,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 5sin(2t – π/2) cm và x2 = 2cos(2t + π/6) cm. Tốc độ cực đại của vật là",6.8351,3.4642,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 10sin(3t – π) cm và x2 = 5cos(3t + π/3) cm. Tốc độ cực đại của vật là",43.6397,47.4342,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3sin(15t – π/6) cm và x2 = 6cos(15t + π/4) cm. Tốc độ cực đại của vật là",47.9687,89.6025,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 4sin(8t – π/3) cm và x2 = 2cos(8t + π/2) cm. Tốc độ cực đại của vật là",27.7128,12.2864,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 6sin(4t – π/3) cm và x2 = 3cos(4t + π/4) cm. Tốc độ cực đại của vật là",12.7917,23.8940,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 8sin(6t – π/2) cm và x2 = 1cos(6t + π/6) cm. Tốc độ cực đại của vật là",42.9088,40.2492,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 9sin(10t – π/6) cm và x2 = 7cos(10t + π/4) cm. Tốc độ cực đại của vật là",28.7982,97.8430,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 8sin(10t – π/6) cm và x2 = 7cos(10t + π/4) cm. Tốc độ cực đại của vật là",21.9461,91.6380,0
+Easy,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 2sin(20t – π/4) cm và x2 = 4cos(20t + π/3) cm. Tốc độ cực đại của vật là",42.6389,79.6480,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 4.5sin(10.5t – π/2) cm và x2 = 3.5cos(10.5t + π/3) cm. Tốc độ cực đại của vật là",42.9731,43.0233,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 6.25sin(5.5t – π/3) cm và x2 = 3.75cos(5.5t + π/4) cm. Tốc độ cực đại của vật là",15.4065,30.4700,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 1.5sin(3.14t – π/6) cm và x2 = 5.2cos(3.14t + π/2) cm. Tốc độ cực đại của vật là",12.4734,24.0000,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 7.8sin(8.1t – π/4) cm và x2 = 2.8cos(8.1t + π/6) cm. Tốc độ cực đại của vật là",41.6881,49.4108,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 2.9sin(12.5t – π/5) cm và x2 = 4.1cos(12.5t + π/3) cm. Tốc độ cực đại của vật là",15.6638,36.2500,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3.6sin(9.9t – π/3) cm và x2 = 4.9cos(9.9t + π/7) cm. Tốc độ cực đại của vật là",13.2403,56.8164,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 0.75sin(6.5t – π/2) cm và x2 = 5.25cos(6.5t + π/6) cm. Tốc độ cực đại của vật là",30.0023,97.5000,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 4.5sin(4.75t – π/4) cm và x2 = 2.3cos(4.75t + π/3) cm. Tốc độ cực đại của vật là",11.1856,10.4359,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 2.2sin(10.1t – π/6) cm và x2 = 3.9cos(10.1t + π/8) cm. Tốc độ cực đại của vật là",25.6231,26.5537,0
+Medium,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 2.5sin(10.1t – π/6) cm và x2 = 3.9cos(10.1t + π/8) cm. Tốc độ cực đại của vật là",24.7184,24.7398,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 5sqrt(2)sin(12.3t – π/5) cm và x2 = 4sqrt(3)cos(12.3t + π/6) cm. Tốc độ cực đại của vật là",35.8418,36.5643,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 2sqrt(3)sin(3.14t – π/3) cm và x2 = 5sqrt(2)cos(3.14t + π/4) cm. Tốc độ cực đại của vật là",12.0305,22.5888,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 7.5sqrt(2)sin(4.3t – π) cm và x2 = 6.2sqrt(3)cos(4.3t + π/2) cm. Tốc độ cực đại của vật là",91.7849,92.0232,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3sqrt(5)sin(7.2t – π/6) cm và x2 = 8sqrt(7)cos(7.2t + π/4) cm. Tốc độ cực đại của vật là",106.4783,156.0034,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 6.7sqrt(2)sin(5.9t – π/3) cm và x2 = 4.4sqrt(2)cos(5.9t + π/6) cm. Tốc độ cực đại của vật là",19.1909,16.2008,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3.6sqrt(5)sin(3.5t – π/4) cm và x2 = 2.5sqrt(11)cos(3.5t + π/2) cm. Tốc độ cực đại của vật là",21.9015,22.3700,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 9sqrt(3)sin(1.5t – π/5) cm và x2 = 7sqrt(3)cos(1.5t + π/3) cm. Tốc độ cực đại của vật là",5.6266,21.3209,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 5.5sqrt(2)sin(4.9t – π/4) cm và x2 = 2.5sqrt(3)cos(4.9t + π/5) cm. Tốc độ cực đại của vật là",17.4748,29.8111,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3.9sqrt(5)sin(2.8t – π/2) cm và x2 = 6.1sqrt(2)cos(2.8t + π/6) cm. Tốc độ cực đại của vật là",12.5741,17.8070,0
+Hard,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 4.8sqrt(3)sin(9.7t – π/3) cm và x2 = 7.2sqrt(5)cos(9.7t + π/4) cm. Tốc độ cực đại của vật là",81.0058,204.4626,0
+Easy,Một vật dao động điều hòa có phương trình x = 2cos(2πt – π/6) cm. Vận tốc của vật khi có li độ x = 1 cm là,3.4641π,3.4641π,1
+Easy,Một vật dao động điều hòa có phương trình x = 5cos(2πt – π/3) cm. Vận tốc của vật khi có li độ x = 4 cm là,6.0000π,6.0000π,1
+Easy,Một vật dao động điều hòa có phương trình x = 10cos(2πt) cm. Vận tốc của vật khi có li độ x = 5 cm là,17.3205π,17.3205π,1
+Easy,Một vật dao động điều hòa có phương trình x = 3cos(2πt + π/4) cm. Vận tốc của vật khi có li độ x = 2 cm là,4.4721π,4.4721π,1
+Easy,Một vật dao động điều hòa có phương trình x = 4cos(2πt – π/2) cm. Vận tốc của vật khi có li độ x = 3 cm là,5.2915π,5.2916π,0
+Easy,Một vật dao động điều hòa có phương trình x = 6cos(2πt + π/6) cm. Vận tốc của vật khi có li độ x = 3 cm là,10.3923π,10.3924π,0
+Easy,Một vật dao động điều hòa có phương trình x = 5cos(2πt + π/2) cm. Vận tốc của vật khi có li độ x = 2 cm là,9.1652π,11.2202π,0
+Easy,Một vật dao động điều hòa có phương trình x = 10cos(2πt – π/4) cm. Vận tốc của vật khi có li độ x = 7 cm là,14.2829π,15.9688π,0
+Easy,Một vật dao động điều hòa có phương trình x = 8cos(2πt) cm. Vận tốc của vật khi có li độ x = 6 cm là,10.5830π,10.5831π,0
+Easy,Một vật dao động điều hòa có phương trình x = 9cos(2πt) cm. Vận tốc của vật khi có li độ x = 4 cm là,16.1245π,32.7107π,0
+Medium,Một vật dao động điều hòa có phương trình x = 4.5cos(2πt – 0.3) cm. Vận tốc của vật khi có li độ x = 2.5 cm là,7.4833π,7.4845π,0
+Medium,Một vật dao động điều hòa có phương trình x = 7.2cos(2πt + 0.5) cm. Vận tốc của vật khi có li độ x = 5 cm là,10.3615π,10.3606π,0
+Medium,Một vật dao động điều hòa có phương trình x = 3.8cos(2πt – 0.1) cm. Vận tốc của vật khi có li độ x = 2 cm là,6.4622π,6.4622π,1
+Medium,Một vật dao động điều hòa có phương trình x = 5.5cos(2πt + 0.2) cm. Vận tốc của vật khi có li độ x = 4 cm là,7.5498π,7.5498π,1
+Medium,Một vật dao động điều hòa có phương trình x = 2.9cos(2πt – 0.8) cm. Vận tốc của vật khi có li độ x = 2 cm là,4.2000π,4.2000π,1
+Medium,Một vật dao động điều hòa có phương trình x = 6.4cos(2πt + 0.4) cm. Vận tốc của vật khi có li độ x = 3.5 cm là,10.7163π,10.7170π,0
+Medium,Một vật dao động điều hòa có phương trình x = 4.1cos(2πt + 0.1) cm. Vận tốc của vật khi có li độ x = 3 cm là,5.5893π,5.5894π,0
+Medium,Một vật dao động điều hòa có phương trình x = 8.2cos(2πt - 0.3) cm. Vận tốc của vật khi có li độ x = 4.5 cm là,13.7099,13.7102π,0
+Medium,Một vật dao động điều hòa có phương trình x = 3.6cos(2πt – 0.7) cm. Vận tốc của vật khi có li độ x = 2.5 cm là,5.1807π,5.1808π,0
+Medium,Một vật dao động điều hòa có phương trình x = 3.9cos(2πt – 0.7) cm. Vận tốc của vật khi có li độ x = 2.4 cm là,6.1482π,6.1482π,1
+Hard,Một vật dao động điều hòa có phương trình x = √2cos(2πt – π/8) cm. Vận tốc của vật khi có li độ x = 0.5 cm là,2.6458π,2.6458π,1
+Hard,Một vật dao động điều hòa có phương trình x = πcos(2πt + π/6) cm. Vận tốc của vật khi có li độ x = 2 cm là,4.8455π,4.8454π,0
+Hard,Một vật dao động điều hòa có phương trình x = √3cos(2πt + π/4) cm. Vận tốc của vật khi có li độ x = 1 cm là,2.8284π,2.8284π,1
+Hard,Một vật dao động điều hòa có phương trình x = 5.5√2cos(2πt + 0.3) cm. Vận tốc của vật khi có li độ x = 3 cm là,14.3527π,14.3516π,0
+Hard,Một vật dao động điều hòa có phương trình x = 6.8πcos(2πt – π/5) cm. Vận tốc của vật khi có li độ x = 5 cm là,41.5389π,41.5254π,0
+Hard,Một vật dao động điều hòa có phương trình x = √5cos(2πt + π/3) cm. Vận tốc của vật khi có li độ x = √3 cm là,2.8284π,2.8284π,1
+Hard,Một vật dao động điều hòa có phương trình x = 2.5√3cos(2πt – π/6) cm. Vận tốc của vật khi có li độ x = 1.5 cm là,8.1240π,8.1241π,0
+Hard,Một vật dao động điều hòa có phương trình x = 3.14cos(2πt + π/4) cm. Vận tốc của vật khi có li độ x = 2 cm là,4.8413π,4.8414π,0
+Hard,Một vật dao động điều hòa có phương trình x = √7cos(2πt + π/2) cm. Vận tốc của vật khi có li độ x = √3 cm là,4.0000π,4.0000π,1
+Hard,Một vật dao động điều hòa có phương trình x = 4.7√2cos(2πt - π/8) cm. Vận tốc của vật khi có li độ x = 3.5 cm là,11.3013π,11.4276π,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 1 cm và tốc độ 8 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,4.7181,4.7394,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2 cm và tốc độ 7 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,9.6039,9.4165,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 3 cm và tốc độ 8 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,25.6571,24.7801,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2 cm và tốc độ 12 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,16.4639,16.2791,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 3 cm và tốc độ 4 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,12.8285,12.8562,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 3 cm và tốc độ 20 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,64.1427,63.7300,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2 cm và tốc độ 8 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,10.9759,10.9715,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2 cm và tốc độ 10 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,13.7199,13.7179,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 1 cm và tốc độ 5 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,2.9488,2.9482,0
+Easy,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 3 cm và tốc độ 6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,19.2428,18.9445,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 5.5.x1^2 + x2^2 = 16. Khi dao động thứ nhất có li độ 1.5 cm và tốc độ 8.6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,37.2648,40.2000,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.5.x1^2 + x2^2 = 16. Khi dao động thứ nhất có li độ 1.8 cm và tốc độ 7.4 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,50.3005,160.0000,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 6.8.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 1.5 cm và tốc độ 9.6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,16.6229,8.8300,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 3.5.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2.5 cm và tốc độ 4.6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,7.5896,7.4330,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.3.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2.4 cm và tốc độ 8.2 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,16.8468,13.0000,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 5.6.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2.2 cm và tốc độ 11.1 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,28.5795,187.1200,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.9.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 3.1 cm và tốc độ 15.2 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,135.3257,278.7300,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 4.5.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 3.3 cm và tốc độ 3.6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,53.5942,0.0000,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 7.6.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2.5 cm và tốc độ 9.6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,115.3599,115.6000,0
+Medium,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết 7.7.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ 2.5 cm và tốc độ 9.6 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,134.9588,133.6000,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √6.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ √8 cm và tốc độ √13 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,4.5303,6.7321,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √9.x1^2 + x2^2 = 16. Khi dao động thứ nhất có li độ √3 cm và tốc độ √15 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,7.6064,1.8033,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √5.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ π cm và tốc độ √20 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,5.9444,14.0500,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √13.2.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ √8 cm và tốc độ √36 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,13.3732,12.0000,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √16.5.x1^2 + x2^2 = 20. Khi dao động thứ nhất có li độ √1.5 cm và tốc độ √8.1 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,3.7968,6.3000,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √20.2.x1^2 + x2^2 = 50. Khi dao động thứ nhất có li độ √4.5 cm và tốc độ √12.3 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,6.1279,10.0000,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √20.12.x1^2 + x2^2 = 30. Khi dao động thứ nhất có li độ √1.68 cm và tốc độ √5.78 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,2.9491,0.5932,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √20.35.x1^2 + x2^2 = 30. Khi dao động thứ nhất có li độ √4.45 cm và tốc độ √16.52 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,12.2769,2500.0000,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √5.46.x1^2 + x2^2 = 30. Khi dao động thứ nhất có li độ √2.34 cm và tốc độ √6.53 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,1.8441,3.0890,0
+Hard,Một chất điểm tham gia đồng thời hai dao động điều hòa cùng phương cùng tần số. Biết √13.52.x1^2 + x2^2 = 30. Khi dao động thứ nhất có li độ √6.43 cm và tốc độ √8.43 cm/s thì dao động thứ hai có tốc độ bằng bao nhiêu?,10.7368,84.9999,0
+Easy,"Một vật dao động điều hòa có phương trình x = 2.cos(2.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/2 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",0.0000,0.0000,1
+Easy,"Một vật dao động điều hòa có phương trình x = 4.cos(4.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/4 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",50.2655,50.2655,1
+Easy,"Một vật dao động điều hòa có phương trình x = 5.cos(5.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/6 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",68.0175,68.0678,0
+Easy,"Một vật dao động điều hòa có phương trình x = 10.cos(10.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/3 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",272.0699,272.2713,0
+Easy,"Một vật dao động điều hòa có phương trình x = 20.cos(20.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/8 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",888.5766,888.5848,0
+Easy,"Một vật dao động điều hòa có phương trình x = 3.cos(3.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 3/4 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",28.2743,28.2743,1
+Easy,"Một vật dao động điều hòa có phương trình x = 6.cos(6.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 2/3 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",97.9452,100.5309,0
+Easy,"Một vật dao động điều hòa có phương trình x = 8.cos(8.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 5/6 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",174.1247,176.1802,0
+Easy,"Một vật dao động điều hòa có phương trình x = 12.cos(12.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/12 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",226.1947,226.1947,1
+Easy,"Một vật dao động điều hòa có phương trình x = 15.cos(15.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 1/10 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",415.4809,414.6974,0
+Medium,"Một vật dao động điều hòa có phương trình x = 2.5.cos(2.5.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.125 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",13.8840,9.7450,0
+Medium,"Một vật dao động điều hòa có phương trình x = 3.6.cos(3.6.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.375 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",28.7899,28.2743,0
+Medium,"Một vật dao động điều hòa có phương trình x = 4.25.cos(4.25.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.2 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",53.9677,54.8578,0
+Medium,"Một vật dao động điều hòa có phương trình x = 10.5.cos(10.5.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.25 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",346.3606,346.3685,0
+Medium,"Một vật dao động điều hòa có phương trình x = 15.2.cos(15.2.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.5 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",0.0000,0.0000,1
+Medium,"Một vật dao động điều hòa có phương trình x = 1.8.cos(1.8.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.75 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",10.1788,10.1788,1
+Medium,"Một vật dao động điều hòa có phương trình x = 7.25.cos(7.25.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.1 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",97.0610,86.0335,0
+Medium,"Một vật dao động điều hòa có phương trình x = 9.1.cos(9.1.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.3 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",247.4224,248.0076,0
+Medium,"Một vật dao động điều hòa có phương trình x = 11.5.cos(11.5.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.4 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",244.2104,432.1333,0
+Medium,"Một vật dao động điều hòa có phương trình x = 13.4.cos(13.4.π.t - π/3) cm. Tại thời điểm pha của dao động bằng 0.6 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",331.5722,0.0000,0
+Hard,"Một vật dao động điều hòa có phương trình x = 5.sqrt(2).cos(π.sqrt(2).t - π/3) cm. Tại thời điểm pha của dao động bằng 1/sqrt(8) lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",24.9974,29.0037,0
+Hard,"Một vật dao động điều hòa có phương trình x = 2.π.cos(3.π.t - π/3) cm. Tại thời điểm pha của dao động bằng sqrt(3)/12 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",46.6396,51.9615,0
+Hard,"Một vật dao động điều hòa có phương trình x = π.sqrt(3).cos(2.π.sqrt(5).t - π/3) cm. Tại thời điểm pha của dao động bằng 1/sqrt(2) lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",73.6810,54.9779,0
+Hard,"Một vật dao động điều hòa có phương trình x = sqrt(5).cos(π.sqrt(7).t - π/3) cm. Tại thời điểm pha của dao động bằng sqrt(2)/4 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",14.7887,10.844,0
+Hard,"Một vật dao động điều hòa có phương trình x = 3.sqrt(3).cos(4.π.sqrt(2).t - π/3) cm. Tại thời điểm pha của dao động bằng sqrt(5)/10 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",91.0767,50.2655,0
+Hard,"Một vật dao động điều hòa có phương trình x = 4.sqrt(2).cos(π/sqrt(2).t - π/3) cm. Tại thời điểm pha của dao động bằng π/10 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",11.5590,7.2761,0
+Hard,"Một vật dao động điều hòa có phương trình x = π/2.cos(5.π.sqrt(3).t - π/3) cm. Tại thời điểm pha của dao động bằng 1/(2.π) lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",35.9616,27.4123,0
+Hard,"Một vật dao động điều hòa có phương trình x = sqrt(7).cos(2.π.sqrt(10).t - π/3) cm. Tại thời điểm pha của dao động bằng sqrt(7)/14 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",48.7526,14.794,0
+Hard,"Một vật dao động điều hòa có phương trình x = 6.sqrt(5).cos(π.sqrt(11).t - π/3) cm. Tại thời điểm pha của dao động bằng sqrt(10)/20 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",117.1344,128.3184,0
+Hard,"Một vật dao động điều hòa có phương trình x = 2.sqrt(6).cos(3.π.sqrt(5).t - π/3) cm. Tại thời điểm pha của dao động bằng sqrt(11)/22 lần độ biến thiên pha trong một chu kì, tốc độ của vật bằng bao nhiêu?",83.8128,28.0000,0
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 10 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0250,0.0250,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 2kg và lò xo có độ cứng k = 200 N/m. Kéo vật ra khỏi VTCB 3 cm rồi truyền cho vật vận tốc đầu 20 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.1300,0.1300,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 50 N/m. Kéo vật ra khỏi VTCB 4 cm rồi truyền cho vật vận tốc đầu 15 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0513,0.0513,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 3kg và lò xo có độ cứng k = 300 N/m. Kéo vật ra khỏi VTCB 1 cm rồi truyền cho vật vận tốc đầu 5 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0188,0.0188,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 4kg và lò xo có độ cứng k = 400 N/m. Kéo vật ra khỏi VTCB 5 cm rồi truyền cho vật vận tốc đầu 25 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.6250,0.6250,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 200 N/m. Kéo vật ra khỏi VTCB 10 cm rồi truyền cho vật vận tốc đầu 50 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,1.1250,1.1250,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 2kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 5 cm rồi truyền cho vật vận tốc đầu 10 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.1350,0.1350,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 3kg và lò xo có độ cứng k = 150 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 20 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0900,0.0900,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 400 N/m. Kéo vật ra khỏi VTCB 3 cm rồi truyền cho vật vận tốc đầu 30 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.2250,0.2250,1
+Easy,Một con lắc lò xo gồm vật nặng có khối lượng m = 5kg và lò xo có độ cứng k = 500 N/m. Kéo vật ra khỏi VTCB 1 cm rồi truyền cho vật vận tốc đầu 10 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0500,0.0500,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.5kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 10 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0225,0.0225,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 120.5 N/m. Kéo vật ra khỏi VTCB 3 cm rồi truyền cho vật vận tốc đầu 20 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0742,0.0742,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.25kg và lò xo có độ cứng k = 80 N/m. Kéo vật ra khỏi VTCB 2.5 cm rồi truyền cho vật vận tốc đầu 15 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0278,0.0278,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 2kg và lò xo có độ cứng k = 150 N/m. Kéo vật ra khỏi VTCB 1 cm rồi truyền cho vật vận tốc đầu 5.5 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0105,0.0105,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.75kg và lò xo có độ cứng k = 200 N/m. Kéo vật ra khỏi VTCB 4.5 cm rồi truyền cho vật vận tốc đầu 25 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.2259,0.2259,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 1.5kg và lò xo có độ cứng k = 50 N/m. Kéo vật ra khỏi VTCB 10 cm rồi truyền cho vật vận tốc đầu 30.5 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.3198,0.3198,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.8kg và lò xo có độ cứng k = 180 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 12 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0418,0.0418,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 1.2kg và lò xo có độ cứng k = 250 N/m. Kéo vật ra khỏi VTCB 3.5 cm rồi truyền cho vật vận tốc đầu 22 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.1822,0.1822,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.6kg và lò xo có độ cứng k = 110.25 N/m. Kéo vật ra khỏi VTCB 5 cm rồi truyền cho vật vận tốc đầu 18 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.1475,0.1475,1
+Medium,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 99.9 N/m. Kéo vật ra khỏi VTCB 1.5 cm rồi truyền cho vật vận tốc đầu 8 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0144,0.0032,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 2√2 cm rồi truyền cho vật vận tốc đầu 10π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0900,0.0900,1
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.5kg và lò xo có độ cứng k = 20π^2 N/m. Kéo vật ra khỏi VTCB 3 cm rồi truyền cho vật vận tốc đầu 20 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.1000,0.0190,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 2kg và lò xo có độ cứng k = 50 N/m. Kéo vật ra khỏi VTCB √5 cm rồi truyền cho vật vận tốc đầu 15√2 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0575,0.1525,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 10π^2 N/m. Kéo vật ra khỏi VTCB 4 cm rồi truyền cho vật vận tốc đầu 5π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0925,0.0093,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.4kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 15√5π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.2450,1.1450,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 3kg và lò xo có độ cứng k = 300 N/m. Kéo vật ra khỏi VTCB √3 cm rồi truyền cho vật vận tốc đầu 10√3π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.4950,1.4850,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 1kg và lò xo có độ cứng k = 400 N/m. Kéo vật ra khỏi VTCB π cm rồi truyền cho vật vận tốc đầu 20 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.2200,0.3000,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.2kg và lò xo có độ cứng k = 50π^2 N/m. Kéo vật ra khỏi VTCB 5 cm rồi truyền cho vật vận tốc đầu 10√2 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.6270,0.2540,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 1.5kg và lò xo có độ cứng k = 150 N/m. Kéo vật ra khỏi VTCB √10 cm rồi truyền cho vật vận tốc đầu 5π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.0938,7.5188,0
+Hard,Một con lắc lò xo gồm vật nặng có khối lượng m = 0.8kg và lò xo có độ cứng k = 80 N/m. Kéo vật ra khỏi VTCB 2π cm rồi truyền cho vật vận tốc đầu 10√5 cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là,0.1800,0.1800,1
+Easy,"Một vật có khối lượng 1200g, dao động điều hòa với biên độ 2cm và tần số góc 2rad/s. Động năng cực đại của vật là",0.0010,0.0010,1
+Easy,"Một vật có khối lượng 1500g, dao động điều hòa với biên độ 3cm và tần số góc 3rad/s. Động năng cực đại của vật là",0.0061,0.0061,1
+Easy,"Một vật có khối lượng 2000g, dao động điều hòa với biên độ 4cm và tần số góc 4rad/s. Động năng cực đại của vật là",0.0256,0.0256,1
+Easy,"Một vật có khối lượng 2500g, dao động điều hòa với biên độ 5cm và tần số góc 5rad/s. Động năng cực đại của vật là",0.0781,0.0781,1
+Easy,"Một vật có khối lượng 3000g, dao động điều hòa với biên độ 6cm và tần số góc 6rad/s. Động năng cực đại của vật là",0.1944,0.1944 ,1
+Easy,"Một vật có khối lượng 3500g, dao động điều hòa với biên độ 7cm và tần số góc 7rad/s. Động năng cực đại của vật là",0.4202,0.0043,0
+Easy,"Một vật có khối lượng 4000g, dao động điều hòa với biên độ 8cm và tần số góc 8rad/s. Động năng cực đại của vật là",0.8192,0.0819,0
+Easy,"Một vật có khối lượng 4500g, dao động điều hòa với biên độ 9cm và tần số góc 9rad/s. Động năng cực đại của vật là",1.4762,1.4750,0
+Easy,"Một vật có khối lượng 5000g, dao động điều hòa với biên độ 10cm và tần số góc 10rad/s. Động năng cực đại của vật là",2.5000,2.5000,1
+Easy,"Một vật có khối lượng 5500g, dao động điều hòa với biên độ 11cm và tần số góc 11rad/s. Động năng cực đại của vật là",4.0263,4.0289,0
+Medium,"Một vật có khối lượng 1250g, dao động điều hòa với biên độ 2.5cm và tần số góc 2.0rad/s. Động năng cực đại của vật là",0.0016,0.0016,1
+Medium,"Một vật có khối lượng 1700g, dao động điều hòa với biên độ 3.0cm và tần số góc 3.5rad/s. Động năng cực đại của vật là",0.0093,0.0009,0
+Medium,"Một vật có khối lượng 2100g, dao động điều hòa với biên độ 4.2cm và tần số góc 4.0rad/s. Động năng cực đại của vật là",0.0296,0.0018,0
+Medium,"Một vật có khối lượng 2350g, dao động điều hòa với biên độ 5.0cm và tần số góc 5.1rad/s. Động năng cực đại của vật là",0.0764,0.0764,1
+Medium,"Một vật có khối lượng 2800g, dao động điều hòa với biên độ 6.5cm và tần số góc 6.0rad/s. Động năng cực đại của vật là",0.2129,0.2130,0
+Medium,"Một vật có khối lượng 3200g, dao động điều hòa với biên độ 7.0cm và tần số góc 7.5rad/s. Động năng cực đại của vật là",0.4410,0.0440,0
+Medium,"Một vật có khối lượng 3750g, dao động điều hòa với biên độ 8.1cm và tần số góc 8.0rad/s. Động năng cực đại của vật là",0.7873,0.7873,1
+Medium,"Một vật có khối lượng 4100g, dao động điều hòa với biên độ 9.0cm và tần số góc 9.2rad/s. Động năng cực đại của vật là",1.4054,1.4000,0
+Medium,"Một vật có khối lượng 4600g, dao động điều hòa với biên độ 10.3cm và tần số góc 10.0rad/s. Động năng cực đại của vật là",2.4401,2.4400,0
+Medium,"Một vật có khối lượng 5250g, dao động điều hòa với biên độ 11.0cm và tần số góc 11.5rad/s. Động năng cực đại của vật là",4.4166,4.1853,0
+Hard,"Một vật có khối lượng 1000√2g, dao động điều hòa với biên độ √2cm và tần số góc 2πrad/s. Động năng cực đại của vật là",0.0056,0.0039,0
+Hard,"Một vật có khối lượng 2000√3g, dao động điều hòa với biên độ 3cm và tần số góc 3rad/s. Động năng cực đại của vật là",0.0140,0.0126,0
+Hard,"Một vật có khối lượng 1500πg, dao động điều hòa với biên độ √5cm và tần số góc √10rad/s. Động năng cực đại của vật là",0.0118,0.0024,0
+Hard,"Một vật có khối lượng 2500g, dao động điều hòa với biên độ 4cm và tần số góc 4rad/s. Động năng cực đại của vật là",0.0320,0.0320,1
+Hard,"Một vật có khối lượng 3000√5g, dao động điều hòa với biên độ 2πcm và tần số góc 5πrad/s. Động năng cực đại của vật là",3.2672,3.2711,0
+Hard,"Một vật có khối lượng 3500g, dao động điều hòa với biên độ 6cm và tần số góc 6rad/s. Động năng cực đại của vật là",0.2268,0.2268,1
+Hard,"Một vật có khối lượng 4000πg, dao động điều hòa với biên độ √7cm và tần số góc √15rad/s. Động năng cực đại của vật là",0.0660,0.4618,0
+Hard,"Một vật có khối lượng 4500√2g, dao động điều hòa với biên độ 8cm và tần số góc 8rad/s. Động năng cực đại của vật là",1.3033,0.1317,0
+Hard,"Một vật có khối lượng 5000g, dao động điều hòa với biên độ 3πcm và tần số góc 9πrad/s. Động năng cực đại của vật là",17.7528,178.1474,0
+Hard,"Một vật có khối lượng 5500√3g, dao động điều hòa với biên độ 10cm và tần số góc 10rad/s. Động năng cực đại của vật là",4.7631,4.7624,0
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 10 N/m gắn với quả cầu có khối lượng 2 kg. Cho quả cầu dao động với biên độ 2 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 1 cm.,0.0015,0.0015,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 20 N/m gắn với quả cầu có khối lượng 1 kg. Cho quả cầu dao động với biên độ 10 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 5 cm.,0.0750,0.0750,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 15 N/m gắn với quả cầu có khối lượng 3 kg. Cho quả cầu dao động với biên độ 8 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 4 cm.,0.0360,0.0360,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 25 N/m gắn với quả cầu có khối lượng 1 kg. Cho quả cầu dao động với biên độ 6 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 3 cm.,0.0338,0.0338,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 30 N/m gắn với quả cầu có khối lượng 4 kg. Cho quả cầu dao động với biên độ 12 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 6 cm.,0.1620,0.1620,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 12 N/m gắn với quả cầu có khối lượng 2 kg. Cho quả cầu dao động với biên độ 5 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 2 cm.,0.0126,0.0126,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 18 N/m gắn với quả cầu có khối lượng 3 kg. Cho quả cầu dao động với biên độ 9 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 3 cm.,0.0648,0.0648,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 40 N/m gắn với quả cầu có khối lượng 1 kg. Cho quả cầu dao động với biên độ 7 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 4 cm.,0.0660,0.0660,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 35 N/m gắn với quả cầu có khối lượng 5 kg. Cho quả cầu dao động với biên độ 15 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 8 cm.,0.2818,0.2818,1
+Easy,Một con lắc lò xo gồm lò xo có độ cứng 22 N/m gắn với quả cầu có khối lượng 2 kg. Cho quả cầu dao động với biên độ 11 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 7 cm.,0.0792,0.0792,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 12.5 N/m gắn với quả cầu có khối lượng 0.5 kg. Cho quả cầu dao động với biên độ 3.0 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 1.5 cm.,0.0042,0.0042,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 20.0 N/m gắn với quả cầu có khối lượng 1.2 kg. Cho quả cầu dao động với biên độ 8.5 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 4.0 cm.,0.0563,0.0563,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 15.5 N/m gắn với quả cầu có khối lượng 2.0 kg. Cho quả cầu dao động với biên độ 6.2 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 3.1 cm.,0.0223,0.0223,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 28.0 N/m gắn với quả cầu có khối lượng 0.8 kg. Cho quả cầu dao động với biên độ 7.5 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 2.5 cm.,0.0700,0.0700,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 33.3 N/m gắn với quả cầu có khối lượng 3.5 kg. Cho quả cầu dao động với biên độ 10.0 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 5.0 cm.,0.1249,0.1249,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 10.0 N/m gắn với quả cầu có khối lượng 1.5 kg. Cho quả cầu dao động với biên độ 4.8 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 2.4 cm.,0.0086,0.0086,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 18.75 N/m gắn với quả cầu có khối lượng 2.5 kg. Cho quả cầu dao động với biên độ 9.0 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 4.5 cm.,0.0570,0.0568,0
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 42.0 N/m gắn với quả cầu có khối lượng 0.7 kg. Cho quả cầu dao động với biên độ 5.5 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 3.0 cm.,0.0446,0.0446,1
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 30.5 N/m gắn với quả cầu có khối lượng 4.2 kg. Cho quả cầu dao động với biên độ 13.5 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 6.0 cm.,0.2230,0.2231,0
+Medium,Một con lắc lò xo gồm lò xo có độ cứng 25.0 N/m gắn với quả cầu có khối lượng 1.8 kg. Cho quả cầu dao động với biên độ 11.1 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 5.5 cm.,0.1162,0.1162,1
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 10*sqrt(2) N/m gắn với quả cầu có khối lượng 1 kg. Cho quả cầu dao động với biên độ 2*sqrt(3) cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 1 cm.,0.0078,0.0078,1
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 20 N/m gắn với quả cầu có khối lượng sqrt(2) kg. Cho quả cầu dao động với biên độ 10 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 5 cm.,0.0750,0.0750,1
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 15*π N/m gắn với quả cầu có khối lượng 2 kg. Cho quả cầu dao động với biên độ 8 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 4 cm.,0.1131,0.1131,1
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 25 N/m gắn với quả cầu có khối lượng 0.5*sqrt(3) kg. Cho quả cầu dao động với biên độ 6*sqrt(2) cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 3 cm.,0.0788,0.0788,1
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 30*sqrt(5) N/m gắn với quả cầu có khối lượng 3 kg. Cho quả cầu dao động với biên độ 12 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 6*sqrt(2) cm.,0.2415,0.2499,0
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 12 N/m gắn với quả cầu có khối lượng π/2 kg. Cho quả cầu dao động với biên độ 5 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 2*sqrt(2) cm.,0.0102,0.0102,1
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 18*sqrt(3) N/m gắn với quả cầu có khối lượng 1 kg. Cho quả cầu dao động với biên độ 9 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 3*sqrt(3) cm.,0.0842,0.0900,0
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 40 N/m gắn với quả cầu có khối lượng sqrt(5) kg. Cho quả cầu dao động với biên độ 7*π cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 4*π cm.,0.6514,0.6180,0
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 35*π/2 N/m gắn với quả cầu có khối lượng 4 kg. Cho quả cầu dao động với biên độ 15 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 8*sqrt(2) cm.,0.2666,0.0213,0
+Hard,Một con lắc lò xo gồm lò xo có độ cứng 22*sqrt(2) N/m gắn với quả cầu có khối lượng 0.8 kg. Cho quả cầu dao động với biên độ 11 cm. Hãy tính động năng của quả cầu ở vị trí ứng li độ 7 cm.,0.1120,0.1048,0
+Easy,"Một con lắc đơn có khối lượng 2 kg và có độ dài 2 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2236,0.2236,1
+Easy,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.4472,0.4472,1
+Easy,"Một con lắc đơn có khối lượng 1 kg và có độ dài 2 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 2J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.4472,0.4472,1
+Easy,"Một con lắc đơn có khối lượng 2 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 2J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.4472,0.4472,1
+Easy,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 2J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.6325,0.6325,1
+Easy,"Một con lắc đơn có khối lượng 2 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Easy,"Một con lắc đơn có khối lượng 1 kg và có độ dài 4 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 2J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Easy,"Một con lắc đơn có khối lượng 4 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 2J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Easy,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",1.0000,1.0000,1
+Easy,"Một con lắc đơn có khối lượng 5 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.4472,0.4472,1
+Medium,"Một con lắc đơn có khối lượng 2 kg và có độ dài 2 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.1581,0.1581,1
+Medium,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 9.8 m/s^2. Cơ năng dao động của con lắc là 0.5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3194,0.3195,0
+Medium,"Một con lắc đơn có khối lượng 0.5 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.25J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Medium,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1.5 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.3J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2000,0.2000,1
+Medium,"Một con lắc đơn có khối lượng 0.2 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Medium,"Một con lắc đơn có khối lượng 1 kg và có độ dài 0.5 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2000,0.2000,1
+Medium,"Một con lắc đơn có khối lượng 1.5 kg và có độ dài 2 m, dao động điều hòa ở nơi có gia tốc trọng trường 9.8 m/s^2. Cơ năng dao động của con lắc là 0.75J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2259,0.2259,1
+Medium,"Một con lắc đơn có khối lượng 0.1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.05J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Medium,"Một con lắc đơn có khối lượng 1 kg và có độ dài 0.25 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.05J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2000,0.2000,1
+Medium,"Một con lắc đơn có khối lượng 0.5 kg và có độ dài 0.5 m, dao động điều hòa ở nơi có gia tốc trọng trường 9.8 m/s^2. Cơ năng dao động của con lắc là 0.1225J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3162,0.3162,1
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài sqrt(2) m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3761,0.3760,0
+Hard,"Một con lắc đơn có khối lượng sqrt(2) kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3761,0.3760,0
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường π^2 m/s^2. Cơ năng dao động của con lắc là 0.5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.3183,0.3167,0
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là sqrt(3)/10J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.1861,0.1075,0
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài sqrt(3) m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 0.5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2403,0.2402,0
+Hard,"Một con lắc đơn có khối lượng sqrt(5) kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2991,0.2990,0
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là π/20J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.1772,0.1772,1
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài 2 m, dao động điều hòa ở nơi có gia tốc trọng trường π^2/2 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.4502,0.4480,0
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài sqrt(2) m, dao động điều hòa ở nơi có gia tốc trọng trường sqrt(2)*5 m/s^2. Cơ năng dao động của con lắc là 1J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.4472,0.4472,1
+Hard,"Một con lắc đơn có khối lượng 1 kg và có độ dài 1 m, dao động điều hòa ở nơi có gia tốc trọng trường 10 m/s^2. Cơ năng dao động của con lắc là sqrt(2)/5J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?",0.2378,0.1189,0
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 1%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0199,0.0199,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 2%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0396,0.0396,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 3%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0591,0.0591,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 4%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0784,0.0784,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 5%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0975,0.0975,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 6%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.1164,0.1164,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 8%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.1536,0.1536,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 10%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.1900,0.1900,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 12%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.2256,0.2256,1
+Easy,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 15%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.2775,0.2775,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 0.5%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0100,0.0100,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 1.5%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0298,0.0298,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 2.25%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0445,0.0444,0
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 3.5%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0688,0.0688,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 4.75%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0927,0.0926,0
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 0.25%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0050,0.0050,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 1.75%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0347,0.0348,0
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 2.8%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0552,0.0552,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 5.5%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.1070,0.1070,1
+Medium,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm 7.25%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.1397,0.1399,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm √2%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0281,0.0040,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm π/2%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0312,0.0311,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm √3%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0343,0.0597,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm √4%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0536,0.0400,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm (100 * (1 - 1/√(5)))%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.8000,0.0201,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm (100 * (1 - √(3)/2))%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.2500,0.9820,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm (100 * (1 - √(2)/2))%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.5000,0.9142,0
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm (100 * (1 - (√(5)-1)/2))%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.6180,0.6180,1
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm (100 * (1 - √(0.93)))%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.0700,0.0700,1
+Hard,"Một con lắc dao động tắt dần. Cứ sau mỗi chu kì, biên độ giảm (100 * (1 - √(0.9)))%. Tính phần năng lượng của con lắc bị mất đi trong một dao động toàn phần.",0.1000,0.1000,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 1%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0050,0.0050,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 2%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0101,0.0101,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 3%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0151,0.0151,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 4%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0202,0.0202,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 5%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0253,0.0253,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 6%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0305,0.0305,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 7%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0356,0.0356,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 8%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0408,0.0408,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 9%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0461,0.0461,1
+Easy,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 10%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0513,0.0513,1
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 1.5%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0075,0.0075,1
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 2.25%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0113,0.0114,0
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 3.75%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0189,0.0190,0
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 4.5%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0228,0.0226,0
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 5.1%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0258,0.0256,0
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 6.8%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0346,0.0346,1
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 7.25%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0369,0.0369,1
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 8.5%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0434,0.0437,0
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 9.9%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0508,0.0512,0
+Medium,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 10.15%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0521,0.0521,1
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi sqrt(2)%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0071,0.0104,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi π%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0158,0.0159,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi sqrt(3)%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0087,0.0132,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi e%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0137,0.0513,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi π/2%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0079,0.0800,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi sqrt(5)%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0112,0.0244,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi sqrt(2) + 1%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0121,0.7100,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi π - 1%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0108,0.0057,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi sqrt(3) * 2%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0175,0.0101,0
+Hard,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi π/2%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?",0.0079,0.0800,0

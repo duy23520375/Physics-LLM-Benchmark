@@ -1,30 +1,98 @@
-# A Pre-feasibility Study of Applying Large Language Models to High School Physics: Evaluating Limitations and the Effectiveness of Constrained Prompting
+# A Preliminary Study on Building an LLM-Powered Physics AI Tutor for High School Students
 
-This repository contains the dataset, prompt engineering framework, and evaluation results for our research on the performance of Large Language Models (LLMs) in solving Grade 11 Physics problems (Vietnamese Curriculum).
+This repository contains the official dataset, prompt templates, response logs, and evaluation scripts for the paper: **"A Preliminary Study on Building an LLM-Powered Physics AI Tutor for High School Students"** (MAPR 2026).
 
 ---
 
 ## Abstract
-While Large Language Models (LLMs) have demonstrated impressive mathematical reasoning capabilities, applying them to solve Physics problems remains a significant challenge. Physics requires a complex integration of specialized theoretical knowledge, real-world modeling, and precise arithmetic calculations. This study serves as a pre-feasibility research to evaluate the current capabilities and limitations of LLMs in high school Physics education, laying the groundwork for future specialized fine-tuning processes. We introduce an open-ended dataset consisting of 442 problems on "Mechanical Oscillations." Based on this dataset, we propose the **Constrained Prompt Engineering** method, which enforces LLMs to adhere to a three-step reasoning structure (Theory - Calculation - Conclusion) along with strict physical constant constraints. Combined with a 4-level rubric to decouple reasoning errors from calculation errors, experimental results show that our technique enables a small-scale open-source model (Qwen-7B-Instruct) to achieve a reasoning score ($S_{idx}$) of up to 96.7%, surpassing the performance of massive commercial models such as GPT-5.3 (83.3%) and Gemini 3 Flash (88.3%).
 
----
+Applying Large Language Models (LLMs) to Physics remains challenging due to the complex integration of domain theory, real-world modeling, and precise computation. This paper presents a pre-feasibility study evaluating LLMs as physics AI tutors, focusing on prompting strategies and computational robustness. We curated an expert-validated, anti-leakage testbed of 442 open-ended Mechanical Oscillation problems and applied a *Constrained Prompt Engineering* technique (Theory - Calculation - Conclusion) to systematically investigate model behavior. 
 
-## Methodology: Three-Step Constrained Prompting
-Our framework enforces a strict logic flow by embedding physical and mathematical constraints directly into the following stages:
-
-1. **[1. Theory & Setup]**: Requires a concise explanation (1-2 lines) of the core physics phenomenon or definition. For equation-based problems, the model is forced to define the standard form $x = A \cos(\omega t + \phi)$. If the input uses Sine or negative Cosine, the model must explicitly state the conversion process to the standard Cosine form before proceeding.
-2. **[2. Calculation & Substitution]**: The mathematical execution stage. The model must first present the general formula using variables (e.g., $f = N/t$, $v_{max} = \omega A$), followed by detailed numerical substitution and unit conversion to the SI system (m, s, rad). For simpler tasks (e.g., calculating phase at time $t$), merging expression identification and substitution is permitted to optimize response length.
-3. **[3. Conclusion]**: Presents only the final calculated value from Step 2, accompanied by the correct physical units.
+Empirical results, evaluated via a 4-level rubric isolating reasoning from calculation errors, reveal a critical dichotomy: while constrained models under a structured paradigm (e.g., Qwen2.5-7B-Instruct) exhibit excellent logical reasoning (96.7% reasoning capability index), they face severe arithmetic barriers. Specifically, a diagnostic stress-test on 450 mathematical variants shows accuracy plummeting from 75.3% to 33.3% when processing complex irrationals. Furthermore, maintaining logical consistency requires excessively long prompts, posing context overhead challenges. These findings establish a preliminary baseline for LLM-based tutoring, suggesting Supervised Fine-Tuning (SFT) to internalize physical logic and Tool-use integration to resolve mathematical blind spots.
 
 ---
 
 ## Project Structure
-```text
-├── Dataset/                # Full dataset of 442 physics problems
-│   └── physics_442_dataset.csv
-├── Prompts/                
-│   └── final_benchmark_40/ # 40 validated prompts for final benchmarking
-├── Results/                # Human-annotated results and comparative analysis
-│   └── Detailed_Results.xlsx
-└── README.md
 
+```text
+Physics-LLM-Benchmark/
+│
+├── Dataset/                                  # Pristine Benchmark Datasets
+│   └── physics_testbed_curation.csv          # Core dataset of 442 curated physics questions & answers
+│
+├── Prompts/                                  # Constrained Few-Shot Prompt Templates
+│   ├── 1_Kinematics_Synthesis.txt            # Few-shot prompt for Question 1
+│   ├── 2_Kinematics_Synthesis.txt
+│   └── ... (all 40 prompt template files)
+│
+├── Results/                                  # Comparative Logs & Human Scores
+│   ├── foundational_testbed_40_results.csv   # Responses & s_idx scores of all models on 40 benchmark questions
+│   ├── prompt_tuning_variants_80_results.csv # Model outputs on prompt tuning variants (80 questions)
+│   └── arithmetic_stress_test_450_results.csv# Qwen-7B outputs on 450 stress-test mathematical variants
+│
+├── scripts/                                  # Python Inference & Reproducibility Scripts
+│   ├── run_qwen_inference.py                 # Runs Qwen-Instruct inference (Interactive & Batch modes)
+│   ├── calculate_metrics.py                  # Computes Accuracy, S_idx, and C_rate (Table II & III)
+│   └── calculate_stress_test.py              # Computes Arithmetic Stress-Test Accuracies (Table IV)
+│
+├── LICENSE                                   # Repository license (MIT License)
+└── README.md                                 # Project documentation
+```
+
+---
+
+## Setup & Requirements
+
+To run the inference and metric calculation scripts, you need Python 3.8+ with PyTorch and Hugging Face Transformers installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/duy23520375/Physics-LLM-Benchmark.git
+cd Physics-LLM-Benchmark
+
+# Install dependencies
+pip install torch transformers numpy
+```
+
+---
+
+## How to Reproduce Results
+
+### 1. Reproducing Table II & Table III (Overall Performance & Metrics)
+To calculate the model accuracies, reasoning capability indices ($S_{idx}$), and constraint compliance rates ($C_{rate}$) across GPT-4o, Gemini 2.5 Flash, Qwen-1.5B, Qwen-3B, and Qwen-7B:
+
+```bash
+python scripts/calculate_metrics.py
+```
+
+### 2. Reproducing Table IV (Arithmetic Stress-Test)
+To calculate the performance of the Qwen-7B model across the Easy, Medium, and Hard tiers of the mathematical variants stress test:
+
+```bash
+python scripts/calculate_stress_test.py
+```
+
+### 3. Running Model Inference (Qwen)
+You can run model inference locally or on Kaggle/Colab using the provided evaluation script. It supports two modes:
+1.  **Interactive Mode:** Allows you to manually type and test any physics question.
+2.  **Batch Mode:** Reads the questions and prompt templates dynamically from the dataset and executes them sequentially.
+
+```bash
+python scripts/run_qwen_inference.py
+```
+*Note: The script uses `torch.float16` by default to optimize inference speed on Kaggle's Tesla T4 GPUs.*
+
+---
+
+## Citation
+
+If you find our work, dataset, or scripts helpful, please cite our paper:
+
+```bibtex
+@inproceedings{duy2026physicstutor,
+  title={A Preliminary Study on Building an LLM-Powered Physics AI Tutor for High School Students},
+  author={Duy, Nguyen N. M. and et al.},
+  booktitle={Proceedings of the International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
+  year={2026}
+}
+```
