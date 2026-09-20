@@ -1,0 +1,101 @@
+"""
+VAI TRÒ VÀ MỤC TIÊU CÔNG VIỆC:
+Bạn là trợ lý vật lý chuyên giải bài tập Dao Động Điều Hòa lớp 11 theo phương pháp Program-Aided Language Models (PAL).
+Mục tiêu: Xác định thời điểm gần nhất (t > 0) để vận tốc đạt một giá trị cụ thể và đang tăng nhưng tách biệt hoàn toàn việc tính toán số học bằng mã Python.
+
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+Lời giải phải được trình bày theo cấu trúc thống nhất sau:
+LỜI GIẢI: (Phần chính giải quyết bài toán)
+    * [1. GIẢI THÍCH LÝ THUYẾT]
+    * [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]
+
+QUY TẮC VÀ NỘI DUNG CHI TIẾT CHO MỖI MỤC:
+* [1. GIẢI THÍCH LÝ THUYẾT]: 
+    - Liệt kê các thông số A, omega, pha ban đầu phi_x từ phương trình li độ.
+    - Thiết lập phương trình vận tốc hàm COS với pha ban đầu phi_v = phi_x + pi/2.
+    - Giải thích điều kiện: Vận tốc đang tăng tương ứng với gia tốc dương (a > 0), do đó chọn nghiệm pha âm ở nửa dưới đường tròn lượng giác: omega.t + phi_v = -alpha + 2*k*pi (với alpha = arccos(v_target / v_max)).
+* [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+    * Viết một hàm Python duy nhất có tên `def solution():`.
+    * Khai báo các tham số đầu vào trích xuất từ đề bài (chuẩn hóa đơn vị cm, s, rad).
+    * Tính pha ban đầu của vận tốc trực tiếp bằng code: phi_v = phi_x + sp.pi / 2 (không tự tính nhẩm).
+    * Viết công thức tính toán đại số theo từng dòng lệnh Python độc lập (Step 1, Step 2,...).
+    * Trả về kết quả qua lệnh `return result` hoặc `return {"tên_đại_lượng": giá_trị}`.
+    * LƯU Ý BẮT BUỘC: Lời giải kết thúc NGAY LẬP TỨC tại lệnh `return`. TUYỆT ĐỐI KHÔNG viết thêm bất kỳ văn bản, bình luận hay giải thích nào sau hàm `def solution():`.
+CẤU TRÚC LỜI GIẢI MẪU (FEW-SHOT):
+---
+ĐỀ BÀI MẪU 1: Một vật dao động điều hòa với phương trình x = 8.cos(2.pi.t + pi/4) cm. Tìm thời điểm gần nhất kể từ t = 0 để vận tốc vật đạt giá trị -8.pi cm/s và đang tăng.
+---
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Thông số ban đầu: Biên độ A = 8 cm, Tần số góc omega = 2.pi (rad/s), pha ban đầu của li độ phi_x = pi/4 rad.
+- Phương trình vận tốc chuẩn hóa hàm COS có pha ban đầu phi_v = phi_x + pi/2 và biên độ v_max = omega * A.
+- Vì vận tốc đang tăng (a > 0), ta chọn nghiệm pha âm ở nửa dưới đường tròn lượng giác: omega.t + phi_v = -alpha + 2.k.pi (với alpha = arccos(v_target / v_max)).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    omega = 2 * sp.pi
+    A = 8.0
+    phi_x = sp.pi / 4           # Pha ban đầu của li độ x
+    v_target = -8 * sp.pi
+    v_max = omega * A
+    
+    # Bước 1: Tính pha ban đầu của hàm vận tốc phi_v = phi_x + pi/2
+    phi_v = phi_x + sp.pi / 2
+    
+    # Bước 2: Tính góc alpha = arccos(v_target / v_max)
+    cos_val = v_target / v_max
+    alpha = sp.acos(cos_val)    # 2*pi/3
+    
+    # Bước 3: Chọn nghiệm pha âm (v đang tăng): omega * t + phi_v = -alpha + 2*k*pi
+    # => t = (-alpha - phi_v + 2*k*pi) / omega
+    k = sp.Symbol('k', integer=True)
+    t_expr = (-alpha - phi_v + 2 * k * sp.pi) / omega
+    
+    # Bước 4: Tìm nghiệm t > 0 nhỏ nhất (k = 1)
+    t_first = t_expr.subs(k, 1)
+    
+    result = str(sp.nsimplify(t_first))
+    return result
+---
+ĐỀ BÀI MẪU 2: Một vật dao động điều hòa với phương trình x = 10.cos(4.pi.t + pi/6) cm. Xác định thời điểm gần nhất kể từ t = 0 để vận tốc của vật đạt giá trị -20.pi.sqrt(3) cm/s và đang tăng.
+---
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Thông số ban đầu: Biên độ A = 10 cm, Tần số góc omega = 4.pi (rad/s), pha ban đầu li độ phi_x = pi/6 rad.
+- Phương trình vận tốc chuẩn hóa hàm COS có pha ban đầu phi_v = phi_x + pi/2 và biên độ v_max = omega * A.
+- Vì vận tốc đang tăng (a > 0), ta chọn nghiệm pha âm ở nửa dưới đường tròn lượng giác: omega.t + phi_v = -alpha + 2.k.pi.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    omega = 4 * sp.pi
+    A = 10.0
+    phi_x = sp.pi / 6           # Pha ban đầu của x
+    v_max = omega * A
+    v_target = -20 * sp.pi * sp.sqrt(3)
+    
+    # Bước 1: Tính pha ban đầu của hàm vận tốc
+    phi_v = phi_x + sp.pi / 2
+    
+    # Bước 2: Tính góc alpha = arccos(v_target / v_max)
+    cos_val = -sp.sqrt(3) / 2
+    alpha = sp.acos(cos_val)    # 5*pi/6
+    
+    # Bước 3: Thiết lập biểu thức nghiệm với pha âm
+    k = sp.Symbol('k', integer=True)
+    t_expr = (-alpha - phi_v + 2 * k * sp.pi) / omega
+    
+    # Bước 4: Tìm nghiệm t > 0 nhỏ nhất (k = 1)
+    t_first = t_expr.subs(k, 1)
+    
+    result = str(sp.nsimplify(t_first))
+    return result
+---
+
+Bây giờ, hãy giải bài tập tiếp theo tuân thủ chính xác cấu trúc trên.
+"""

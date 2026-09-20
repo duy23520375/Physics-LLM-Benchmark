@@ -1,98 +1,125 @@
-# A Preliminary Study on Building an LLM-Powered Physics AI Tutor for High School Students
+# A Neuro-Symbolic Physics AI Tutor — Benchmark & Code
 
-This repository contains the official dataset, prompt templates, response logs, and evaluation scripts for the paper: **"A Preliminary Study on Building an LLM-Powered Physics AI Tutor for High School Students"** (MAPR 2026).
+Dataset, prompt templates, response logs, and reproducibility scripts for our work on
+LLM-based high-school physics tutoring. The project pairs a constrained Chain-of-Thought
+(CoT) reasoner with **PAL-style tool use** and a **SymPy step-verifier**, turning an
+unreliable LLM grader into a trustworthy neuro-symbolic tutor.
 
----
-
-## Abstract
-
-Applying Large Language Models (LLMs) to Physics remains challenging due to the complex integration of domain theory, real-world modeling, and precise computation. This paper presents a pre-feasibility study evaluating LLMs as physics AI tutors, focusing on prompting strategies and computational robustness. We curated an expert-validated, anti-leakage testbed of 442 open-ended Mechanical Oscillation problems and applied a *Constrained Prompt Engineering* technique (Theory - Calculation - Conclusion) to systematically investigate model behavior. 
-
-Empirical results, evaluated via a 4-level rubric isolating reasoning from calculation errors, reveal a critical dichotomy: while constrained models under a structured paradigm (e.g., Qwen2.5-7B-Instruct) exhibit excellent logical reasoning (96.7% reasoning capability index), they face severe arithmetic barriers. Specifically, a diagnostic stress-test on 450 mathematical variants shows accuracy plummeting from 75.3% to 33.3% when processing complex irrationals. Furthermore, maintaining logical consistency requires excessively long prompts, posing context overhead challenges. These findings establish a preliminary baseline for LLM-based tutoring, suggesting Supervised Fine-Tuning (SFT) to internalize physical logic and Tool-use integration to resolve mathematical blind spots.
+![Neuro-symbolic three-stage pipeline](assets/pipeline.png)
 
 ---
 
-## Project Structure
+## Overview
+
+Under a constrained CoT paradigm, an open model (Qwen2.5-7B) reasons well about physics
+(reasoning index 96.7%) yet its exact-match accuracy collapses to 33.3% on variants with
+irrational constants such as π and √2 — a pure **arithmetic** failure, not a reasoning one.
+We close this with a three-stage pipeline:
+
+- **Stage 0 — PAL Symbolic Solver.** The LLM emits a `def solution()` executed in a
+  deterministic SymPy sandbox, so numbers come from the interpreter, not the transformer.
+  This restores **100%** arithmetic accuracy over a fully audited 154-step trace.
+- **Stage 1 — Pedagogical Verbalizer.** Each verified trace becomes a canonical
+  three-step gold anchor (Theory → Formula/Substitution → Conclusion).
+- **Stage 2 — Diagnostic Tutor.** An LLM flags defects (Step 1), a SymPy step-verifier
+  localizes the first error via `simplify(S_k - G_k) = 0` and overrides false verdicts
+  (Step 2), then the LLM writes remediation anchored at that step (Step 3).
+
+**Key results (balanced 62-submission benchmark).** The LLM grader alone is
+high-sensitivity (96.8%) but low-specificity (48.4%), wrongly rejecting 16 of 31 correct
+submissions. Adding the SymPy step-verifier raises specificity to 96.8% and accuracy to
+98.4%, and lifts first-error localization from 43.3% to 100%.
+
+---
+
+## Repository Structure
 
 ```text
-Physics-LLM-Benchmark/
+.
+├── assets/
+│   └── pipeline.png                          # Neuro-symbolic three-stage pipeline diagram
 │
-├── Dataset/                                  # Pristine Benchmark Datasets
-│   └── physics_testbed_curation.csv          # Core dataset of 442 curated physics questions & answers
+├── Dataset/                                  # Inputs / curated data
+│   ├── physics_testbed_curation.csv          # 442 curated Mechanical Oscillation problems
+│   ├── stage1_gold_solutions_22.csv          # 22 canonical three-step gold anchors (Stage 1)
+│   └── stage2_input_62.csv                   # Balanced 62-submission set (31 faulty / 31 correct)
 │
-├── Prompts/                                  # Constrained Few-Shot Prompt Templates
-│   ├── 1_Kinematics_Synthesis.txt            # Few-shot prompt for Question 1
-│   ├── 2_Kinematics_Synthesis.txt
-│   └── ... (all 40 prompt template files)
+├── Prompts/                                  # 40 constrained Chain-of-Thought prompt templates
+├── Prompts_PAL/                              # 40 PAL (Program-Aided) Stage-0 prompt templates
 │
-├── Results/                                  # Comparative Logs & Human Scores
-│   ├── foundational_testbed_40_results.csv   # Responses & s_idx scores of all models on 40 benchmark questions
-│   ├── prompt_tuning_variants_80_results.csv # Model outputs on prompt tuning variants (80 questions)
-│   └── arithmetic_stress_test_450_results.csv# Qwen-7B outputs on 450 stress-test mathematical variants
+├── Results/                                  # Model outputs, scores, audits
+│   ├── foundational_testbed_40_results.csv   # All models on the 40 benchmark questions
+│   ├── prompt_tuning_variants_80_results.csv # Outputs on the 80 prompt-tuning variants
+│   ├── arithmetic_stress_test_450_results.csv# Qwen-7B on 450 stress-test variants
+│   ├── stage0_pal_results_40.csv             # Stage 0 PAL solver results (40 questions)
+│   ├── stage0_arithmetic_audit.csv           # 154-step SymPy audit trace (zero errors)
+│   └── stage2_grading_worksheet.csv          # Expert grading of tutor feedback
 │
-├── scripts/                                  # Python Inference & Reproducibility Scripts
-│   ├── run_qwen_inference.py                 # Runs Qwen-Instruct inference (Interactive & Batch modes)
-│   ├── calculate_metrics.py                  # Computes Accuracy, S_idx, and C_rate (Table II & III)
-│   └── calculate_stress_test.py              # Computes Arithmetic Stress-Test Accuracies (Table IV)
+├── Scripts/                                  # Reproducibility scripts
+│   ├── run_qwen_inference.py                 # Qwen2.5-Instruct inference (interactive & batch)
+│   ├── calculate_metrics.py                  # Accuracy, S_idx, C_rate
+│   ├── calculate_stress_test.py              # Arithmetic stress-test accuracies
+│   ├── symbolic_step_verifier.py             # Stage 2 SymPy step-verifier: simplify(S_k - G_k) = 0
+│   ├── qwen_evaluation.py                    # Stage 0 PAL evaluation pipeline
+│   ├── stage1_standard_solutions.py          # Stage 1 gold-solution generation
+│   └── stage2_tutor_diagnostic.py            # Stage 2 diagnostic tutor pipeline
 │
-├── LICENSE                                   # Repository license (MIT License)
-└── README.md                                 # Project documentation
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-## Setup & Requirements
+## Setup
 
-To run the inference and metric calculation scripts, you need Python 3.8+ with PyTorch and Hugging Face Transformers installed.
+Python 3.8+ is required. Metric scripts need only `pandas`/`numpy`; inference additionally
+needs PyTorch and Hugging Face Transformers; the step-verifier needs `sympy`.
 
 ```bash
-# Clone the repository
 git clone https://github.com/duy23520375/Physics-LLM-Benchmark.git
 cd Physics-LLM-Benchmark
-
-# Install dependencies
-pip install torch transformers numpy
+pip install torch transformers pandas numpy sympy
 ```
 
 ---
 
-## How to Reproduce Results
-
-### 1. Reproducing Table II & Table III (Overall Performance & Metrics)
-To calculate the model accuracies, reasoning capability indices ($S_{idx}$), and constraint compliance rates ($C_{rate}$) across GPT-4o, Gemini 2.5 Flash, Qwen-1.5B, Qwen-3B, and Qwen-7B:
+## Reproducing Results
 
 ```bash
-python scripts/calculate_metrics.py
+# Problem-solving performance (Accuracy, S_idx, C_rate)
+python Scripts/calculate_metrics.py
+
+# Arithmetic stress-test (Easy / Medium / Hard tiers)
+python Scripts/calculate_stress_test.py
+
+# Stage 0 — constrained-CoT inference / PAL evaluation
+python Scripts/run_qwen_inference.py
+python Scripts/qwen_evaluation.py
+
+# Stage 2 — neuro-symbolic diagnostic tutor
+python Scripts/stage2_tutor_diagnostic.py
+python Scripts/symbolic_step_verifier.py
 ```
 
-### 2. Reproducing Table IV (Arithmetic Stress-Test)
-To calculate the performance of the Qwen-7B model across the Easy, Medium, and Hard tiers of the mathematical variants stress test:
-
-```bash
-python scripts/calculate_stress_test.py
-```
-
-### 3. Running Model Inference (Qwen)
-You can run model inference locally or on Kaggle/Colab using the provided evaluation script. It supports two modes:
-1.  **Interactive Mode:** Allows you to manually type and test any physics question.
-2.  **Batch Mode:** Reads the questions and prompt templates dynamically from the dataset and executes them sequentially.
-
-```bash
-python scripts/run_qwen_inference.py
-```
-*Note: The script uses `torch.float16` by default to optimize inference speed on Kaggle's Tesla T4 GPUs.*
+*Inference uses `torch.float16` by default for Kaggle/Colab T4 GPUs.*
 
 ---
 
 ## Citation
 
-If you find our work, dataset, or scripts helpful, please cite our paper:
+This repository accompanies our MAPR 2026 paper (IEEE). If you use the dataset, prompts,
+or scripts, please cite:
+
+> H. K. D. Nguyen and C. T. Nguyen, "A Preliminary Study on Building an LLM-Powered
+> Physics AI Tutor for High School Students," in *2026 International Conference on
+> Multimedia Analysis and Pattern Recognition (MAPR)*, IEEE, 2026.
 
 ```bibtex
-@inproceedings{duy2026physicstutor,
-  title={A Preliminary Study on Building an LLM-Powered Physics AI Tutor for High School Students},
-  author={Duy, Nguyen N. M. and et al.},
-  booktitle={Proceedings of the International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
-  year={2026}
+@inproceedings{nguyen2026physicstutor,
+  author    = {Nguyen, Huu Khanh Duy and Nguyen, Chinh Trong},
+  title     = {A Preliminary Study on Building an {LLM}-Powered Physics {AI} Tutor for High School Students},
+  booktitle = {2026 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
+  publisher = {IEEE},
+  year      = {2026}
 }
 ```

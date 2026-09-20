@@ -1,0 +1,155 @@
+﻿question_id,step_number,step_description,python_statement,computed_value,is_correct
+q_01,1,Tính tần số dao động,f = N / t,50.0,1
+q_02,1,Trích xuất biên độ A (A > 0) và pha ban đầu phi,phi = sp.pi,pi,1
+q_03,1,Tính pha dao động tại thời điểm t,Phi = omega * t + phi,20.0,1
+q_04,1,Tính toán omega,omega = 4 * sp.pi,4*pi,1
+q_04,2,Tính khoảng thời gian giữa hai lần liên tiếp qua VTCB (delta_t = T/2 = pi/omega),delta_t = sp.pi / omega,1/4,1
+q_05,1,Tính toán omega,omega = 2 * sp.pi,2*pi,1
+q_05,2,Tính toán phi,phi = -sp.pi / 6,-pi/6,1
+q_05,3,Tính chu kỳ T và tần số f,T = float(2 * sp.pi / omega),1.0,1
+q_05,4,Tính chu kỳ T và tần số f,f = float(1 / T),1.0,1
+q_05,5,Chiều dài quỹ đạo,L = 2 * A,4.0,1
+q_05,6,Li độ tại t = 1 s,x_c = float(A * sp.cos(omega * t_c + phi)),1.732050807568877,1
+q_06,1,Tính tần số góc omega = 2*pi / T,omega = 2 * sp.pi / T,0.5*pi,1
+q_06,2,Xác định pha ban đầu phi từ điều kiện x(0) = -A => cos(phi) = -1,phi = sp.pi,pi,1
+q_07,1,Tính tần số góc omega = sqrt(40) = 2*sqrt(10),omega_val = sp.sqrt(omega_squared),2*sqrt(10),1
+q_07,2,Tính tần số góc omega = sqrt(40) = 2*sqrt(10),omega_exact = 2 * sp.pi,2*pi,1
+q_08,1,Tính toán v_max,v_max = 8 * sp.pi,8*pi,1
+q_08,2,Tính toán a_max,a_max = 16 * (sp.pi**2),16*pi**2,1
+q_08,3,Tính tần số góc omega = a_max / v_max,omega = a_max / v_max,2*pi,1
+q_08,4,Tính biên độ A = v_max / omega,A = v_max / omega,4,1
+q_09,1,Tính chu kỳ T (delta_t = T / 2 => T = 2 * delta_t),T = 2.0 * delta_t,0.5,1
+q_09,2,Tính biên độ A (d = 2 * A => A = d / 2),A = d / 2.0,18.0,1
+q_09,3,Tính tần số f = 1 / T,f = 1.0 / T,2.0,1
+q_10,1,Tính toán phi1,phi1 = -5 * sp.pi / 6,-5*pi/6,1
+q_10,2,Tính toán phi2,phi2 = sp.pi / 6,pi/6,1
+q_10,3,Tính độ lệch pha,delta_phi = phi2 - phi1,pi,1
+q_10,4,Tính biên độ tổng hợp A,A = sp.sqrt(A1**2 + A2**2 + 2 * A1 * A2 * sp.cos(delta_phi)),1.00000000000000,1
+q_10,5,Tính tốc độ cực đại v_max = omega * A,v_max = omega * A,10.0000000000000,1
+q_11,1,Tính toán phi1,phi1 = sp.pi / 2,pi/2,1
+q_11,2,Tính toán phi2,phi2 = sp.pi,pi,1
+q_11,3,Tính toán omega,omega = 10 * sp.pi,10*pi,1
+q_11,4,Tính chu kỳ dao động T = 2*pi / omega,T = float(2 * sp.pi / omega),0.2,1
+q_11,5,Tính vận tốc trung bình v_tb = delta_x / T,v_tb = delta_x / T,0.0,1
+q_12,1,Tính toán omega,omega = sp.pi,pi,1
+q_12,2,Tính chu kỳ T = 2*pi / omega,T = float(2 * sp.pi / omega),2.0,1
+q_12,3,Tính khoảng thời gian delta_t và quãng đường S trong T/4,delta_t = T / 4.0,0.5,1
+q_12,4,Tính tốc độ trung bình v_tb = S / delta_t,v_tb = S / delta_t,16.0,1
+q_13,1,Tính toán omega,omega = 2 * sp.pi,2*pi,1
+q_13,2,Tính độ lớn vận tốc |v| = omega * sqrt(A^2 - x^2),v_magnitude = omega * sp.sqrt(A**2 - x**2),8.0*pi,1
+q_13,3,Biểu diễn vận tốc kèm dấu +/-,"v_val = f""+/- {v_magnitude}""",+/- 8.0*pi,1
+q_14,1,Tính toán phi1,phi1 = sp.pi / 2,pi/2,1
+q_14,2,Tính toán phi2,phi2 = -sp.pi / 6,-pi/6,1
+q_14,3,Tính toán a_max,a_max = 400 * sp.sqrt(3),400*sqrt(3),1
+q_14,4,Tính biên độ tổng hợp A = a_max / omega^2,A = a_max / (omega**2),4.0*sqrt(3),1
+q_14,5,Tính độ lệch pha delta_phi = phi2 - phi1,delta_phi = phi2 - phi1,-2*pi/3,1
+q_14,6,Thiết lập và giải phương trình bậc 2 theo a,"eq = sp.Eq(A**2, A1**2 + a_sym**2 + 2 * A1 * a_sym * sp.cos(delta_phi))","Eq(48.0, a**2 - 4.0*a + 16.0)",1
+q_14,7,Thiết lập và giải phương trình bậc 2 theo a,"roots = sp.solve(eq, a_sym)","[-4.00000000000000, 8.00000000000000]",1
+q_14,8,Lọc nghiệm dương (a > 0),valid_roots = [float(r.evalf()) for r in roots if r > 0],[8.0],1
+q_15,1,Tính li độ |x2| từ phương trình ràng buộc c1*x1^2 + c2*x2^2 = const_val,x2_sq = (const_val - c1 * (x1**2)) / c2,9.0,1
+q_15,2,Tính li độ |x2| từ phương trình ràng buộc c1*x1^2 + c2*x2^2 = const_val,abs_x2 = sp.sqrt(x2_sq),3.00000000000000,1
+q_15,3,Từ đạo hàm 6*x1*v1 + 2*x2*v2 = 0 => |v2| = (3 * |x1| * |v1|) / (|x2|),abs_v2 = (3 * abs(x1) * abs(v1)) / abs_x2,12.0000000000000,1
+q_16,1,Xác định tọa độ x2 sau 3T/4 và tính độ dời delta_x,delta_x = x2 - A,-1.0,1
+q_16,2,Tính tổng quãng đường S (3T/4 = T/2 + T/4),S = 2 * A + A,3.0,1
+q_16,3,Lập tỉ số giữa tốc độ trung bình và độ lớn vận tốc trung bình,ratio = S / abs(delta_x),3.0,1
+q_17,1,Tính toán v_tb,v_tb = 300 * sp.sqrt(3),300*sqrt(3),1
+q_17,2,Quãng đường đi được từ -A√3/2 đến A√3/2 là S (tính theo A),S_factor = sp.sqrt(3),sqrt(3),1
+q_17,3,Tính tỉ số A_over_T từ công thức v_tb = S / delta_t = (S_factor / delta_t_factor) * (A / T),ratio_factor = S_factor / delta_t_factor,3*sqrt(3),1
+q_17,4,Tính tỉ số A_over_T từ công thức v_tb = S / delta_t = (S_factor / delta_t_factor) * (A / T),A_over_T = v_tb / ratio_factor,100,1
+q_17,5,Tính tốc độ cực đại v_max = 2 * π * (A / T),v_max = 2 * sp.pi * A_over_T,200*pi,1
+q_18,1,Tính toán omega,omega = 2 * sp.pi,2*pi,1
+q_18,2,Tính pha tức thời φ = (1/6) * (2π),"phi = sp.Rational(1, 6) * (2 * sp.pi)",pi/3,1
+q_18,3,Tính vận tốc tức thời v = -A * ω * sin(φ),v = -A * omega * sp.sin(phi),-6.0*sqrt(3)*pi,1
+q_18,4,Tính tốc độ (độ lớn vận tốc),speed = sp.Abs(v),6.0*sqrt(3)*pi,1
+q_19,1,Tính toán v0_cm,v0_cm = 15 * sp.sqrt(5) * sp.pi,15*sqrt(5)*pi,1
+q_19,2,Tính toán v0,v0 = v0_cm / 100.0,0.15*sqrt(5)*pi,1
+q_19,3,Tính thế năng ban đầu Wt = 0.5 * k * x0^2,Wt = 0.5 * k * (x0**2),0.02,1
+q_19,4,Tính động năng ban đầu Wd = 0.5 * m * v0^2,Wd = 0.5 * m * (v0**2),0.0225*pi**2,1
+q_19,5,Tính cơ năng toàn phần W = Wt + Wd,W = Wt + Wd,0.02 + 0.0225*pi**2,1
+q_20,1,Tính vận tốc cực đại vmax = omega * A,v_max = omega * A,0.12,1
+q_20,2,Tính động năng cực đại Wd_max = 0.5 * m * vmax^2,Wd_max = 0.5 * m * (v_max**2),0.00036,1
+q_21,1,Tính động năng theo công thức Wd = 0.5 * k * (A^2 - x^2),Wd = 0.5 * k * (A**2 - x**2),0.03200000000000001,1
+q_22,1,Tính bình phương biên độ góc alpha0_sq = 2*W / (m*g*l),alpha0_sq = (2.0 * W) / (m * g * l),0.005625,1
+q_22,2,Tính biên độ góc alpha0 = sqrt(alpha0_sq),alpha0 = sp.sqrt(alpha0_sq),0.0750000000000000,1
+q_23,1,Tính tỉ số thế năng Wt_ratio = 1 - Wd_ratio,Wt_ratio = 1 - Wd_ratio,1/4,1
+q_23,2,Tính khoảng cách đến VTCB |x| = A * sqrt(Wt_ratio),abs_x = A * sp.sqrt(Wt_ratio),3.00000000000000,1
+q_24,1,Tính tỉ lệ biên độ còn lại (A' / A),ratio_A = (100.0 - decrease_percent) / 100.0,0.97,1
+q_24,2,Tính tỉ số cơ năng còn lại W' / W = (A' / A)^2,ratio_W_remain = ratio_A**2,0.9409,1
+q_24,3,Tính phần trăm năng lượng bị mất đi delta_W / W = 1 - W' / W,delta_W_percent = (1.0 - ratio_W_remain) * 100.0,5.910000000000004,1
+q_25,1,Tính tỉ số cơ năng còn lại W' / W,ratio_W = (100.0 - loss_energy_percent) / 100.0,0.92,1
+q_25,2,Tính tỉ số biên độ còn lại A' / A = sqrt(W' / W),ratio_A = sp.sqrt(ratio_W),0.959166304662544,1
+q_25,3,Tính phần trăm biên độ giảm %delta_A = (1 - A'/A) * 100,delta_A_percent = (1.0 - float(ratio_A)) * 100.0,4.083369533745607,1
+q_26,1,Tính biên độ A = L / 2,A = L / 2.0,7.0,1
+q_26,2,Quãng đường lẻ và thời gian lẻ đến biên dương lần 1 (từ A/2 đến A),S1 = A - x0,3.5,1
+q_26,3,Quãng đường lẻ và thời gian lẻ đến biên dương lần 1 (từ A/2 đến A),t1 = T / 6.0,0.16666666666666666,1
+q_26,4,Tính tổng thời gian và tổng quãng đường đến đích lần thứ hai (thêm 1 chu kỳ T),delta_t = t1 + T,1.1666666666666667,1
+q_26,5,Tính tổng thời gian và tổng quãng đường đến đích lần thứ hai (thêm 1 chu kỳ T),S = S1 + 4.0 * A,31.5,1
+q_26,6,Tính tốc độ trung bình v_tb = S / delta_t,v_tb = S / delta_t,27.0,1
+q_27,1,Tính tốc độ cực đại v_max = omega * A,v_max = omega * A,50.0,1
+q_28,1,Tính toán a_max,a_max = 2 * sp.pi,2*pi,1
+q_28,2,Tính tần số góc omega và chu kỳ T,omega = a_max / v_max,0.0333333333333333*pi,1
+q_28,3,Tính tần số góc omega và chu kỳ T,T = float(2 * sp.pi / omega),60.0,1
+q_28,4,Phân tích các khoảng thời gian lẻ theo trục phân bố thời gian,t1 = T / 12.0,5.0,1
+q_28,5,Phân tích các khoảng thời gian lẻ theo trục phân bố thời gian,t2 = T / 4.0,15.0,1
+q_28,6,Phân tích các khoảng thời gian lẻ theo trục phân bố thời gian,t3 = T / 12.0,5.0,1
+q_28,7,Tính tổng thời gian di chuyển,t = t1 + t2 + t3,25.0,1
+q_29,1,Tính toán omega,omega = 4 * sp.pi,4*pi,1
+q_29,2,Tính toán x2,x2 = -3 * sp.sqrt(3),-3*sqrt(3),1
+q_29,3,Tính pha đầu phi1 (v > 0 nên lấy góc âm -acos(x1/A)),phi1 = -sp.acos(x1 / A),-1.04719755119660,1
+q_29,4,Pha đích gần nhất theo chiều quay,phi2 = 5 * sp.pi / 6,5*pi/6,1
+q_29,5,Tính góc quay delta_phi = phi2 - phi1,delta_phi = phi2 - phi1,1.0471975511966 + 5*pi/6,1
+q_29,6,Tính khoảng thời gian ngắn nhất delta_t = delta_phi / omega,delta_t = delta_phi / omega,(1.0471975511966 + 5*pi/6)/(4*pi),1
+q_30,1,Tính toán omega,omega = 5 * sp.pi,5*pi,1
+q_30,2,Tính toán phi0,phi0 = -sp.pi / 3,-pi/3,1
+q_30,3,Tính toán phi1,phi1 = 2 * sp.pi / 3,2*pi/3,1
+q_30,4,Tính chu kỳ T = 2*pi / omega,T = float(2 * sp.pi / omega),0.4,1
+q_30,5,Tính số chu kỳ nguyên k = (N - 1) // 2,k = (N - 1) // 2,1008,1
+q_30,6,Tính góc quay delta_phi và thời gian lẻ t1,delta_phi = phi1 - phi0,pi,1
+q_30,7,Tính góc quay delta_phi và thời gian lẻ t1,t1 = float(delta_phi / omega),0.2,1
+q_30,8,Tính tổng thời gian tN = k * T + t1,tN = k * T + t1,403.40000000000003,1
+q_31,1,Tính chu kỳ T và tần số góc omega,T = 6.0 * delta_t1,1.00000000000000,1
+q_31,2,Tính chu kỳ T và tần số góc omega,omega = 2 * sp.pi / T,2.0*pi,1
+q_31,3,Tính biên độ A từ phương trình S = A * (2 - sqrt(3)),A = S / (2 - sp.sqrt(3)),6.0/(2 - sqrt(3)),1
+q_31,4,Tính tốc độ cực đại v_max = omega * A,v_max = omega * A,12.0*pi/(2 - sqrt(3)),1
+q_32,1,Tính góc quay delta_phi từ biên dương (phi = 0) đến x = A*sqrt(2)/2 (phi = pi/4),delta_phi = sp.pi / 4,pi/4,1
+q_32,2,Tính thời gian ngắn nhất delta_t = (delta_phi / (2*pi)) * T,delta_t = (delta_phi / (2 * sp.pi)) * T,T/8,1
+q_33,1,Tính toán A,A = sp.sqrt(2),sqrt(2),1
+q_33,2,Tính toán omega_sym,omega_sym = 10 * sp.pi,10*pi,1
+q_33,3,Tính toán v_sym,v_sym = 10 * sp.pi,10*pi,1
+q_33,4,Tính vmax và amax,v_max = omega_sym * A,10*sqrt(2)*pi,1
+q_33,5,Tính vmax và amax,a_max = (omega_sym**2) * A,100*sqrt(2)*pi**2,1
+q_33,6,Rút ra biểu thức |a|,abs_a_expr = a_max * sp.sqrt(1 - (v_sym / v_max)**2),100*pi**2,1
+q_33,7,Thay số xấp xỉ pi^2 = 10,"abs_a_approx = abs_a_expr.subs(sp.pi**2, 10)",1000,1
+q_34,1,Tính toán vx,vx = 20 * sp.pi * sp.sqrt(3),20*sqrt(3)*pi,1
+q_34,2,"Từ |x| = A/2, rút ra hệ thức vx = omega * A * sqrt(3) / 2",omega = vx / (A * sp.sqrt(3) / 2),4.0*pi,1
+q_34,3,Tính chu kỳ T = 2*pi / omega,T = 2 * sp.pi / omega,0.500000000000000,1
+q_35,1,Tính toán v1,v1 = -60.0 * sp.sqrt(3),-60.0*sqrt(3),1
+q_35,2,Tính toán x2,x2 = -3.0 * sp.sqrt(2),-3.0*sqrt(2),1
+q_35,3,Tính toán v2,v2 = -60.0 * sp.sqrt(2),-60.0*sqrt(2),1
+q_35,4,Tính hiệu bình phương vận tốc và hiệu bình phương li độ,delta_v2 = v1**2 - v2**2,3600.00000000000,1
+q_35,5,Tính hiệu bình phương vận tốc và hiệu bình phương li độ,delta_x2 = x2**2 - x1**2,9.00000000000000,1
+q_35,6,Tính tần số góc omega = sqrt(delta_v2 / delta_x2),omega = sp.sqrt(delta_v2 / delta_x2),20.0000000000000,1
+q_35,7,Tính biên độ A = sqrt(x1^2 + (v1/omega)^2),A = sp.sqrt(x1**2 + (v1 / omega)**2),6.00000000000000,1
+q_36,1,Tính toán omega,omega = 4 * sp.pi,4*pi,1
+q_36,2,Tính chu kỳ dao động T = 2*pi / omega,T = 2 * sp.pi / omega,1/2,1
+q_36,3,"Theo trục thời gian, thời gian ngắn nhất từ biên dương (+A) về A/2 là t = T / 6",t = T / 6,1/12,1
+q_37,1,Tính biên độ theo hệ SI (m),A_m = (v * math.sqrt(2)) / omega,0.08485281374238571,1
+q_37,2,Đổi sang cm và làm tròn,"A_cm = round(A_m * 100.0, 2)",8.49,1
+q_38,1,Tính li độ tại biên độ gia tốc xa = A / 2,x_a = A / 2.0,2.5,1
+q_38,2,Tính omega^2 = a_x / x_a và tần số góc omega,omega_sq = a_x / x_a,40.0,1
+q_38,3,Tính omega^2 = a_x / x_a và tần số góc omega,omega = sp.sqrt(omega_sq),6.32455532033676,1
+q_38,4,Tính tần số dao động f = omega / (2*pi) với pi = sqrt(10),pi_val = sp.sqrt(10),sqrt(10),1
+q_38,5,Tính tần số dao động f = omega / (2*pi) với pi = sqrt(10),f = omega / (2.0 * pi_val),0.316227766016838*sqrt(10),1
+q_39,1,Tính biên độ A và tần số góc omega,A = sp.sqrt(A_sq),5.00000000000000,1
+q_39,2,Tính biên độ A và tần số góc omega,omega_sq = v_max_sq / A_sq,10.0,1
+q_39,3,Tính biên độ A và tần số góc omega,omega = sp.sqrt(10),sqrt(10),1
+q_39,4,Xác định pha tại thời điểm t (phi_t = pi/4 do x/A = 1/2 và v < 0),phi_t = sp.acos(x_val / A),1.04719755119660,1
+q_39,5,Tìm pha ban đầu phi = phi_t - omega * t,phi = phi_t - omega * t_val,1.0471975511966 - 2*sqrt(10)/3,1
+q_40,1,Tính toán omega,omega = 10 * sp.pi,10*pi,1
+q_40,2,Tính toán phi_x,phi_x = -sp.pi / 3,-pi/3,1
+q_40,3,Tính toán v_target,v_target = 20 * sp.pi * sp.sqrt(3),20*sqrt(3)*pi,1
+q_40,4,Tính toán v_max,v_max = omega * A,40.0*pi,1
+q_40,5,Tính pha ban đầu của hàm vận tốc phi_v = phi_x + π/2,phi_v = phi_x + sp.pi / 2,pi/6,1
+q_40,6,Tính góc alpha = arccos(v_target / v_max),cos_val = v_target / v_max,0.5*sqrt(3),1
+q_40,7,Tính góc alpha = arccos(v_target / v_max),alpha = sp.acos(cos_val),acos(0.5*sqrt(3)),1
+q_40,8,Chọn nghiệm pha âm (v đang tăng): omega * t + phi_v = -alpha + 2*k*pi,t_expr = (-alpha - phi_v + 2 * k * sp.pi) / omega,(2*pi*k - acos(0.5*sqrt(3)) - pi/6)/(10*pi),1

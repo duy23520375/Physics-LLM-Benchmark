@@ -1,0 +1,2643 @@
+﻿question_id,question,script_result,convert_prompt,standard_solution
+q_04,"Một vật dao động điều hòa với phương trình x = 4cos4πt (x tính bằng cm, t tính bằng s). Khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là","- omega = 4 * sp.pi  # rad/s (tần số góc)  ==>  4*pi
+- delta_t = sp.pi / omega  ==>  1/4
+- result = float(delta_t)  ==>  0.25
+* Đáp số cuối cùng trả về: 0.25","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật dao động điều hòa với phương trình x = 4cos4πt (x tính bằng cm, t tính bằng s). Khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là nửa chu kỳ ($\Delta t = T/2$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    omega = 4 * sp.pi  # rad/s (tần số góc)
+    
+    # Bước 1: Tính khoảng thời gian giữa hai lần liên tiếp qua VTCB (delta_t = T/2 = pi/omega)
+    delta_t = sp.pi / omega
+    
+    result = float(delta_t)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- omega = 4 * sp.pi  # rad/s (tần số góc)  ==>  4*pi
+- delta_t = sp.pi / omega  ==>  1/4
+- result = float(delta_t)  ==>  0.25
+* Đáp số cuối cùng trả về: 0.25
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Trong dao động điều hòa, phương trình diplacement $x(t)$ của vật có dạng $x(t) = A \cos(\omega t + \phi)$, trong đó:
+- $A$ làplitude (độ lớn dao động),
+- $\omega$ là tần số góc,
+- $t$ là thời gian,
+- $\phi$ là góc ban đầu.
+
+Vị trí cân bằng (VTCB) là điểm mà tại đó vật chuyển động nhanh nhất và có vận tốc lớn nhất. Trong dao động điều hòa, vật đi qua VTCB khi $\cos(\omega t + \phi) = 0$. Điều này xảy ra khi $\omega t + \phi = \frac{\pi}{2} + k\pi$, với $k$ là số nguyên. 
+
+Khoảng thời gian giữa hai lần liên tiếp vật đi qua VTCB là nửa chu kỳ ($\Delta t = \frac{T}{2}$), trong đó $T$ là chu kỳ dao động. Chu kỳ $T$ có mối quan hệ với tần số góc $\omega$ bởi công thức $T = \frac{2\pi}{\omega}$.
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Đề bài cho biết phương trình dao động của vật là $x = 4 \cos(4\pi t)$. Từ đây, ta có thể nhận thấy:
+- Amplitude $A = 4$ cm,
+- Tần số góc $\omega = 4\pi$ rad/s.
+
+Khoảng thời gian giữa hai lần liên tiếp vật đi qua VTCB là nửa chu kỳ, do đó:
+\[ \Delta t = \frac{T}{2} = \frac{\pi}{\omega} \]
+
+Thay $\omega = 4\pi$ vào công thức trên, ta có:
+\[ \Delta t = \frac{\pi}{4\pi} = \frac{1}{4} \text{ s} \]
+
+---
+
+#### [3. KẾT LUẬN]:
+Khoảng thời gian giữa hai lần liên tiếp vật đi qua vị trí cân bằng là $\boxed{0.25 \text{ s}}$."
+q_08,Dao động điều hoà có vận tốc cực đại là vmax = 8π cm/s và gia tốc cực đại amax= 16π^2 cm/s^2 thì biên độ của dao động là,"- v_max = 8 * sp.pi      # cm/s  ==>  8*pi
+- a_max = 16 * (sp.pi**2) # cm/s^2  ==>  16*pi**2
+- omega = a_max / v_max  ==>  2*pi
+- A = v_max / omega  ==>  4
+- result = float(A)  ==>  4.0
+* Đáp số cuối cùng trả về: 4.0","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Dao động điều hoà có vận tốc cực đại là vmax = 8π cm/s và gia tốc cực đại amax= 16π^2 cm/s^2 thì biên độ của dao động là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) có thể được tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua mối quan hệ giữa chúng.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    v_max = 8 * sp.pi      # cm/s
+    a_max = 16 * (sp.pi**2) # cm/s^2
+    
+    # Bước 1: Tính tần số góc omega = a_max / v_max
+    omega = a_max / v_max
+    
+    # Bước 2: Tính biên độ A = v_max / omega
+    A = v_max / omega
+    
+    result = float(A)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- v_max = 8 * sp.pi      # cm/s  ==>  8*pi
+- a_max = 16 * (sp.pi**2) # cm/s^2  ==>  16*pi**2
+- omega = a_max / v_max  ==>  2*pi
+- A = v_max / omega  ==>  4
+- result = float(A)  ==>  4.0
+* Đáp số cuối cùng trả về: 4.0
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+
+Trong dao động điều hoà, vận tốc cực đại ($v_{max}$) và gia tốc cực đại ($a_{max}$) có mối quan hệ với biên độ ($A$) và tần số góc ($\omega$) của dao động. Cụ thể, ta có các công thức sau:
+
+1. **Vận tốc cực đại**: $v_{max} = \omega A$
+2. **Gia tốc cực đại**: $a_{max} = \omega^2 A$
+
+Để tìm biên độ $A$, ta có thể sử dụng công thức $A = \frac{v_{max}}{\omega}$. Từ đó, ta cần tìm tần số góc $\omega$ trước, sau đó sử dụng nó để tính biên độ $A$.
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+Bước 1: Tính tần số góc $\omega$.
+
+Theo công thức $a_{max} = \omega^2 A$, ta có:
+\[ \omega^2 = \frac{a_{max}}{A} \]
+
+Thay giá trị cho $a_{max}$:
+\[ \omega^2 = \frac{16\pi^2}{A} \]
+
+Do đó:
+\[ \omega = \sqrt{\frac{16\pi^2}{A}} \]
+
+Bước 2: Sử dụng công thức $v_{max} = \omega A$ để tìm tần số góc $\omega$.
+
+Ta có:
+\[ \omega = \frac{v_{max}}{A} \]
+
+Thay giá trị cho $v_{max}$:
+\[ \omega = \frac{8\pi}{A} \]
+
+Bây giờ, ta có hai biểu thức cho $\omega$:
+\[ \omega = \sqrt{\frac{16\pi^2}{A}} \]
+\[ \omega = \frac{8\pi}{A} \]
+
+Để tìm $A$, ta đặt hai biểu thức này bằng nhau:
+\[ \sqrt{\frac{16\pi^2}{A}} = \frac{8\pi}{A} \]
+
+Giải phương trình này:
+\[ \sqrt{\frac{16\pi^2}{A}} = \frac{8\pi}{A} \]
+
+Cộng mẫu hai vế:
+\[ \frac{16\pi^2}{A} = \left(\frac{8\pi}{A}\right)^2 \]
+
+\[ \frac{16\pi^2}{A} = \frac{64\pi^2}{A^2} \]
+
+Nhân cả hai vế với $A^2$:
+\[ 16\pi^2 A = 64\pi^2 \]
+
+Chia cả hai vế cho $16\pi^2$:
+\[ A = \frac{64\pi^2}{16\pi^2} \]
+
+\[ A = 4 \]
+
+Vậy, biên độ của dao động là $4$ cm.
+
+---
+
+#### [3. KẾT LUẬN]:
+
+Biên độ của dao động là $\boxed{4 \text{ cm}}$."
+q_10,"Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3sin(10t – π/3) cm và x2 = 4cos(10t + π/6) cm. Tốc độ cực đại của vật là","- A1 = 3.0               # cm  ==>  3.0
+- phi1 = -5 * sp.pi / 6  # rad  ==>  -5*pi/6
+- A2 = 4.0               # cm  ==>  4.0
+- phi2 = sp.pi / 6       # rad  ==>  pi/6
+- omega = 10.0           # rad/s  ==>  10.0
+- delta_phi = phi2 - phi1  ==>  pi
+- A = sp.sqrt(A1**2 + A2**2 + 2 * A1 * A2 * sp.cos(delta_phi))  ==>  1.00000000000000
+- v_max = omega * A  ==>  10.0000000000000
+- result = float(v_max)  ==>  10.0
+* Đáp số cuối cùng trả về: 10.0","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật tham gia đồng thời hai dao động điều hoà cùng phương, có phương trình lần lượt là x1 = 3sin(10t – π/3) cm và x2 = 4cos(10t + π/6) cm. Tốc độ cực đại của vật là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình x1 ở dạng sin nên cần chuẩn hóa về dạng cos để xác định các thông số và tính biên độ tổng hợp A, từ đó tìm v_max.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Chuẩn hóa x1 từ dạng sin sang cos: phi1 = -π/3 - π/2 = -5π/6
+    A1 = 3.0               # cm
+    phi1 = -5 * sp.pi / 6  # rad
+    A2 = 4.0               # cm
+    phi2 = sp.pi / 6       # rad
+    omega = 10.0           # rad/s
+    
+    # Bước 1: Tính độ lệch pha
+    delta_phi = phi2 - phi1
+    
+    # Bước 2: Tính biên độ tổng hợp A
+    A = sp.sqrt(A1**2 + A2**2 + 2 * A1 * A2 * sp.cos(delta_phi))
+    
+    # Bước 3: Tính tốc độ cực đại v_max = omega * A
+    v_max = omega * A
+    
+    result = float(v_max)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- A1 = 3.0               # cm  ==>  3.0
+- phi1 = -5 * sp.pi / 6  # rad  ==>  -5*pi/6
+- A2 = 4.0               # cm  ==>  4.0
+- phi2 = sp.pi / 6       # rad  ==>  pi/6
+- omega = 10.0           # rad/s  ==>  10.0
+- delta_phi = phi2 - phi1  ==>  pi
+- A = sp.sqrt(A1**2 + A2**2 + 2 * A1 * A2 * sp.cos(delta_phi))  ==>  1.00000000000000
+- v_max = omega * A  ==>  10.0000000000000
+- result = float(v_max)  ==>  10.0
+* Đáp số cuối cùng trả về: 10.0
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+
+Khi một vật tham gia đồng thời hai dao động điều hoà cùng phương, ta có thể biểu diễn tổng dao động bằng cách cộng hai dao động riêng biệt. Phương trình tổng dao động có dạng:
+
+\[ x_{\text{tổng}} = A \sin(\omega t + \phi) \]
+
+Trong đó, \( A \) là biên độ tổng hợp, \( \omega \) là tần số góc, và \( \phi \) là pha tổng hợp. Biên độ tổng hợp \( A \) có thể được tính từ hai biên độ riêng biệt \( A_1 \) và \( A_2 \), và độ lệch pha \( \Delta \phi \) giữa chúng theo công thức:
+
+\[ A = \sqrt{A_1^2 + A_2^2 + 2 A_1 A_2 \cos(\Delta \phi)} \]
+
+Tốc độ cực đại \( v_{\text{max}} \) của vật có thể được tính từ biên độ tổng hợp \( A \) và tần số góc \( \omega \) theo công thức:
+
+\[ v_{\text{max}} = \omega A \]
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+1. **Chuẩn hóa phương trình \( x_1 \):**
+
+   Phương trình \( x_1 = 3 \sin(10t - \frac{\pi}{3}) \) đã được chuẩn hóa về dạng sin. Để chuyển sang dạng cos, ta cần thêm \( \frac{\pi}{2} \) vào pha:
+
+   \[ \phi_1 = -\frac{\pi}{3} - \frac{\pi}{2} = -\frac{5\pi}{6} \]
+
+   Vậy, \( A_1 = 3 \) cm, \( \phi_1 = -\frac{5\pi}{6} \) rad.
+
+2. **Chuẩn hóa phương trình \( x_2 \):**
+
+   Phương trình \( x_2 = 4 \cos(10t + \frac{\pi}{6}) \) đã được chuẩn hóa về dạng cos. Vậy, \( A_2 = 4 \) cm, \( \phi_2 = \frac{\pi}{6} \) rad.
+
+3. **Tính độ lệch pha \( \Delta \phi \):**
+
+   \[ \Delta \phi = \phi_2 - \phi_1 = \frac{\pi}{6} - \left(-\frac{5\pi}{6}\right) = \frac{\pi}{6} + \frac{5\pi}{6} = \pi \]
+
+4. **Tính biên độ tổng hợp \( A \):**
+
+   \[ A = \sqrt{A_1^2 + A_2^2 + 2 A_1 A_2 \cos(\Delta \phi)} \]
+   
+   Thay các giá trị đã biết:
+
+   \[ A = \sqrt{3^2 + 4^2 + 2 \cdot 3 \cdot 4 \cdot \cos(\pi)} \]
+   
+   \[ A = \sqrt{9 + 16 + 2 \cdot 3 \cdot 4 \cdot (-1)} \]
+   
+   \[ A = \sqrt{9 + 16 - 24} \]
+   
+   \[ A = \sqrt{1} \]
+   
+   \[ A = 1 \text{ cm} \]
+
+5. **Tính tốc độ cực đại \( v_{\text{max}} \):**
+
+   \[ v_{\text{max}} = \omega A \]
+   
+   Trong đó, \( \omega = 10 \) rad/s và \( A = 1 \) cm:
+
+   \[ v_{\text{max}} = 10 \cdot 1 = 10 \text{ cm/s} \]
+
+---
+
+#### [3. KẾT LUẬN]:
+
+Tốc độ cực đại của vật là \( 10 \text{ cm/s} \)."
+q_17,Một chất điểm dao động điều hòa trên trục Ox. Tốc độ trung bình của chất điểm tương ứng với khoảng thời gian thế năng không vượt quá 3 lần động năng trong 1 nửa chu kì là 300√3 (cm/s). Tốc độ cực đại của dao động là,"- v_tb = 300 * sp.sqrt(3)  # cm/s  ==>  300*sqrt(3)
+- delta_t_factor = sp.Rational(1, 3)  ==>  1/3
+- S_factor = sp.sqrt(3)  ==>  sqrt(3)
+- ratio_factor = S_factor / delta_t_factor  ==>  3*sqrt(3)
+- A_over_T = v_tb / ratio_factor  ==>  100
+- v_max = 2 * sp.pi * A_over_T  ==>  200*pi
+- result = str(v_max)  ==>  200*pi
+* Đáp số cuối cùng trả về: 200*pi","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một chất điểm dao động điều hòa trên trục Ox. Tốc độ trung bình của chất điểm tương ứng với khoảng thời gian thế năng không vượt quá 3 lần động năng trong 1 nửa chu kì là 300√3 (cm/s). Tốc độ cực đại của dao động là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện đề bài: Wt ≤ 3.Wđ.
+- Ta có cơ năng W = Wt + Wđ = Wt + 3.Wt = 4.Wt => Wt/W ≤ 3/4.
+- Theo công thức thế năng: Wt/W = x^2/A^2 => x^2/A^2 ≤ 3/4 => |x| ≤ A√3/2.
+- Như vậy, vùng cần xét là khoảng li độ trong đoạn [-A√3/2, A√3/2].
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    v_tb = 300 * sp.sqrt(3)  # cm/s
+    
+    # Bước 1: Trong nửa chu kỳ (T/2), thời gian vật ở vùng |x| ≤ A√3/2 là delta_t (tính theo T)
+    # delta_t_factor = 2 * (1/6) = 1/3 (tức delta_t = T/3)
+    delta_t_factor = sp.Rational(1, 3)
+    
+    # Bước 2: Quãng đường đi được từ -A√3/2 đến A√3/2 là S (tính theo A)
+    # S_factor = √3 (tức S = A√3)
+    S_factor = sp.sqrt(3)
+    
+    # Bước 3: Tính tỉ số A_over_T từ công thức v_tb = S / delta_t = (S_factor / delta_t_factor) * (A / T)
+    ratio_factor = S_factor / delta_t_factor
+    A_over_T = v_tb / ratio_factor
+    
+    # Bước 4: Tính tốc độ cực đại v_max = 2 * π * (A / T)
+    v_max = 2 * sp.pi * A_over_T
+    
+    result = str(v_max)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- v_tb = 300 * sp.sqrt(3)  # cm/s  ==>  300*sqrt(3)
+- delta_t_factor = sp.Rational(1, 3)  ==>  1/3
+- S_factor = sp.sqrt(3)  ==>  sqrt(3)
+- ratio_factor = S_factor / delta_t_factor  ==>  3*sqrt(3)
+- A_over_T = v_tb / ratio_factor  ==>  100
+- v_max = 2 * sp.pi * A_over_T  ==>  200*pi
+- result = str(v_max)  ==>  200*pi
+* Đáp số cuối cùng trả về: 200*pi
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Đề bài yêu cầu tìm tốc độ cực đại của chất điểm dao động điều hòa khi biết rằng tốc độ trung bình của chất điểm trong khoảng thời gian thế năng không vượt quá 3 lần động năng trong 1 nửa chu kì là \(300\sqrt{3} \, \text{cm/s}\).
+
+Trong dao động điều hòa, thế năng \(W_t\) và động năng \(W_d\) thay đổi theo thời gian. Khi thế năng không vượt quá 3 lần động năng, ta có:
+\[ W_t \leq 3W_d \]
+Tổng cơ năng \(W\) luôn bằng tổng của thế năng và động năng:
+\[ W = W_t + W_d \]
+Do đó:
+\[ W = W_t + 3W_t = 4W_t \]
+Từ đó suy ra:
+\[ \frac{W_t}{W} \leq \frac{3}{4} \]
+
+Thế năng \(W_t\) của chất điểm dao động điều hòa được biểu diễn bởi công thức:
+\[ W_t = \frac{1}{2} k x^2 \]
+Trong đó \(k\) là hằng số đàn hồi và \(x\) là li độ của chất điểm. Cơ năng \(W\) của chất điểm dao động điều hòa được biểu diễn bởi công thức:
+\[ W = \frac{1}{2} k A^2 \]
+Trong đó \(A\) làplitude (li độ cực đại). Do đó:
+\[ \frac{W_t}{W} = \frac{\frac{1}{2} k x^2}{\frac{1}{2} k A^2} = \frac{x^2}{A^2} \]
+Từ đó suy ra:
+\[ \frac{x^2}{A^2} \leq \frac{3}{4} \]
+\[ |x| \leq \frac{A\sqrt{3}}{2} \]
+
+Vậy, khoảng li độ cần xét là từ \(-\frac{A\sqrt{3}}{2}\) đến \(\frac{A\sqrt{3}}{2}\).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Bước 1**: Trong nửa chu kì (\(\frac{T}{2}\)), thời gian vật ở vùng \(\left| x \right| \leq \frac{A\sqrt{3}}{2}\) là \(\Delta t\) (tính theo \(T\)).
+  \[ \Delta t = \frac{T}{3} \]
+
+- **Bước 2**: Quãng đường đi được từ \(-\frac{A\sqrt{3}}{2}\) đến \(\frac{A\sqrt{3}}{2}\) là \(S\) (tính theo \(A\)).
+  \[ S = A\sqrt{3} \]
+
+- **Bước 3**: Tính tỉ số \(\frac{A}{T}\) từ công thức tốc độ trung bình:
+  \[ v_{tb} = \frac{S}{\Delta t} = \frac{A\sqrt{3}}{\frac{T}{3}} = 3A\sqrt{3} \cdot \frac{1}{T} \]
+  Từ đó:
+  \[ \frac{A}{T} = \frac{v_{tb}}{3\sqrt{3}} = \frac{300\sqrt{3}}{3\sqrt{3}} = 100 \]
+
+- **Bước 4**: Tính tốc độ cực đại \(v_{max}\):
+  \[ v_{max} = 2\pi \cdot \frac{A}{T} = 2\pi \cdot 100 = 200\pi \, \text{cm/s} \]
+
+#### [3. KẾT LUẬN]:
+Tốc độ cực đại của dao động là \(200\pi \, \text{cm/s}\)."
+q_19,"Một con lắc lò xo gồm vật nặng có khối lượng m = 0,4kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 15√5π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là","- k = 100.0                        # N/m  ==>  100.0
+- m = 0.4                          # kg  ==>  0.4
+- x0 = 0.02                        # m (2 cm)  ==>  0.02
+- v0_cm = 15 * sp.sqrt(5) * sp.pi  # 15√5π cm/s  ==>  15*sqrt(5)*pi
+- v0 = v0_cm / 100.0               # Đổi sang m/s chuẩn SI  ==>  0.15*sqrt(5)*pi
+- Wt = 0.5 * k * (x0**2)  ==>  0.02
+- Wd = 0.5 * m * (v0**2)  ==>  0.0225*pi**2
+- W = Wt + Wd  ==>  0.02 + 0.0225*pi**2
+- result = float(W)  ==>  0.24206609902451057
+* Đáp số cuối cùng trả về: 0.24206609902451057","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một con lắc lò xo gồm vật nặng có khối lượng m = 0,4kg và lò xo có độ cứng k = 100 N/m. Kéo vật ra khỏi VTCB 2 cm rồi truyền cho vật vận tốc đầu 15√5π cm/s. Lấy π^2 = 10. Năng lượng dao động của vật là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (Cơ năng, W) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu (W = 1/2.k.x0^2 + 1/2.m.v0^2).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo và chuẩn hóa đơn vị SI
+    k = 100.0                        # N/m
+    m = 0.4                          # kg
+    x0 = 0.02                        # m (2 cm)
+    v0_cm = 15 * sp.sqrt(5) * sp.pi  # 15√5π cm/s
+    v0 = v0_cm / 100.0               # Đổi sang m/s chuẩn SI
+    
+    # Bước 1: Tính thế năng ban đầu Wt = 0.5 * k * x0^2
+    Wt = 0.5 * k * (x0**2)
+    
+    # Bước 2: Tính động năng ban đầu Wd = 0.5 * m * v0^2
+    Wd = 0.5 * m * (v0**2)
+    
+    # Bước 3: Tính cơ năng toàn phần W = Wt + Wd
+    W = Wt + Wd
+    
+    result = float(W)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- k = 100.0                        # N/m  ==>  100.0
+- m = 0.4                          # kg  ==>  0.4
+- x0 = 0.02                        # m (2 cm)  ==>  0.02
+- v0_cm = 15 * sp.sqrt(5) * sp.pi  # 15√5π cm/s  ==>  15*sqrt(5)*pi
+- v0 = v0_cm / 100.0               # Đổi sang m/s chuẩn SI  ==>  0.15*sqrt(5)*pi
+- Wt = 0.5 * k * (x0**2)  ==>  0.02
+- Wd = 0.5 * m * (v0**2)  ==>  0.0225*pi**2
+- W = Wt + Wd  ==>  0.02 + 0.0225*pi**2
+- result = float(W)  ==>  0.24206609902451057
+* Đáp số cuối cùng trả về: 0.24206609902451057
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Năng lượng dao động (cơ năng) của vật được bảo toàn và bằng tổng của thế năng và động năng của vật tại thời điểm ban đầu. Công thức tổng quát là:
+\[ W = \frac{1}{2} k x_0^2 + \frac{1}{2} m v_0^2 \]
+Trong đó:
+- \( W \) là năng lượng dao động,
+- \( k \) là độ cứng của lò xo,
+- \( x_0 \) là khoảng cách từ vị trí cân bằng đến vị trí cực đại,
+- \( m \) là khối lượng của vật,
+- \( v_0 \) là vận tốc ban đầu của vật.
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+1. **Thế năng ban đầu (\( W_t \))**:
+   \[ W_t = \frac{1}{2} k x_0^2 \]
+   Thay giá trị:
+   \[ k = 100 \, \text{N/m}, \quad x_0 = 0.02 \, \text{m} \]
+   \[ W_t = \frac{1}{2} \times 100 \times (0.02)^2 \]
+   \[ W_t = \frac{1}{2} \times 100 \times 0.0004 \]
+   \[ W_t = 0.02 \, \text{J} \]
+
+2. **Động năng ban đầu (\( W_d \))**:
+   \[ W_d = \frac{1}{2} m v_0^2 \]
+   Thay giá trị:
+   \[ m = 0.4 \, \text{kg}, \quad v_0 = 15\sqrt{5}\pi \, \text{cm/s} = 0.15\sqrt{5}\pi \, \text{m/s} \]
+   \[ W_d = \frac{1}{2} \times 0.4 \times (0.15\sqrt{5}\pi)^2 \]
+   \[ W_d = \frac{1}{2} \times 0.4 \times (0.15^2 \times 5 \times \pi^2) \]
+   \[ W_d = \frac{1}{2} \times 0.4 \times (0.0225 \times 5 \times 10) \]
+   \[ W_d = \frac{1}{2} \times 0.4 \times 1.125 \]
+   \[ W_d = 0.225 \, \text{J} \]
+
+3. **Năng lượng dao động (\( W \))**:
+   \[ W = W_t + W_d \]
+   \[ W = 0.02 + 0.225 \]
+   \[ W = 0.245 \, \text{J} \]
+
+#### [3. KẾT LUẬN]:
+Năng lượng dao động của vật là \( \boxed{0.245 \, \text{J}} \)."
+q_20,"Một vật có khối lượng 50g, dao động điều hòa với biên độ 4cm và tần số góc 3rad/s. Động năng cực đại của vật là","- m = 0.05     # 50 g = 0.05 kg  ==>  0.05
+- A = 0.04     # 4 cm = 0.04 m  ==>  0.04
+- omega = 3.0  # rad/s  ==>  3.0
+- v_max = omega * A  ==>  0.12
+- Wd_max = 0.5 * m * (v_max**2)  ==>  0.00036
+- result = float(Wd_max)  ==>  0.00036
+* Đáp số cuối cùng trả về: 0.00036","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật có khối lượng 50g, dao động điều hòa với biên độ 4cm và tần số góc 3rad/s. Động năng cực đại của vật là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa bằng cơ năng (W) của hệ và được tính bằng công thức Wđmax = 1/2.m.vmax^2, với vmax = omega.A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    # Khai báo và chuẩn hóa đơn vị SI
+    m = 0.05     # 50 g = 0.05 kg
+    A = 0.04     # 4 cm = 0.04 m
+    omega = 3.0  # rad/s
+    
+    # Bước 1: Tính vận tốc cực đại vmax = omega * A
+    v_max = omega * A
+    
+    # Bước 2: Tính động năng cực đại Wd_max = 0.5 * m * vmax^2
+    Wd_max = 0.5 * m * (v_max**2)
+    
+    result = float(Wd_max)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- m = 0.05     # 50 g = 0.05 kg  ==>  0.05
+- A = 0.04     # 4 cm = 0.04 m  ==>  0.04
+- omega = 3.0  # rad/s  ==>  3.0
+- v_max = omega * A  ==>  0.12
+- Wd_max = 0.5 * m * (v_max**2)  ==>  0.00036
+- result = float(Wd_max)  ==>  0.00036
+* Đáp số cuối cùng trả về: 0.00036
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Động năng cực đại (Wđmax) của vật trong dao động điều hòa là một dạng năng lượng mà vật sở hữu khi nó di chuyển với vận tốc lớn nhất trong quá trình dao động. Trong dao động điều hòa, vận tốc cực đại (vmax) xảy ra tại vị trí cân bằng (vị trí trung tâm). Công thức để tính động năng cực đại là \( W_{\text{đmax}} = \frac{1}{2} m v_{\text{max}}^2 \), trong đó \( m \) là khối lượng của vật và \( v_{\text{max}} \) là vận tốc cực đại. Vận tốc cực đại \( v_{\text{max}} \) có thể được tính bằng công thức \( v_{\text{max}} = \omega A \), trong đó \( \omega \) là tần số góc và \( A \) là biên độ dao động.
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Bước 1: Tính vận tốc cực đại \( v_{\text{max}} \)**  
+  Theo công thức \( v_{\text{max}} = \omega A \):
+  \[
+  v_{\text{max}} = 3.0 \, \text{rad/s} \times 0.04 \, \text{m} = 0.12 \, \text{m/s}
+  \]
+
+- **Bước 2: Tính động năng cực đại \( W_{\text{đmax}} \)**  
+  Theo công thức \( W_{\text{đmax}} = \frac{1}{2} m v_{\text{max}}^2 \):
+  \[
+  W_{\text{đmax}} = \frac{1}{2} \times 0.05 \, \text{kg} \times (0.12 \, \text{m/s})^2 = \frac{1}{2} \times 0.05 \times 0.0144 = 0.00036 \, \text{J}
+  \]
+
+#### [3. KẾT LUẬN]:
+Động năng cực đại của vật trong quá trình dao động điều hòa là \( 0.00036 \, \text{J} \)."
+q_22,"Một con lắc đơn có khối lượng 2 kg và có độ dài 4 m, dao động điều hòa ở nơi có gia tốc trọng trường 9,8 m/s^2. Cơ năng dao động của con lắc là 0,2205J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?","- m = 2.0       # kg  ==>  2.0
+- l = 4.0       # m  ==>  4.0
+- g = 9.8       # m/s^2  ==>  9.8
+- W = 0.2205    # J  ==>  0.2205
+- alpha0_sq = (2.0 * W) / (m * g * l)  ==>  0.005625
+- alpha0 = sp.sqrt(alpha0_sq)  ==>  0.0750000000000000
+- result = round(float(alpha0), 4)  ==>  0.075
+* Đáp số cuối cùng trả về: 0.075","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một con lắc đơn có khối lượng 2 kg và có độ dài 4 m, dao động điều hòa ở nơi có gia tốc trọng trường 9,8 m/s^2. Cơ năng dao động của con lắc là 0,2205J. Biên độ góc (góc lệch lớn nhất) của con lắc bằng?
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Với dao động nhỏ, cơ năng của con lắc đơn được xác định bởi công thức: \( W = \frac{1}{2} \cdot m \cdot g \cdot l \cdot \alpha_0^2 \), trong đó \(\alpha_0\) là biên độ góc tính bằng đơn vị radian (rad).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo và chuẩn hóa đơn vị SI
+    m = 2.0       # kg
+    l = 4.0       # m
+    g = 9.8       # m/s^2
+    W = 0.2205    # J
+    
+    # Bước 1: Tính bình phương biên độ góc alpha0_sq = 2*W / (m*g*l)
+    alpha0_sq = (2.0 * W) / (m * g * l)
+    
+    # Bước 2: Tính biên độ góc alpha0 = sqrt(alpha0_sq)
+    alpha0 = sp.sqrt(alpha0_sq)
+    
+    result = round(float(alpha0), 4)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- m = 2.0       # kg  ==>  2.0
+- l = 4.0       # m  ==>  4.0
+- g = 9.8       # m/s^2  ==>  9.8
+- W = 0.2205    # J  ==>  0.2205
+- alpha0_sq = (2.0 * W) / (m * g * l)  ==>  0.005625
+- alpha0 = sp.sqrt(alpha0_sq)  ==>  0.0750000000000000
+- result = round(float(alpha0), 4)  ==>  0.075
+* Đáp số cuối cùng trả về: 0.075
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Khi một con lắc đơn dao động điều hòa, cơ năng của nó được xác định bởi công thức:
+\[ W = \frac{1}{2} \cdot m \cdot g \cdot l \cdot \alpha_0^2 \]
+trong đó:
+- \( W \) là cơ năng của con lắc,
+- \( m \) là khối lượng của bob (con lắc),
+- \( g \) là gia tốc trọng trường,
+- \( l \) là độ dài của dây con lắc,
+- \( \alpha_0 \) là biên độ góc (góc lệch lớn nhất) của con lắc.
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Bước 1: Tính bình phương biên độ góc \(\alpha_0^2\).
+Theo công thức, ta có:
+\[ \alpha_0^2 = \frac{2W}{mgl} \]
+
+Thay các giá trị đã biết:
+\[ \alpha_0^2 = \frac{2 \times 0.2205}{2 \times 9.8 \times 4} \]
+\[ \alpha_0^2 = \frac{0.441}{78.4} \]
+\[ \alpha_0^2 = 0.005625 \]
+
+Bước 2: Tính biên độ góc \(\alpha_0\).
+Ta có:
+\[ \alpha_0 = \sqrt{\alpha_0^2} \]
+\[ \alpha_0 = \sqrt{0.005625} \]
+\[ \alpha_0 = 0.075 \]
+
+#### [3. KẾT LUẬN]:
+Biên độ góc của con lắc là \(0.075\) radian.
+
+Đáp số: \(0.075\) radian."
+q_25,"Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 8%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?","- loss_energy_percent = 8.0  # %  ==>  8.0
+- ratio_W = (100.0 - loss_energy_percent) / 100.0  ==>  0.92
+- ratio_A = sp.sqrt(ratio_W)  ==>  0.959166304662544
+- delta_A_percent = (1.0 - float(ratio_A)) * 100.0  ==>  4.083369533745607
+- result = round(delta_A_percent, 2)  ==>  4.08
+* Đáp số cuối cùng trả về: 4.08","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một con lắc dao động tắt dần trong môi trường với lực ma sát rất nhỏ. Cứ sau mỗi chu kì, phần năng lượng của con lắc bị mất đi 8%. Trong một dao động toàn phần biên độ giảm đi bao nhiêu phần trăm?
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Cơ năng của con lắc tỉ lệ với bình phương biên độ (W = 1/2 . k . A^2). Khi năng lượng mất đi 8%, phần năng lượng còn lại là W' = 92% . W = 0,92 . W.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo phần trăm năng lượng mất đi
+    loss_energy_percent = 8.0  # %
+    
+    # Bước 1: Tính tỉ số cơ năng còn lại W' / W
+    ratio_W = (100.0 - loss_energy_percent) / 100.0
+    
+    # Bước 2: Tính tỉ số biên độ còn lại A' / A = sqrt(W' / W)
+    ratio_A = sp.sqrt(ratio_W)
+    
+    # Bước 3: Tính phần trăm biên độ giảm %delta_A = (1 - A'/A) * 100
+    delta_A_percent = (1.0 - float(ratio_A)) * 100.0
+    
+    result = round(delta_A_percent, 2)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- loss_energy_percent = 8.0  # %  ==>  8.0
+- ratio_W = (100.0 - loss_energy_percent) / 100.0  ==>  0.92
+- ratio_A = sp.sqrt(ratio_W)  ==>  0.959166304662544
+- delta_A_percent = (1.0 - float(ratio_A)) * 100.0  ==>  4.083369533745607
+- result = round(delta_A_percent, 2)  ==>  4.08
+* Đáp số cuối cùng trả về: 4.08
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Khi một con lắc dao động tắt dần trong môi trường có lực ma sát rất nhỏ, năng lượng của nó sẽ bị mất đi theo thời gian. Năng lượng cơ của con lắc tỉ lệ với bình phương của biên độ dao động (W = ½ k A²), trong đó k là hằng số đàn hồi và A là biên độ dao động. Nếu năng lượng mất đi 8% sau mỗi chu kì, thì phần năng lượng còn lại sẽ là 92% của năng lượng ban đầu. Từ đó, ta có thể tính toán biên độ còn lại và từ đó tìm ra phần trăm biên độ đã giảm đi.
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+1. **Bước 1: Tính tỉ số cơ năng còn lại**
+   - Phần năng lượng mất đi là 8%, nên phần năng lượng còn lại là \( W' = 92\% \cdot W = 0.92 \cdot W \).
+   - Tỉ số cơ năng còn lại là \( \frac{W'}{W} = 0.92 \).
+
+2. **Bước 2: Tính tỉ số biên độ còn lại**
+   - Biên độ dao động tỉ lệ với căn bậc hai của cơ năng, do đó \( \frac{A'}{A} = \sqrt{\frac{W'}{W}} = \sqrt{0.92} \).
+   - Sử dụng máy tính, ta có \( \sqrt{0.92} \approx 0.9592 \).
+
+3. **Bước 3: Tính phần trăm biên độ giảm đi**
+   - Phần trăm biên độ giảm đi là \( \left(1 - \frac{A'}{A}\right) \times 100\% = \left(1 - 0.9592\right) \times 100\% \).
+   - Thực hiện phép tính: \( 1 - 0.9592 = 0.0408 \), và \( 0.0408 \times 100\% = 4.08\% \).
+
+#### [3. KẾT LUẬN]:
+Phần trăm biên độ giảm đi là \( 4.08\% \).
+
+*Đáp số: \( 4.08\% \)*"
+q_26,"Một vật nhỏ dao động điều hòa theo một quỹ đạo thẳng dài 14 cm với chu kì 1 s. Từ thời điểm vật qua vị trí có li độ 3,5 cm theo chiều dương đến khi gia tốc của vật đạt giá trị cực tiểu lần thứ hai, vật có tốc độ trung bình là","- L = 14.0        # Chiều dài quỹ đạo (cm)  ==>  14.0
+- T = 1.0         # Chu kỳ (s)  ==>  1.0
+- x0 = 3.5        # Vị trí ban đầu (cm)  ==>  3.5
+- A = L / 2.0  ==>  7.0
+- S1 = A - x0  ==>  3.5
+- t1 = T / 6.0  ==>  0.16666666666666666
+- delta_t = t1 + T  ==>  1.1666666666666667
+- S = S1 + 4.0 * A  ==>  31.5
+- v_tb = S / delta_t  ==>  27.0
+- result = round(float(v_tb), 2)  ==>  27.0
+* Đáp số cuối cùng trả về: 27.0","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật nhỏ dao động điều hòa theo một quỹ đạo thẳng dài 14 cm với chu kì 1 s. Từ thời điểm vật qua vị trí có li độ 3,5 cm theo chiều dương đến khi gia tốc của vật đạt giá trị cực tiểu lần thứ hai, vật có tốc độ trung bình là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Biên độ dao động liên hệ với chiều dài quỹ đạo qua công thức \( A = \frac{L}{2} \).
+- Vị trí ban đầu: \( x_0 = \frac{A}{2} \) và vật đang chuyển động theo chiều dương.
+- Vị trí đích: Gia tốc của vật đạt giá trị cực tiểu (amin) khi vật ở biên dương \( x = +A \).
+- Hành trình lần đầu: Từ vị trí \( x_0 = \frac{A}{2} \) theo chiều dương, vật đi trực tiếp ra biên dương \( +A \) với thời gian \( t_1 = \frac{T}{6} \).
+- Hành trình đến đích lần thứ hai: Vật đi thêm đúng một chu kỳ dao động toàn phần (thời gian \( T \) và quãng đường \( 4A \)).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+def solution():
+    # Khai báo tham số đầu vào
+    L = 14.0        # Chiều dài quỹ đạo (cm)
+    T = 1.0         # Chu kỳ (s)
+    x0 = 3.5        # Vị trí ban đầu (cm)
+    
+    # Bước 1: Tính biên độ A = L / 2
+    A = L / 2.0
+    
+    # Bước 2: Quãng đường lẻ và thời gian lẻ đến biên dương lần 1 (từ A/2 đến A)
+    S1 = A - x0
+    t1 = T / 6.0
+    
+    # Bước 3: Tính tổng thời gian và tổng quãng đường đến đích lần thứ hai (thêm 1 chu kỳ T)
+    delta_t = t1 + T
+    S = S1 + 4.0 * A
+    
+    # Bước 4: Tính tốc độ trung bình v_tb = S / delta_t
+    v_tb = S / delta_t
+    
+    result = round(float(v_tb), 2)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- L = 14.0        # Chiều dài quỹ đạo (cm)  ==>  14.0
+- T = 1.0         # Chu kỳ (s)  ==>  1.0
+- x0 = 3.5        # Vị trí ban đầu (cm)  ==>  3.5
+- A = L / 2.0  ==>  7.0
+- S1 = A - x0  ==>  3.5
+- t1 = T / 6.0  ==>  0.16666666666666666
+- delta_t = t1 + T  ==>  1.1666666666666667
+- S = S1 + 4.0 * A  ==>  31.5
+- v_tb = S / delta_t  ==>  27.0
+- result = round(float(v_tb), 2)  ==>  27.0
+* Đáp số cuối cùng trả về: 27.0
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+- **Biên độ dao động**: Biên độ \( A \) là khoảng cách từ vị trí cân bằng đến biên dao động. Trong bài toán này, chiều dài quỹ đạo dao động là 14 cm, nên biên độ \( A \) sẽ bằng nửa chiều dài quỹ đạo:
+  \[
+  A = \frac{L}{2}
+  \]
+  Với \( L = 14 \) cm, ta có:
+  \[
+  A = \frac{14}{2} = 7 \text{ cm}
+  \]
+
+- **Vị trí ban đầu**: Vị trí ban đầu \( x_0 \) là 3,5 cm theo chiều dương. Vì vật đang chuyển động theo chiều dương, nó sẽ di chuyển từ \( x_0 \) đến biên dương \( +A \).
+
+- **Gia tốc cực tiểu**: Gia tốc của vật đạt giá trị cực tiểu khi vật ở biên dương \( x = +A \). Do đó, hành trình lần đầu từ \( x_0 \) đến biên dương \( +A \) mất một phần sáu chu kỳ \( \left(\frac{T}{6}\right) \).
+
+- **Hành trình đến đích lần thứ hai**: Sau khi qua biên dương \( +A \), vật sẽ đi thêm một chu kỳ \( T \) để đến đích lần thứ hai. Quãng đường đi thêm trong một chu kỳ là \( 4A \) (vì vật đi qua cả hai biên dương và biên âm một lần).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Bước 1: Tính biên độ \( A \)**:
+  \[
+  A = \frac{L}{2} = \frac{14}{2} = 7 \text{ cm}
+  \]
+
+- **Bước 2: Quãng đường lẻ và thời gian lẻ đến biên dương lần 1**:
+  \[
+  S_1 = A - x_0 = 7 - 3.5 = 3.5 \text{ cm}
+  \]
+  Thời gian lẻ đến biên dương lần 1:
+  \[
+  t_1 = \frac{T}{6} = \frac{1}{6} \approx 0.167 \text{ s}
+  \]
+
+- **Bước 3: Tính tổng thời gian và tổng quãng đường đến đích lần thứ hai**:
+  \[
+  \Delta t = t_1 + T = 0.167 + 1 = 1.167 \text{ s}
+  \]
+  Quãng đường đi thêm trong một chu kỳ:
+  \[
+  S = S_1 + 4A = 3.5 + 4 \times 7 = 3.5 + 28 = 31.5 \text{ cm}
+  \]
+
+- **Bước 4: Tính tốc độ trung bình \( v_{\text{tb}} \)**:
+  \[
+  v_{\text{tb}} = \frac{S}{\Delta t} = \frac{31.5}{1.167} \approx 27 \text{ cm/s}
+  \]
+
+#### [3. KẾT LUẬN]:
+Tốc độ trung bình của vật từ thời điểm qua vị trí có li độ 3,5 cm theo chiều dương đến khi gia tốc đạt giá trị cực tiểu lần thứ hai là \(\boxed{27 \text{ cm/s}}\)."
+q_28,"Một chất điểm dao động điều hòa có vận tốc cực đại 60 cm/s và gia tốc cực đại là 2π(m/s^2) . Chọn mốc thế năng tại vị trí cân bằng. Thời điểm ban đầu (t = 0), chất điểm có vận tốc 30 cm/s và thế năng đang tăng. Chất điểm có gia tốc bằng π(m/s^2) lần đầu tiên ở thời điểm","- v_max = 60.0                # cm/s  ==>  60.0
+- a_max = 2 * sp.pi           # 2π m/s^2 = 200π cm/s^2  ==>  2*pi
+- omega = a_max / v_max  ==>  0.0333333333333333*pi
+- T = float(2 * sp.pi / omega)  ==>  60.0
+- t1 = T / 12.0               # Từ +A*sqrt(3)/2 ra +A  ==>  5.0
+- t2 = T / 4.0                # Từ +A về VTCB (0)  ==>  15.0
+- t3 = T / 12.0               # Từ VTCB (0) đến -A/2  ==>  5.0
+- t = t1 + t2 + t3  ==>  25.0
+- result = round(float(t), 3)  ==>  25.0
+* Đáp số cuối cùng trả về: 25.0","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một chất điểm dao động điều hòa có vận tốc cực đại 60 cm/s và gia tốc cực đại là 2π(m/s^2) . Chọn mốc thế năng tại vị trí cân bằng. Thời điểm ban đầu (t = 0), chất điểm có vận tốc 30 cm/s và thế năng đang tăng. Chất điểm có gia tốc bằng π(m/s^2) lần đầu tiên ở thời điểm
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Tần số góc và chu kỳ được xác định từ tỉ số gia tốc cực đại và vận tốc cực đại: \(\omega = \frac{a_{\text{max}}}{v_{\text{max}}}\) và \(T = \frac{2\pi}{\omega}\).
+- Vị trí đích: Gia tốc \(a = \frac{a_{\text{max}}}{2}\) tương ứng với li độ \(x = -\frac{A}{2}\).
+- Trạng thái đầu (t = 0): Vận tốc \(v = \frac{v_{\text{max}}}{2} = 30 \text{ cm/s}\) > 0 và thế năng đang tăng (vật đi ra xa VTCB) nên li độ ban đầu là \(x_0 = +\frac{A\sqrt{3}}{2} \text{ cm}\) và vật đang đi về phía biên dương (+A).
+- Hành trình ngắn nhất: Từ \(+\frac{A\sqrt{3}}{2} \text{ cm}\) ra biên dương (+A) mất thời gian \(T/12\), từ biên dương về VTCB (0) mất \(T/4\), và từ VTCB đến vị trí đích \(x = -\frac{A}{2} \text{ cm}\) mất \(T/12\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào (chuẩn hóa cm, s)
+    v_max = 60.0                # cm/s
+    a_max = 2 * sp.pi           # 2π m/s^2 = 200π cm/s^2
+    
+    # Bước 1: Tính tần số góc omega và chu kỳ T
+    omega = a_max / v_max
+    T = float(2 * sp.pi / omega)
+    
+    # Bước 2: Phân tích các khoảng thời gian lẻ theo trục phân bố thời gian
+    t1 = T / 12.0               # Từ +A*sqrt(3)/2 ra +A
+    t2 = T / 4.0                # Từ +A về VTCB (0)
+    t3 = T / 12.0               # Từ VTCB (0) đến -A/2
+    
+    # Bước 3: Tính tổng thời gian di chuyển
+    t = t1 + t2 + t3
+    
+    result = round(float(t), 3)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- v_max = 60.0                # cm/s  ==>  60.0
+- a_max = 2 * sp.pi           # 2π m/s^2 = 200π cm/s^2  ==>  2*pi
+- omega = a_max / v_max  ==>  0.0333333333333333*pi
+- T = float(2 * sp.pi / omega)  ==>  60.0
+- t1 = T / 12.0               # Từ +A*sqrt(3)/2 ra +A  ==>  5.0
+- t2 = T / 4.0                # Từ +A về VTCB (0)  ==>  15.0
+- t3 = T / 12.0               # Từ VTCB (0) đến -A/2  ==>  5.0
+- t = t1 + t2 + t3  ==>  25.0
+- result = round(float(t), 3)  ==>  25.0
+* Đáp số cuối cùng trả về: 25.0
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+- **Tần số góc và chu kỳ**: Gia tốc cực đại \(a_{\text{max}}\) và vận tốc cực đại \(v_{\text{max}}\) của một chất điểm dao động điều hòa có mối quan hệ với tần số góc \(\omega\) và chu kỳ \(T\) thông qua các công thức:
+  \[
+  \omega = \frac{a_{\text{max}}}{v_{\text{max}}}
+  \]
+  \[
+  T = \frac{2\pi}{\omega}
+  \]
+
+- **Vị trí đích**: Gia tốc \(a = \frac{a_{\text{max}}}{2}\) tương ứng với li độ \(x = -\frac{A}{2}\). Trong đó, \(A\) làplitude (độ lớn dao động).
+
+- **Trạng thái ban đầu**: Tại thời điểm \(t = 0\), vận tốc \(v = \frac{v_{\text{max}}}{2} = 30 \text{ cm/s}\) > 0 và thế năng đang tăng, tức là chất điểm đang đi ra xa vị trí cân bằng (VTCB) và hướng về biên dương (+A).
+
+- **Hành trình ngắn nhất**: Để tìm thời điểm đầu tiên khi gia tốc \(a = \pi \text{ m/s}^2\), ta cần phân tích hành trình của chất điểm từ trạng thái ban đầu đến vị trí đích \(x = -\frac{A}{2} \text{ cm}\). Hành trình này bao gồm ba đoạn:
+  1. Từ \(x_0 = +\frac{A\sqrt{3}}{2} \text{ cm}\) ra biên dương (+A).
+  2. Từ biên dương (+A) về VTCB (0).
+  3. Từ VTCB (0) đến vị trí đích \(x = -\frac{A}{2} \text{ cm}\).
+
+  Mỗi đoạn tương ứng với một phần của chu kỳ \(T\):
+  - Đoạn 1: \(\frac{T}{12}\)
+  - Đoạn 2: \(\frac{T}{4}\)
+  - Đoạn 3: \(\frac{T}{12}\)
+
+  Tổng thời gian di chuyển là tổng thời gian của ba đoạn này.
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Tính tần số góc \(\omega\) và chu kỳ \(T\)**:
+  \[
+  \omega = \frac{a_{\text{max}}}{v_{\text{max}}} = \frac{2\pi \text{ m/s}^2}{60 \text{ cm/s}} = \frac{2\pi \times 100 \text{ cm/s}^2}{60 \text{ cm/s}} = \frac{200\pi}{60} \text{ rad/s} = \frac{10\pi}{3} \text{ rad/s}
+  \]
+  \[
+  T = \frac{2\pi}{\omega} = \frac{2\pi}{\frac{10\pi}{3}} = \frac{6}{10} \text{ s} = 0.6 \text{ s}
+  \]
+
+- **Phân tích các khoảng thời gian**:
+  - Đoạn 1: Từ \(x_0 = +\frac{A\sqrt{3}}{2} \text{ cm}\) ra biên dương (+A):
+    \[
+    t_1 = \frac{T}{12} = \frac{0.6 \text{ s}}{12} = 0.05 \text{ s}
+    \]
+  - Đoạn 2: Từ biên dương (+A) về VTCB (0):
+    \[
+    t_2 = \frac{T}{4} = \frac{0.6 \text{ s}}{4} = 0.15 \text{ s}
+    \]
+  - Đoạn 3: Từ VTCB (0) đến vị trí đích \(x = -\frac{A}{2} \text{ cm}\):
+    \[
+    t_3 = \frac{T}{12} = \frac{0.6 \text{ s}}{12} = 0.05 \text{ s}
+    \]
+
+- **Tổng thời gian di chuyển**:
+  \[
+  t = t_1 + t_2 + t_3 = 0.05 \text{ s} + 0.15 \text{ s} + 0.05 \text{ s} = 0.25 \text{ s}
+  \]
+
+---
+
+#### [3. KẾT LUẬN]:
+Thời điểm đầu tiên khi gia tốc của chất điểm bằng \(\pi \text{ m/s}^2\) là \(\boxed{0.25 \text{ s}}\)."
+q_29,Một vật dao động với phương trình x = 6cos(4πt + π/6) (cm) (t tính bằng s). Khoảng thời gian ngắn nhất để vật đi từ vị trí có li độ 3 cm theo chiều dương đến vị trí có li độ −3√3 cm là,"- A = 6.0                  # cm  ==>  6.0
+- omega = 4 * sp.pi        # rad/s  ==>  4*pi
+- x1 = 3.0                 # cm (v > 0)  ==>  3.0
+- x2 = -3 * sp.sqrt(3)     # cm  ==>  -3*sqrt(3)
+- phi1 = -sp.acos(x1 / A)  ==>  -1.04719755119660
+- phi2 = 5 * sp.pi / 6     # rad  ==>  5*pi/6
+- delta_phi = phi2 - phi1  ==>  1.0471975511966 + 5*pi/6
+- delta_t = delta_phi / omega  ==>  (1.0471975511966 + 5*pi/6)/(4*pi)
+- result = str(sp.nsimplify(delta_t))  ==>  7/24
+* Đáp số cuối cùng trả về: 7/24","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật dao động với phương trình x = 6cos(4πt + π/6) (cm) (t tính bằng s). Khoảng thời gian ngắn nhất để vật đi từ vị trí có li độ 3 cm theo chiều dương đến vị trí có li độ −3√3 cm là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Dựa vào phương trình dao động, ta xác định được biên độ \( A \) và tần số góc \( \omega \).
+- Pha ban đầu \( \phi_1 \): Vị trí \( x_1 = 3 \) cm = \( \frac{A}{2} \) và chuyển động theo chiều dương (v > 0) ứng với pha âm \( \phi_1 = -\arccos\left(\frac{x_1}{A}\right) = -\arccos\left(\frac{3}{6}\right) = -\arccos\left(\frac{1}{2}\right) = -\frac{\pi}{3} \) rad.
+- Pha đích \( \phi_2 \): Vị trí \( x_2 = -3\sqrt{3} \) cm = \( -\frac{A\sqrt{3}}{2} \), để thời gian ngắn nhất (quay ngược chiều kim đồng hồ từ \( \phi_1 \)), pha đích gần nhất là \( \phi_2 = \frac{5\pi}{6} \) rad.
+- Góc quay nhỏ nhất là \( \Delta\phi = \phi_2 - \phi_1 \) và khoảng thời gian ngắn nhất tương ứng là \( \Delta t = \frac{\Delta\phi}{\omega} \).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    A = 6.0                  # cm
+    omega = 4 * sp.pi        # rad/s
+    x1 = 3.0                 # cm (v > 0)
+    x2 = -3 * sp.sqrt(3)     # cm
+    
+    # Bước 1: Tính pha đầu phi1 (v > 0 nên lấy góc âm -acos(x1/A))
+    phi1 = -sp.acos(x1 / A)
+    
+    # Bước 2: Pha đích gần nhất theo chiều quay
+    phi2 = 5 * sp.pi / 6     # rad
+    
+    # Bước 3: Tính góc quay delta_phi = phi2 - phi1
+    delta_phi = phi2 - phi1
+    
+    # Bước 4: Tính khoảng thời gian ngắn nhất delta_t = delta_phi / omega
+    delta_t = delta_phi / omega
+    
+    result = str(sp.nsimplify(delta_t))
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- A = 6.0                  # cm  ==>  6.0
+- omega = 4 * sp.pi        # rad/s  ==>  4*pi
+- x1 = 3.0                 # cm (v > 0)  ==>  3.0
+- x2 = -3 * sp.sqrt(3)     # cm  ==>  -3*sqrt(3)
+- phi1 = -sp.acos(x1 / A)  ==>  -1.04719755119660
+- phi2 = 5 * sp.pi / 6     # rad  ==>  5*pi/6
+- delta_phi = phi2 - phi1  ==>  1.0471975511966 + 5*pi/6
+- delta_t = delta_phi / omega  ==>  (1.0471975511966 + 5*pi/6)/(4*pi)
+- result = str(sp.nsimplify(delta_t))  ==>  7/24
+* Đáp số cuối cùng trả về: 7/24
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động của vật được cho là \( x = 6\cos(4\pi t + \frac{\pi}{6}) \) (cm). Trong đó, \( A = 6 \) cm là biên độ, \( \omega = 4\pi \) rad/s là tần số góc, và \( \phi_0 = \frac{\pi}{6} \) rad là pha ban đầu.
+
+Khi vật di chuyển từ vị trí \( x_1 = 3 \) cm (theo chiều dương) đến vị trí \( x_2 = -3\sqrt{3} \) cm, ta cần tìm khoảng thời gian ngắn nhất. Để làm điều này, ta sẽ xác định pha ban đầu \( \phi_1 \) và pha đích \( \phi_2 \) tương ứng với hai vị trí này, sau đó tính góc quay nhỏ nhất \( \Delta\phi \) và khoảng thời gian ngắn nhất \( \Delta t \).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+1. **Xác định pha ban đầu \( \phi_1 \):**
+   - Vị trí \( x_1 = 3 \) cm, ta có \( x_1 = \frac{A}{2} \).
+   - Pha ban đầu \( \phi_1 \) khi \( x_1 = \frac{A}{2} \) và chuyển động theo chiều dương (v > 0) là \( \phi_1 = -\arccos\left(\frac{x_1}{A}\right) \).
+   - Thay số: \( \phi_1 = -\arccos\left(\frac{3}{6}\right) = -\arccos\left(\frac{1}{2}\right) = -\frac{\pi}{3} \) rad.
+
+2. **Xác định pha đích \( \phi_2 \):**
+   - Vị trí \( x_2 = -3\sqrt{3} \) cm, ta có \( x_2 = -\frac{A\sqrt{3}}{2} \).
+   - Pha đích \( \phi_2 \) gần nhất theo chiều quay ngược chiều kim đồng hồ từ \( \phi_1 \) là \( \phi_2 = \frac{5\pi}{6} \) rad.
+
+3. **Tính góc quay nhỏ nhất \( \Delta\phi \):**
+   - Góc quay nhỏ nhất \( \Delta\phi = \phi_2 - \phi_1 \).
+   - Thay số: \( \Delta\phi = \frac{5\pi}{6} - \left(-\frac{\pi}{3}\right) = \frac{5\pi}{6} + \frac{\pi}{3} = \frac{5\pi}{6} + \frac{2\pi}{6} = \frac{7\pi}{6} \) rad.
+
+4. **Tính khoảng thời gian ngắn nhất \( \Delta t \):**
+   - Khoảng thời gian ngắn nhất \( \Delta t = \frac{\Delta\phi}{\omega} \).
+   - Thay số: \( \Delta t = \frac{\frac{7\pi}{6}}{4\pi} = \frac{7\pi}{6} \times \frac{1}{4\pi} = \frac{7}{24} \) s.
+
+#### [3. KẾT LUẬN]:
+Khoảng thời gian ngắn nhất để vật đi từ vị trí có li độ 3 cm theo chiều dương đến vị trí có li độ \(-3\sqrt{3}\) cm là \(\boxed{\frac{7}{24}}\) s."
+q_30,"Một vật dao động theo phương trình x = 5cos(5πt - π/3) (cm) (t tính bằng s). Kể từ t = 0, thời điểm vật qua vị trí có li độ x = − 2,5 cm lần thứ 2017 là","- omega = 5 * sp.pi       # rad/s  ==>  5*pi
+- phi0 = -sp.pi / 3       # rad  ==>  -pi/3
+- phi1 = 2 * sp.pi / 3    # rad (pha lần đầu qua x = -A/2)  ==>  2*pi/3
+- N = 2017  ==>  2017
+- T = float(2 * sp.pi / omega)  ==>  0.4
+- k = (N - 1) // 2  ==>  1008
+- delta_phi = phi1 - phi0  ==>  pi
+- t1 = float(delta_phi / omega)  ==>  0.2
+- tN = k * T + t1  ==>  403.4
+- result = float(tN)  ==>  403.4
+* Đáp số cuối cùng trả về: 403.4","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật dao động theo phương trình x = 5cos(5πt - π/3) (cm) (t tính bằng s). Kể từ t = 0, thời điểm vật qua vị trí có li độ x = − 2,5 cm lần thứ 2017 là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Với N là số lẻ, ta tách N = (N - 1) + 1. Trong (N - 1) lần đầu, vật thực hiện số chu kỳ nguyên là k = (N - 1) / 2.
+- Thời điểm cần tìm được xác định bởi công thức tN = k * T + t1, trong đó t1 là khoảng thời gian để vật đi từ vị trí ban đầu đến li độ x lần đầu tiên.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    omega = 5 * sp.pi       # rad/s
+    phi0 = -sp.pi / 3       # rad
+    phi1 = 2 * sp.pi / 3    # rad (pha lần đầu qua x = -A/2)
+    N = 2017
+    
+    # Bước 1: Tính chu kỳ T = 2*pi / omega
+    T = float(2 * sp.pi / omega)
+    
+    # Bước 2: Tính số chu kỳ nguyên k = (N - 1) // 2
+    k = (N - 1) // 2
+    
+    # Bước 3: Tính góc quay delta_phi và thời gian lẻ t1
+    delta_phi = phi1 - phi0
+    t1 = float(delta_phi / omega)
+    
+    # Bước 4: Tính tổng thời gian tN = k * T + t1
+    tN = k * T + t1
+    
+    result = float(tN)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- omega = 5 * sp.pi       # rad/s  ==>  5*pi
+- phi0 = -sp.pi / 3       # rad  ==>  -pi/3
+- phi1 = 2 * sp.pi / 3    # rad (pha lần đầu qua x = -A/2)  ==>  2*pi/3
+- N = 2017  ==>  2017
+- T = float(2 * sp.pi / omega)  ==>  0.4
+- k = (N - 1) // 2  ==>  1008
+- delta_phi = phi1 - phi0  ==>  pi
+- t1 = float(delta_phi / omega)  ==>  0.2
+- tN = k * T + t1  ==>  403.4
+- result = float(tN)  ==>  403.4
+* Đáp số cuối cùng trả về: 403.4
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+
+Vật dao động theo phương trình $x = A \cos(\omega t + \phi_0)$, trong đó:
+- $A$ làplitude (độ lớn dao động),
+- $\omega$ là tần số góc (rad/s),
+- $t$ là thời gian (s),
+- $\phi_0$ là pha ban đầu (rad).
+
+Trong bài toán này, phương trình dao động được cho là $x = 5 \cos(5\pi t - \frac{\pi}{3})$. Từ đó, ta có:
+- Amplitude $A = 5$ cm,
+- Tần số góc $\omega = 5\pi$ rad/s,
+- Pha ban đầu $\phi_0 = -\frac{\pi}{3}$ rad.
+
+Để tìm thời điểm vật qua vị trí $x = -2.5$ cm lần thứ 2017, ta cần xác định số chu kỳ nguyên mà vật đã thực hiện trước đó và thời gian lẻ để vật đi từ vị trí ban đầu đến vị trí $x = -2.5$ cm lần đầu tiên.
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+1. **Tính chu kỳ $T$:**
+   \[
+   T = \frac{2\pi}{\omega} = \frac{2\pi}{5\pi} = \frac{2}{5} \text{ s}
+   \]
+
+2. **Tính số chu kỳ nguyên $k$:**
+   \[
+   k = \frac{N - 1}{2} = \frac{2017 - 1}{2} = \frac{2016}{2} = 1008
+   \]
+
+3. **Tính góc quay $\Delta \phi$ và thời gian lẻ $t_1$:**
+   - Vị trí $x = -2.5$ cm tương ứng với góc quay $\phi = \arccos\left(-\frac{2.5}{5}\right) = \arccos\left(-\frac{1}{2}\right) = \frac{2\pi}{3}$ rad.
+   - Góc quay $\Delta \phi = \phi - \phi_0 = \frac{2\pi}{3} - \left(-\frac{\pi}{3}\right) = \frac{2\pi}{3} + \frac{\pi}{3} = \pi$ rad.
+   - Thời gian lẻ $t_1$:
+     \[
+     t_1 = \frac{\Delta \phi}{\omega} = \frac{\pi}{5\pi} = \frac{1}{5} \text{ s}
+     \]
+
+4. **Tính tổng thời gian $t_N$:**
+   \[
+   t_N = k \cdot T + t_1 = 1008 \cdot \frac{2}{5} + \frac{1}{5} = \frac{2016}{5} + \frac{1}{5} = \frac{2017}{5} = 403.4 \text{ s}
+   \]
+
+---
+
+#### [3. KẾT LUẬN]:
+
+Thời điểm vật qua vị trí $x = -2.5$ cm lần thứ 2017 là $\boxed{403.4 \text{ s}}$."
+q_31,"Một vật dao động điều hòa quanh vị trí cân bằng O. Tại thời điểm t1, vật đi qua vị trí cân bằng. Trong khoảng thời gian từ thời điểm t1 đến thời điểm t2 = t1 +1/6, vật không đổi chiều chuyển động và tốc độ của vật giảm còn một nửa. Trong khoảng thời gian từ thời điểm t2 đến thời điểm t3 = t2 + 1/6, vật đi được quãng đường 6 cm. Tốc độ cực đại của vật trong quá trình dao động là","- delta_t1 = sp.Rational(1, 6)  # s  ==>  1/6
+- S = 6.0                       # cm  ==>  6.0
+- T = 6.0 * delta_t1  ==>  1.00000000000000
+- omega = 2 * sp.pi / T  ==>  2.0*pi
+- A = S / (2 - sp.sqrt(3))  ==>  6.0/(2 - sqrt(3))
+- v_max = omega * A  ==>  12.0*pi/(2 - sqrt(3))
+- result = round(float(v_max.evalf()), 2)  ==>  140.7
+* Đáp số cuối cùng trả về: 140.7","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật dao động điều hòa quanh vị trí cân bằng O. Tại thời điểm t1, vật đi qua vị trí cân bằng. Trong khoảng thời gian từ thời điểm t1 đến thời điểm t2 = t1 +1/6, vật không đổi chiều chuyển động và tốc độ của vật giảm còn một nửa. Trong khoảng thời gian từ thời điểm t2 đến thời điểm t3 = t2 + 1/6, vật đi được quãng đường 6 cm. Tốc độ cực đại của vật trong quá trình dao động là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Tại t1: Vật đi qua vị trí cân bằng nên vận tốc đạt cực đại v1 = vmax.
+- Tại t2: Tốc độ giảm còn một nửa (v2 = vmax / 2), từ hệ thức độc lập suy ra li độ tại t2 là x2 = A.sqrt(3) / 2.
+- Khoảng thời gian từ t1 đến t2 là delta_t1 = T / 6, suy ra chu kỳ T = 6 * delta_t1 và tần số góc omega = 2.pi / T.
+- Tại t3: Sau khoảng thời gian delta_t2 = T / 6 kể từ t2, vật đi từ x2 ra biên (+A) rồi quay lại đúng vị trí x2, quãng đường đi được là S = 2 * (A - A.sqrt(3) / 2) = A * (2 - sqrt(3)).
+- Tốc độ cực đại được xác định theo công thức v_max = omega * A.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    delta_t1 = sp.Rational(1, 6)  # s
+    S = 6.0                       # cm
+    
+    # Bước 1: Tính chu kỳ T và tần số góc omega
+    T = 6.0 * delta_t1
+    omega = 2 * sp.pi / T
+    
+    # Bước 2: Tính biên độ A từ phương trình S = A * (2 - sqrt(3))
+    A = S / (2 - sp.sqrt(3))
+    
+    # Bước 3: Tính tốc độ cực đại v_max = omega * A
+    v_max = omega * A
+    
+    result = round(float(v_max.evalf()), 2)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- delta_t1 = sp.Rational(1, 6)  # s  ==>  1/6
+- S = 6.0                       # cm  ==>  6.0
+- T = 6.0 * delta_t1  ==>  1.00000000000000
+- omega = 2 * sp.pi / T  ==>  2.0*pi
+- A = S / (2 - sp.sqrt(3))  ==>  6.0/(2 - sqrt(3))
+- v_max = omega * A  ==>  12.0*pi/(2 - sqrt(3))
+- result = round(float(v_max.evalf()), 2)  ==>  140.7
+* Đáp số cuối cùng trả về: 140.7
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+- **Tại thời điểm \( t_1 \):** Vật đi qua vị trí cân bằng nên vận tốc đạt cực đại \( v_1 = v_{\text{max}} \).
+- **Tại thời điểm \( t_2 \):** Tốc độ giảm còn một nửa (\( v_2 = \frac{v_{\text{max}}}{2} \)). Từ hệ thức độc lập, ta có thể suy ra li độ tại \( t_2 \) là \( x_2 = \frac{A\sqrt{3}}{2} \).
+- **Khoảng thời gian từ \( t_1 \) đến \( t_2 \) là \( \Delta t_1 = \frac{T}{6} \)**, suy ra chu kỳ \( T = 6 \times \Delta t_1 \) và tần số góc \( \omega = \frac{2\pi}{T} \).
+- **Tại thời điểm \( t_3 \):** Sau khoảng thời gian \( \Delta t_2 = \frac{T}{6} \) kể từ \( t_2 \), vật đi từ \( x_2 \) ra biên \( (+A) \) rồi quay lại đúng vị trí \( x_2 \). Quãng đường đi được là \( S = 2 \left( A - \frac{A\sqrt{3}}{2} \right) = A \left( 2 - \sqrt{3} \right) \).
+- **Tốc độ cực đại được xác định theo công thức \( v_{\text{max}} = \omega A \)**.
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+1. **Tính chu kỳ \( T \) và tần số góc \( \omega \):**
+   - Khoảng thời gian từ \( t_1 \) đến \( t_2 \) là \( \Delta t_1 = \frac{1}{6} \) s.
+   - Chu kỳ \( T = 6 \times \Delta t_1 = 6 \times \frac{1}{6} = 1 \) s.
+   - Tần số góc \( \omega = \frac{2\pi}{T} = \frac{2\pi}{1} = 2\pi \) rad/s.
+
+2. **Tính biên độ \( A \) từ phương trình \( S = A \left( 2 - \sqrt{3} \right) \):**
+   - Quãng đường đi được \( S = 6 \) cm.
+   - Biên độ \( A = \frac{S}{2 - \sqrt{3}} = \frac{6}{2 - \sqrt{3}} \).
+
+3. **Tính tốc độ cực đại \( v_{\text{max}} = \omega A \):**
+   - Tốc độ cực đại \( v_{\text{max}} = 2\pi \times \frac{6}{2 - \sqrt{3}} \).
+
+4. **Giải phương trình \( v_{\text{max}} \):**
+   - \( v_{\text{max}} = \frac{12\pi}{2 - \sqrt{3}} \).
+   - Sử dụng phép nhân chéo để loại bỏ căn bậc hai ở mẫu:
+     \[
+     v_{\text{max}} = \frac{12\pi}{2 - \sqrt{3}} \times \frac{2 + \sqrt{3}}{2 + \sqrt{3}} = \frac{12\pi (2 + \sqrt{3})}{(2 - \sqrt{3})(2 + \sqrt{3})} = \frac{12\pi (2 + \sqrt{3})}{4 - 3} = 12\pi (2 + \sqrt{3})
+     \]
+   - Tính giá trị số:
+     \[
+     v_{\text{max}} \approx 12\pi \times 3.732 \approx 140.7 \text{ cm/s}
+     \]
+
+#### [3. KẾT LUẬN]:
+- Tốc độ cực đại của vật trong quá trình dao động là \( \boxed{140.7 \text{ cm/s}} \)."
+q_32,"Một vật dao động điều hòa dọc theo trục Ox với chu kì T, vị trí cân bằng và mốc thế năng ở gốc tọa độ. Tính từ lúc vật có li độ dương lớn nhất, thời điểm đầu tiên mà động năng và thế năng của vật bằng nhau là","- T = sp.Symbol('T')  ==>  T
+- delta_phi = sp.pi / 4  ==>  pi/4
+- delta_t = (delta_phi / (2 * sp.pi)) * T  ==>  T/8
+- result = str(delta_t)  ==>  T/8
+* Đáp số cuối cùng trả về: T/8","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật dao động điều hòa dọc theo trục Ox với chu kì T, vị trí cân bằng và mốc thế năng ở gốc tọa độ. Tính từ lúc vật có li độ dương lớn nhất, thời điểm đầu tiên mà động năng và thế năng của vật bằng nhau là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Vật có li độ dương lớn nhất tương ứng với vị trí ban đầu là biên dương x = +A.
+- Khi động năng bằng thế năng (Wđ = Wt), cơ năng W = Wđ + Wt = 2.Wt, suy ra li độ thỏa mãn |x| = A.sqrt(2) / 2.
+- Hành trình ngắn nhất: Vật đi từ biên dương (+A) đến vị trí x = +A.sqrt(2) / 2 lần đầu tiên với góc quét delta_phi = pi / 4.
+- Thời gian ngắn nhất tương ứng là delta_t = (delta_phi / (2*pi)) * T.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    T = sp.Symbol('T')
+    
+    # Bước 1: Tính góc quay delta_phi từ biên dương (phi = 0) đến x = A*sqrt(2)/2 (phi = pi/4)
+    delta_phi = sp.pi / 4
+    
+    # Bước 2: Tính thời gian ngắn nhất delta_t = (delta_phi / (2*pi)) * T
+    delta_t = (delta_phi / (2 * sp.pi)) * T
+    
+    result = str(delta_t)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- T = sp.Symbol('T')  ==>  T
+- delta_phi = sp.pi / 4  ==>  pi/4
+- delta_t = (delta_phi / (2 * sp.pi)) * T  ==>  T/8
+- result = str(delta_t)  ==>  T/8
+* Đáp số cuối cùng trả về: T/8
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+
+Khi một vật dao động điều hòa dọc theo trục Ox, nó di chuyển giữa hai biên dương và âm với chu kì cố định \( T \). Trong quá trình dao động, tại mỗi vị trí, vật có cả động năng (kinetic energy - \( W_{\text{đ}} \)) và thế năng (potential energy - \( W_{\text{t}} \)). 
+
+Động năng của vật được tính bằng công thức:
+\[ W_{\text{đ}} = \frac{1}{2} m v^2 \]
+trong đó \( m \) là khối lượng của vật và \( v \) là vận tốc của vật.
+
+Thế năng của vật được tính bằng công thức:
+\[ W_{\text{t}} = \frac{1}{2} k x^2 \]
+trong đó \( k \) là hằng số đàn hồi và \( x \) là li độ của vật so với vị trí cân bằng.
+
+Khi động năng bằng thế năng (\( W_{\text{đ}} = W_{\text{t}} \)), tổng cơ năng (kinetic and potential energy - \( W \)) của vật sẽ bằng hai lần thế năng:
+\[ W = W_{\text{đ}} + W_{\text{t}} = 2 W_{\text{t}} \]
+
+Với li độ \( x \) thỏa mãn \( W_{\text{đ}} = W_{\text{t}} \), ta có:
+\[ \frac{1}{2} m v^2 = \frac{1}{2} k x^2 \]
+\[ m v^2 = k x^2 \]
+\[ v^2 = \frac{k}{m} x^2 \]
+
+Do \( v^2 = \omega^2 (A^2 - x^2) \) (với \( \omega = \frac{2\pi}{T} \) là tần số góc và \( A \) là biên dao động), ta có:
+\[ \omega^2 (A^2 - x^2) = \frac{k}{m} x^2 \]
+\[ \left(\frac{2\pi}{T}\right)^2 (A^2 - x^2) = \frac{k}{m} x^2 \]
+\[ \frac{4\pi^2}{T^2} (A^2 - x^2) = \frac{k}{m} x^2 \]
+
+Từ đây, ta tìm được li độ \( x \):
+\[ A^2 - x^2 = \frac{k}{m} \cdot \frac{T^2}{4\pi^2} x^2 \]
+\[ A^2 = x^2 \left(1 + \frac{k}{m} \cdot \frac{T^2}{4\pi^2}\right) \]
+\[ x^2 = \frac{A^2}{1 + \frac{k}{m} \cdot \frac{T^2}{4\pi^2}} \]
+
+Tuy nhiên, khi \( W_{\text{đ}} = W_{\text{t}} \), ta có:
+\[ \frac{1}{2} m v^2 = \frac{1}{2} k x^2 \]
+\[ v^2 = \frac{k}{m} x^2 \]
+\[ \omega^2 (A^2 - x^2) = \frac{k}{m} x^2 \]
+\[ \left(\frac{2\pi}{T}\right)^2 (A^2 - x^2) = \frac{k}{m} x^2 \]
+\[ \frac{4\pi^2}{T^2} (A^2 - x^2) = \frac{k}{m} x^2 \]
+\[ A^2 - x^2 = \frac{k}{m} \cdot \frac{T^2}{4\pi^2} x^2 \]
+\[ A^2 = x^2 \left(1 + \frac{k}{m} \cdot \frac{T^2}{4\pi^2}\right) \]
+\[ x^2 = \frac{A^2}{1 + \frac{k}{m} \cdot \frac{T^2}{4\pi^2}} \]
+
+Khi \( W_{\text{đ}} = W_{\text{t}} \), ta có:
+\[ x = \frac{A}{\sqrt{2}} \]
+
+Để tìm thời gian ngắn nhất \( \Delta t \) từ lúc vật có li độ dương lớn nhất \( x = A \) đến vị trí \( x = \frac{A}{\sqrt{2}} \), ta cần tính góc quay \( \Delta \phi \) từ \( \phi = 0 \) đến \( \phi = \frac{\pi}{4} \).
+
+Góc quay \( \Delta \phi \) tương ứng với hành trình ngắn nhất:
+\[ \Delta \phi = \frac{\pi}{4} \]
+
+Thời gian ngắn nhất \( \Delta t \) được tính bằng:
+\[ \Delta t = \frac{\Delta \phi}{2\pi} \cdot T \]
+\[ \Delta t = \frac{\frac{\pi}{4}}{2\pi} \cdot T \]
+\[ \Delta t = \frac{1}{8} T \]
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+- Bước 1: Tính góc quay \( \Delta \phi \) từ \( \phi = 0 \) đến \( \phi = \frac{\pi}{4} \):
+  \[ \Delta \phi = \frac{\pi}{4} \]
+
+- Bước 2: Tính thời gian ngắn nhất \( \Delta t \):
+  \[ \Delta t = \frac{\Delta \phi}{2\pi} \cdot T \]
+  \[ \Delta t = \frac{\frac{\pi}{4}}{2\pi} \cdot T \]
+  \[ \Delta t = \frac{1}{8} T \]
+
+---
+
+#### [3. KẾT LUẬN]:
+
+Thời điểm đầu tiên mà động năng và thế năng của vật bằng nhau là \( \boxed{\frac{T}{8}} \)."
+q_33,Một vật đang dao động điều hòa với tần số góc 10π rad/s và biên độ √2 cm. Khi vật có vận tốc 10π cm/s thì gia tốc của nó có độ lớn,"- A = sp.sqrt(2)  ==>  sqrt(2)
+- omega_sym = 10 * sp.pi  ==>  10*pi
+- v_sym = 10 * sp.pi  ==>  10*pi
+- v_max = omega_sym * A  ==>  10*sqrt(2)*pi
+- a_max = (omega_sym**2) * A  ==>  100*sqrt(2)*pi**2
+- abs_a_expr = a_max * sp.sqrt(1 - (v_sym / v_max)**2)  ==>  100*pi**2
+- abs_a_approx = abs_a_expr.subs(sp.pi**2, 10)  ==>  1000
+- result = float(abs_a_approx)  ==>  1000.0
+* Đáp số cuối cùng trả về: 1000.0","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật đang dao động điều hòa với tần số góc 10π rad/s và biên độ √2 cm. Khi vật có vận tốc 10π cm/s thì gia tốc của nó có độ lớn
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Vận tốc cực đại \(v_{\text{max}} = \omega A\) và gia tốc cực đại \(a_{\text{max}} = \omega^2 A\).
+- Mối liên hệ độc lập giữa vận tốc và gia tốc trong dao động điều hòa: \(\left(\frac{v}{v_{\text{max}}}\right)^2 + \left(\frac{a}{a_{\text{max}}}\right)^2 = 1\).
+- Từ đó rút ra công thức tính độ lớn gia tốc: \(|a| = a_{\text{max}} \sqrt{1 - \left(\frac{v}{v_{\text{max}}}\right)^2}\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    A = sp.sqrt(2)
+    omega_sym = 10 * sp.pi
+    v_sym = 10 * sp.pi
+    
+    # Bước 1: Tính vmax và amax
+    v_max = omega_sym * A
+    a_max = (omega_sym**2) * A
+    
+    # Bước 2: Rút ra biểu thức |a|
+    abs_a_expr = a_max * sp.sqrt(1 - (v_sym / v_max)**2)
+    
+    # Bước 3: Thay số xấp xỉ pi^2 = 10
+    abs_a_approx = abs_a_expr.subs(sp.pi**2, 10)
+    
+    result = float(abs_a_approx)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- A = sp.sqrt(2)  ==>  sqrt(2)
+- omega_sym = 10 * sp.pi  ==>  10*pi
+- v_sym = 10 * sp.pi  ==>  10*pi
+- v_max = omega_sym * A  ==>  10*sqrt(2)*pi
+- a_max = (omega_sym**2) * A  ==>  100*sqrt(2)*pi**2
+- abs_a_expr = a_max * sp.sqrt(1 - (v_sym / v_max)**2)  ==>  100*pi**2
+- abs_a_approx = abs_a_expr.subs(sp.pi**2, 10)  ==>  1000
+- result = float(abs_a_approx)  ==>  1000.0
+* Đáp số cuối cùng trả về: 1000.0
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Khi một vật dao động điều hòa, chúng ta có thể sử dụng các công thức sau:
+- Vận tốc cực đại \(v_{\text{max}} = \omega A\), trong đó \(\omega\) là tần số góc và \(A\) là biên độ.
+- Gia tốc cực đại \(a_{\text{max}} = \omega^2 A\).
+- Mối liên hệ độc lập giữa vận tốc và gia tốc trong dao động điều hòa là \(\left(\frac{v}{v_{\text{max}}}\right)^2 + \left(\frac{a}{a_{\text{max}}}\right)^2 = 1\). Từ đó, ta có thể rút ra công thức tính độ lớn gia tốc: \(|a| = a_{\text{max}} \sqrt{1 - \left(\frac{v}{v_{\text{max}}}\right)^2}\).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Bước 1: Tính vận tốc cực đại \(v_{\text{max}}\) và gia tốc cực đại \(a_{\text{max}}\).
+- Biên độ \(A = \sqrt{2} \, \text{cm}\).
+- Tần số góc \(\omega = 10\pi \, \text{rad/s}\).
+
+Vận tốc cực đại:
+\[ v_{\text{max}} = \omega A = 10\pi \times \sqrt{2} = 10\pi \sqrt{2} \, \text{cm/s} \]
+
+Gia tốc cực đại:
+\[ a_{\text{max}} = \omega^2 A = (10\pi)^2 \times \sqrt{2} = 100\pi^2 \sqrt{2} \, \text{cm/s}^2 \]
+
+Bước 2: Sử dụng công thức \(|a| = a_{\text{max}} \sqrt{1 - \left(\frac{v}{v_{\text{max}}}\right)^2}\) để tính độ lớn gia tốc.
+- Vận tốc \(v = 10\pi \, \text{cm/s}\).
+
+Thay số vào công thức:
+\[ \left(\frac{v}{v_{\text{max}}}\right)^2 = \left(\frac{10\pi}{10\pi \sqrt{2}}\right)^2 = \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} \]
+
+\[ |a| = a_{\text{max}} \sqrt{1 - \left(\frac{1}{2}\right)} = 100\pi^2 \sqrt{2} \sqrt{\frac{1}{2}} = 100\pi^2 \sqrt{2} \times \frac{1}{\sqrt{2}} = 100\pi^2 \]
+
+Bước 3: Thay \(\pi^2 \approx 10\) vào công thức.
+\[ |a| = 100 \times 10 = 1000 \, \text{cm/s}^2 \]
+
+#### [3. KẾT LUẬN]:
+Đáp số cuối cùng là \(1000 \, \text{cm/s}^2\).
+
+---
+
+Như vậy, gia tốc của vật khi vận tốc là \(10\pi \, \text{cm/s}\) có độ lớn là \(\boxed{1000 \, \text{cm/s}^2}\)."
+q_34,"Một chất điểm dao động điều hòa với chu kì T và biên độ 10 cm. Biết trong một chu kì, khoảng thời gian để chất điểm có vận tốc không vượt quá 20π√3 cm/s là 2T/3. Chu kì dao động của chất điểm là","- A = 10.0                              # cm  ==>  10.0
+- vx = 20 * sp.pi * sp.sqrt(3)          # cm/s  ==>  20*sqrt(3)*pi
+- omega = vx / (A * sp.sqrt(3) / 2)  ==>  4.0*pi
+- T = 2 * sp.pi / omega  ==>  0.500000000000000
+- result = float(T)  ==>  0.5
+* Đáp số cuối cùng trả về: 0.5","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một chất điểm dao động điều hòa với chu kì T và biên độ 10 cm. Biết trong một chu kì, khoảng thời gian để chất điểm có vận tốc không vượt quá 20π√3 cm/s là 2T/3. Chu kì dao động của chất điểm là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Điều kiện độ lớn vận tốc không vượt quá vx (|v| <= vx) ứng với vùng vật ở gần hai biên (chiếm thời gian 2T/3).
+- Khoảng thời gian vật có độ lớn vận tốc lớn hơn vx (|v| > vx) trong một chu kỳ là delta_t' = T - 2T/3 = T/3 (vùng gần VTCB).
+- Thời gian vật đi từ VTCB (vmax) đến vị trí có tốc độ vx là t1 = delta_t' / 4 = T/12.
+- Với t1 = T/12 tính từ VTCB, li độ tương ứng của vật là |x| = A / 2, từ đó suy ra mối liên hệ vx = omega * A * sqrt(3) / 2.
+- Chu kỳ dao động được tính theo công thức T = 2.pi / omega.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    A = 10.0                              # cm
+    vx = 20 * sp.pi * sp.sqrt(3)          # cm/s
+    
+    # Bước 1: Từ |x| = A/2, rút ra hệ thức vx = omega * A * sqrt(3) / 2
+    # vx = omega * (A * sqrt(3) / 2) => omega = vx / (A * sqrt(3) / 2)
+    omega = vx / (A * sp.sqrt(3) / 2)
+    
+    # Bước 2: Tính chu kỳ T = 2*pi / omega
+    T = 2 * sp.pi / omega
+    
+    result = float(T)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- A = 10.0                              # cm  ==>  10.0
+- vx = 20 * sp.pi * sp.sqrt(3)          # cm/s  ==>  20*sqrt(3)*pi
+- omega = vx / (A * sp.sqrt(3) / 2)  ==>  4.0*pi
+- T = 2 * sp.pi / omega  ==>  0.500000000000000
+- result = float(T)  ==>  0.5
+* Đáp số cuối cùng trả về: 0.5
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Khi một chất điểm dao động điều hòa, vận tốc của nó thay đổi theo thời gian. Trong một chu kì, vận tốc của chất điểm có thể tăng lên hoặc giảm xuống, nhưng có một khoảng thời gian mà vận tốc không vượt quá một giá trị nhất định. Trong đề bài, khoảng thời gian để vận tốc của chất điểm không vượt quá \(20\pi\sqrt{3} \, \text{cm/s}\) là \(\frac{2T}{3}\), nghĩa là chất điểm ở gần hai biên dao động.
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Chúng ta sẽ sử dụng công thức liên quan đến dao động điều hòa để giải quyết bài toán này.
+
+1. **Bước 1**: Tính góc dao động \(\omega\).
+   - Biên độ dao động \(A = 10 \, \text{cm}\).
+   - Vận tốc không vượt quá \(vx = 20\pi\sqrt{3} \, \text{cm/s}\).
+   - Khoảng thời gian để vận tốc không vượt quá \(vx\) là \(\frac{2T}{3}\). Điều này nghĩa là chất điểm ở gần hai biên, nên li độ tương ứng của vật là \(|x| = \frac{A}{2}\).
+   - Khi \(|x| = \frac{A}{2}\), vận tốc \(v\) của chất điểm là:
+     \[
+     v = \omega \cdot x = \omega \cdot \frac{A}{2}
+     \]
+   - Do đó, ta có:
+     \[
+     \omega \cdot \frac{A}{2} = 20\pi\sqrt{3}
+     \]
+   - Giải phương trình trên để tìm \(\omega\):
+     \[
+     \omega = \frac{20\pi\sqrt{3}}{\frac{A}{2}} = \frac{20\pi\sqrt{3} \cdot 2}{10} = 4\pi
+     \]
+
+2. **Bước 2**: Tính chu kì \(T\).
+   - Chu kì \(T\) của dao động điều hòa được tính theo công thức:
+     \[
+     T = \frac{2\pi}{\omega}
+     \]
+   - Thay \(\omega = 4\pi\) vào công thức trên:
+     \[
+     T = \frac{2\pi}{4\pi} = \frac{1}{2}
+     \]
+
+#### [3. KẾT LUẬN]:
+Chu kì dao động của chất điểm là \(\boxed{0.5 \, \text{s}}\)."
+q_35,Một chất điểm dao động điều hòa. Tại thời điểm t1 li độ của chất điểm bằng x1 = 3 cm và vận tốc bằng v1 = - 60√3 cm/s. Tại thời điểm t2 li độ bằng x2 = -3√2 cm và vận tốc bằng v2 = -60√2 cm/s. Biên độ và tần số góc dao động của chất điểm lần lượt bằng,"- x1 = 3.0  ==>  3.0
+- v1 = -60.0 * sp.sqrt(3)  ==>  -60.0*sqrt(3)
+- x2 = -3.0 * sp.sqrt(2)  ==>  -3.0*sqrt(2)
+- v2 = -60.0 * sp.sqrt(2)  ==>  -60.0*sqrt(2)
+- delta_v2 = v1**2 - v2**2  ==>  3600.00000000000
+- delta_x2 = x2**2 - x1**2  ==>  9.00000000000000
+- omega = sp.sqrt(delta_v2 / delta_x2)  ==>  20.0000000000000
+- A = sp.sqrt(x1**2 + (v1 / omega)**2)  ==>  6.00000000000000
+- result = {""A"": float(A), ""omega"": float(omega)}  ==>  {'A': 6.0, 'omega': 20.0}
+* Đáp số cuối cùng trả về: {'A': 6.0, 'omega': 20.0}","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một chất điểm dao động điều hòa. Tại thời điểm t1 li độ của chất điểm bằng x1 = 3 cm và vận tốc bằng v1 = - 60√3 cm/s. Tại thời điểm t2 li độ bằng x2 = -3√2 cm và vận tốc bằng v2 = -60√2 cm/s. Biên độ và tần số góc dao động của chất điểm lần lượt bằng
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Áp dụng hệ thức độc lập với thời gian cho hai trạng thái dao động: \(x_1^2 + \left(\frac{v_1}{\omega}\right)^2 = x_2^2 + \left(\frac{v_2}{\omega}\right)^2 = A^2\).
+- Chuyển vế để biểu diễn tần số góc: \(\omega = \sqrt{\frac{v_1^2 - v_2^2}{x_2^2 - x_1^2}}\).
+- Sau khi tìm được \(\omega\), biên độ dao động được xác định bởi công thức \(A = \sqrt{x_1^2 + \left(\frac{v_1}{\omega}\right)^2}\).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    x1 = 3.0
+    v1 = -60.0 * sp.sqrt(3)
+    x2 = -3.0 * sp.sqrt(2)
+    v2 = -60.0 * sp.sqrt(2)
+    
+    # Bước 1: Tính hiệu bình phương vận tốc và hiệu bình phương li độ
+    delta_v2 = v1**2 - v2**2
+    delta_x2 = x2**2 - x1**2
+    
+    # Bước 2: Tính tần số góc omega = sqrt(delta_v2 / delta_x2)
+    omega = sp.sqrt(delta_v2 / delta_x2)
+    
+    # Bước 3: Tính biên độ A = sqrt(x1^2 + (v1/omega)^2)
+    A = sp.sqrt(x1**2 + (v1 / omega)**2)
+    
+    result = {""A"": float(A), ""omega"": float(omega)}
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- x1 = 3.0  ==>  3.0
+- v1 = -60.0 * sp.sqrt(3)  ==>  -60.0*sqrt(3)
+- x2 = -3.0 * sp.sqrt(2)  ==>  -3.0*sqrt(2)
+- v2 = -60.0 * sp.sqrt(2)  ==>  -60.0*sqrt(2)
+- delta_v2 = v1**2 - v2**2  ==>  3600.00000000000
+- delta_x2 = x2**2 - x1**2  ==>  9.00000000000000
+- omega = sp.sqrt(delta_v2 / delta_x2)  ==>  20.0000000000000
+- A = sp.sqrt(x1**2 + (v1 / omega)**2)  ==>  6.00000000000000
+- result = {""A"": float(A), ""omega"": float(omega)}  ==>  {'A': 6.0, 'omega': 20.0}
+* Đáp số cuối cùng trả về: {'A': 6.0, 'omega': 20.0}
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Chất điểm dao động điều hòa có nghĩa là nó di chuyển theo một đường cong hình sin hoặc cosin với tần số cố định. Trong quá trình dao động, li độ \(x\) và vận tốc \(v\) của chất điểm thay đổi theo thời gian theo các công thức sau:
+\[ v = -\omega A \sin(\omega t + \phi) \]
+\[ x = A \cos(\omega t + \phi) \]
+Trong đó, \(A\) là biên độ, \(\omega\) là tần số góc, và \(\phi\) là pha ban đầu. 
+
+Đối với hai trạng thái dao động khác nhau, ta có thể sử dụng hệ thức độc lập với thời gian:
+\[ x_1^2 + \left(\frac{v_1}{\omega}\right)^2 = x_2^2 + \left(\frac{v_2}{\omega}\right)^2 = A^2 \]
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+Bước 1: Tính hiệu bình phương vận tốc và hiệu bình phương li độ.
+\[ \Delta v^2 = v_1^2 - v_2^2 \]
+\[ \Delta x^2 = x_2^2 - x_1^2 \]
+
+Bước 2: Tính tần số góc \(\omega\).
+\[ \omega = \sqrt{\frac{v_1^2 - v_2^2}{x_2^2 - x_1^2}} \]
+
+Bước 3: Tính biên độ \(A\).
+\[ A = \sqrt{x_1^2 + \left(\frac{v_1}{\omega}\right)^2} \]
+
+Thay các giá trị số vào công thức:
+- \(x_1 = 3 \, \text{cm}\)
+- \(v_1 = -60\sqrt{3} \, \text{cm/s}\)
+- \(x_2 = -3\sqrt{2} \, \text{cm}\)
+- \(v_2 = -60\sqrt{2} \, \text{cm/s}\)
+
+Bước 1: Tính \(\Delta v^2\) và \(\Delta x^2\).
+\[ \Delta v^2 = (-60\sqrt{3})^2 - (-60\sqrt{2})^2 \]
+\[ \Delta v^2 = 3600 \cdot 3 - 3600 \cdot 2 \]
+\[ \Delta v^2 = 10800 - 7200 \]
+\[ \Delta v^2 = 3600 \, \text{cm}^2/\text{s}^2 \]
+
+\[ \Delta x^2 = (-3\sqrt{2})^2 - 3^2 \]
+\[ \Delta x^2 = 9 \cdot 2 - 9 \]
+\[ \Delta x^2 = 18 - 9 \]
+\[ \Delta x^2 = 9 \, \text{cm}^2 \]
+
+Bước 2: Tính tần số góc \(\omega\).
+\[ \omega = \sqrt{\frac{3600}{9}} \]
+\[ \omega = \sqrt{400} \]
+\[ \omega = 20 \, \text{rad/s} \]
+
+Bước 3: Tính biên độ \(A\).
+\[ A = \sqrt{3^2 + \left(\frac{-60\sqrt{3}}{20}\right)^2} \]
+\[ A = \sqrt{9 + \left(-3\sqrt{3}\right)^2} \]
+\[ A = \sqrt{9 + 27} \]
+\[ A = \sqrt{36} \]
+\[ A = 6 \, \text{cm} \]
+
+#### [3. KẾT LUẬN]:
+Biên độ và tần số góc dao động của chất điểm lần lượt bằng \(6 \, \text{cm}\) và \(20 \, \text{rad/s}\)."
+q_36,"Một vật nhỏ dao động điều hòa theo phương trình x = Acos4πt (t tính bằng s). Tính từ t = 0, khoảng thời gian ngắn nhất để gia tốc của vật có độ lớn bằng một nửa độ lớn gia tốc cực đại là","- omega = 4 * sp.pi      # rad/s  ==>  4*pi
+- T = 2 * sp.pi / omega  ==>  1/2
+- t = T / 6  ==>  1/12
+- result = str(sp.nsimplify(t))  ==>  1/12
+* Đáp số cuối cùng trả về: 1/12","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật nhỏ dao động điều hòa theo phương trình x = Acos4πt (t tính bằng s). Tính từ t = 0, khoảng thời gian ngắn nhất để gia tốc của vật có độ lớn bằng một nửa độ lớn gia tốc cực đại là
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Vị trí ban đầu (t = 0): Pha ban đầu bằng 0 nên vật ở vị trí biên dương x0 = +A.
+- Điều kiện gia tốc: Do gia tốc liên hệ với li độ qua hệ thức a = -ω² * x, nên khi độ lớn gia tốc |a| = amax / 2, li độ tương ứng là |x| = A / 2.
+- Hành trình ngắn nhất: Vật đi từ vị trí biên dương (+A) về vị trí x = +A / 2 lần đầu tiên với khoảng thời gian tương ứng là t = T / 6.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    omega = 4 * sp.pi      # rad/s
+    
+    # Bước 1: Tính chu kỳ dao động T = 2*pi / omega
+    T = 2 * sp.pi / omega
+    
+    # Bước 2: Theo trục thời gian, thời gian ngắn nhất từ biên dương (+A) về A/2 là t = T / 6
+    t = T / 6
+    
+    result = str(sp.nsimplify(t))
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- omega = 4 * sp.pi      # rad/s  ==>  4*pi
+- T = 2 * sp.pi / omega  ==>  1/2
+- t = T / 6  ==>  1/12
+- result = str(sp.nsimplify(t))  ==>  1/12
+* Đáp số cuối cùng trả về: 1/12
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+
+Khi một vật dao động điều hòa, gia tốc của nó phụ thuộc vào li độ theo công thức \( a = -\omega^2 x \), trong đó \( \omega \) là tần số góc và \( x \) là li độ. Trong bài toán này, phương trình dao động là \( x = A \cos(4\pi t) \), từ đó ta có thể xác định tần số góc \( \omega \) bằng cách so sánh với công thức chung \( x = A \cos(\omega t) \). Do đó, \( \omega = 4\pi \) rad/s.
+
+Gia tốc cực đại \( a_{\text{max}} \) xảy ra khi li độ \( x \) bằng 0, và giá trị của gia tốc cực đại là \( a_{\text{max}} = \omega^2 A \).
+
+Để tìm khoảng thời gian ngắn nhất để gia tốc của vật có độ lớn bằng một nửa độ lớn gia tốc cực đại, ta cần tìm li độ \( x \) sao cho \( |a| = \frac{a_{\text{max}}}{2} \). Từ đó, ta có:
+\[ |a| = \left| -\omega^2 x \right| = \frac{\omega^2 A}{2} \]
+\[ \omega^2 x = \frac{\omega^2 A}{2} \]
+\[ x = \frac{A}{2} \]
+
+Với \( x = \frac{A}{2} \), ta có thể tìm thời gian \( t \) bằng cách giải phương trình \( x = A \cos(4\pi t) \):
+\[ \frac{A}{2} = A \cos(4\pi t) \]
+\[ \cos(4\pi t) = \frac{1}{2} \]
+
+Phương trình \( \cos(4\pi t) = \frac{1}{2} \) có nghiệm đầu tiên khi \( 4\pi t = \frac{\pi}{3} \) (do \( \cos(\theta) = \frac{1}{2} \) khi \( \theta = \pm \frac{\pi}{3}, \pm \frac{5\pi}{3}, \ldots \)). Do đó:
+\[ 4\pi t = \frac{\pi}{3} \]
+\[ t = \frac{1}{12} \text{ s} \]
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+- Tần số góc \( \omega \) đã được xác định là \( 4\pi \) rad/s.
+- Chu kỳ dao động \( T \) được tính bằng công thức \( T = \frac{2\pi}{\omega} \):
+  \[ T = \frac{2\pi}{4\pi} = \frac{1}{2} \text{ s} \]
+- Thời gian ngắn nhất từ vị trí biên dương \( x = A \) đến \( x = \frac{A}{2} \) là \( t = \frac{T}{6} \):
+  \[ t = \frac{\frac{1}{2}}{6} = \frac{1}{12} \text{ s} \]
+
+---
+
+#### [3. KẾT LUẬN]:
+
+Khoảng thời gian ngắn nhất để gia tốc của vật có độ lớn bằng một nửa độ lớn gia tốc cực đại là \( \boxed{\frac{1}{12} \text{ s}} \)."
+q_37,"Một con lắc lò xo gồm lò xo nhẹ và vật nhỏ dao động điều hòa theo phương ngang với tần số góc 10 rad/s. Biết khi động năng và thế năng (mốc ở vị trí cân bằng của vật) bằng nhau thì vận tốc của vật có độ lớn bằng 0,6 m/s. Biên độ dao động của con lắc là bao nhiêu?","- omega = 10.0        # rad/s  ==>  10.0
+- v = 0.6             # m/s  ==>  0.6
+- A_m = (v * math.sqrt(2)) / omega  ==>  0.08485281374238571
+- A_cm = round(A_m * 100.0, 2)  ==>  8.49
+- result = A_cm  ==>  8.49
+* Đáp số cuối cùng trả về: 8.49","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một con lắc lò xo gồm lò xo nhẹ và vật nhỏ dao động điều hòa theo phương ngang với tần số góc 10 rad/s. Biết khi động năng và thế năng (mốc ở vị trí cân bằng của vật) bằng nhau thì vận tốc của vật có độ lớn bằng 0,6 m/s. Biên độ dao động của con lắc là bao nhiêu?
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+Khi động năng bằng thế năng (Wđ = Wt), li độ x thỏa mãn x^2 = A^2 / 2. Sử dụng hệ thức độc lập với thời gian (A^2 = x^2 + v^2 / omega^2), ta rút ra công thức tính biên độ trực tiếp từ tốc độ A = (v * sqrt(2)) / omega.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import math
+    
+    # Khai báo tham số đầu vào (chuẩn hóa SI)
+    omega = 10.0        # rad/s
+    v = 0.6             # m/s
+    
+    # Bước 1: Tính biên độ theo hệ SI (m)
+    A_m = (v * math.sqrt(2)) / omega
+    
+    # Bước 2: Đổi sang cm và làm tròn
+    A_cm = round(A_m * 100.0, 2)
+    
+    result = A_cm
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- omega = 10.0        # rad/s  ==>  10.0
+- v = 0.6             # m/s  ==>  0.6
+- A_m = (v * math.sqrt(2)) / omega  ==>  0.08485281374238571
+- A_cm = round(A_m * 100.0, 2)  ==>  8.49
+- result = A_cm  ==>  8.49
+* Đáp số cuối cùng trả về: 8.49
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Khi con lắc lò xo dao động điều hòa, tại các điểm mà động năng và thế năng bằng nhau, li độ \(x\) của vật thỏa mãn công thức \(x^2 = \frac{A^2}{2}\), trong đó \(A\) là biên độ dao động. Từ hệ thức độc lập với thời gian \(A^2 = x^2 + \frac{v^2}{\omega^2}\), ta có thể rút ra công thức tính biên độ trực tiếp từ tốc độ: \(A = \frac{v \sqrt{2}}{\omega}\).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Bước 1**: Tính biên độ theo hệ SI (mét).
+  - Biến số: 
+    - Tần số góc \(\omega = 10.0 \, \text{rad/s}\)
+    - Vận tốc \(v = 0.6 \, \text{m/s}\)
+  - Công thức: \(A_m = \frac{v \sqrt{2}}{\omega}\)
+  - Thay số: 
+    \[
+    A_m = \frac{0.6 \times \sqrt{2}}{10.0} = \frac{0.6 \times 1.414}{10.0} = \frac{0.8484}{10.0} = 0.08484 \, \text{m}
+    \]
+
+- **Bước 2**: Đổi sang đơn vị centimeter và làm tròn.
+  - Công thức: \(A_{cm} = A_m \times 100.0\)
+  - Thay số: 
+    \[
+    A_{cm} = 0.08484 \times 100.0 = 8.484 \, \text{cm}
+    \]
+  - Làm tròn đến hai chữ số thập phân: 
+    \[
+    A_{cm} \approx 8.49 \, \text{cm}
+    \]
+
+#### [3. KẾT LUẬN]:
+Biên độ dao động của con lắc lò xo là \(\boxed{8.49 \, \text{cm}}\)."
+q_38,"Một con lắc lò xo dao động điều hòa với chu kì T và biên độ 5 cm. Biết trong một chu kì, khoảng thời gian để vật nhỏ của con lắc có độ lớn gia tốc không vượt quá 100 cm/s² là T/3. Lấy π² = 10. Tần số dao động của vật là bao nhiều?","- A = 5.0        # cm  ==>  5.0
+- a_x = 100.0    # cm/s^2  ==>  100.0
+- x_a = A / 2.0  ==>  2.5
+- omega_sq = a_x / x_a  ==>  40.0
+- omega = sp.sqrt(omega_sq)  ==>  6.32455532033676
+- pi_val = sp.sqrt(10)  ==>  sqrt(10)
+- f = omega / (2.0 * pi_val)  ==>  0.316227766016838*sqrt(10)
+- result = float(f)  ==>  1.0
+* Đáp số cuối cùng trả về: 1.0","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một con lắc lò xo dao động điều hòa với chu kì T và biên độ 5 cm. Biết trong một chu kì, khoảng thời gian để vật nhỏ của con lắc có độ lớn gia tốc không vượt quá 100 cm/s² là T/3. Lấy π² = 10. Tần số dao động của vật là bao nhiều?
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Miền li độ: Điều kiện độ lớn gia tốc không vượt quá ax (|a| <= ax) tương ứng với vùng vật ở gần VTCB (li độ |x| <= xa).
+- Thời gian t1: Khoảng thời gian để |a| <= ax trong một chu kỳ là Delta_t = T / 3, suy ra thời gian vật đi từ VTCB đến li độ xa là t1 = Delta_t / 4 = T / 12.
+- Dựa vào trục phân bố thời gian, thời gian t1 = T / 12 tính từ VTCB tương ứng với li độ xa = A / 2.
+- Tần số góc và tần số dao động được tính từ gia tốc tại li độ xa: omega = sqrt(ax / xa) và f = omega / (2 * pi).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    A = 5.0        # cm
+    a_x = 100.0    # cm/s^2
+    
+    # Bước 1: Tính li độ tại biên độ gia tốc xa = A / 2
+    x_a = A / 2.0
+    
+    # Bước 2: Tính omega^2 = a_x / x_a và tần số góc omega
+    omega_sq = a_x / x_a
+    omega = sp.sqrt(omega_sq)
+    
+    # Bước 3: Tính tần số dao động f = omega / (2*pi) với pi = sqrt(10)
+    pi_val = sp.sqrt(10)
+    f = omega / (2.0 * pi_val)
+    
+    result = float(f)
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- A = 5.0        # cm  ==>  5.0
+- a_x = 100.0    # cm/s^2  ==>  100.0
+- x_a = A / 2.0  ==>  2.5
+- omega_sq = a_x / x_a  ==>  40.0
+- omega = sp.sqrt(omega_sq)  ==>  6.32455532033676
+- pi_val = sp.sqrt(10)  ==>  sqrt(10)
+- f = omega / (2.0 * pi_val)  ==>  0.316227766016838*sqrt(10)
+- result = float(f)  ==>  1.0
+* Đáp số cuối cùng trả về: 1.0
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Khi một vật dao động điều hòa trên một con lắc lò xo, gia tốc của vật luôn luôn ngược hướng với li độ và có độ lớn là \( a = -\omega^2 x \), trong đó \( \omega \) là tần số góc và \( x \) là li độ. Trong một chu kì \( T \), khoảng thời gian để độ lớn gia tốc không vượt quá một giá trị nhất định \( a_x \) (gọi là biên độ gia tốc) tương ứng với khoảng thời gian vật đi từ điểm cực đại (VTCB) đến một điểm giữa hai cực đại. Theo đề bài, khoảng thời gian này là \( \frac{T}{3} \). Do đó, thời gian từ VTCB đến li độ xa \( \frac{A}{2} \) là \( \frac{T}{12} \). Từ đó, ta có thể tính được tần số góc \( \omega \) và từ đó tìm ra tần số dao động \( f \).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Bước 1**: Tính li độ tại biên độ gia tốc xa \( x_a \):
+  \[
+  x_a = \frac{A}{2} = \frac{5 \text{ cm}}{2} = 2.5 \text{ cm}
+  \]
+
+- **Bước 2**: Tính tần số góc \( \omega \):
+  \[
+  \omega^2 = \frac{a_x}{x_a} = \frac{100 \text{ cm/s}^2}{2.5 \text{ cm}} = 40
+  \]
+  \[
+  \omega = \sqrt{40} = 6.32455532033676 \text{ rad/s}
+  \]
+
+- **Bước 3**: Tính tần số dao động \( f \):
+  \[
+  f = \frac{\omega}{2\pi} = \frac{6.32455532033676}{2 \times \sqrt{10}} = \frac{6.32455532033676}{2 \times 3.16227766016838} = \frac{6.32455532033676}{6.32455532033676} = 1 \text{ Hz}
+  \]
+
+#### [3. KẾT LUẬN]:
+Tần số dao động của vật là \( 1 \text{ Hz} \).
+
+*Đáp số*: \( \boxed{1 \text{ Hz}} \)"
+q_39,"Một chất điểm dao động điều hòa trên trục Ox. Tại mọi thời điểm t li độ và vận tốc của vật luôn thỏa mãn hệ thức 
+x^2/25 + v^2/250 = 1. Tại thời điểm t = 2/3 (s) vật đang ở li độ x = 2,5 cm và di chuyển nhanh dần. Lấy π^2 = 10. Phương trình dao động của vật là?","- A_sq = 25.0  ==>  25.0
+- v_max_sq = 250.0  ==>  250.0
+- t_val = sp.Rational(2, 3)  ==>  2/3
+- x_val = 2.5  ==>  2.5
+- A = sp.sqrt(A_sq)  ==>  5.00000000000000
+- omega_sq = v_max_sq / A_sq  ==>  10.0
+- omega = sp.sqrt(10)  ==>  sqrt(10)
+- phi_t = sp.acos(x_val / A)  ==>  pi/3
+- phi = phi_t - omega * t_val  ==>  -pi/3
+- result = {""A"": int(A), ""omega"": str(omega), ""phi"": str(phi)}  ==>  {'A': 5, 'omega': 'pi', 'phi': '-pi/3'}
+* Đáp số cuối cùng trả về: {'A': 5, 'omega': 'pi', 'phi': '-pi/3'}","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một chất điểm dao động điều hòa trên trục Ox. Tại mọi thời điểm t li độ và vận tốc của vật luôn thỏa mãn hệ thức 
+x^2/25 + v^2/250 = 1. Tại thời điểm t = 2/3 (s) vật đang ở li độ x = 2,5 cm và di chuyển nhanh dần. Lấy π^2 = 10. Phương trình dao động của vật là?
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- So sánh hệ thức liên hệ với dạng chuẩn x^2 / A^2 + v^2 / (omega * A)^2 = 1 để xác định biên độ A và tần số góc omega.
+- Tại thời điểm t, pha dao động thỏa mãn cos(phi_t) = x / A.
+- Logic chuyển động: Vật ở li độ dương (x > 0) và đang chuyển động nhanh dần nên vật đang tiến về VTCB theo chiều âm (v < 0), suy ra pha phi_t > 0 (phi_t = pi/3).
+- Pha ban đầu được xác định từ hệ thức: phi = phi_t - omega * t = pi/3 - pi*(2/3) = -pi/3.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    A_sq = 25.0
+    v_max_sq = 250.0
+    t_val = sp.Rational(2, 3)
+    x_val = 2.5
+    
+    # Bước 1: Tính biên độ A và tần số góc omega (pi^2 = 10 => omega = pi)
+    A = sp.sqrt(A_sq)
+    omega = sp.pi
+    
+    # Bước 2: Xác định pha tại thời điểm t (phi_t = pi/3 do x/A = 1/2 và v < 0)
+    phi_t = sp.pi / 3
+    
+    # Bước 3: Tìm pha ban đầu phi = phi_t - omega * t_val
+    phi = phi_t - omega * t_val
+    
+    result = {""A"": int(A), ""omega"": str(omega), ""phi"": str(phi)}
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- A_sq = 25.0  ==>  25.0
+- v_max_sq = 250.0  ==>  250.0
+- t_val = sp.Rational(2, 3)  ==>  2/3
+- x_val = 2.5  ==>  2.5
+- A = sp.sqrt(A_sq)  ==>  5.00000000000000
+- omega_sq = v_max_sq / A_sq  ==>  10.0
+- omega = sp.sqrt(10)  ==>  sqrt(10)
+- phi_t = sp.acos(x_val / A)  ==>  pi/3
+- phi = phi_t - omega * t_val  ==>  -pi/3
+- result = {""A"": int(A), ""omega"": str(omega), ""phi"": str(phi)}  ==>  {'A': 5, 'omega': 'pi', 'phi': '-pi/3'}
+* Đáp số cuối cùng trả về: {'A': 5, 'omega': 'pi', 'phi': '-pi/3'}
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+Phương trình dao động điều hòa có dạng chuẩn là \( x(t) = A \cos(\omega t + \phi) \), trong đó \( A \) là biên độ, \( \omega \) là tần số góc, và \( \phi \) là pha ban đầu. Li độ \( x \) và vận tốc \( v \) của chất điểm dao động điều hòa có mối quan hệ với phương trình dao động chuẩn như sau:
+\[ x^2 / A^2 + v^2 / (\omega A)^2 = 1 \]
+
+Trong đề bài, ta có hệ thức \( \frac{x^2}{25} + \frac{v^2}{250} = 1 \). Từ đây, ta có thể xác định biên độ \( A \) và tần số góc \( \omega \).
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- **Bước 1: Tính biên độ \( A \) và tần số góc \( \omega \)**
+
+  Biên độ \( A \) được xác định từ \( A^2 = 25 \):
+  \[
+  A = \sqrt{25} = 5 \text{ cm}
+  \]
+
+  Tần số góc \( \omega \) được xác định từ \( \omega A^2 = 250 \):
+  \[
+  \omega \cdot 25 = 250 \implies \omega = \frac{250}{25} = 10 \text{ rad/s}
+  \]
+  Tuy nhiên, đề bài cho biết \( \pi^2 = 10 \), nên:
+  \[
+  \omega = \pi \text{ rad/s}
+  \]
+
+- **Bước 2: Xác định pha tại thời điểm \( t = \frac{2}{3} \) s**
+
+  Tại thời điểm \( t = \frac{2}{3} \) s, li độ \( x = 2.5 \) cm. Ta có:
+  \[
+  \frac{x^2}{A^2} = \frac{(2.5)^2}{5^2} = \frac{6.25}{25} = 0.25
+  \]
+  Do \( \frac{x^2}{A^2} = 0.25 \), ta có:
+  \[
+  \cos(\phi_t) = \frac{x}{A} = \frac{2.5}{5} = 0.5
+  \]
+  Điều này cho thấy \( \phi_t = \frac{\pi}{3} \) (do \( \cos\left(\frac{\pi}{3}\right) = 0.5 \)).
+
+  Vì vật đang di chuyển nhanh dần (v < 0), nên vật đang tiến về VTCB theo chiều âm. Điều này suy ra rằng pha \( \phi_t \) phải lớn hơn \( 0 \). Do đó, pha \( \phi_t = \frac{\pi}{3} \).
+
+- **Bước 3: Tìm pha ban đầu \( \phi \)**
+
+  Pha ban đầu \( \phi \) được xác định từ:
+  \[
+  \phi = \phi_t - \omega t = \frac{\pi}{3} - \pi \cdot \frac{2}{3} = \frac{\pi}{3} - \frac{2\pi}{3} = -\frac{\pi}{3}
+  \]
+
+#### [3. KẾT LUẬN]:
+Phương trình dao động của chất điểm là:
+\[
+x(t) = 5 \cos(\pi t - \frac{\pi}{3})
+\]
+
+Đáp số: \( A = 5 \text{ cm}, \omega = \pi \text{ rad/s}, \phi = -\frac{\pi}{3} \)."
+q_40,Một vật dao động điều hòa với phương trình x = 4cos(10πt - π/3) cm. Xác định thời điểm gần nhất vận tốc của vật bằng 20π√3 cm/s và đang tăng kể từ lúc t = 0,"- omega = 10 * sp.pi  ==>  10*pi
+- A = 4.0  ==>  4.0
+- phi_x = -sp.pi / 3           # Pha ban đầu của li độ x  ==>  -pi/3
+- v_target = 20 * sp.pi * sp.sqrt(3)  ==>  20*sqrt(3)*pi
+- v_max = omega * A  ==>  40.0*pi
+- phi_v = phi_x + sp.pi / 2  ==>  pi/6
+- cos_val = v_target / v_max  ==>  0.5*sqrt(3)
+- alpha = sp.acos(cos_val)    # π/6  ==>  acos(0.5*sqrt(3))
+- k = sp.Symbol('k', integer=True)  ==>  k
+- t_expr = (-alpha - phi_v + 2 * k * sp.pi) / omega  ==>  (2*pi*k - acos(0.5*sqrt(3)) - pi/6)/(10*pi)
+- t_first = t_expr.subs(k, 1)  ==>  (-acos(0.5*sqrt(3)) + 11*pi/6)/(10*pi)
+- result = str(sp.nsimplify(t_first))  ==>  1/6
+* Đáp số cuối cùng trả về: 1/6","VAI TRÒ VÀ NHIỆM VỤ:
+Bạn là một Giáo viên Vật lý chuyên nghiệp.
+Dưới đây là một bài toán Vật lý kèm theo:
+1. Bài giải ban đầu của bạn (trong đó Bước 2 đang viết bằng mã Python def solution()).
+2. TOÀN BỘ QUÁ TRÌNH TÍNH TOÁN VÀ KẾT QUẢ THỰC THI CHÍNH XÁC TỪNG BƯỚC từ công cụ Python Interpreter (khớp 1-1 với từng dòng lệnh trong def solution()).
+
+Nhiệm vụ của bạn: Hãy chuẩn hóa và viết lại toàn bộ thành một [LỜI GIẢI CHI TIẾT CHUẨN SƯ PHẠM] cho học sinh lớp 11, tuân thủ nghiêm ngặt các quy tắc sau:
+- [1. GIẢI THÍCH LÝ THUYẾT]: Giữ nguyên vẹn phần giải thích lý thuyết từ bài giải gốc, diễn đạt mạch lạc, rõ ràng.
+- [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]: Chuyển đổi toàn bộ mã code Python trong hàm solution() thành các bước công thức đại số vật lý chuẩn và thay các giá trị số chính xác từ kết quả thực thi vào để học sinh hiểu rõ từng bước (tuyệt đối không để lại code hay từ khóa lập trình như def, import, sp, round,...).
+- [3. KẾT LUẬN]: Nêu câu kết luận súc tích và ghi rõ đáp số tính được từ Bước 2 (kèm đơn vị vật lý chuẩn).
+
+THÔNG TIN ĐẦU VÀO:
+---
+[1. ĐỀ BÀI VẬT LÝ]:
+Một vật dao động điều hòa với phương trình x = 4cos(10πt - π/3) cm. Xác định thời điểm gần nhất vận tốc của vật bằng 20π√3 cm/s và đang tăng kể từ lúc t = 0
+
+---
+[2. BÀI GIẢI GỐC CỦA BẠN]:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+- Thông số ban đầu: Biên độ A = 4 cm, Tần số góc omega = 10π (rad/s), pha ban đầu của li độ phi_x = -π/3 rad.
+- Phương trình vận tốc chuẩn hóa hàm COS có pha ban đầu phi_v = phi_x + π/2 và biên độ v_max = omega * A.
+- Vì vận tốc đang tăng (a > 0), ta chọn nghiệm pha âm ở nửa dưới đường tròn lượng giác: omega.t + phi_v = -alpha + 2*k*pi (với alpha = arccos(v_target / v_max)).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+def solution():
+    import sympy as sp
+    
+    # Khai báo tham số đầu vào
+    omega = 10 * sp.pi
+    A = 4.0
+    phi_x = -sp.pi / 3           # Pha ban đầu của li độ x
+    v_target = 20 * sp.pi * sp.sqrt(3)
+    v_max = omega * A
+    
+    # Bước 1: Tính pha ban đầu của hàm vận tốc phi_v = phi_x + π/2
+    phi_v = phi_x + sp.pi / 2
+    
+    # Bước 2: Tính góc alpha = arccos(v_target / v_max)
+    cos_val = v_target / v_max
+    alpha = sp.acos(cos_val)    # π/6
+    
+    # Bước 3: Chọn nghiệm pha âm (v đang tăng): omega * t + phi_v = -alpha + 2*k*pi
+    # => t = (-alpha - phi_v + 2*k*pi) / omega
+    k = sp.Symbol('k', integer=True)
+    t_expr = (-alpha - phi_v + 2 * k * sp.pi) / omega
+    
+    # Bước 4: Tìm nghiệm t > 0 nhỏ nhất (k = 1)
+    t_first = t_expr.subs(k, 1)
+    
+    result = str(sp.nsimplify(t_first))
+    return result
+
+---
+[3. KẾT QUẢ THỰC THI TỪNG BƯỚC CỦA HÀM solution()]:
+- omega = 10 * sp.pi  ==>  10*pi
+- A = 4.0  ==>  4.0
+- phi_x = -sp.pi / 3           # Pha ban đầu của li độ x  ==>  -pi/3
+- v_target = 20 * sp.pi * sp.sqrt(3)  ==>  20*sqrt(3)*pi
+- v_max = omega * A  ==>  40.0*pi
+- phi_v = phi_x + sp.pi / 2  ==>  pi/6
+- cos_val = v_target / v_max  ==>  0.5*sqrt(3)
+- alpha = sp.acos(cos_val)    # π/6  ==>  acos(0.5*sqrt(3))
+- k = sp.Symbol('k', integer=True)  ==>  k
+- t_expr = (-alpha - phi_v + 2 * k * sp.pi) / omega  ==>  (2*pi*k - acos(0.5*sqrt(3)) - pi/6)/(10*pi)
+- t_first = t_expr.subs(k, 1)  ==>  (-acos(0.5*sqrt(3)) + 11*pi/6)/(10*pi)
+- result = str(sp.nsimplify(t_first))  ==>  1/6
+* Đáp số cuối cùng trả về: 1/6
+
+---
+CẤU TRÚC ĐẦU RA BẮT BUỘC:
+LỜI GIẢI:
+[1. GIẢI THÍCH LÝ THUYẾT]:
+(Trình bày ngắn gọn, mạch lạc bản chất vật lý)
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+(Trình bày các bước công thức đại số và thay số thực tế, rõ ràng cho học sinh theo dõi)
+
+[3. KẾT LUẬN]:
+(Nêu câu kết luận và ghi rõ đáp số tính được từ Bước 2 kèm đơn vị)
+
+Bây giờ, hãy viết lời giải chi tiết chuẩn sư phạm hoàn chỉnh theo đúng cấu trúc trên.","### LỜI GIẢI:
+
+---
+
+#### [1. GIẢI THÍCH LÝ THUYẾT]:
+
+Vật dao động điều hòa có phương trình li độ là \( x = 4 \cos(10\pi t - \frac{\pi}{3}) \) cm. Để xác định thời điểm gần nhất vận tốc của vật bằng \( 20\pi\sqrt{3} \) cm/s và đang tăng kể từ lúc \( t = 0 \), chúng ta cần thực hiện các bước sau:
+
+1. **Phương trình vận tốc**: Vận tốc \( v \) của vật dao động điều hòa có thể được tìm bằng cách đạo hàm phương trình li độ \( x \) theo thời gian \( t \). Phương trình vận tốc là:
+   \[
+   v = \frac{dx}{dt} = -A \omega \sin(\omega t + \phi_x)
+   \]
+   Trong đó, \( A \) là biên độ, \( \omega \) là tần số góc, và \( \phi_x \) là pha ban đầu của li độ.
+
+2. **Pha ban đầu của vận tốc**: Pha ban đầu của vận tốc \( \phi_v \) được tính bằng:
+   \[
+   \phi_v = \phi_x + \frac{\pi}{2}
+   \]
+
+3. **Biên độ vận tốc tối đa**: Biên độ vận tốc tối đa \( v_{\text{max}} \) là:
+   \[
+   v_{\text{max}} = A \omega
+   \]
+
+4. **Tính góc \( \alpha \)**: Góc \( \alpha \) được tính bằng:
+   \[
+   \alpha = \arccos\left(\frac{v_{\text{target}}}{v_{\text{max}}}\right)
+   \]
+   Trong đó, \( v_{\text{target}} \) là vận tốc cần tìm.
+
+5. **Thời điểm vận tốc bằng \( v_{\text{target}} \) và đang tăng**: Thời điểm vận tốc bằng \( v_{\text{target}} \) và đang tăng được tìm bằng cách giải phương trình:
+   \[
+   \omega t + \phi_v = -\alpha + 2k\pi
+   \]
+   Trong đó, \( k \) là số nguyên.
+
+---
+
+#### [2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+
+1. **Thông số ban đầu**:
+   \[
+   A = 4 \text{ cm}, \quad \omega = 10\pi \text{ rad/s}, \quad \phi_x = -\frac{\pi}{3} \text{ rad}
+   \]
+   \[
+   v_{\text{target}} = 20\pi\sqrt{3} \text{ cm/s}
+   \]
+
+2. **Pha ban đầu của vận tốc**:
+   \[
+   \phi_v = \phi_x + \frac{\pi}{2} = -\frac{\pi}{3} + \frac{\pi}{2} = \frac{\pi}{6}
+   \]
+
+3. **Biên độ vận tốc tối đa**:
+   \[
+   v_{\text{max}} = A \omega = 4 \times 10\pi = 40\pi \text{ cm/s}
+   \]
+
+4. **Tính góc \( \alpha \)**:
+   \[
+   \cos(\alpha) = \frac{v_{\text{target}}}{v_{\text{max}}} = \frac{20\pi\sqrt{3}}{40\pi} = \frac{\sqrt{3}}{2}
+   \]
+   \[
+   \alpha = \arccos\left(\frac{\sqrt{3}}{2}\right) = \frac{\pi}{6}
+   \]
+
+5. **Thời điểm vận tốc bằng \( v_{\text{target}} \) và đang tăng**:
+   \[
+   \omega t + \phi_v = -\alpha + 2k\pi
+   \]
+   \[
+   10\pi t + \frac{\pi}{6} = -\frac{\pi}{6} + 2k\pi
+   \]
+   \[
+   10\pi t = -\frac{\pi}{6} - \frac{\pi}{6} + 2k\pi
+   \]
+   \[
+   10\pi t = -\frac{\pi}{3} + 2k\pi
+   \]
+   \[
+   t = \frac{-\frac{\pi}{3} + 2k\pi}{10\pi} = \frac{-1 + 6k}{30}
+   \]
+
+6. **Tìm nghiệm \( t > 0 \) nhỏ nhất**:
+   \[
+   t = \frac{-1 + 6k}{30}
+   \]
+   Với \( k = 1 \):
+   \[
+   t = \frac{-1 + 6 \times 1}{30} = \frac{5}{30} = \frac{1}{6}
+   \]
+
+---
+
+#### [3. KẾT LUẬN]:
+
+Thời điểm gần nhất vận tốc của vật bằng \( 20\pi\sqrt{3} \) cm/s và đang tăng kể từ lúc \( t = 0 \) là \( t = \frac{1}{6} \) giây.
+
+Đáp số: \( t = \frac{1}{6} \) giây."
