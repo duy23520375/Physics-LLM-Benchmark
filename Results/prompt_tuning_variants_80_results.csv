@@ -424,60 +424,6 @@ Phương trình dao động điều hòa tổng quát có dạng \(x = A\cos(\om
 
 [3. KẾT LUẬN]:
 Phương trình dao động của vật là: \(x = 24\cos\left(\frac{\pi}{2}t\right)\) (cm).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
-Dao động điều hoà có vận tốc cực đại là vmax = 10π cm/s và gia tốc cực đại amax = 20π^2 cm/s^2 thì biên độ của dao động là,"[1. GIẢI THÍCH LÝ THUYẾT]:
-Biên độ dao động \( A \) được tính thông qua mối quan hệ giữa vận tốc cực đại \( v_{max} \) và gia tốc cực đại \( a_{max} \). Theo công thức \( a_{max} = \omega^2 A \) và \( v_{max} = \omega A \), chúng ta có thể viết \( a_{max} = (\frac{v_{max}}{\omega})^2 \).
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Từ \( a_{max} = 20\pi^2 \) cm/s², ta có thể giải \( \omega^2 = \frac{a_{max}}{v_{max}} = \frac{20\pi^2}{10\pi} = 2\pi^2 \).
-- Từ đó, \( \omega = \sqrt{2\pi^2} = \pi \) rad/s.
-- Sử dụng \( v_{max} = \omega A \), ta có \( 10\pi = \pi A \), do đó \( A = 10 \) cm.
-
-[3. KẾT LUẬN]:
-Biên độ của dao động là \( A = 10 \) cm.","Lời giải sai, sai ở bước tính omega.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Biên độ dao động ($A$) được tính thông qua mối quan hệ giữa vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$), sử dụng tần số góc ($\omega$) là trung gian.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Tần số góc: $\omega = a_{max}/v_{max} = 20\pi^2 / 10\pi = 2\pi  ext{ (rad/s)}$
-- Biên độ: $A = v_{max}/\omega = 10\pi / 2\pi = 5  ext{ (cm)}$
-
-[3. KẾT LUẬN]:
-Biên độ của dao động là: $A = 5  ext{ (cm)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Biên độ dao động ($A$) có thể tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua tần số góc ($\omega$).
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Tần số góc: $\omega = a_{max}/v_{max} = 20\pi^2 / 10\pi = 2\pi  ext{ (rad/s)}$
-- Biên độ: $A = v_{max}/\omega = 10\pi / 2\pi = 5  ext{ (cm)}$
-
-[3. KẾT LUẬN]:
-Biên độ của dao động là: $A = 5  ext{ (cm)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
-"Dao động điều hoà có vận tốc cực đại là vmax = 0,08π m/s và gia tốc cực đại amax= 0,16π^2 m/s^2 thì biên độ của dao động là","[1. GIẢI THÍCH LÝ THUYẾT]:
-Biên độ dao động \( A \) được tính thông qua mối quan hệ giữa vận tốc cực đại \( v_{max} \) và gia tốc cực đại \( a_{max} \). 
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Tần số góc \( \omega \) được tính từ gia tốc cực đại: 
-\[ \omega = \sqrt{\frac{a_{max}}{v_{max}}} = \sqrt{\frac{0.16\pi^2}{0.08\pi}} = \sqrt{2}\pi \text{ rad/s}
-\]
-- Biên độ: 
-\[ A = \frac{v_{max}}{\omega} = \frac{0.08\pi}{\sqrt{2}\pi} = 0.04\sqrt{2} \text{ m} \approx 0.0566 \text{ m} \]
-
-[3. KẾT LUẬN]:
-Biên độ của dao động là: \( A \approx 0.0566 \text{ m} \).","Lời giải sai, sai ở bước tính omega.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Biên độ dao động ($A$) được tính thông qua mối quan hệ giữa vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$), sử dụng tần số góc ($\omega$) là trung gian.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Tần số góc: $\omega = a_{max}/v_{max} = 0,16\pi^2 / 0,08\pi = 2\pi  ext{ (rad/s)}$
-- Biên độ: $A = v_{max}/\omega = 0,08\pi / 2\pi = 0,04  ext{ (m)}$
-
-[3. KẾT LUẬN]:
-Biên độ của dao động là: $A = 0,04  ext{ (m)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Biên độ dao động ($A$) có thể tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua tần số góc ($\omega$).
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Tần số góc: $\omega = \sqrt{\frac{a_{max}}{A}} = \frac{a_{max}}{v_{max}} = \frac{0.16\pi^2}{0.08\pi} = 2\pi  ext{ (rad/s)}$
-- Biên độ: $A = \frac{v_{max}}{\omega} = \frac{0.08\pi}{2\pi} = 0.04  ext{ (m)}$
-
-[3. KẾT LUẬN]:
-Biên độ của dao động là: $A = 0.04  ext{ (m)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
 Vật dao động điều hòa trên Ox có hệ thức 250x + a = 0 giữa li độ và gia tốc. Biết π² = 10. Tần số góc dao động bằng bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
 Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ với nhau qua phương trình đặc trưng $a = -\omega^2 x$, trong đó $\omega$ là tần số góc cần tìm và $\omega$ luôn dương.
 
@@ -534,6 +480,60 @@ Trong dao động điều hòa, gia tốc ($a$) và li độ ($x$) liên hệ v�
 
 [3. KẾT LUẬN]:
 Tần số góc của dao động là $\omega = 3\pi  ext{ (rad/s)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+Dao động điều hoà có vận tốc cực đại là vmax = 10π cm/s và gia tốc cực đại amax = 20π^2 cm/s^2 thì biên độ của dao động là,"[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động \( A \) được tính thông qua mối quan hệ giữa vận tốc cực đại \( v_{max} \) và gia tốc cực đại \( a_{max} \). Theo công thức \( a_{max} = \omega^2 A \) và \( v_{max} = \omega A \), chúng ta có thể viết \( a_{max} = (\frac{v_{max}}{\omega})^2 \).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Từ \( a_{max} = 20\pi^2 \) cm/s², ta có thể giải \( \omega^2 = \frac{a_{max}}{v_{max}} = \frac{20\pi^2}{10\pi} = 2\pi^2 \).
+- Từ đó, \( \omega = \sqrt{2\pi^2} = \pi \) rad/s.
+- Sử dụng \( v_{max} = \omega A \), ta có \( 10\pi = \pi A \), do đó \( A = 10 \) cm.
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là \( A = 10 \) cm.","Lời giải sai, sai ở bước tính omega.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) được tính thông qua mối quan hệ giữa vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$), sử dụng tần số góc ($\omega$) là trung gian.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = a_{max}/v_{max} = 20\pi^2 / 10\pi = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = v_{max}/\omega = 10\pi / 2\pi = 5  ext{ (cm)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 5  ext{ (cm)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) có thể tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua tần số góc ($\omega$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = a_{max}/v_{max} = 20\pi^2 / 10\pi = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = v_{max}/\omega = 10\pi / 2\pi = 5  ext{ (cm)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 5  ext{ (cm)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Dao động điều hoà có vận tốc cực đại là vmax = 0,08π m/s và gia tốc cực đại amax= 0,16π^2 m/s^2 thì biên độ của dao động là","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động \( A \) được tính thông qua mối quan hệ giữa vận tốc cực đại \( v_{max} \) và gia tốc cực đại \( a_{max} \). 
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc \( \omega \) được tính từ gia tốc cực đại: 
+\[ \omega = \sqrt{\frac{a_{max}}{v_{max}}} = \sqrt{\frac{0.16\pi^2}{0.08\pi}} = \sqrt{2}\pi \text{ rad/s}
+\]
+- Biên độ: 
+\[ A = \frac{v_{max}}{\omega} = \frac{0.08\pi}{\sqrt{2}\pi} = 0.04\sqrt{2} \text{ m} \approx 0.0566 \text{ m} \]
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: \( A \approx 0.0566 \text{ m} \).","Lời giải sai, sai ở bước tính omega.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) được tính thông qua mối quan hệ giữa vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$), sử dụng tần số góc ($\omega$) là trung gian.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = a_{max}/v_{max} = 0,16\pi^2 / 0,08\pi = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = v_{max}/\omega = 0,08\pi / 2\pi = 0,04  ext{ (m)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 0,04  ext{ (m)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Biên độ dao động ($A$) có thể tính từ vận tốc cực đại ($v_{max} = \omega A$) và gia tốc cực đại ($a_{max} = \omega^2 A$) thông qua tần số góc ($\omega$).
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Tần số góc: $\omega = \sqrt{\frac{a_{max}}{A}} = \frac{a_{max}}{v_{max}} = \frac{0.16\pi^2}{0.08\pi} = 2\pi  ext{ (rad/s)}$
+- Biên độ: $A = \frac{v_{max}}{\omega} = \frac{0.08\pi}{2\pi} = 0.04  ext{ (m)}$
+
+[3. KẾT LUẬN]:
+Biên độ của dao động là: $A = 0.04  ext{ (m)}$.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
 "Một vật dao động điều hòa phải mất 0,5 s để đi từ điểm có tốc độ bằng không tới điểm tiếp theo cũng như vậy. Khoảng cách giữa hai điểm là 50 cm. Biên độ và tần số của dao động này là.","[1. GIẢI THÍCH LÝ THUYẾT]:
 Các điểm có tốc độ bằng không là hai vị trí biên x = ±A. Thời gian đi giữa hai biên liên tiếp là nửa chu kỳ (T/2), và khoảng cách giữa chúng là hai lần biên độ (2A).
 
@@ -667,6 +667,64 @@ Các phương trình dao động thành phần đều đã ở dạng chuẩn co
 
 [3. KẾT LUẬN]:
 Tốc độ cực đại của vật là v_max = 10π cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Một vật thực hiện đồng thời 2 dao động điều hoà cùng phương, cùng tần số có phương trình x1 = cos(10πt + π/4) cm; x2 = cos(10πt + 3π/4) cm. Một vật thực hiện đồng thời hai dao động trên. Tính vận tốc trung bình của vật trong một chu kì dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) của vật trong một chu kỳ dao động cùng phương, cùng tần số là 0. Điều này xảy ra vì trong mỗi chu kỳ, vật luôn quay về vị trí ban đầu, nên độ dời (delta_x) trong chu kỳ là 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
+Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
+"Cho hai dao động điều hoà cùng phương, cùng tần số: x₁ = sin(10πt + π/2) cm và x₂ = sin(10πt + π) cm. Một vật thực hiện đồng thời hai dao động này. Tính vận tốc trung bình của vật trong một chu kì.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) của vật trong một chu kỳ dao động cùng phương, cùng tần số là 0. Điều này xảy ra vì trong mỗi chu kỳ, vật luôn quay về vị trí ban đầu, nên độ dời (delta_x) trong chu kỳ là 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
+Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết.","[1. GIẢI THÍCH LÝ THUYẾT]:
+Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
+
+[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
+- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
+- Trong một chu kỳ (delta_t = T): delta_x = 0.
+  v_tb = 0 / T = 0 (cm/s).
+
+[3. KẾT LUẬN]:
+Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
 Một vật dao động điều hòa với phương trình x = 6cos(2πt) (cm). Tốc độ trung bình trong 1/4 chu kì đầu tiên (tính từ t =  0) là bao nhiêu?,"[1. GIẢI THÍCH LÝ THUYẾT]:
 Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đường (S) và khoảng thời gian (delta_t). Tại t = 0, vật ở biên dương, sau T/4 vật đi đến vị trí cân bằng nên quãng đường S = A.
 
@@ -729,64 +787,6 @@ Tốc độ trung bình (v_tb) được tính bằng tỉ số giữa quãng đ�
 
 [3. KẾT LUẬN]:
 Tốc độ trung bình của chất điểm là v_tb = 8 cm/s.","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
-"Một vật thực hiện đồng thời 2 dao động điều hoà cùng phương, cùng tần số có phương trình x1 = cos(10πt + π/4) cm; x2 = cos(10πt + 3π/4) cm. Một vật thực hiện đồng thời hai dao động trên. Tính vận tốc trung bình của vật trong một chu kì dao động.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
-- Trong một chu kỳ (delta_t = T): delta_x = 0.
-  v_tb = 0 / T = 0 (cm/s).
-
-[3. KẾT LUẬN]:
-Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Vận tốc trung bình (v_tb) của vật trong một chu kỳ dao động cùng phương, cùng tần số là 0. Điều này xảy ra vì trong mỗi chu kỳ, vật luôn quay về vị trí ban đầu, nên độ dời (delta_x) trong chu kỳ là 0.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
-- Trong một chu kỳ (T): delta_x = 0.
-  v_tb = 0 / T = 0 (cm/s).
-
-[3. KẾT LUẬN]:
-Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
-Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
-- Trong một chu kỳ (delta_t = T): delta_x = 0.
-  v_tb = 0 / T = 0 (cm/s).
-
-[3. KẾT LUẬN]:
-Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
-"Cho hai dao động điều hoà cùng phương, cùng tần số: x₁ = sin(10πt + π/2) cm và x₂ = sin(10πt + π) cm. Một vật thực hiện đồng thời hai dao động này. Tính vận tốc trung bình của vật trong một chu kì.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
-- Trong một chu kỳ (delta_t = T): delta_x = 0.
-  v_tb = 0 / T = 0 (cm/s).
-
-[3. KẾT LUẬN]:
-Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Vận tốc trung bình (v_tb) của vật trong một chu kỳ dao động cùng phương, cùng tần số là 0. Điều này xảy ra vì trong mỗi chu kỳ, vật luôn quay về vị trí ban đầu, nên độ dời (delta_x) trong chu kỳ là 0.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
-- Trong một chu kỳ (T): delta_x = 0.
-  v_tb = 0 / T = 0 (cm/s).
-
-[3. KẾT LUẬN]:
-Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng. 
-Nhược điểm so với 1.5B: Rườm rà ở phần giải thích lý thuyết.","[1. GIẢI THÍCH LÝ THUYẾT]:
-Vận tốc trung bình (v_tb) được tính bằng tỉ số giữa độ dời (delta_x) và khoảng thời gian (delta_t). Trong một chu kỳ (T), vật luôn trở về vị trí cũ nên độ dời delta_x = 0.
-
-[2. TÍNH TOÁN CÔNG THỨC VÀ THAY SỐ]:
-- Công thức vận tốc trung bình: v_tb = delta_x / delta_t.
-- Trong một chu kỳ (delta_t = T): delta_x = 0.
-  v_tb = 0 / T = 0 (cm/s).
-
-[3. KẾT LUẬN]:
-Vận tốc trung bình của vật trong một chu kì dao động là: v_tb = 0 (cm/s).","Lời giải đúng, trình bày hợp lý, rõ ràng, không rườm rà."
 Một vật dao động điều hòa có phương trình x = 8cos(2πt – π/6) cm. Vận tốc của vật khi có li độ x = 4 cm là.,"[1. GIẢI THÍCH LÝ THUYẾT]:
 Vận tốc (v) của vật tại một li độ (x) bất kỳ được xác định bằng công thức độc lập với thời gian: A^2 = x^2 + v^2/ω^2, từ đó rút ra v = ±ω * √A^2 - x^2.
 

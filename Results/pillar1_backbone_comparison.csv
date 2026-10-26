@@ -1,0 +1,12 @@
+Method / Backbone,F40_Acc@1 (%),V80_Acc@1 (%),V80_Acc@3 (%),All120_Acc@1 (%),All120_Acc@3 (%),All120_Acc@5 (%),All120_MRR (%)
+Sparse Lexical: BM25 Okapi (Raw),97.5,85.0,97.5,89.17,98.33,100.0,93.85
+Sparse Lexical: TF-IDF (Raw Full-Text),100.0,88.75,97.5,92.5,98.33,100.0,95.65
+Sparse Lexical: Target-Aware Formula N-gram,100.0,97.5,100.0,98.33,100.0,100.0,99.17
+Viet-SBERT (Vanilla Full-Text RAG),80.0,75.0,88.75,76.67,90.0,94.17,84.31
+Viet-SBERT + Target-Aware Hybrid (Ours),100.0,95.0,98.75,96.67,99.17,100.0,98.12
+BKAI-Viet-BiEncoder (Vanilla Full-Text RAG),85.0,80.0,92.5,81.67,93.33,93.33,87.53
+BKAI-Viet-BiEncoder + Target-Aware Hybrid (Ours),100.0,97.5,100.0,98.33,100.0,100.0,99.03
+Multilingual-E5-Base (Vanilla Full-Text RAG),97.5,91.25,97.5,93.33,97.5,97.5,95.4
+Multilingual-E5-Base + Target-Aware Hybrid (Ours),100.0,97.5,100.0,98.33,100.0,100.0,99.17
+BGE-M3 (Vanilla Full-Text RAG),92.5,95.0,97.5,94.17,97.5,98.33,96.0
+BGE-M3 + Target-Aware Hybrid (Ours),100.0,98.75,100.0,99.17,100.0,100.0,99.58

@@ -1,0 +1,5 @@
+Difficulty Tier,Vanilla_RAG_Acc@1 (%),Vanilla_RAG_MRR (%),Vanilla_Top1_Margin,Proposed_Hybrid_Acc@1 (%),Proposed_Hybrid_MRR (%),Proposed_Top1_Margin,Improvement_Acc@1
+Easy (150 câu — Số nguyên),92.67,93.37,0.1318,100,100,0.3403,+7.33%
+Medium (150 câu — Số thập phân lẻ),93.33,93.61,0.1276,100,100,0.3389,+6.67%
+"Hard (150 câu — Căn thức / Vô tỉ π, √)",93.33,93.67,0.1197,100,100,0.3223,+6.67%
+All Stress-Test (450 câu),93.11,93.55,0.1264,100,100,0.3339,+6.89%

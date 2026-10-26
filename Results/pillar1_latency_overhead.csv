@@ -1,0 +1,7 @@
+Model / Method,Params (M),Embedding Dim,Encode Latency (ms/query),Total Hybrid Latency (ms/query)
+Lexical: BM25 Okapi,< 1M,Sparse,0.45,0.45
+Lexical: Formula/Word TF-IDF N-gram,< 1M,Sparse,1.2,1.2
+Viet-SBERT (keepitreal/vietnamese-sbert),135.0M,768,10.52,11.72
+BKAI-Viet-BiEncoder (bkai-foundation-models/vietnamese-bi-encoder),135.0M,768,10.73,11.93
+Multilingual-E5-Base (intfloat/multilingual-e5-base),278.0M,768,10.25,11.45
+BGE-M3 (BAAI/bge-m3),567.8M,1024,34.5,35.7

@@ -1,0 +1,11 @@
+Split,System,TP,FN,TN,FP,Sensitivity_%,Specificity_%,Precision_%,Accuracy_%,Accuracy_95CI,F1_%,Loc_On_Caught_%,Loc_On_AllFaulty_%,McNemar_p_vs_S0
+"Calibration_Split (11 Odd Q, N=35)",S0: Pure LLM Grader (Qwen2.5-7B V5),16,0,9,10,100.0,47.37,61.54,71.43,"[57.1%, 85.7%]",76.19,37.5% (6/16),37.5,Baseline
+"Calibration_Split (11 Odd Q, N=35)",S1: Naive Regex + Tier-1 Exact,13,3,11,8,81.25,57.89,61.9,68.57,"[51.4%, 82.9%]",70.27,38.5% (5/13),31.25,1
+"Calibration_Split (11 Odd Q, N=35)",S2a: Pure LLM Step Parser + Two-Tier SymPy,14,2,16,3,87.5,84.21,82.35,85.71,"[74.3%, 97.1%]",84.85,64.3% (9/14),56.25,0.226562
+"Calibration_Split (11 Odd Q, N=35)",S2b: Hybrid Parser + Tier-1 Exact Only,16,0,12,7,100.0,63.16,69.57,80.0,"[65.7%, 91.4%]",82.05,81.2% (13/16),81.25,0.548828
+"Calibration_Split (11 Odd Q, N=35)",S3: Proposed Hybrid + Two-Tier Metrology,16,0,18,1,100.0,94.74,94.12,97.14,"[91.4%, 100.0%]",96.97,100.0% (16/16),100.0,0.011719
+"HeldOut_Unseen_Test (11 Even Q, N=27)",S0: Pure LLM Grader (Qwen2.5-7B V5),14,1,6,6,93.33,50.0,70.0,74.07,"[55.6%, 88.9%]",80.0,50.0% (7/14),46.67,Baseline
+"HeldOut_Unseen_Test (11 Even Q, N=27)",S1: Naive Regex + Tier-1 Exact,7,8,3,9,46.67,25.0,43.75,37.04,"[18.5%, 55.6%]",45.16,42.9% (3/7),20.0,0.006348
+"HeldOut_Unseen_Test (11 Even Q, N=27)",S2a: Pure LLM Step Parser + Two-Tier SymPy,10,5,8,4,66.67,66.67,71.43,66.67,"[48.1%, 85.2%]",68.97,70.0% (7/10),46.67,0.790527
+"HeldOut_Unseen_Test (11 Even Q, N=27)",S2b: Hybrid Parser + Tier-1 Exact Only,15,0,7,5,100.0,58.33,75.0,81.48,"[66.7%, 92.6%]",85.71,100.0% (15/15),100.0,0.625
+"HeldOut_Unseen_Test (11 Even Q, N=27)",S3: Proposed Hybrid + Two-Tier Metrology,15,0,12,0,100.0,100.0,100.0,100.0,"[100.0%, 100.0%]",100.0,100.0% (15/15),100.0,0.015625

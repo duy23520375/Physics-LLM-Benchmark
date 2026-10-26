@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local run outputs
+Results/pillar1_run_outputs/
+Results/pillar3_run_outputs/
+kaggle_working_local/
+
+# Virtual environments & environment variables
+.venv/
+venv/
+.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
