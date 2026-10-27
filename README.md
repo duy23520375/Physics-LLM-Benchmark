@@ -171,7 +171,8 @@ If you use our benchmark corpus, templates, symbolic verifier, or evaluation log
   booktitle = {Proceedings of the 9th International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
   publisher = {IEEE},
   pages     = {55--60},
-  year      = {2026}
+  year      = {2026},
+  doi       = {10.1109/mapr72750.2026.11685761}
 }
 ```
 
